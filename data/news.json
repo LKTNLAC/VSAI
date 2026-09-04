@@ -1,0 +1,77 @@
+[
+  {
+    "id": 1,
+    "title": {
+      "vi": "[MẪU] VSA India ra mắt chương trình Mentorship 2026",
+      "en": "[SAMPLE] VSA India Launches Mentorship Program 2026"
+    },
+    "date": "2026-09-01",
+    "category": "announcement",
+    "thumbnail": "assets/images/news/news-01.webp",
+    "summary": {
+      "vi": "[DỮ LIỆU MẪU] Chương trình Mentorship kết nối sinh viên năm cuối với tân sinh viên.",
+      "en": "[SAMPLE DATA] Mentorship program connecting senior students with freshmen."
+    },
+    "content": {
+      "vi": [
+        "[DỮ LIỆU MẪU] VSA India chính thức ra mắt chương trình Mentorship 2026.",
+        "Chương trình nhằm hỗ trợ tân sinh viên trong hành trình học tập tại Ấn Độ."
+      ],
+      "en": [
+        "[SAMPLE DATA] VSA India officially launched the Mentorship Program 2026.",
+        "The program aims to support new students in their academic journey in India."
+      ]
+    },
+    "featured": true
+  },
+  {
+    "id": 2,
+    "title": {
+      "vi": "[MẪU] Hội thảo về cơ hội nghiên cứu tại Ấn Độ",
+      "en": "[SAMPLE] Seminar on Research Opportunities in India"
+    },
+    "date": "2026-08-25",
+    "category": "event",
+    "thumbnail": "assets/images/news/news-02.webp",
+    "summary": {
+      "vi": "[DỮ LIỆU MẪU] Hội thảo với sự tham gia của các giáo sư đầu ngành.",
+      "en": "[SAMPLE DATA] Seminar with participation from leading professors."
+    },
+    "content": {
+      "vi": [
+        "[DỮ LIỆU MẪU] VSA India phối hợp với các trường đại học tổ chức hội thảo về nghiên cứu.",
+        "Sự kiện dành cho sinh viên quan tâm đến con đường học thuật tại Ấn Độ."
+      ],
+      "en": [
+        "[SAMPLE DATA] VSA India collaborated with universities to organize a research seminar.",
+        "The event is for students interested in academic pathways in India."
+      ]
+    },
+    "featured": false
+  },
+  {
+    "id": 3,
+    "title": {
+      "vi": "[MẪU] Thông báo tuyển thành viên Ban Chấp hành nhiệm kỳ mới",
+      "en": "[SAMPLE] Announcement: New Executive Committee Recruitment"
+    },
+    "date": "2026-08-10",
+    "category": "announcement",
+    "thumbnail": "assets/images/news/news-03.webp",
+    "summary": {
+      "vi": "[DỮ LIỆU MẪU] VSA India mở đơn ứng tuyển các vị trí Ban Chấp hành.",
+      "en": "[SAMPLE DATA] VSA India opens applications for Executive Committee positions."
+    },
+    "content": {
+      "vi": [
+        "[DỮ LIỆU MẪU] Hội Sinh viên Việt Nam tại Ấn Độ thông báo tuyển thành viên mới.",
+        "Các vị trí bao gồm Chủ tịch, Phó Chủ tịch và các Ủy viên."
+      ],
+      "en": [
+        "[SAMPLE DATA] The Vietnamese Students' Association in India announces new member recruitment.",
+        "Positions include President, Vice President, and Committee Members."
+      ]
+    },
+    "featured": false
+  }
+]

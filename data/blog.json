@@ -1,0 +1,84 @@
+[
+  {
+    "id": 1,
+    "title": {
+      "vi": "[MẪU] Kinh nghiệm học tập và sinh sống tại Delhi",
+      "en": "[SAMPLE] Study and Living Experience in Delhi"
+    },
+    "date": "2026-09-03",
+    "authorId": 1,
+    "category": "life",
+    "image": "assets/images/blog/blog-01.webp",
+    "excerpt": {
+      "vi": "[DỮ LIỆU MẪU] Những chia sẻ về cuộc sống và học tập của sinh viên Việt Nam tại thủ đô Delhi.",
+      "en": "[SAMPLE DATA] Sharing about the life and studies of Vietnamese students in Delhi."
+    },
+    "content": {
+      "vi": [
+        "[DỮ LIỆU MẪU] Khi bắt đầu học tập tại Delhi, tôi đã gặp nhiều thử thách về ngôn ngữ và văn hóa.",
+        "Tuy nhiên, nhờ cộng đồng sinh viên Việt Nam hỗ trợ, tôi đã nhanh chóng thích nghi.",
+        "Delhi là một thành phố sôi động và có nhiều cơ hội học tập."
+      ],
+      "en": [
+        "[SAMPLE DATA] When I started studying in Delhi, I faced challenges with language and culture.",
+        "However, with the support of the Vietnamese student community, I quickly adapted.",
+        "Delhi is a vibrant city with many learning opportunities."
+      ]
+    },
+    "featured": true
+  },
+  {
+    "id": 2,
+    "title": {
+      "vi": "[MẪU] Ẩm thực Ấn Độ: Từ cà ri đến bánh naan",
+      "en": "[SAMPLE] Indian Cuisine: From Curry to Naan"
+    },
+    "date": "2026-08-28",
+    "authorId": 2,
+    "category": "food",
+    "image": "assets/images/blog/blog-02.webp",
+    "excerpt": {
+      "vi": "[DỮ LIỆU MẪU] Hành trình khám phá ẩm thực đa dạng của Ấn Độ qua góc nhìn sinh viên Việt Nam.",
+      "en": "[SAMPLE DATA] A journey exploring India's diverse cuisine from a Vietnamese student's perspective."
+    },
+    "content": {
+      "vi": [
+        "[DỮ LIỆU MẪU] Ẩm thực Ấn Độ vô cùng đa dạng với nhiều món ăn đặc sắc.",
+        "Từ món cà ri béo ngậy cho đến bánh naan thơm lừng, mỗi món đều có hương vị riêng.",
+        "Đây là một trong những điều tôi yêu thích nhất khi học tập tại đây."
+      ],
+      "en": [
+        "[SAMPLE DATA] Indian cuisine is incredibly diverse with many signature dishes.",
+        "From rich curry to fragrant naan bread, each dish has its own flavor.",
+        "This is one of my favorite things about studying here."
+      ]
+    },
+    "featured": false
+  },
+  {
+    "id": 3,
+    "title": {
+      "vi": "[MẪU] Hướng dẫn đi lại bằng tàu điện ngầm Delhi",
+      "en": "[SAMPLE] Guide to Traveling by Delhi Metro"
+    },
+    "date": "2026-08-20",
+    "authorId": 3,
+    "category": "travel",
+    "image": "assets/images/blog/blog-03.webp",
+    "excerpt": {
+      "vi": "[DỮ LIỆU MẪU] Những lưu ý và kinh nghiệm sử dụng tàu điện ngầm tại Delhi.",
+      "en": "[SAMPLE DATA] Tips and experiences for using the metro in Delhi."
+    },
+    "content": {
+      "vi": [
+        "[DỮ LIỆU MẪU] Delhi Metro là phương tiện di chuyển thuận tiện và an toàn nhất tại thủ đô.",
+        "Sinh viên có thể mua thẻ thông minh để được giảm giá và dễ dàng di chuyển."
+      ],
+      "en": [
+        "[SAMPLE DATA] Delhi Metro is the most convenient and safe mode of transport in the capital.",
+        "Students can purchase a smart card for discounts and easy travel."
+      ]
+    },
+    "featured": false
+  }
+]

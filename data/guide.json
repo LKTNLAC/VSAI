@@ -1,0 +1,124 @@
+[
+  {
+    "id": 1,
+    "title": {
+      "vi": "[MẪU] Hướng dẫn xin Visa du học Ấn Độ",
+      "en": "[SAMPLE] Guide to Applying for a Student Visa to India"
+    },
+    "category": "visa",
+    "summary": {
+      "vi": "[DỮ LIỆU MẪU] Quy trình và giấy tờ cần thiết để xin visa du học Ấn Độ.",
+      "en": "[SAMPLE DATA] Process and required documents for applying for a student visa to India."
+    },
+    "content": {
+      "vi": [
+        "[DỮ LIỆU MẪU] Bước 1: Chuẩn bị hồ sơ bao gồm thư mời nhập học và hộ chiếu.",
+        "Bước 2: Nộp hồ sơ trực tiếp tại Đại sứ quán Ấn Độ.",
+        "Bước 3: Chờ xét duyệt và nhận visa."
+      ],
+      "en": [
+        "[SAMPLE DATA] Step 1: Prepare documents including admission letter and passport.",
+        "Step 2: Submit application in person at the Indian Embassy.",
+        "Step 3: Wait for processing and receive visa."
+      ]
+    },
+    "updatedAt": "2026-09-01",
+    "order": 1
+  },
+  {
+    "id": 2,
+    "title": {
+      "vi": "[MẪU] Hướng dẫn mở tài khoản ngân hàng",
+      "en": "[SAMPLE] Guide to Opening a Bank Account"
+    },
+    "category": "banking",
+    "summary": {
+      "vi": "[DỮ LIỆU MẪU] Các bước mở tài khoản ngân hàng cho sinh viên quốc tế.",
+      "en": "[SAMPLE DATA] Steps for international students to open a bank account."
+    },
+    "content": {
+      "vi": [
+        "[DỮ LIỆU MẪU] Sinh viên cần có hộ chiếu, visa và thư giới thiệu từ trường.",
+        "Các ngân hàng phổ biến: SBI, ICICI, HDFC."
+      ],
+      "en": [
+        "[SAMPLE DATA] Students need a passport, visa, and introduction letter from the university.",
+        "Popular banks: SBI, ICICI, HDFC."
+      ]
+    },
+    "updatedAt": "2026-08-20",
+    "order": 2
+  },
+  {
+    "id": 3,
+    "title": {
+      "vi": "[MẪU] Hướng dẫn sử dụng SIM và Internet tại Ấn Độ",
+      "en": "[SAMPLE] Guide to Using SIM and Internet in India"
+    },
+    "category": "sim",
+    "summary": {
+      "vi": "[DỮ LIỆU MẪU] Các nhà mạng và gói cước dành cho sinh viên.",
+      "en": "[SAMPLE DATA] Mobile carriers and plans for students."
+    },
+    "content": {
+      "vi": [
+        "[DỮ LIỆU MẪU] Các nhà mạng phổ biến: Airtel, Jio, Vi.",
+        "Sinh viên có thể đăng ký gói cước dành riêng với ưu đãi dữ liệu."
+      ],
+      "en": [
+        "[SAMPLE DATA] Popular carriers: Airtel, Jio, Vi.",
+        "Students can register for special plans with data offers."
+      ]
+    },
+    "updatedAt": "2026-08-15",
+    "order": 3
+  },
+  {
+    "id": 4,
+    "title": {
+      "vi": "[MẪU] Hướng dẫn di chuyển bằng Delhi Metro",
+      "en": "[SAMPLE] Guide to Delhi Metro Travel"
+    },
+    "category": "transport",
+    "summary": {
+      "vi": "[DỮ LIỆU MẪU] Cách sử dụng và các tuyến tàu điện ngầm tại Delhi.",
+      "en": "[SAMPLE DATA] How to use and metro lines in Delhi."
+    },
+    "content": {
+      "vi": [
+        "[DỮ LIỆU MẪU] Delhi Metro có 9 tuyến kết nối toàn thành phố.",
+        "Sinh viên nên mua thẻ Smart Card để được giảm giá."
+      ],
+      "en": [
+        "[SAMPLE DATA] Delhi Metro has 9 lines connecting the entire city.",
+        "Students should buy a Smart Card for discounts."
+      ]
+    },
+    "updatedAt": "2026-08-10",
+    "order": 4
+  },
+  {
+    "id": 5,
+    "title": {
+      "vi": "[MẪU] Hướng dẫn an toàn khi sống tại Ấn Độ",
+      "en": "[SAMPLE] Safety Guide for Living in India"
+    },
+    "category": "safety",
+    "summary": {
+      "vi": "[DỮ LIỆU MẪU] Những lưu ý về an toàn dành cho sinh viên quốc tế.",
+      "en": "[SAMPLE DATA] Safety tips for international students."
+    },
+    "content": {
+      "vi": [
+        "[DỮ LIỆU MẪU] Lưu số điện thoại khẩn cấp 112.",
+        "Nên tránh đi một mình vào ban đêm ở các khu vực vắng vẻ."
+      ],
+      "en": [
+        "[SAMPLE DATA] Save emergency number 112.",
+        "Avoid walking alone at night in isolated areas."
+      ]
+    },
+    "updatedAt": "2026-08-05",
+    "order": 5
+  }
+]

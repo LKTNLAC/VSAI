@@ -1,0 +1,70 @@
+[
+  {
+    "id": 1,
+    "activityId": 1,
+    "title": {
+      "vi": "[MẪU] Giao lưu văn hóa Việt - Ấn 2026",
+      "en": "[SAMPLE] Vietnam-India Cultural Exchange 2026"
+    },
+    "date": "2026-10-15",
+    "location": "Delhi",
+    "category": "culture",
+    "cover": "assets/images/gallery/cover-01.webp",
+    "photos": [
+      {
+        "src": "assets/images/gallery/photo-01.webp",
+        "caption": {
+          "vi": "[MẪU] Sinh viên biểu diễn văn nghệ",
+          "en": "[SAMPLE] Student cultural performance"
+        },
+        "alt": "Vietnamese students performing"
+      },
+      {
+        "src": "assets/images/gallery/photo-02.webp",
+        "caption": {
+          "vi": "[MẪU] Giao lưu ẩm thực",
+          "en": "[SAMPLE] Food exchange"
+        },
+        "alt": "Students sharing food"
+      },
+      {
+        "src": "assets/images/gallery/photo-03.webp",
+        "caption": {
+          "vi": "[MẪU] Chụp ảnh lưu niệm",
+          "en": "[SAMPLE] Group photo"
+        },
+        "alt": "Group photo of participants"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "activityId": 3,
+    "title": {
+      "vi": "[MẪU] Giải bóng đá sinh viên 2026",
+      "en": "[SAMPLE] Student Football Tournament 2026"
+    },
+    "date": "2026-12-01",
+    "location": "Delhi",
+    "category": "sports",
+    "cover": "assets/images/gallery/cover-02.webp",
+    "photos": [
+      {
+        "src": "assets/images/gallery/photo-04.webp",
+        "caption": {
+          "vi": "[MẪU] Trận chung kết",
+          "en": "[SAMPLE] Final match"
+        },
+        "alt": "Football final match"
+      },
+      {
+        "src": "assets/images/gallery/photo-05.webp",
+        "caption": {
+          "vi": "[MẪU] Đội chiến thắng",
+          "en": "[SAMPLE] Winning team"
+        },
+        "alt": "Winning team celebration"
+      }
+    ]
+  }
+]

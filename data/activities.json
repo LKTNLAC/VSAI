@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "title": {
+      "vi": "[MẪU] Giao lưu văn hóa Việt - Ấn 2026",
+      "en": "[SAMPLE] Vietnam-India Cultural Exchange 2026"
+    },
+    "date": "2026-10-15",
+    "location": "Delhi",
+    "category": "culture",
+    "image": "assets/images/activities/activity-01.webp",
+    "description": {
+      "vi": [
+        "[DỮ LIỆU MẪU] Sự kiện giao lưu văn hóa giữa sinh viên Việt Nam và Ấn Độ.",
+        "Các hoạt động bao gồm biểu diễn văn nghệ, giới thiệu ẩm thực và giao lưu ngôn ngữ."
+      ],
+      "en": [
+        "[SAMPLE DATA] Cultural exchange event between Vietnamese and Indian students.",
+        "Activities include performances, food introduction, and language exchange."
+      ]
+    },
+    "organizerId": 1
+  },
+  {
+    "id": 2,
+    "title": {
+      "vi": "[MẪU] Hội thảo học bổng du học Ấn Độ",
+      "en": "[SAMPLE] Scholarship Seminar for Studying in India"
+    },
+    "date": "2026-11-05",
+    "location": "Online",
+    "category": "academic",
+    "image": "assets/images/activities/activity-02.webp",
+    "description": {
+      "vi": [
+        "[DỮ LIỆU MẪU] Hội thảo chia sẻ thông tin về các học bổng du học tại Ấn Độ.",
+        "Các diễn giả là sinh viên đã nhận được học bổng từ các chương trình của chính phủ Ấn Độ."
+      ],
+      "en": [
+        "[SAMPLE DATA] Seminar sharing information about scholarships for studying in India.",
+        "Speakers are students who have received scholarships from Indian government programs."
+      ]
+    },
+    "organizerId": 2
+  },
+  {
+    "id": 3,
+    "title": {
+      "vi": "[MẪU] Giải bóng đá sinh viên Việt Nam tại Delhi",
+      "en": "[SAMPLE] Vietnamese Student Football Tournament in Delhi"
+    },
+    "date": "2026-12-01",
+    "location": "Delhi",
+    "category": "sports",
+    "image": "assets/images/activities/activity-03.webp",
+    "description": {
+      "vi": [
+        "[DỮ LIỆU MẪU] Giải bóng đá thường niên dành cho sinh viên Việt Nam tại Delhi.",
+        "Sự kiện thu hút đông đảo sinh viên tham gia và cổ vũ."
+      ],
+      "en": [
+        "[SAMPLE DATA] Annual football tournament for Vietnamese students in Delhi.",
+        "The event attracted many student participants and supporters."
+      ]
+    },
+    "organizerId": 3
+  }
+]

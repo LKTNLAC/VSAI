@@ -1,0 +1,98 @@
+{
+  "page": {
+    "subtitle": {
+      "vi": "Kết nối – Hỗ trợ – Phát triển cộng đồng sinh viên Việt Nam tại Ấn Độ",
+      "en": "Connect – Support – Develop the Vietnamese student community in India"
+    }
+  },
+  "mission": {
+    "title": {
+      "vi": "Sứ mệnh",
+      "en": "Mission"
+    },
+    "text": {
+      "vi": "Kết nối và hỗ trợ sinh viên Việt Nam tại Ấn Độ trong học tập, nghiên cứu, văn hóa và đời sống, góp phần xây dựng một cộng đồng sinh viên Việt Nam vững mạnh, đoàn kết và hội nhập quốc tế.",
+      "en": "Connect and support Vietnamese students in India in academics, research, culture and daily life, contributing to building a strong, united and internationally integrated Vietnamese student community."
+    }
+  },
+  "vision": {
+    "title": {
+      "vi": "Tầm nhìn",
+      "en": "Vision"
+    },
+    "text": {
+      "vi": "Trở thành cầu nối vững chắc giữa sinh viên Việt Nam và Ấn Độ, là tổ chức đại diện uy tín cho sinh viên Việt Nam tại Ấn Độ, góp phần thúc đẩy hợp tác giáo dục và văn hóa giữa hai quốc gia.",
+      "en": "To become a strong bridge between Vietnamese and Indian students, a reputable representative organization for Vietnamese students in India, contributing to promoting educational and cultural cooperation between the two countries."
+    }
+  },
+  "values": {
+    "title": {
+      "vi": "Giá trị cốt lõi",
+      "en": "Core Values"
+    },
+    "1": {
+      "vi": "🤝 Đoàn kết – Gắn kết cộng đồng sinh viên Việt Nam trên khắp Ấn Độ",
+      "en": "🤝 Unity – Connecting the Vietnamese student community across India"
+    },
+    "2": {
+      "vi": "📚 Học hỏi – Không ngừng trau dồi kiến thức và kỹ năng",
+      "en": "📚 Learning – Continuously improving knowledge and skills"
+    },
+    "3": {
+      "vi": "🌏 Hội nhập – Tôn trọng và thích nghi với văn hóa Ấn Độ",
+      "en": "🌏 Integration – Respecting and adapting to Indian culture"
+    },
+    "4": {
+      "vi": "💡 Sáng tạo – Đổi mới và phát triển các hoạt động cộng đồng",
+      "en": "💡 Innovation – Creating and developing community activities"
+    }
+  },
+  "page_title": {
+    "vi": "Giới thiệu về Hội Sinh viên Việt Nam tại Ấn Độ",
+    "en": "About Vietnamese Students' Association in India"
+  },
+  "timeline_title": {
+    "vi": "Lịch sử hình thành và phát triển",
+    "en": "History and Development"
+  },
+  "description": {
+    "vi": "Hội Sinh viên Việt Nam tại Ấn Độ (VSA India) được thành lập vào năm 2020, là tổ chức đại diện cho cộng đồng sinh viên Việt Nam đang học tập và sinh sống tại Ấn Độ. VSA India hoạt động với mục đích kết nối, hỗ trợ và tạo cơ hội cho sinh viên Việt Nam phát triển trong học tập, văn hóa và cộng đồng. Chúng tôi hoạt động trên tinh thần tự nguyện, phi lợi nhuận và vì lợi ích chung của cộng đồng. Với sự phát triển không ngừng, VSA India hiện có mặt tại nhiều thành phố lớn trên khắp Ấn Độ như Delhi, Mumbai, Pune, Bangalore, Hyderabad, Chennai, Kolkata và nhiều địa phương khác.",
+    "en": "The Vietnamese Students' Association in India (VSA India) was established in 2020 as the representative organization for the Vietnamese student community studying and living in India. VSA India operates with the purpose of connecting, supporting and creating opportunities for Vietnamese students to develop in academics, culture and community. We operate on a voluntary, non-profit basis for the common benefit of the community. With continuous development, VSA India is currently present in many major cities across India such as Delhi, Mumbai, Pune, Bangalore, Hyderabad, Chennai, Kolkata and many other localities."
+  },
+  "history": {
+    "vi": "VSA India bắt đầu từ một nhóm nhỏ sinh viên Việt Nam tại Delhi vào năm 2020. Sau 5 năm phát triển, chúng tôi đã trở thành một tổ chức có mặt tại nhiều thành phố trên khắp Ấn Độ, với hàng trăm thành viên tham gia.",
+    "en": "VSA India started from a small group of Vietnamese students in Delhi in 2020. After 5 years of development, we have become an organization present in many cities across India with hundreds of participating members."
+  },
+  "timeline": [
+    {
+      "year": "2020",
+      "vi": "Thành lập VSA India tại Delhi",
+      "en": "VSA India founded in Delhi"
+    },
+    {
+      "year": "2021",
+      "vi": "Tổ chức Tết Nguyên Đán đầu tiên tại Ấn Độ",
+      "en": "First Lunar New Year celebration in India"
+    },
+    {
+      "year": "2022",
+      "vi": "Mở rộng mạng lưới đến 5 thành phố",
+      "en": "Expanded network to 5 cities"
+    },
+    {
+      "year": "2023",
+      "vi": "Ra mắt chương trình Mentorship dành cho tân sinh viên",
+      "en": "Launched Mentorship program for new students"
+    },
+    {
+      "year": "2024",
+      "vi": "Kỷ niệm 5 năm thành lập và ra mắt website chính thức",
+      "en": "5th Anniversary and official website launch"
+    },
+    {
+      "year": "2025",
+      "vi": "Mở rộng hợp tác với các tổ chức sinh viên quốc tế",
+      "en": "Expanded cooperation with international student organizations"
+    }
+  ]
+}

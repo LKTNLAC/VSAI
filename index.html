@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VSA India – Hội Sinh viên Việt Nam tại Ấn Độ</title>
+    <meta name="description" content="Trang web chính thức của Hội Sinh viên Việt Nam tại Ấn Độ." />
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz@14..32&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet" />
+    
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+    <!-- ==================== HEADER ==================== -->
+    <header class="site-header" role="banner">
+        <div class="container header-inner">
+            <!-- Logo -->
+            <div class="logo">
+                <a href="#home" aria-label="VSA India – Trang chủ">
+                    <img src="assets/images/logo.png" alt="VSA India Logo" class="logo-img" />
+                    <div class="logo-text-wrapper">
+                        <span class="logo-text">VSA<span class="logo-india">India</span></span>
+                        <span class="logo-sub" data-i18n="footer.description">Hội Sinh viên Việt Nam tại Ấn Độ</span>
+                    </div>
+                </a>
+            </div>
+
+            <nav class="main-nav" role="navigation" aria-label="Navigation chính">
+                <ul class="nav-list" id="nav-list"></ul>
+                <div class="lang-switch">
+                    <button class="lang-btn active" data-lang="vi" aria-label="Tiếng Việt">VI</button>
+                    <span class="lang-divider">|</span>
+                    <button class="lang-btn" data-lang="en" aria-label="English">EN</button>
+                </div>
+            </nav>
+
+            <button class="menu-toggle" aria-label="Mở menu" aria-expanded="false">
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- ==================== MAIN ==================== -->
+    <main class="site-main" role="main">
+        <!-- HOME -->
+        <section id="home" class="page-section active" role="region" aria-label="Trang chủ">
+            <!-- HERO -->
+            <section class="hero" aria-label="Hero">
+                <div class="container">
+                    <div class="hero-content">
+                        <h1 class="hero-title" data-i18n="hero.title">Kết nối sinh viên Việt Nam tại Ấn Độ</h1>
+                        <p class="hero-subtitle" data-i18n="hero.subtitle">Hội Sinh viên Việt Nam tại Ấn Độ – VSA India</p>
+                        <div class="hero-actions">
+                            <a href="#activities" class="btn btn-primary" data-i18n="hero.cta.activities">Xem hoạt động</a>
+                            <a href="#about" class="btn btn-secondary" data-i18n="hero.cta.about">Tìm hiểu thêm</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-bg"></div>
+            </section>
+
+            <!-- ABOUT PREVIEW -->
+            <section class="section-about" aria-label="Giới thiệu VSA India">
+                <div class="container">
+                    <div class="about-grid">
+                        <div class="about-text">
+                            <h2 data-i18n="about.title">VSA India là gì?</h2>
+                            <p data-i18n="about.text1">Hội Sinh viên Việt Nam tại Ấn Độ (VSA India) là tổ chức đại diện cho cộng đồng sinh viên Việt Nam đang học tập và sinh sống tại Ấn Độ.</p>
+                            <p data-i18n="about.text2">Chúng tôi kết nối, hỗ trợ và tạo cơ hội cho sinh viên Việt Nam tại Ấn Độ phát triển trong học tập, văn hóa và cộng đồng.</p>
+                            <a href="#about" class="btn btn-outline" data-i18n="about.cta">Tìm hiểu thêm về VSA India</a>
+                        </div>
+                        <div class="about-image">
+                            <div class="about-image-placeholder">
+                                <span data-i18n="about.image">Ảnh hoạt động VSA India</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ACTIVITIES PREVIEW -->
+            <section class="section-activities" aria-label="Hoạt động nổi bật">
+                <div class="container">
+                    <div class="section-header">
+                        <h2 data-i18n="activities.title">Hoạt động nổi bật</h2>
+                        <a href="#activities" class="view-all" data-i18n="activities.viewAll">Xem tất cả →</a>
+                    </div>
+                    <div id="home-activities-container" class="activities-grid"></div>
+                </div>
+            </section>
+
+            <!-- NEWS PREVIEW -->
+            <section class="section-news" aria-label="Tin tức mới nhất">
+                <div class="container">
+                    <div class="section-header">
+                        <h2 data-i18n="news.title">Tin tức mới nhất</h2>
+                        <a href="#news" class="view-all" data-i18n="news.viewAll">Xem tất cả →</a>
+                    </div>
+                    <div id="home-news-container" class="news-grid"></div>
+                </div>
+            </section>
+
+            <!-- BLOG PREVIEW -->
+            <section class="section-blog" aria-label="Blog nổi bật">
+                <div class="container">
+                    <div class="section-header">
+                        <h2 data-i18n="blog.title">Bài viết nổi bật</h2>
+                        <a href="#blog" class="view-all" data-i18n="blog.viewAll">Xem tất cả →</a>
+                    </div>
+                    <div id="home-blog-container" class="blog-grid"></div>
+                </div>
+            </section>
+
+            <!-- MAP PREVIEW -->
+            <section class="section-map-preview" aria-label="Bản đồ cộng đồng">
+                <div class="container">
+                    <div class="section-header">
+                        <h2 data-i18n="map.title">Bản đồ cộng đồng</h2>
+                        <a href="#map" class="view-all" data-i18n="map.viewAll">Xem chi tiết →</a>
+                    </div>
+                    <p class="map-subtitle" data-i18n="map.subtitle">Sinh viên Việt Nam tại các thành phố Ấn Độ</p>
+                    <div id="home-map-container" class="map-wrapper">
+                        <div id="home-vsa-map" style="height: 350px; width: 100%; border-radius: var(--radius-md); background: #e8e4de;"></div>
+                    </div>
+                    <div id="home-map-info" class="map-info"></div>
+                </div>
+            </section>
+
+            <!-- GALLERY PREVIEW -->
+            <section class="section-gallery" aria-label="Thư viện ảnh">
+                <div class="container">
+                    <div class="section-header">
+                        <h2 data-i18n="gallery.title">Thư viện ảnh</h2>
+                        <a href="#gallery" class="view-all" data-i18n="gallery.viewAll">Xem tất cả →</a>
+                    </div>
+                    <div id="home-gallery-container" class="gallery-grid"></div>
+                </div>
+            </section>
+
+            <!-- CTA -->
+            <section class="section-cta" aria-label="Kêu gọi tham gia">
+                <div class="container">
+                    <div class="cta-box">
+                        <h2 data-i18n="cta.title">Bạn đang học tập tại Ấn Độ?</h2>
+                        <p data-i18n="cta.text">Kết nối cùng cộng đồng sinh viên Việt Nam tại Ấn Độ.</p>
+                        <a href="#contact" class="btn btn-cta" data-i18n="cta.cta">Tham gia ngay</a>
+                    </div>
+                </div>
+            </section>
+        </section>
+
+        <!-- ABOUT -->
+        <section id="about" class="page-section" role="region" aria-label="Về VSA India">
+            <div class="container">
+                <div class="about-page">
+                    <div class="about-hero">
+                        <h1 id="about-page-title">Giới thiệu về Hội Sinh viên Việt Nam tại Ấn Độ</h1>
+                        <p class="about-hero-sub" id="about-page-subtitle">Kết nối – Hỗ trợ – Phát triển cộng đồng sinh viên Việt Nam tại Ấn Độ</p>
+                    </div>
+                    <div id="about-mission-container" class="about-mission">
+                        <!-- JS sẽ render mission, vision, values -->
+                    </div>
+                    <div class="about-text-full">
+                        <h2 id="about-page-title-2"></h2>
+                        <div id="about-container"></div>
+                    </div>
+                    <div class="about-timeline">
+                        <h2 id="about-timeline-title">Lịch sử hình thành và phát triển</h2>
+                        <div id="about-timeline-container"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- MEMBERS -->
+        <section id="members" class="page-section" role="region" aria-label="Ban Chấp hành">
+            <div class="container">
+                <div class="members-page">
+                    <h1 data-i18n="headings.members">Ban Chấp hành</h1>
+                    <p class="members-subtitle" data-i18n="members.subtitle">Những người đại diện cho cộng đồng sinh viên Việt Nam tại Ấn Độ</p>
+                    <div id="members-container" class="members-grid"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ACTIVITIES -->
+        <section id="activities" class="page-section" role="region" aria-label="Hoạt động">
+            <div class="container">
+                <div class="activities-page">
+                    <h1 data-i18n="headings.activities">Hoạt động</h1>
+                    <p class="activities-subtitle" data-i18n="activities.page.subtitle">Các hoạt động và sự kiện của VSA India</p>
+                    <div class="filter-bar" id="activities-filter">
+                        <button class="filter-btn active" data-filter="all" data-i18n="category.all">Tất cả</button>
+                        <button class="filter-btn" data-filter="event" data-i18n="category.event">Sự kiện</button>
+                        <button class="filter-btn" data-filter="academic" data-i18n="category.academic">Học thuật</button>
+                        <button class="filter-btn" data-filter="culture" data-i18n="category.culture">Văn hóa</button>
+                        <button class="filter-btn" data-filter="sports" data-i18n="category.sports">Thể thao</button>
+                        <button class="filter-btn" data-filter="community" data-i18n="category.community">Cộng đồng</button>
+                        <button class="filter-btn" data-filter="external" data-i18n="category.external">Đối ngoại</button>
+                    </div>
+                    <div id="activities-container" class="activities-list"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- NEWS -->
+        <section id="news" class="page-section" role="region" aria-label="Tin tức">
+            <div class="container">
+                <div class="news-page">
+                    <h1 data-i18n="headings.news">Tin tức</h1>
+                    <p class="news-subtitle" data-i18n="news.page.subtitle">Cập nhật mới nhất từ VSA India</p>
+                    <div id="news-featured-container" class="news-featured"></div>
+                    <div class="filter-bar" id="news-filter">
+                        <button class="filter-btn active" data-filter="all" data-i18n="category.all">Tất cả</button>
+                        <button class="filter-btn" data-filter="announcement" data-i18n="newsCategory.announcement">Thông báo</button>
+                        <button class="filter-btn" data-filter="event" data-i18n="newsCategory.event">Sự kiện</button>
+                        <button class="filter-btn" data-filter="general" data-i18n="newsCategory.general">Chung</button>
+                    </div>
+                    <div id="news-container" class="news-list"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- BLOG -->
+        <section id="blog" class="page-section" role="region" aria-label="Blog">
+            <div class="container">
+                <div class="blog-page">
+                    <h1 data-i18n="headings.blog">Blog</h1>
+                    <p class="blog-subtitle" data-i18n="blog.page.subtitle">Chia sẻ từ sinh viên Việt Nam tại Ấn Độ</p>
+                    <div class="filter-bar" id="blog-filter">
+                        <button class="filter-btn active" data-filter="all" data-i18n="category.all">Tất cả</button>
+                        <button class="filter-btn" data-filter="study" data-i18n="blogCategory.study">Học tập</button>
+                        <button class="filter-btn" data-filter="life" data-i18n="blogCategory.life">Cuộc sống</button>
+                        <button class="filter-btn" data-filter="culture" data-i18n="blogCategory.culture">Văn hóa</button>
+                        <button class="filter-btn" data-filter="travel" data-i18n="blogCategory.travel">Du lịch</button>
+                        <button class="filter-btn" data-filter="food" data-i18n="blogCategory.food">Ẩm thực</button>
+                        <button class="filter-btn" data-filter="experience" data-i18n="blogCategory.experience">Trải nghiệm</button>
+                    </div>
+                    <div id="blog-container" class="blog-list"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- GUIDE -->
+        <section id="guide" class="page-section" role="region" aria-label="Cẩm nang">
+            <div class="container">
+                <div class="guide-page">
+                    <h1 data-i18n="headings.guide">Cẩm nang</h1>
+                    <p class="guide-subtitle" data-i18n="guide.page.subtitle">Hướng dẫn hữu ích cho sinh viên Việt Nam tại Ấn Độ</p>
+                    <div class="filter-bar" id="guide-filter">
+                        <button class="filter-btn active" data-filter="all" data-i18n="category.all">Tất cả</button>
+                        <button class="filter-btn" data-filter="visa" data-i18n="guideCategory.visa">Visa</button>
+                        <button class="filter-btn" data-filter="residence" data-i18n="guideCategory.residence">Chỗ ở</button>
+                        <button class="filter-btn" data-filter="university" data-i18n="guideCategory.university">Trường học</button>
+                        <button class="filter-btn" data-filter="banking" data-i18n="guideCategory.banking">Ngân hàng</button>
+                        <button class="filter-btn" data-filter="sim" data-i18n="guideCategory.sim">SIM & Internet</button>
+                        <button class="filter-btn" data-filter="transport" data-i18n="guideCategory.transport">Di chuyển</button>
+                        <button class="filter-btn" data-filter="healthcare" data-i18n="guideCategory.healthcare">Y tế</button>
+                        <button class="filter-btn" data-filter="food" data-i18n="guideCategory.food">Ẩm thực</button>
+                        <button class="filter-btn" data-filter="shopping" data-i18n="guideCategory.shopping">Mua sắm</button>
+                        <button class="filter-btn" data-filter="safety" data-i18n="guideCategory.safety">An toàn</button>
+                        <button class="filter-btn" data-filter="emergency" data-i18n="guideCategory.emergency">Khẩn cấp</button>
+                        <button class="filter-btn" data-filter="culture" data-i18n="guideCategory.culture">Văn hóa</button>
+                    </div>
+                    <div id="guide-container" class="guide-list"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- MAP -->
+        <section id="map" class="page-section" role="region" aria-label="Bản đồ">
+            <div class="container">
+                <div class="map-page">
+                    <h1 data-i18n="headings.map">Bản đồ cộng đồng</h1>
+                    <p class="map-subtitle" data-i18n="map.subtitle">Sinh viên Việt Nam tại các thành phố Ấn Độ</p>
+                    <div class="map-wrapper">
+                        <div id="vsa-map" style="height: 500px; width: 100%; border-radius: var(--radius-md); background: #e8e4de;"></div>
+                    </div>
+                    <div id="map-info" class="map-info"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- GALLERY -->
+        <section id="gallery" class="page-section" role="region" aria-label="Thư viện ảnh">
+            <div class="container">
+                <div class="gallery-page">
+                    <h1 data-i18n="headings.gallery">Thư viện ảnh</h1>
+                    <p class="gallery-subtitle" data-i18n="gallery.page.subtitle">Những khoảnh khắc đáng nhớ của VSA India</p>
+                    <div id="gallery-container" class="gallery-grid"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FORUM -->
+        <section id="forum" class="page-section" role="region" aria-label="Diễn đàn">
+            <div class="container">
+                <h2 data-i18n="headings.forum">Diễn đàn</h2>
+                <div id="forum-container"></div>
+            </div>
+        </section>
+
+        <!-- CONTACT -->
+        <section id="contact" class="page-section" role="region" aria-label="Liên hệ">
+            <div class="container">
+                <h2 data-i18n="headings.contact">Liên hệ</h2>
+                <div id="contact-container"></div>
+            </div>
+        </section>
+    </main>
+
+    <!-- ==================== FOOTER ==================== -->
+    <footer class="site-footer" role="contentinfo">
+        <div class="container">
+            <div class="footer-inner">
+                <div class="footer-brand">
+                    <img src="assets/images/logo.png" alt="VSA India Logo" class="footer-logo-img" />
+                    <span class="footer-logo" data-i18n="footer.brand">VSA India</span>
+                    <p data-i18n="footer.description">Hội Sinh viên Việt Nam tại Ấn Độ</p>
+                </div>
+                <div class="footer-links" id="footer-links"></div>
+                <div class="footer-copy">
+                    <p data-i18n="footer.rights">2026 VSA India. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+
+    <!-- LIGHTBOX -->
+    <div id="lightbox" class="lightbox" style="display: none;">
+        <button class="lightbox-close" id="lightbox-close" aria-label="Đóng">&times;</button>
+        <button class="lightbox-nav lightbox-prev" id="lightbox-prev" aria-label="Ảnh trước">&#10094;</button>
+        <button class="lightbox-nav lightbox-next" id="lightbox-next" aria-label="Ảnh tiếp">&#10095;</button>
+        <div class="lightbox-content">
+            <img id="lightbox-img" src="" alt="" />
+            <div class="lightbox-caption" id="lightbox-caption"></div>
+            <div class="lightbox-counter" id="lightbox-counter"></div>
+        </div>
+    </div>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
