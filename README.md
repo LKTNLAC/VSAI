@@ -26,4 +26,4 @@ Website được deploy trên GitHub Pages.
 
 ## Tác giả
 
-VSA India – Hội Sinh viên Việt Nam tại Ấn Độ
+Bùi Hoàng Long = Chủ tịch Hội Sinh viên Việt Nam tại Ấn Độ
