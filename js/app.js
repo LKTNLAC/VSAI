@@ -1830,7 +1830,7 @@ function renderContact(container) {
 }
 
 // =====================================================
-// 20. DETAIL RENDERERS
+// 20. DETAIL RENDERERS – HỖ TRỢ BLOCK CONTENT
 // =====================================================
 
 function renderSectionDetail(section, id) {
@@ -1841,32 +1841,95 @@ function renderSectionDetail(section, id) {
     let item = null;
     
     switch (section) {
-        case 'news': data = state.data.news; item = data.find(d => d.id === id); break;
-        case 'blog': data = state.data.blog; item = data.find(d => d.id === id); break;
-        case 'activities': data = state.data.activities; item = data.find(d => d.id === id); break;
-        default: renderPlaceholder(container, 'ui.placeholder'); return;
+        case 'news': 
+            data = state.data.news; 
+            item = data.find(d => d.id === id); 
+            break;
+        case 'blog': 
+            data = state.data.blog; 
+            item = data.find(d => d.id === id); 
+            break;
+        case 'activities': 
+            data = state.data.activities; 
+            item = data.find(d => d.id === id); 
+            break;
+        default: 
+            renderPlaceholder(container, 'ui.placeholder'); 
+            return;
     }
     
-    if (!item) { renderPlaceholder(container, 'ui.notFound'); return; }
+    if (!item) { 
+        renderPlaceholder(container, 'ui.notFound'); 
+        return; 
+    }
     
     const fragment = document.createDocumentFragment();
-    const title = createElement('h2', { text: item.title[state.currentLang] || item.title.vi });
+    const lang = state.currentLang;
+    
+    // Title
+    const title = createElement('h2', { 
+        text: item.title[lang] || item.title.vi 
+    });
     fragment.appendChild(title);
     
+    // Date & metadata
     if (item.date) {
-        const date = createElement('p', { className: 'text-muted text-sm', text: item.date });
+        const date = createElement('p', { 
+            className: 'text-muted text-sm', 
+            text: item.date 
+        });
         fragment.appendChild(date);
     }
     
+    // Content – hỗ trợ block type
     if (item.content) {
-        const content = item.content[state.currentLang] || item.content.vi;
-        if (Array.isArray(content)) {
-            const contentContainer = document.createElement('div');
-            renderParagraphs(content, contentContainer);
-            fragment.appendChild(contentContainer);
-        } else if (typeof content === 'string') {
+        const contentData = item.content[lang] || item.content.vi;
+        
+        if (Array.isArray(contentData)) {
+            // Kiểm tra xem có phải block content không
+            if (contentData.length > 0 && typeof contentData[0] === 'object' && contentData[0].type) {
+                // BLOCK CONTENT
+                contentData.forEach(block => {
+                    if (block.type === 'text') {
+                        const p = document.createElement('p');
+                        p.textContent = block.value;
+                        fragment.appendChild(p);
+                    } else if (block.type === 'image') {
+                        const wrapper = document.createElement('div');
+                        wrapper.className = 'detail-image-wrapper';
+                        
+                        const img = document.createElement('img');
+                        img.src = block.src;
+                        img.alt = block.alt || '';
+                        img.loading = 'lazy';
+                        img.onerror = function() {
+                            this.style.display = 'none';
+                            const fallback = document.createElement('span');
+                            fallback.className = 'detail-image-fallback';
+                            fallback.textContent = '🖼️';
+                            this.parentElement.appendChild(fallback);
+                        };
+                        wrapper.appendChild(img);
+                        
+                        if (block.caption) {
+                            const caption = document.createElement('p');
+                            caption.className = 'detail-image-caption text-sm text-muted';
+                            caption.textContent = block.caption;
+                            wrapper.appendChild(caption);
+                        }
+                        
+                        fragment.appendChild(wrapper);
+                    }
+                });
+            } else {
+                // LEGACY: mảng văn bản đơn thuần (để tương thích)
+                const contentContainer = document.createElement('div');
+                renderParagraphs(contentData, contentContainer);
+                fragment.appendChild(contentContainer);
+            }
+        } else if (typeof contentData === 'string') {
             const p = document.createElement('p');
-            p.textContent = content;
+            p.textContent = contentData;
             fragment.appendChild(p);
         }
     }

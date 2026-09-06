@@ -1,31 +1,31 @@
 [
   {
     "id": 1,
-    "name": "Nguyễn Văn A (Mẫu)",
+    "name": "Bùi Hoàng Long",
     "position": "president",
-    "image": "assets/images/members/member-01.webp",
+    "image": "assets/images/members/1.jpg",
     "city": "Delhi",
     "bio": {
-      "vi": "[DỮ LIỆU MẪU] Chủ tịch VSA India nhiệm kỳ 2026-2027. Sinh viên năm cuối tại Delhi University.",
-      "en": "[SAMPLE DATA] President of VSA India for the 2026-2027 term. Final year student at Delhi University."
+      "vi": "Chủ tịch Hội Sinh viên Việt Nam tại Ấn Độ nhiệm kỳ 2025-2027. Sinh viên năm cuối tại Delhi University.",
+      "en": "President of VSA India for the 2025-2027 term. Final year student at Delhi University."
     }
   },
   {
     "id": 2,
-    "name": "Trần Thị B (Mẫu)",
+    "name": "Nguyễn Trung Hiếu",
     "position": "vice_president",
-    "image": "assets/images/members/member-02.webp",
-    "city": "Pune",
+    "image": "assets/images/members/2.webp",
+    "city": "Delhi",
     "bio": {
-      "vi": "[DỮ LIỆU MẪU] Phó Chủ tịch VSA India. Sinh viên tại Đại học Pune.",
-      "en": "[SAMPLE DATA] Vice President of VSA India. Student at Pune University."
+      "vi": "Phó Chủ tịch Hội Sinh viên Việt Nam tại Ấn Độ. Sinh viên tại Đại học Delhi.",
+      "en": "Vice President of VSA India. Student at Delhi University."
     }
   },
   {
     "id": 3,
     "name": "Lê Văn C (Mẫu)",
     "position": "secretary",
-    "image": "assets/images/members/member-03.webp",
+    "image": "assets/images/members/3.webp",
     "city": "Delhi",
     "bio": {
       "vi": "[DỮ LIỆU MẪU] Thư ký VSA India. Sinh viên tại Jawaharlal Nehru University.",

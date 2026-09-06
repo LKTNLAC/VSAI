@@ -2,76 +2,105 @@
   {
     "id": 1,
     "title": {
-      "vi": "[MẪU] VSA India ra mắt chương trình Mentorship 2026",
-      "en": "[SAMPLE] VSA India Launches Mentorship Program 2026"
+      "vi": "🩵❤️🕊️ TỰ HÀO SINH VIÊN VIỆT NAM – TRI ÂN TRUYỀN THỐNG, TIẾP BƯỚC HÀNH TRÌNH 76 NĂM VẺ VANG.",
+      "en": "VSA India Successfully Hosted India Study Seminar 2026"
     },
-    "date": "2026-09-01",
+    "date": "2026-01-22",
     "category": "announcement",
-    "thumbnail": "assets/images/news/news-01.webp",
+    "thumbnail": "assets/images/news/1/1.jpg",
     "summary": {
-      "vi": "[DỮ LIỆU MẪU] Chương trình Mentorship kết nối sinh viên năm cuối với tân sinh viên.",
-      "en": "[SAMPLE DATA] Mentorship program connecting senior students with freshmen."
+      "vi": "Nhân dịp kỷ niệm 76 năm Ngày truyền thống Học sinh, Sinh viên và Hội Sinh viên Việt Nam...",
+      "en": "The seminar attracted over 100 students..."
     },
+    "featured": true,
     "content": {
       "vi": [
-        "[DỮ LIỆU MẪU] VSA India chính thức ra mắt chương trình Mentorship 2026.",
-        "Chương trình nhằm hỗ trợ tân sinh viên trong hành trình học tập tại Ấn Độ."
+        { "type": "text", "value": "📅 Nhân dịp kỷ niệm 76 năm Ngày truyền thống Học sinh, Sinh viên và Hội Sinh viên Việt Nam (09/01/1950 – 09/01/2026), Hội Sinh viên Việt Nam tại Ấn Độ xin gửi những lời chúc mừng trân trọng và niềm tự hào sâu sắc tới Hội Sinh viên Việt Nam cùng các thế hệ học sinh, sinh viên Việt Nam trong và ngoài nước." },
+        { "type": "image", "src": "assets/images/news/1/1.jpg", "alt": "Toàn cảnh hội thảo", "caption": "Toàn cảnh Hội thảo du học Ấn Độ 2026" },
+        { "type": "text", "value": "📚 Đây là dấu mốc ý nghĩa để mỗi sinh viên Việt Nam cùng nhau ôn lại truyền thống lịch sử vẻ vang, tri ân những thế hệ đi trước đã cống hiến không ngừng cho sự nghiệp học tập, rèn luyện và xây dựng đất nước. Đồng thời, đây cũng là dịp để thế hệ sinh viên hôm nay tiếp tục nuôi dưỡng khát vọng, tinh thần trách nhiệm và ý chí vươn lên trong thời đại mới." },
+        { "type": "text", "value": "🤝 Đồng hành cùng Hội Sinh viên Việt Nam, trong giai đoạn khởi đầu, Hội Sinh viên Việt Nam tại Ấn Độ mong muốn từng bước hình thành một cộng đồng sinh viên gắn kết, học hỏi và sẻ chia; qua đó góp phần lan tỏa hình ảnh sinh viên Việt Nam năng động, bản lĩnh, trí tuệ và giàu lòng nhân ái tại nước bạn Ấn Độ." }
       ],
       "en": [
-        "[SAMPLE DATA] VSA India officially launched the Mentorship Program 2026.",
-        "The program aims to support new students in their academic journey in India."
+        { "type": "text", "value": "On July 30, 2026, VSA India successfully hosted the India Study Seminar in Delhi." },
+        { "type": "image", "src": "assets/images/news/1/1.jpg", "alt": "Seminar overview", "caption": "India Study Seminar 2026" },
+        { "type": "text", "value": "Speakers shared valuable experiences on studying and living in India." },
+        { "type": "text", "value": "This is an annual activity of the Association to support Vietnamese students in India." }
       ]
-    },
-    "featured": true
+    }
   },
   {
     "id": 2,
     "title": {
-      "vi": "[MẪU] Hội thảo về cơ hội nghiên cứu tại Ấn Độ",
-      "en": "[SAMPLE] Seminar on Research Opportunities in India"
+      "vi": "Gặp mặt đầu năm học mới 2026-2027",
+      "en": "New Academic Year 2026-2027 Gathering"
     },
-    "date": "2026-08-25",
+    "date": "2026-07-25",
     "category": "event",
-    "thumbnail": "assets/images/news/news-02.webp",
+    "thumbnail": "assets/images/news/news-02/cover.webp",
     "summary": {
-      "vi": "[DỮ LIỆU MẪU] Hội thảo với sự tham gia của các giáo sư đầu ngành.",
-      "en": "[SAMPLE DATA] Seminar with participation from leading professors."
+      "vi": "Buổi gặp mặt đầu năm học nhằm kết nối tân sinh viên...",
+      "en": "The new year gathering aims to connect new students..."
     },
+    "featured": false,
     "content": {
       "vi": [
-        "[DỮ LIỆU MẪU] VSA India phối hợp với các trường đại học tổ chức hội thảo về nghiên cứu.",
-        "Sự kiện dành cho sinh viên quan tâm đến con đường học thuật tại Ấn Độ."
+        { "type": "text", "value": "VSA India tổ chức buổi gặp mặt đầu năm học mới vào ngày 24/07/2026." },
+        { "type": "image", "src": "assets/images/news/news-02/photo-01.webp", "alt": "Buổi gặp mặt", "caption": "Các bạn tân sinh viên tham dự" }
       ],
       "en": [
-        "[SAMPLE DATA] VSA India collaborated with universities to organize a research seminar.",
-        "The event is for students interested in academic pathways in India."
+        { "type": "text", "value": "VSA India organized the new academic year gathering on July 24, 2026." },
+        { "type": "image", "src": "assets/images/news/news-02/photo-01.webp", "alt": "Gathering", "caption": "New students attending" }
       ]
-    },
-    "featured": false
+    }
   },
   {
     "id": 3,
     "title": {
-      "vi": "[MẪU] Thông báo tuyển thành viên Ban Chấp hành nhiệm kỳ mới",
-      "en": "[SAMPLE] Announcement: New Executive Committee Recruitment"
+      "vi": "Gặp mặt đầu năm học mới 2026-2027",
+      "en": "New Academic Year 2026-2027 Gathering"
     },
-    "date": "2026-08-10",
-    "category": "announcement",
-    "thumbnail": "assets/images/news/news-03.webp",
+    "date": "2026-07-25",
+    "category": "event",
+    "thumbnail": "assets/images/news/news-02/cover.webp",
     "summary": {
-      "vi": "[DỮ LIỆU MẪU] VSA India mở đơn ứng tuyển các vị trí Ban Chấp hành.",
-      "en": "[SAMPLE DATA] VSA India opens applications for Executive Committee positions."
+      "vi": "Buổi gặp mặt đầu năm học nhằm kết nối tân sinh viên...",
+      "en": "The new year gathering aims to connect new students..."
     },
+    "featured": false,
     "content": {
       "vi": [
-        "[DỮ LIỆU MẪU] Hội Sinh viên Việt Nam tại Ấn Độ thông báo tuyển thành viên mới.",
-        "Các vị trí bao gồm Chủ tịch, Phó Chủ tịch và các Ủy viên."
+        { "type": "text", "value": "VSA India tổ chức buổi gặp mặt đầu năm học mới vào ngày 24/07/2026." },
+        { "type": "image", "src": "assets/images/news/news-02/photo-01.webp", "alt": "Buổi gặp mặt", "caption": "Các bạn tân sinh viên tham dự" }
       ],
       "en": [
-        "[SAMPLE DATA] The Vietnamese Students' Association in India announces new member recruitment.",
-        "Positions include President, Vice President, and Committee Members."
+        { "type": "text", "value": "VSA India organized the new academic year gathering on July 24, 2026." },
+        { "type": "image", "src": "assets/images/news/news-02/photo-01.webp", "alt": "Gathering", "caption": "New students attending" }
       ]
+    }
+  },
+  {
+    "id": 4,
+    "title": {
+      "vi": "Gặp mặt đầu năm học mới 2026-2027",
+      "en": "New Academic Year 2026-2027 Gathering"
     },
-    "featured": false
+    "date": "2026-07-25",
+    "category": "event",
+    "thumbnail": "assets/images/news/news-02/cover.webp",
+    "summary": {
+      "vi": "Buổi gặp mặt đầu năm học nhằm kết nối tân sinh viên...",
+      "en": "The new year gathering aims to connect new students..."
+    },
+    "featured": false,
+    "content": {
+      "vi": [
+        { "type": "text", "value": "VSA India tổ chức buổi gặp mặt đầu năm học mới vào ngày 24/07/2026." },
+        { "type": "image", "src": "assets/images/news/news-02/photo-01.webp", "alt": "Buổi gặp mặt", "caption": "Các bạn tân sinh viên tham dự" }
+      ],
+      "en": [
+        { "type": "text", "value": "VSA India organized the new academic year gathering on July 24, 2026." },
+        { "type": "image", "src": "assets/images/news/news-02/photo-01.webp", "alt": "Gathering", "caption": "New students attending" }
+      ]
+    }
   }
 ]
