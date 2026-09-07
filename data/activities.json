@@ -2,17 +2,17 @@
   {
     "id": 1,
     "title": {
-      "vi": "[MẪU] Giao lưu văn hóa Việt - Ấn 2026",
-      "en": "[SAMPLE] Vietnam-India Cultural Exchange 2026"
+      "vi": "Buổi từ thiện tại trường tiểu học Avalokites Vara ở Adalpur, Barachatti, Gaya (Bihar), Ấn Độ",
+      "en": "Charity event at Avalokites Vara Primary School in Adalpur, Barachatti, Gaya (Bihar), India"
     },
-    "date": "2026-10-15",
-    "location": "Delhi",
-    "category": "culture",
-    "image": "assets/images/activities/activity-01.webp",
+    "date": "2026-01-31",
+    "location": "Bihar, India",
+    "category": "charity",
+    "image": "assets/images/activities/1/1.jpg",
     "description": {
       "vi": [
-        "[DỮ LIỆU MẪU] Sự kiện giao lưu văn hóa giữa sinh viên Việt Nam và Ấn Độ.",
-        "Các hoạt động bao gồm biểu diễn văn nghệ, giới thiệu ẩm thực và giao lưu ngôn ngữ."
+        "👉Ngày 31/1/2026 ,Đoàn từ thiện được dẫn dắt bởi Assistant Professor Dr. Brenda, cùng các sinh viên Việt Nam đến từ trường Đại học Nalanda đã đến thăm và trao quà cho các em học sinh khó khăn ở trường tiểu học Avalokites Vara ở Adalpur, Barachatti, Gaya (Bihar), Ấn Độ. ",
+        "🙌Buổi gặp mặt và trao quà đã diễn ra trong không khí vô cùng nồng ấm. Các em còn chuẩn bị các tiết mục văn nghệ chào đón đoàn. Tổng cộng 160 bộ dụng cụ học tập và suất ăn trưa đã được trao đến cho các bạn học sinh từ lớp 1 đến lớp 3."
       ],
       "en": [
         "[SAMPLE DATA] Cultural exchange event between Vietnamese and Indian students.",
@@ -42,6 +42,94 @@
       ]
     },
     "organizerId": 2
+  },
+  {
+    "id": 3,
+    "title": {
+      "vi": "[MẪU] Giải bóng đá sinh viên Việt Nam tại Delhi",
+      "en": "[SAMPLE] Vietnamese Student Football Tournament in Delhi"
+    },
+    "date": "2026-12-01",
+    "location": "Delhi",
+    "category": "sports",
+    "image": "assets/images/activities/activity-03.webp",
+    "description": {
+      "vi": [
+        "[DỮ LIỆU MẪU] Giải bóng đá thường niên dành cho sinh viên Việt Nam tại Delhi.",
+        "Sự kiện thu hút đông đảo sinh viên tham gia và cổ vũ."
+      ],
+      "en": [
+        "[SAMPLE DATA] Annual football tournament for Vietnamese students in Delhi.",
+        "The event attracted many student participants and supporters."
+      ]
+    },
+    "organizerId": 3
+  },
+  {
+    "id": 3,
+    "title": {
+      "vi": "[MẪU] Giải bóng đá sinh viên Việt Nam tại Delhi",
+      "en": "[SAMPLE] Vietnamese Student Football Tournament in Delhi"
+    },
+    "date": "2026-12-01",
+    "location": "Delhi",
+    "category": "sports",
+    "image": "assets/images/activities/activity-03.webp",
+    "description": {
+      "vi": [
+        "[DỮ LIỆU MẪU] Giải bóng đá thường niên dành cho sinh viên Việt Nam tại Delhi.",
+        "Sự kiện thu hút đông đảo sinh viên tham gia và cổ vũ."
+      ],
+      "en": [
+        "[SAMPLE DATA] Annual football tournament for Vietnamese students in Delhi.",
+        "The event attracted many student participants and supporters."
+      ]
+    },
+    "organizerId": 3
+  },
+  {
+    "id": 3,
+    "title": {
+      "vi": "[MẪU] Giải bóng đá sinh viên Việt Nam tại Delhi",
+      "en": "[SAMPLE] Vietnamese Student Football Tournament in Delhi"
+    },
+    "date": "2026-12-01",
+    "location": "Delhi",
+    "category": "sports",
+    "image": "assets/images/activities/activity-03.webp",
+    "description": {
+      "vi": [
+        "[DỮ LIỆU MẪU] Giải bóng đá thường niên dành cho sinh viên Việt Nam tại Delhi.",
+        "Sự kiện thu hút đông đảo sinh viên tham gia và cổ vũ."
+      ],
+      "en": [
+        "[SAMPLE DATA] Annual football tournament for Vietnamese students in Delhi.",
+        "The event attracted many student participants and supporters."
+      ]
+    },
+    "organizerId": 3
+  },
+  {
+    "id": 3,
+    "title": {
+      "vi": "[MẪU] Giải bóng đá sinh viên Việt Nam tại Delhi",
+      "en": "[SAMPLE] Vietnamese Student Football Tournament in Delhi"
+    },
+    "date": "2026-12-01",
+    "location": "Delhi",
+    "category": "sports",
+    "image": "assets/images/activities/activity-03.webp",
+    "description": {
+      "vi": [
+        "[DỮ LIỆU MẪU] Giải bóng đá thường niên dành cho sinh viên Việt Nam tại Delhi.",
+        "Sự kiện thu hút đông đảo sinh viên tham gia và cổ vũ."
+      ],
+      "en": [
+        "[SAMPLE DATA] Annual football tournament for Vietnamese students in Delhi.",
+        "The event attracted many student participants and supporters."
+      ]
+    },
+    "organizerId": 3
   },
   {
     "id": 3,

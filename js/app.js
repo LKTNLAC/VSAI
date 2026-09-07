@@ -20,6 +20,12 @@ let state = {
     currentLang: localStorage.getItem(CONFIG.storageKey) || CONFIG.defaultLang,
     currentRoute: 'home',
     currentDetailId: null,
+    pagination: {
+        activities: { page: 1, perPage: 6 },
+        news: { page: 1, perPage: 6 },
+        blog: { page: 1, perPage: 6 },
+        guide: { page: 1, perPage: 6 }
+    },
     data: {
         members: [],
         activities: [],
@@ -494,7 +500,13 @@ function renderHomeActivities(container) {
     if (!container) return;
     const data = state.data.activities;
     if (!data || data.length === 0) { renderPlaceholder(container, 'ui.placeholder'); return; }
-    const items = data.slice(0, 3);
+    
+    // ===== SẮP XẾP THEO THỜI GIAN, LẤY 3 HOẠT ĐỘNG MỚI NHẤT =====
+    const sorted = [...data].sort((a, b) => {
+        return new Date(b.date) - new Date(a.date);
+    });
+    const items = sorted.slice(0, 3);
+    
     const fragment = document.createDocumentFragment();
     items.forEach(activity => {
         const card = document.createElement('div');
@@ -521,53 +533,130 @@ function renderHomeNews(container) {
     if (!container) return;
     const data = state.data.news;
     if (!data || data.length === 0) { renderPlaceholder(container, 'ui.placeholder'); return; }
-    const items = data.slice(0, 3);
+
+    // ===== SẮP XẾP THEO THỜI GIAN, LẤY 3 BÀI MỚI NHẤT =====
+    const sorted = [...data].sort((a, b) => {
+        return new Date(b.date) - new Date(a.date);
+    });
+    
+    const items = sorted.slice(0, 3);
     const fragment = document.createDocumentFragment();
     items.forEach(item => {
         const card = document.createElement('div');
         card.className = 'news-card';
+
+        // === THUMBNAIL ===
+        const imgContainer = document.createElement('div');
+        imgContainer.className = 'news-thumbnail';
+        const img = document.createElement('img');
+        img.src = item.thumbnail || 'assets/images/placeholder.webp';
+        img.alt = item.title[state.currentLang] || item.title.vi;
+        img.loading = 'lazy';
+        img.onerror = function() {
+            this.style.display = 'none';
+            const fallback = document.createElement('span');
+            fallback.className = 'thumbnail-fallback';
+            fallback.textContent = '📰';
+            this.parentElement.appendChild(fallback);
+        };
+        imgContainer.appendChild(img);
+        card.appendChild(imgContainer);
+        
+        // === CONTENT ===
+        const content = document.createElement('div');
+        content.className = 'news-content';
+
         const title = document.createElement('h3');
         title.textContent = item.title[state.currentLang] || item.title.vi;
-        card.appendChild(title);
+        content.appendChild(title);
         if (item.summary) {
             const summary = document.createElement('p');
             summary.className = 'text-muted text-sm';
             summary.textContent = (item.summary[state.currentLang] || item.summary.vi).substring(0, 120) + '...';
-            card.appendChild(summary);
+            content.appendChild(summary);
         }
         const date = document.createElement('p');
         date.className = 'text-xs';
         date.textContent = item.date;
-        card.appendChild(date);
+        content.appendChild(date);
+
+        card.appendChild(content);
         card.style.cursor = 'pointer';
         card.addEventListener('click', () => navigateTo(`#news/${item.id}`));
         fragment.appendChild(card);
     });
     container.replaceChildren(fragment);
+    // Thêm ảnh thumbnail
+    const imgContainer = document.createElement('div');
+    imgContainer.className = 'news-thumbnail';
+
+    const img = document.createElement('img');
+    img.src = item.thumbnail || 'assets/images/placeholder.webp';
+    img.alt = item.title[state.currentLang] || item.title.vi;
+    img.loading = 'lazy';
+    img.onerror = function() {
+        this.style.display = 'none';
+        const fallback = document.createElement('span');
+        fallback.className = 'thumbnail-fallback';
+        fallback.textContent = '📰';
+        this.parentElement.appendChild(fallback);
+    };
+    imgContainer.appendChild(img);
+    card.prepend(imgContainer);
 }
 
 function renderHomeBlog(container) {
     if (!container) return;
     const data = state.data.blog;
     if (!data || data.length === 0) { renderPlaceholder(container, 'ui.placeholder'); return; }
-    const items = data.slice(0, 3);
+    
+    // ===== SẮP XẾP THEO THỜI GIAN, LẤY 3 BÀI MỚI NHẤT =====
+    const sorted = [...data].sort((a, b) => {
+        return new Date(b.date) - new Date(a.date);
+    });
+    
+    const items = sorted.slice(0, 3);
     const fragment = document.createDocumentFragment();
     items.forEach(item => {
         const card = document.createElement('div');
         card.className = 'blog-card';
+
+        // === THUMBNAIL ===
+        const imgContainer = document.createElement('div');
+        imgContainer.className = 'blog-thumbnail';
+        const img = document.createElement('img');
+        img.src = item.image || 'assets/images/placeholder.webp';
+        img.alt = item.title[state.currentLang] || item.title.vi;
+        img.loading = 'lazy';
+        img.onerror = function() {
+            this.style.display = 'none';
+            const fallback = document.createElement('span');
+            fallback.className = 'thumbnail-fallback';
+            fallback.textContent = '📝';
+            this.parentElement.appendChild(fallback);
+        };
+        imgContainer.appendChild(img);
+        card.appendChild(imgContainer);
+        
+        // === CONTENT ===
+        const content = document.createElement('div');
+        content.className = 'blog-content';
+
         const title = document.createElement('h3');
         title.textContent = item.title[state.currentLang] || item.title.vi;
-        card.appendChild(title);
+        content.appendChild(title);
         if (item.excerpt) {
             const excerpt = document.createElement('p');
             excerpt.className = 'text-muted text-sm';
             excerpt.textContent = (item.excerpt[state.currentLang] || item.excerpt.vi).substring(0, 120) + '...';
-            card.appendChild(excerpt);
+            content.appendChild(excerpt);
         }
         const date = document.createElement('p');
         date.className = 'text-xs';
         date.textContent = item.date;
-        card.appendChild(date);
+        content.appendChild(date);
+
+        card.appendChild(content);
         card.style.cursor = 'pointer';
         card.addEventListener('click', () => navigateTo(`#blog/${item.id}`));
         fragment.appendChild(card);
@@ -1098,8 +1187,15 @@ function renderActivities(container) {
     if (!container) return;
     const data = state.data.activities;
     if (!data || data.length === 0) { renderPlaceholder(container, 'ui.placeholder'); return; }
-    let filtered = data;
-    if (activitiesFilter !== 'all') filtered = data.filter(item => item.category === activitiesFilter);
+    
+    // ===== SẮP XẾP THEO THỜI GIAN (MỚI NHẤT TRƯỚC) =====
+    const sorted = [...data].sort((a, b) => {
+        return new Date(b.date) - new Date(a.date);
+    });
+    // Filter
+    let filtered = sorted;
+    if (activitiesFilter !== 'all') filtered = sorted.filter(item => item.category === activitiesFilter);
+    
     if (filtered.length === 0) {
         const p = document.createElement('p');
         p.className = 'placeholder-text';
@@ -1107,6 +1203,16 @@ function renderActivities(container) {
         container.replaceChildren(p);
         return;
     }
+
+     // === PHÂN TRANG ===
+    const perPage = state.pagination.activities.perPage || 6;
+    const currentPage = state.pagination.activities.page || 1;
+    const totalPages = Math.ceil(filtered.length / perPage);
+    const start = (currentPage - 1) * perPage;
+    const end = start + perPage;
+    const pageItems = filtered.slice(start, end);
+    
+
     const fragment = document.createDocumentFragment();
     filtered.forEach(activity => {
         const card = document.createElement('div');
@@ -1145,6 +1251,8 @@ function renderActivities(container) {
         fragment.appendChild(card);
     });
     container.replaceChildren(fragment);
+    // === PAGINATION CONTROLS ===
+    renderPagination(container, 'activities', currentPage, totalPages);
 }
 
 function initActivitiesFilter() {
@@ -1162,6 +1270,63 @@ function initActivitiesFilter() {
 }
 
 // =====================================================
+// PAGINATION CONTROLS
+// =====================================================
+
+function renderPagination(container, type, currentPage, totalPages) {
+    if (totalPages <= 1) return;
+    
+    const paginationDiv = document.createElement('div');
+    paginationDiv.className = 'pagination';
+    
+    // Previous
+    const prevBtn = document.createElement('button');
+    prevBtn.className = 'pagination-btn';
+    prevBtn.textContent = '‹';
+    prevBtn.disabled = currentPage === 1;
+    prevBtn.addEventListener('click', () => {
+        if (currentPage > 1) {
+            state.pagination[type].page = currentPage - 1;
+            renderSection(type);
+        }
+    });
+    paginationDiv.appendChild(prevBtn);
+    
+    // Page numbers
+    for (let i = 1; i <= totalPages; i++) {
+        const pageBtn = document.createElement('button');
+        pageBtn.className = 'pagination-btn' + (i === currentPage ? ' active' : '');
+        pageBtn.textContent = i;
+        pageBtn.addEventListener('click', () => {
+            state.pagination[type].page = i;
+            renderSection(type);
+        });
+        paginationDiv.appendChild(pageBtn);
+    }
+    
+    // Next
+    const nextBtn = document.createElement('button');
+    nextBtn.className = 'pagination-btn';
+    nextBtn.textContent = '›';
+    nextBtn.disabled = currentPage === totalPages;
+    nextBtn.addEventListener('click', () => {
+        if (currentPage < totalPages) {
+            state.pagination[type].page = currentPage + 1;
+            renderSection(type);
+        }
+    });
+    paginationDiv.appendChild(nextBtn);
+    
+    // Info
+    const info = document.createElement('span');
+    info.className = 'pagination-info';
+    info.textContent = `${currentPage} / ${totalPages}`;
+    paginationDiv.appendChild(info);
+    
+    container.appendChild(paginationDiv);
+}
+
+// =====================================================
 // 13. NEWS
 // =====================================================
 
@@ -1171,8 +1336,14 @@ function renderNews(container) {
     if (!container) return;
     const data = state.data.news;
     if (!data || data.length === 0) { renderPlaceholder(container, 'ui.placeholder'); return; }
-    let filtered = data;
-    if (newsFilter !== 'all') filtered = data.filter(item => item.category === newsFilter);
+    
+    // ===== SẮP XẾP THEO THỜI GIAN (MỚI NHẤT TRƯỚC) =====
+    const sorted = [...data].sort((a, b) => {
+        return new Date(b.date) - new Date(a.date);
+    });
+    let filtered = sorted;
+
+    if (newsFilter !== 'all') filtered = sorted.filter(item => item.category === newsFilter);
     if (filtered.length === 0) {
         const p = document.createElement('p');
         p.className = 'placeholder-text';
@@ -1180,13 +1351,44 @@ function renderNews(container) {
         container.replaceChildren(p);
         return;
     }
+
+    // === PHÂN TRANG ===
+    const perPage = state.pagination.news.perPage || 6;
+    const currentPage = state.pagination.news.page || 1;
+    const totalPages = Math.ceil(filtered.length / perPage);
+    const start = (currentPage - 1) * perPage;
+    const end = start + perPage;
+    const pageItems = filtered.slice(start, end);
+
     const fragment = document.createDocumentFragment();
-    filtered.forEach(item => {
+    pageItems.forEach(item => {
         const card = document.createElement('div');
         card.className = 'news-item';
+
+        // === THUMBNAIL ===
+        const imgContainer = document.createElement('div');
+        imgContainer.className = 'news-thumbnail';
+        const img = document.createElement('img');
+        img.src = item.thumbnail || 'assets/images/placeholder.webp';
+        img.alt = item.title[state.currentLang] || item.title.vi;
+        img.loading = 'lazy';
+        img.onerror = function() {
+            this.style.display = 'none';
+            const fallback = document.createElement('span');
+            fallback.className = 'thumbnail-fallback';
+            fallback.textContent = '📰';
+            this.parentElement.appendChild(fallback);
+        };
+        imgContainer.appendChild(img);
+        card.appendChild(imgContainer);
+        
+        // === CONTENT ===
+        const content = document.createElement('div');
+        content.className = 'news-content';
+
         const title = document.createElement('h3');
         title.textContent = item.title[state.currentLang] || item.title.vi;
-        card.appendChild(title);
+        content.appendChild(title);
         const meta = document.createElement('div');
         meta.className = 'news-meta';
         const date = document.createElement('span');
@@ -1197,19 +1399,22 @@ function renderNews(container) {
         category.className = 'badge';
         category.textContent = translateEnum('newsCategory', item.category);
         meta.appendChild(category);
-        card.appendChild(meta);
+        content.appendChild(meta);
         if (item.summary) {
             const summary = document.createElement('p');
             summary.className = 'text-sm text-muted';
             summary.textContent = (item.summary[state.currentLang] || item.summary.vi);
             if (summary.textContent && summary.textContent.length > 140) summary.textContent = summary.textContent.substring(0, 140) + '...';
-            card.appendChild(summary);
+            content.appendChild(summary);
         }
+        card.appendChild(content);
         card.style.cursor = 'pointer';
         card.addEventListener('click', () => navigateTo(`#news/${item.id}`));
         fragment.appendChild(card);
     });
     container.replaceChildren(fragment);
+    // === PAGINATION ===
+    renderPagination(container, 'news', currentPage, totalPages);
 }
 
 function renderFeaturedNews(container) {
@@ -1271,8 +1476,14 @@ function renderBlog(container) {
     if (!container) return;
     const data = state.data.blog;
     if (!data || data.length === 0) { renderPlaceholder(container, 'ui.placeholder'); return; }
-    let filtered = data;
-    if (blogFilter !== 'all') filtered = data.filter(item => item.category === blogFilter);
+    
+    // ===== SẮP XẾP THEO THỜI GIAN (MỚI NHẤT TRƯỚC) =====
+    const sorted = [...data].sort((a, b) => {
+        return new Date(b.date) - new Date(a.date);
+    });
+
+    let filtered = sorted;
+    if (blogFilter !== 'all') filtered = sorted.filter(item => item.category === blogFilter);
     if (filtered.length === 0) {
         const p = document.createElement('p');
         p.className = 'placeholder-text';
@@ -1280,15 +1491,45 @@ function renderBlog(container) {
         container.replaceChildren(p);
         return;
     }
+
+    // === PHÂN TRANG ===
+    const perPage = state.pagination.blog.perPage || 6;
+    const currentPage = state.pagination.blog.page || 1;
+    const totalPages = Math.ceil(filtered.length / perPage);
+    const start = (currentPage - 1) * perPage;
+    const end = start + perPage;
+    const pageItems = filtered.slice(start, end);
+
     const fragment = document.createDocumentFragment();
-    filtered.forEach(item => {
+    pageItems.forEach(item => {
         const card = document.createElement('div');
         card.className = 'blog-item';
+        
+        // === THUMBNAIL ===
+        const imgContainer = document.createElement('div');
+        imgContainer.className = 'blog-thumbnail';
+        const img = document.createElement('img');
+        img.src = item.image || 'assets/images/placeholder.webp';
+        img.alt = item.title[state.currentLang] || item.title.vi;
+        img.loading = 'lazy';
+        img.onerror = function() {
+            this.style.display = 'none';
+            const fallback = document.createElement('span');
+            fallback.className = 'thumbnail-fallback';
+            fallback.textContent = '📝';
+            this.parentElement.appendChild(fallback);
+        };
+        imgContainer.appendChild(img);
+        card.appendChild(imgContainer);
+        
+        // === CONTENT ===
         const content = document.createElement('div');
-        content.className = 'blog-item-content';
+        content.className = 'blog-content';
+
         const title = document.createElement('h3');
         title.textContent = item.title[state.currentLang] || item.title.vi;
         content.appendChild(title);
+
         const meta = document.createElement('div');
         meta.className = 'blog-meta';
         const date = document.createElement('span');
@@ -1309,6 +1550,7 @@ function renderBlog(container) {
             }
         }
         content.appendChild(meta);
+
         if (item.excerpt) {
             const excerpt = document.createElement('p');
             excerpt.className = 'text-sm text-muted';
@@ -1316,12 +1558,16 @@ function renderBlog(container) {
             if (excerpt.textContent && excerpt.textContent.length > 140) excerpt.textContent = excerpt.textContent.substring(0, 140) + '...';
             content.appendChild(excerpt);
         }
+
         card.appendChild(content);
         card.style.cursor = 'pointer';
         card.addEventListener('click', () => navigateTo(`#blog/${item.id}`));
         fragment.appendChild(card);
     });
     container.replaceChildren(fragment);
+
+    // === PAGINATION ===
+    renderPagination(container, 'blog', currentPage, totalPages);
 }
 
 function initBlogFilter() {
@@ -1348,8 +1594,10 @@ function renderGuide(container) {
     if (!container) return;
     const data = state.data.guide;
     if (!data || data.length === 0) { renderPlaceholder(container, 'ui.placeholder'); return; }
+    
     let filtered = data;
     if (guideFilter !== 'all') filtered = data.filter(item => item.category === guideFilter);
+    
     if (filtered.length === 0) {
         const p = document.createElement('p');
         p.className = 'placeholder-text';
@@ -1357,9 +1605,19 @@ function renderGuide(container) {
         container.replaceChildren(p);
         return;
     }
+    // Sắp xếp theo order
     const sorted = [...filtered].sort((a, b) => (a.order || 0) - (b.order || 0));
+    
+    // === PHÂN TRANG ===
+    const perPage = state.pagination.guide.perPage || 6;
+    const currentPage = state.pagination.guide.page || 1;
+    const totalPages = Math.ceil(sorted.length / perPage);
+    const start = (currentPage - 1) * perPage;
+    const end = start + perPage;
+    const pageItems = sorted.slice(start, end);
+
     const fragment = document.createDocumentFragment();
-    sorted.forEach(item => {
+    pageItems.forEach(item => {
         const card = document.createElement('div');
         card.className = 'guide-item';
         const header = document.createElement('div');
@@ -1390,6 +1648,9 @@ function renderGuide(container) {
         fragment.appendChild(card);
     });
     container.replaceChildren(fragment);
+
+    // === PAGINATION ===
+    renderPagination(container, 'guide', currentPage, totalPages);
 }
 
 function initGuideFilter() {
@@ -1864,6 +2125,18 @@ function renderSectionDetail(section, id) {
     }
     
     const fragment = document.createDocumentFragment();
+
+    // === NÚT QUAY LẠI ===
+    const backLink = document.createElement('a');
+    backLink.href = `#${section}`;
+    backLink.className = 'back-link';
+    backLink.textContent = '← ' + (state.currentLang === 'vi' ? 'Quay lại danh sách' : 'Back to list');
+    backLink.addEventListener('click', (e) => {
+        e.preventDefault();
+        navigateTo(`#${section}`);
+    });
+    fragment.appendChild(backLink);
+
     const lang = state.currentLang;
     
     // Title
@@ -1873,13 +2146,58 @@ function renderSectionDetail(section, id) {
     fragment.appendChild(title);
     
     // Date & metadata
+    const metaWrapper = document.createElement('div');
+    metaWrapper.className = 'detail-meta';
+    
     if (item.date) {
         const date = createElement('p', { 
             className: 'text-muted text-sm', 
             text: item.date 
         });
-        fragment.appendChild(date);
+        metaWrapper.appendChild(date);
     }
+
+    if (item.category) {
+        const category = document.createElement('span');
+        category.className = 'detail-category badge';
+        // Lấy tên category theo ngôn ngữ
+        if (section === 'news') {
+            category.textContent = translateEnum('newsCategory', item.category);
+        } else if (section === 'blog') {
+            category.textContent = translateEnum('blogCategory', item.category);
+        } else if (section === 'activities') {
+            category.textContent = translateEnum('category', item.category);
+        }
+        metaWrapper.appendChild(category);
+    }
+
+    // === TÁC GIẢ (CHỈ CHO BLOG) ===
+    if (section === 'blog' && item.authorId) {
+        const authorData = state.data.members.find(m => m.id === item.authorId);
+        if (authorData) {
+            const author = document.createElement('span');
+            author.className = 'detail-author';
+            // Lấy tên tác giả theo ngôn ngữ
+            const authorName = authorData.name;
+            author.textContent = `✍️ ${authorName}`;
+            metaWrapper.appendChild(author);
+        }
+    }
+
+    // === NẾU BLOG CÓ AUTHOR NHƯNG KHÔNG CÓ TRONG MEMBERS ===
+    if (section === 'blog' && item.authorId && !state.data.members.find(m => m.id === item.authorId)) {
+        const author = document.createElement('span');
+        author.className = 'detail-author';
+        author.textContent = `✍️ ${t('blog.author')} #${item.authorId}`;
+        metaWrapper.appendChild(author);
+    }
+    
+    fragment.appendChild(metaWrapper);
+    
+    // === ĐƯỜNG GẠCH NGANG (HORIZONTAL RULE) ===
+    const divider = document.createElement('hr');
+    divider.className = 'detail-divider';
+    fragment.appendChild(divider);
     
     // Content – hỗ trợ block type
     if (item.content) {
@@ -1975,19 +2293,35 @@ function renderSection(section) {
             break;
         case 'members': renderMembers(container); break;
         case 'activities': 
+            // Reset page khi filter thay đổi
+            if (activitiesFilter !== 'all' && state.pagination.activities.page !== 1) {
+                state.pagination.activities.page = 1;
+            }
             renderActivities(container);
             initActivitiesFilter();
             break;
         case 'news':
+            // Reset page khi filter thay đổi
+            if (newsFilter !== 'all' && state.pagination.news.page !== 1) {
+                state.pagination.news.page = 1;
+            }
             renderNews(container);
             renderFeaturedNews(document.getElementById('news-featured-container'));
             initNewsFilter();
             break;
         case 'blog':
+            // Reset page khi filter thay đổi
+            if (blogFilter !== 'all' && state.pagination.blog.page !== 1) {
+                state.pagination.blog.page = 1;
+            }
             renderBlog(container);
             initBlogFilter();
             break;
         case 'guide':
+            // Reset page khi filter thay đổi
+            if (guideFilter !== 'all' && state.pagination.guide.page !== 1) {
+                state.pagination.guide.page = 1;
+            }
             renderGuide(container);
             initGuideFilter();
             break;

@@ -3,103 +3,307 @@
     "id": 1,
     "title": {
       "vi": "🩵❤️🕊️ TỰ HÀO SINH VIÊN VIỆT NAM – TRI ÂN TRUYỀN THỐNG, TIẾP BƯỚC HÀNH TRÌNH 76 NĂM VẺ VANG.",
-      "en": "VSA India Successfully Hosted India Study Seminar 2026"
+      "en": "🩵❤️🕊️ PROUD VIETNAMESE STUDENTS – CHERISHING TRADITION, CONTINUING THE GLORIOUS 76-YEAR JOURNEY."
     },
     "date": "2026-01-22",
     "category": "announcement",
     "thumbnail": "assets/images/news/1/1.jpg",
     "summary": {
       "vi": "Nhân dịp kỷ niệm 76 năm Ngày truyền thống Học sinh, Sinh viên và Hội Sinh viên Việt Nam...",
-      "en": "The seminar attracted over 100 students..."
+      "en": "On the occasion of the 76th anniversary of the Traditional Day of Students and the Vietnam Student Union..."
     },
     "featured": true,
     "content": {
       "vi": [
         { "type": "text", "value": "📅 Nhân dịp kỷ niệm 76 năm Ngày truyền thống Học sinh, Sinh viên và Hội Sinh viên Việt Nam (09/01/1950 – 09/01/2026), Hội Sinh viên Việt Nam tại Ấn Độ xin gửi những lời chúc mừng trân trọng và niềm tự hào sâu sắc tới Hội Sinh viên Việt Nam cùng các thế hệ học sinh, sinh viên Việt Nam trong và ngoài nước." },
-        { "type": "image", "src": "assets/images/news/1/1.jpg", "alt": "Toàn cảnh hội thảo", "caption": "Toàn cảnh Hội thảo du học Ấn Độ 2026" },
+        { "type": "image", "src": "assets/images/news/1/1.jpg", "alt": "Toàn cảnh kỷ niệm", "caption": "Toàn cảnh kỷ niệm 76 năm Ngày truyền thống" },
         { "type": "text", "value": "📚 Đây là dấu mốc ý nghĩa để mỗi sinh viên Việt Nam cùng nhau ôn lại truyền thống lịch sử vẻ vang, tri ân những thế hệ đi trước đã cống hiến không ngừng cho sự nghiệp học tập, rèn luyện và xây dựng đất nước. Đồng thời, đây cũng là dịp để thế hệ sinh viên hôm nay tiếp tục nuôi dưỡng khát vọng, tinh thần trách nhiệm và ý chí vươn lên trong thời đại mới." },
         { "type": "text", "value": "🤝 Đồng hành cùng Hội Sinh viên Việt Nam, trong giai đoạn khởi đầu, Hội Sinh viên Việt Nam tại Ấn Độ mong muốn từng bước hình thành một cộng đồng sinh viên gắn kết, học hỏi và sẻ chia; qua đó góp phần lan tỏa hình ảnh sinh viên Việt Nam năng động, bản lĩnh, trí tuệ và giàu lòng nhân ái tại nước bạn Ấn Độ." }
       ],
       "en": [
-        { "type": "text", "value": "On July 30, 2026, VSA India successfully hosted the India Study Seminar in Delhi." },
-        { "type": "image", "src": "assets/images/news/1/1.jpg", "alt": "Seminar overview", "caption": "India Study Seminar 2026" },
-        { "type": "text", "value": "Speakers shared valuable experiences on studying and living in India." },
-        { "type": "text", "value": "This is an annual activity of the Association to support Vietnamese students in India." }
+        { "type": "text", "value": "📅 On the occasion of the 76th anniversary of the Traditional Day of Students and the Vietnam Student Union (09/01/1950 – 09/01/2026), the Vietnam Student Association in India would like to extend its heartfelt congratulations and deep pride to the Vietnam Student Union and generations of Vietnamese students both at home and abroad." },
+        { "type": "image", "src": "assets/images/news/1/1.jpg", "alt": "Celebration overview", "caption": "76th Anniversary Celebration" },
+        { "type": "text", "value": "📚 This is a significant milestone for every Vietnamese student to reflect on the glorious historical traditions, express gratitude to previous generations who have tirelessly contributed to the cause of learning, training, and building the nation. At the same time, it is also an opportunity for today's generation of students to continue nurturing aspirations, a sense of responsibility, and a will to excel in the new era." },
+        { "type": "text", "value": "🤝 In partnership with the Vietnamese Student Association, during this initial phase, the Vietnamese Student Association in India aims to gradually build a close-knit community of students who learn and share; thereby contributing to spreading the image of dynamic, capable, intelligent, and compassionate Vietnamese students in India." }
       ]
     }
   },
   {
     "id": 2,
     "title": {
-      "vi": "Gặp mặt đầu năm học mới 2026-2027",
-      "en": "New Academic Year 2026-2027 Gathering"
+      "vi": "CHÍNH THỨC THÀNH LẬP HỘI SINH VIÊN VIỆT NAM TẠI ẤN ĐỘ - Tổ chức Hội Sinh viên Việt Nam ở nước ngoài thứ 16",
+      "en": "Formal Establishment of the Vietnam Student Association in India - 16th Vietnamese Student Organization Abroad"
     },
-    "date": "2026-07-25",
-    "category": "event",
-    "thumbnail": "assets/images/news/news-02/cover.webp",
+    "date": "2025-11-30",
+    "category": "announcement",
+    "thumbnail": "assets/images/news/2/1.jpg",
     "summary": {
-      "vi": "Buổi gặp mặt đầu năm học nhằm kết nối tân sinh viên...",
-      "en": "The new year gathering aims to connect new students..."
+      "vi": "🗓️Ngày 30/11/2025, Đại hội Đại biểu Hội Sinh viên Việt Nam tại Ấn Độ...",
+      "en": "🗓️ On November 30, 2025, the First National Congress of the Vietnamese Student Association in India..."
     },
     "featured": false,
     "content": {
       "vi": [
-        { "type": "text", "value": "VSA India tổ chức buổi gặp mặt đầu năm học mới vào ngày 24/07/2026." },
-        { "type": "image", "src": "assets/images/news/news-02/photo-01.webp", "alt": "Buổi gặp mặt", "caption": "Các bạn tân sinh viên tham dự" }
+        { "type": "text", "value": "🗓️Ngày 30/11/2025, Đại hội Đại biểu Hội Sinh viên Việt Nam tại Ấn Độ lần thứ nhất, nhiệm kỳ 2025 – 2027 đã được tổ chức thành công, đánh dấu sự ra đời chính thức của Hội Sinh viên Việt Nam tại Ấn Độ – một dấu mốc quan trọng đối với cộng đồng sinh viên Việt Nam đang học tập và sinh sống tại Ấn Độ." },
+        { "type": "image", "src": "assets/images/news/2/2.jpg", "alt": "Chụp ảnh lưu niệm", "caption": "Các bạn tân ban chấp hành tham dự" },
+        { "type": "text", "value": "🎗️Đại hội vinh dự đón tiếp và nhận sự quan tâm, chỉ đạo của đồng chí Lâm Tùng - Uỷ viên Ban Chấp hành, Phó Trưởng Ban Công tác Thanh thiếu nhi Trung ương Đoàn, Phó Chủ tịch Thường trực Trung ương Hội Sinh viên Việt Nam; Đồng chí Nguyễn Thanh Hải - Đại sứ Đặc mệnh toàn quyền nước CHXHCN Việt Nam tại Cộng hòa Ấn Độ, kiêm nhiệm Bhutan và Nepal, cùng hơn 72 đại biểu đại diện cho hơn 400 hội viên, sinh viên Việt Nam đang học tập, sinh sống tại Ấn Độ." },
+        { "type": "image", "src": "assets/images/news/2/3.jpg", "alt": "Phát biểu", "caption": "Đồng chí Lâm Tùng phát biểu" },
+        { "type": "text", "value": "📯Phát biểu tại Đại hội, các ý kiến chỉ đạo đã định hướng rõ ràng cho Hội trong giai đoạn đầu: từng bước ổn định tổ chức, xây dựng nền tảng hoạt động, lắng nghe và phản ánh nhu cầu thực tiễn của sinh viên, qua đó tăng cường vai trò kết nối, hỗ trợ và đại diện cho sinh viên Việt Nam tại Ấn Độ." },
+        { "type": "image", "src": "assets/images/news/2/1.jpg", "alt": "Chụp ảnh lưu niệm cùng đại sứ", "caption": "Đại sứ Nguyễn Thanh Hải chúc mừng ban chấp hành đầu tiên" },
+        { "type": "text", "value": "🏠 Trong những ngày đầu thành lập, Hội Sinh viên Việt Nam tại Ấn Độ xác định sứ mệnh trở thành ngôi nhà chung của sinh viên Việt Nam, nơi gắn kết, sẻ chia và đồng hành trong học tập, đời sống và hội nhập quốc tế. Với lợi thế tiếp cận môi trường đào tạo mạnh về công nghệ, kỹ thuật và đổi mới sáng tạo, Hội kỳ vọng từng bước trở thành cầu nối tri thức, lan tỏa tinh thần học hỏi, sáng tạo và trách nhiệm hướng về Tổ quốc." },
+        { "type": "image", "src": "assets/images/news/2/4.jpg", "alt": "Phát biểu", "caption": "Đại sứ Nguyễn Thanh Hải phát biểu" },
+        { "type": "text", "value": "✨ Hội Sinh viên Việt Nam tại Ấn Độ trân trọng cảm ơn sự quan tâm, chỉ đạo của Trung ương Hội Sinh viên Việt Nam, Đại sứ quán Việt Nam tại Ấn Độ, cùng sự tin tưởng và đồng hành của toàn thể sinh viên Việt Nam tại Ấn Độ." }
       ],
       "en": [
-        { "type": "text", "value": "VSA India organized the new academic year gathering on July 24, 2026." },
-        { "type": "image", "src": "assets/images/news/news-02/photo-01.webp", "alt": "Gathering", "caption": "New students attending" }
+        { "type": "text", "value": "🗓️ On November 30, 2025, the First National Congress of the Vietnamese Student Association in India for the 2025–2027 term was successfully held, marking the official establishment of the Vietnamese Student Association in India—an important milestone for the community of Vietnamese students studying and living in India." },
+        { "type": "image", "src": "assets/images/news/2/2.jpg", "alt": "Gathering", "caption": "The new executive committee members are attending." },
+        { "type": "text", "value": "🎗️ The Congress was honored to welcome and receive guidance from Mr. Lam Tung, Member of the Central Executive Committee, Deputy Head of the Central Committee for Youth Affairs under the Ho Chi Minh Communist Youth Union, and Standing Vice President of the Central Vietnamese Student Association; Mr. Nguyen Thanh Hai, Ambassador Extraordinary and Plenipotentiary of the Socialist Republic of Vietnam to the Republic of India, concurrently accredited to Bhutan and Nepal; along with more than 72 delegates representing over 400 Vietnamese students currently studying and residing in India." },
+        { "type": "image", "src": "assets/images/news/2/3.jpg", "alt": "Gathering", "caption": "Comrade Lam Tung delivered a speech." },
+        { "type": "text", "value": "📯 In their remarks at the Congress, the leaders provided clear directions for the Association in its initial phase: gradually stabilizing the organizational structure, building a solid foundation for operations, actively listening to and reflecting the practical needs of students, thereby strengthening the Association’s role in connecting, supporting, and representing Vietnamese students in India." },
+        { "type": "image", "src": "assets/images/news/2/1.jpg", "alt": "Gathering", "caption": "Ambassador Nguyen Thanh Hai congratulates the first executive committee." },
+        { "type": "text", "value": "🏠 In its early days, the Vietnamese Student Association in India defines its mission as becoming a common home for Vietnamese students—a place for connection, sharing, and mutual support in academic life, daily living, and international integration. With access to a strong educational environment in technology, engineering, and innovation, the Association aspires to serve as a bridge for knowledge exchange, fostering a spirit of learning, creativity, and responsibility toward the homeland." },
+        { "type": "image", "src": "assets/images/news/2/4.jpg", "alt": "Gathering", "caption": "Ambassador Nguyen Thanh Hai delivers a speech." },
+        { "type": "text", "value": "✨ The Vietnamese Student Association in India would like to express its sincere appreciation for the guidance and support from the Central Vietnamese Student Association, the Embassy of Vietnam in India, as well as the trust and companionship of the Vietnamese student community in India." }
       ]
     }
   },
   {
     "id": 3,
     "title": {
-      "vi": "Gặp mặt đầu năm học mới 2026-2027",
-      "en": "New Academic Year 2026-2027 Gathering"
+      "vi": "Đón tiếp đoàn công tác của Trung ương Đoàn Thanh niên Cộng sản Hồ Chí Minh",
+      "en": "Welcoming the delegation from the Central Committee of the Ho Chi Minh Communist Youth Union."
     },
-    "date": "2026-07-25",
+    "date": "2026-01-21",
     "category": "event",
-    "thumbnail": "assets/images/news/news-02/cover.webp",
+    "thumbnail": "assets/images/news/3/1.jpg",
     "summary": {
-      "vi": "Buổi gặp mặt đầu năm học nhằm kết nối tân sinh viên...",
-      "en": "The new year gathering aims to connect new students..."
+      "vi": "Ngày 21-01-2026, tại trụ sở Đại sứ quán Việt Nam tại Ấn Độ đã diễn ra 1 buổi gặp mặt...",
+      "en": "On January 21, 2026, a meeting took place at the headquarters of the Vietnamese Embassy in India..."
     },
     "featured": false,
     "content": {
       "vi": [
-        { "type": "text", "value": "VSA India tổ chức buổi gặp mặt đầu năm học mới vào ngày 24/07/2026." },
-        { "type": "image", "src": "assets/images/news/news-02/photo-01.webp", "alt": "Buổi gặp mặt", "caption": "Các bạn tân sinh viên tham dự" }
+        { "type": "image", "src": "assets/images/news/3/1.jpg", "alt": "Buổi gặp mặt", "caption": "Ảnh lưu niệm" },
+        { "type": "text", "value": "🗓️ Ngày 21-01-2026, tại trụ sở Đại sứ quán Việt Nam tại Ấn Độ đã diễn ra 1 buổi gặp mặt, trao đổi giữa Đồng chí Nguyễn Thanh Hải - Đại sứ Đặc mệnh toàn quyền nước CHXHCN Việt Nam tại Cộng hòa Ấn Độ, kiêm nhiệm Bhutan và Nepal cùng với Đoàn công tác của Trung ương Đoàn Thanh niên Cộng sản Hồ Chí Minh, do đồng chí Hoàng Đức Nam - Ủy viên Ban Chấp hành Trung ương Đoàn, Phó Trưởng ban Công tác Đoàn làm Trưởng đoàn và Hội Sinh viên Việt Nam tại Ấn Độ. " },
+        { "type": "image", "src": "assets/images/news/3/2.jpg", "alt": "Trao đổi", "caption": "Đồng chí Hoàng Đức Nam trao đổi với chủ tịch Hội Sinh viên Việt Nam tại Ấn Độ" },
+        { "type": "text", "value": "🤝 Buổi trao đổi diễn ra trong không khí cởi mở, gắn kết, tập trung vào vấn đề về ngoại giao nhân dân, giao lưu thanh niên giữa Việt Nam và Ấn Độ, định hướng sinh viên Việt Nam nỗ lực học tập, nâng cao vị thế, tiếp thu tri thức từ môi trường khoa học công nghệ phát triển của Ấn Độ để đóng góp cho đất nước. Và đồng thời khuyến khích Hội Sinh viên Việt Nam tại Ấn Độ khẳng định vai trò, chủ động tổ chức các hoạt động giao lưu, tăng cường sự gắn kết cộng đồng sinh viên và thúc đẩy hiểu biết về văn hóa, con người Việt Nam Ấn Độ."},
+        { "type": "image", "src": "assets/images/news/3/3.jpg", "alt": "Tặng quà", "caption": "Đồng chí Hoàng Đức Nam trao tặng quà lưu niệm" }
+        
       ],
       "en": [
-        { "type": "text", "value": "VSA India organized the new academic year gathering on July 24, 2026." },
-        { "type": "image", "src": "assets/images/news/news-02/photo-01.webp", "alt": "Gathering", "caption": "New students attending" }
+        { "type": "image", "src": "assets/images/news/3/1.jpg", "alt": "Meeting", "caption": "Souvenir photo" },
+        { "type": "text", "value": "🗓️ On January 21, 2026, a meeting and exchange took place at the headquarters of the Vietnamese Embassy in India between Mr. Nguyen Thanh Hai - Ambassador Extraordinary and Plenipotentiary of the Socialist Republic of Vietnam to the Republic of India, concurrently accredited to Bhutan and Nepal, and a delegation from the Central Committee of the Ho Chi Minh Communist Youth Union, led by Mr. Hoang Duc Nam - Member of the Central Executive Committee of the Youth Union, Deputy Head of the Youth Union Affairs Department, and the Vietnamese Student Association in India." },
+        { "type": "image", "src": "assets/images/news/3/2.jpg", "alt": "Meeting", "caption": "Comrade Hoang Duc Nam held discussions with the president of the Vietnamese Student Association in India." },
+        { "type": "text", "value": "🤝 The exchange took place in an open and engaging atmosphere, focusing on people-to-people diplomacy and youth exchanges between Vietnam and India. It aimed to guide Vietnamese students to strive for excellence, enhance their standing, and acquire knowledge from India's advanced science and technology environment to contribute to their country. Simultaneously, it encouraged the Vietnamese Student Association in India to assert its role, proactively organize exchange activities, strengthen student community cohesion, and promote understanding of Vietnamese and Indian culture and people."},
+        { "type": "image", "src": "assets/images/news/3/3.jpg", "alt": "Meeting", "caption": "Comrade Hoang Duc Nam presents a commemorative gift." }
+        
       ]
     }
   },
   {
     "id": 4,
     "title": {
-      "vi": "Gặp mặt đầu năm học mới 2026-2027",
-      "en": "New Academic Year 2026-2027 Gathering"
+      "vi": "Chương trình xuân quê hương 2026",
+      "en": "Spring Homecoming Program 2026"
     },
-    "date": "2026-07-25",
+    "date": "2026-01-28",
     "category": "event",
-    "thumbnail": "assets/images/news/news-02/cover.webp",
+    "thumbnail": "assets/images/news/4/1.jpg",
     "summary": {
-      "vi": "Buổi gặp mặt đầu năm học nhằm kết nối tân sinh viên...",
-      "en": "The new year gathering aims to connect new students..."
+      "vi": "🌸 Tết là dịp để người Việt Nam được đoàn tụ bên gia đình,...",
+      "en": "🌸 Tet is an occasion for Vietnamese people to reunite with their families,..."
     },
     "featured": false,
     "content": {
       "vi": [
-        { "type": "text", "value": "VSA India tổ chức buổi gặp mặt đầu năm học mới vào ngày 24/07/2026." },
-        { "type": "image", "src": "assets/images/news/news-02/photo-01.webp", "alt": "Buổi gặp mặt", "caption": "Các bạn tân sinh viên tham dự" }
+        { "type": "text", "value": "🌸 Tết là dịp để người Việt Nam được đoàn tụ bên gia đình, người thân, là khoảng thời gian để mỗi người nghỉ ngơi, nhìn lại và tận hưởng thành quả của một năm nỗ lực không ngừng." },
+        { "type": "image", "src": "assets/images/news/4/1.jpg", "alt": "Buổi gặp mặt", "caption": "Thư mời tham dự tết cộng đồng" },
+        { "type": "text", "value": "✈️ Tuy nhiên, vẫn có những sinh viên và người con xa quê lựa chọn ở lại nơi đất khách trong dịp Tết, có thể vì áp lực học tập, công việc, tài chính, hay những hoàn cảnh riêng khó nói thành lời." },
+        { "type": "text", "value": "🤝 Thấu hiểu và sẻ chia với những khó khăn ấy, Đại sứ quán Việt Nam tại Ấn Độ quyết định tổ chức Chương trình Tết Cộng đồng, tạo không gian gặp gỡ, kết nối và mang đến hơi ấm quê hương cho cộng đồng người Việt Nam đang sinh sống, học tập và làm việc tại Ấn Độ." },
+        { "type": "text", "value": "🎊 Với mong muốn lan tỏa tinh thần ấm áp của Tết, Hội Sinh viên Việt Nam tại Ấn Độ trân trọng kính mời các bạn sinh viên sắp xếp thời gian tham dự, cùng nhau chia sẻ niềm vui, gắn kết và đón chào năm mới trong không khí thân tình, ấm áp của Tết cổ truyền dân tộc." },
+        { "type": "text", "value": "📌 Đăng ký tham dự thông qua link Google Form bên dưới hoặc quét mã QR trong hình ảnh đính kèm. https://docs.google.com/.../1FAIpQLSdXbyqvfO.../viewform" }
       ],
       "en": [
-        { "type": "text", "value": "VSA India organized the new academic year gathering on July 24, 2026." },
-        { "type": "image", "src": "assets/images/news/news-02/photo-01.webp", "alt": "Gathering", "caption": "New students attending" }
+        { "type": "text", "value": "🌸 Tet, the Lunar New Year, is a time for Vietnamese people to reunite with family and loved ones, a time for everyone to rest, reflect, and enjoy the fruits of a year of hard work." },
+        { "type": "image", "src": "assets/images/news/4/1.jpg", "alt": "Gathering", "caption": "Tet Community Program Invitation" },
+        { "type": "text", "value": "✈️ However, there are still students and people away from their hometowns who choose to stay in their host country during Tet, possibly due to academic pressure, work commitments, financial constraints, or other personal circumstances." },
+        { "type": "text", "value": "🤝 Understanding and sharing the difficulties they face, the Vietnamese Embassy in India has decided to organize the Tet Community Program, creating a space for gatherings, connections, and bringing the warmth of home to the Vietnamese community living, studying, and working in India." },
+        { "type": "text", "value": "🎊 With the aim of spreading the warm spirit of Tet, the Vietnamese Student Association in India cordially invites all students to arrange their schedules and participate together in sharing joy, building connections, and welcoming the new year in the warm and friendly atmosphere of the traditional Tet festival." },
+        { "type": "text", "value": "📌 Register to attend through the Google Form link below or scan the QR code in the attached image. https://docs.google.com/.../1FAIpQLSdXbyqvfO.../viewform" }
+      ]
+    }
+  },
+  {
+    "id": 5,
+    "title": {
+      "vi": "vie",
+      "en": "eng"
+    },
+    "date": "2026-07-25",
+    "category": "event",
+    "thumbnail": "assets/images/news/5/1.jpg",
+    "summary": {
+      "vi": "vie...",
+      "en": "eng..."
+    },
+    "featured": false,
+    "content": {
+      "vi": [
+        { "type": "text", "value": "vie" },
+        { "type": "image", "src": "assets/images/news/5/1.jpg", "alt": "Buổi gặp mặt", "caption": "Các bạn tân sinh viên tham dự" },
+        { "type": "text", "value": "vie" },
+        { "type": "text", "value": "vie" }
+      ],
+      "en": [
+        { "type": "text", "value": "eng" },
+        { "type": "image", "src": "assets/images/news/5/1.jpg", "alt": "Gathering", "caption": "New students attending" },
+        { "type": "text", "value": "eng" },
+        { "type": "text", "value": "eng" }
+      ]
+    }
+  },
+  {
+    "id": 6,
+    "title": {
+      "vi": "vie",
+      "en": "eng"
+    },
+    "date": "2026-07-25",
+    "category": "event",
+    "thumbnail": "assets/images/news/5/1.jpg",
+    "summary": {
+      "vi": "vie...",
+      "en": "eng..."
+    },
+    "featured": false,
+    "content": {
+      "vi": [
+        { "type": "text", "value": "vie" },
+        { "type": "image", "src": "assets/images/news/5/1.jpg", "alt": "Buổi gặp mặt", "caption": "Các bạn tân sinh viên tham dự" },
+        { "type": "text", "value": "vie" },
+        { "type": "text", "value": "vie" }
+      ],
+      "en": [
+        { "type": "text", "value": "eng" },
+        { "type": "image", "src": "assets/images/news/5/1.jpg", "alt": "Gathering", "caption": "New students attending" },
+        { "type": "text", "value": "eng" },
+        { "type": "text", "value": "eng" }
+      ]
+    }
+  },
+  {
+    "id": 7,
+    "title": {
+      "vi": "vie",
+      "en": "eng"
+    },
+    "date": "2026-07-25",
+    "category": "event",
+    "thumbnail": "assets/images/news/5/1.jpg",
+    "summary": {
+      "vi": "vie...",
+      "en": "eng..."
+    },
+    "featured": false,
+    "content": {
+      "vi": [
+        { "type": "text", "value": "vie" },
+        { "type": "image", "src": "assets/images/news/5/1.jpg", "alt": "Buổi gặp mặt", "caption": "Các bạn tân sinh viên tham dự" },
+        { "type": "text", "value": "vie" },
+        { "type": "text", "value": "vie" }
+      ],
+      "en": [
+        { "type": "text", "value": "eng" },
+        { "type": "image", "src": "assets/images/news/5/1.jpg", "alt": "Gathering", "caption": "New students attending" },
+        { "type": "text", "value": "eng" },
+        { "type": "text", "value": "eng" }
+      ]
+    }
+  },
+  {
+    "id": 8,
+    "title": {
+      "vi": "vie",
+      "en": "eng"
+    },
+    "date": "2026-07-25",
+    "category": "event",
+    "thumbnail": "assets/images/news/5/1.jpg",
+    "summary": {
+      "vi": "vie...",
+      "en": "eng..."
+    },
+    "featured": false,
+    "content": {
+      "vi": [
+        { "type": "text", "value": "vie" },
+        { "type": "image", "src": "assets/images/news/5/1.jpg", "alt": "Buổi gặp mặt", "caption": "Các bạn tân sinh viên tham dự" },
+        { "type": "text", "value": "vie" },
+        { "type": "text", "value": "vie" }
+      ],
+      "en": [
+        { "type": "text", "value": "eng" },
+        { "type": "image", "src": "assets/images/news/5/1.jpg", "alt": "Gathering", "caption": "New students attending" },
+        { "type": "text", "value": "eng" },
+        { "type": "text", "value": "eng" }
+      ]
+    }
+  },
+  {
+    "id": 9,
+    "title": {
+      "vi": "vie",
+      "en": "eng"
+    },
+    "date": "2026-07-25",
+    "category": "event",
+    "thumbnail": "assets/images/news/5/1.jpg",
+    "summary": {
+      "vi": "vie...",
+      "en": "eng..."
+    },
+    "featured": false,
+    "content": {
+      "vi": [
+        { "type": "text", "value": "vie" },
+        { "type": "image", "src": "assets/images/news/5/1.jpg", "alt": "Buổi gặp mặt", "caption": "Các bạn tân sinh viên tham dự" },
+        { "type": "text", "value": "vie" },
+        { "type": "text", "value": "vie" }
+      ],
+      "en": [
+        { "type": "text", "value": "eng" },
+        { "type": "image", "src": "assets/images/news/5/1.jpg", "alt": "Gathering", "caption": "New students attending" },
+        { "type": "text", "value": "eng" },
+        { "type": "text", "value": "eng" }
+      ]
+    }
+  },
+  {
+    "id": 10,
+    "title": {
+      "vi": "vie",
+      "en": "eng"
+    },
+    "date": "2026-07-25",
+    "category": "event",
+    "thumbnail": "assets/images/news/5/1.jpg",
+    "summary": {
+      "vi": "vie...",
+      "en": "eng..."
+    },
+    "featured": false,
+    "content": {
+      "vi": [
+        { "type": "text", "value": "vie" },
+        { "type": "image", "src": "assets/images/news/5/1.jpg", "alt": "Buổi gặp mặt", "caption": "Các bạn tân sinh viên tham dự" },
+        { "type": "text", "value": "vie" },
+        { "type": "text", "value": "vie" }
+      ],
+      "en": [
+        { "type": "text", "value": "eng" },
+        { "type": "image", "src": "assets/images/news/5/1.jpg", "alt": "Gathering", "caption": "New students attending" },
+        { "type": "text", "value": "eng" },
+        { "type": "text", "value": "eng" }
       ]
     }
   }

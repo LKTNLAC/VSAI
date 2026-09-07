@@ -14,7 +14,7 @@
     "id": 2,
     "name": "Nguyễn Trung Hiếu",
     "position": "vice_president",
-    "image": "assets/images/members/2.webp",
+    "image": "assets/images/members/2.jpg",
     "city": "Delhi",
     "bio": {
       "vi": "Phó Chủ tịch Hội Sinh viên Việt Nam tại Ấn Độ. Sinh viên tại Đại học Delhi.",
@@ -23,13 +23,112 @@
   },
   {
     "id": 3,
-    "name": "Lê Văn C (Mẫu)",
-    "position": "secretary",
-    "image": "assets/images/members/3.webp",
+    "name": "Nguyễn Trung Hiếu",
+    "position": "vice_president",
+    "image": "assets/images/members/3.jpg",
     "city": "Delhi",
     "bio": {
-      "vi": "[DỮ LIỆU MẪU] Thư ký VSA India. Sinh viên tại Jawaharlal Nehru University.",
-      "en": "[SAMPLE DATA] Secretary of VSA India. Student at Jawaharlal Nehru University."
+      "vi": "Phó Chủ tịch Hội Sinh viên Việt Nam tại Ấn Độ. Sinh viên tại Đại học Delhi.",
+      "en": "Vice President of VSA India. Student at Delhi University."
+    }
+  },
+  {
+    "id": 4,
+    "name": "Nguyễn Trung Hiếu",
+    "position": "vice_president",
+    "image": "assets/images/members/4.jpg",
+    "city": "Delhi",
+    "bio": {
+      "vi": "Phó Chủ tịch Hội Sinh viên Việt Nam tại Ấn Độ. Sinh viên tại Đại học Delhi.",
+      "en": "Vice President of VSA India. Student at Delhi University."
+    }
+  },
+  {
+    "id": 5,
+    "name": "Lê Văn C (Mẫu)",
+    "position": "commissioner",
+    "image": "assets/images/members/5.jpg",
+    "city": "Delhi",
+    "bio": {
+      "vi": "Ủy viên Hội Sinh viên Việt Nam tại Ấn Độ. Sinh viên tại Đại học Delhi.",
+      "en": "Commissioner of VSA India. Student at Delhi University."
+    }
+  },
+  {
+    "id": 6,
+    "name": "Lê Văn C (Mẫu)",
+    "position": "commissioner",
+    "image": "assets/images/members/6.jpg",
+    "city": "Delhi",
+    "bio": {
+      "vi": "Ủy viên Hội Sinh viên Việt Nam tại Ấn Độ. Sinh viên tại Đại học Delhi.",
+      "en": "Commissioner of VSA India. Student at Delhi University."
+    }
+  },
+  {
+    "id": 7,
+    "name": "Lê Văn C (Mẫu)",
+    "position": "commissioner",
+    "image": "assets/images/members/7.jpg",
+    "city": "Delhi",
+    "bio": {
+      "vi": "Ủy viên Hội Sinh viên Việt Nam tại Ấn Độ. Sinh viên tại Đại học Delhi.",
+      "en": "Commissioner of VSA India. Student at Delhi University."
+    }
+  },
+  {
+    "id": 8,
+    "name": "Lê Văn C (Mẫu)",
+    "position": "commissioner",
+    "image": "assets/images/members/8.jpg",
+    "city": "Delhi",
+    "bio": {
+      "vi": "Ủy viên Hội Sinh viên Việt Nam tại Ấn Độ. Sinh viên tại Đại học Delhi.",
+      "en": "Commissioner of VSA India. Student at Delhi University."
+    }
+  },
+  {
+    "id": 9,
+    "name": "Lê Văn C (Mẫu)",
+    "position": "commissioner",
+    "image": "assets/images/members/9.jpg",
+    "city": "Delhi",
+    "bio": {
+      "vi": "Ủy viên Hội Sinh viên Việt Nam tại Ấn Độ. Sinh viên tại Đại học Delhi.",
+      "en": "Commissioner of VSA India. Student at Delhi University."
+    }
+  },
+  {
+    "id": 10,
+    "name": "Lê Văn C (Mẫu)",
+    "position": "commissioner",
+    "image": "assets/images/members/10.jpg",
+    "city": "Delhi",
+    "bio": {
+      "vi": "Ủy viên Hội Sinh viên Việt Nam tại Ấn Độ. Sinh viên tại Đại học Delhi.",
+      "en": "Commissioner of VSA India. Student at Delhi University."
+    }
+  },
+  {
+    "id": 11,
+    "name": "Lê Văn C (Mẫu)",
+    "position": "commissioner",
+    "image": "assets/images/members/11.jpg",
+    "city": "Delhi",
+    "bio": {
+      "vi": "Ủy viên Hội Sinh viên Việt Nam tại Ấn Độ. Sinh viên tại Đại học Delhi.",
+      "en": "Commissioner of VSA India. Student at Delhi University."
+    }
+  },
+  {
+    "id": 12,
+    "name": "Lê Văn C (Mẫu)",
+    "position": "commissioner",
+    "image": "assets/images/members/12.jpg",
+    "city": "Delhi",
+    "bio": {
+      "vi": "Ủy viên Hội Sinh viên Việt Nam tại Ấn Độ. Sinh viên tại Đại học Delhi.",
+      "en": "Commissioner of VSA India. Student at Delhi University."
     }
   }
 ]
