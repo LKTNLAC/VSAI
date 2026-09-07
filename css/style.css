@@ -2956,3 +2956,10 @@ p {
         font-size: var(--font-size-2xl);
     }
 }
+.detail-location {
+    color: var(--color-text-muted);
+}
+
+.detail-location::before {
+    content: '📍 ';
+}

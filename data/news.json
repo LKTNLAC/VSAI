@@ -136,56 +136,70 @@
   {
     "id": 5,
     "title": {
-      "vi": "vie",
-      "en": "eng"
+      "vi": "Hội Sinh Viên Việt Nam tại Ấn Độ chúc tết Bính Ngọ 2026",
+      "en": "Vietnamese Student Association in India Wishes a Happy Lunar New Year Bính Ngọ 2026"
     },
-    "date": "2026-07-25",
-    "category": "event",
+    "date": "2026-02-17",
+    "category": "announcement",
     "thumbnail": "assets/images/news/5/1.jpg",
     "summary": {
-      "vi": "vie...",
-      "en": "eng..."
+      "vi": "Nhân dịp năm mới Bính Ngọ 2026, Hội Sinh viên Việt Nam tại Ấn Độ...",
+      "en": "On the occasion of the Lunar New Year Bính Ngọ 2026..."
     },
     "featured": false,
     "content": {
       "vi": [
-        { "type": "text", "value": "vie" },
-        { "type": "image", "src": "assets/images/news/5/1.jpg", "alt": "Buổi gặp mặt", "caption": "Các bạn tân sinh viên tham dự" },
-        { "type": "text", "value": "vie" },
-        { "type": "text", "value": "vie" }
+        { "type": "text", "value": "Nhân dịp năm mới Bính Ngọ 2026, Hội Sinh viên Việt Nam tại Ấn Độ xin gửi lời chúc tốt đẹp nhất tới toàn thể sinh viên Việt Nam đang học tập và sinh sống tại Ấn Độ." },
+        { "type": "image", "src": "assets/images/news/5/1.jpg", "alt": "", "caption": "" },
+        { "type": "text", "value": "Chúc các bạn một năm mới nhiều sức khỏe, tinh thần vững vàng, học tập thuận lợi và luôn giữ gìn bản sắc, niềm tự hào Việt Nam nơi xứ người." }
       ],
       "en": [
-        { "type": "text", "value": "eng" },
-        { "type": "image", "src": "assets/images/news/5/1.jpg", "alt": "Gathering", "caption": "New students attending" },
-        { "type": "text", "value": "eng" },
-        { "type": "text", "value": "eng" }
+        { "type": "text", "value": "On the occasion of the Lunar New Year Bính Ngọ 2026, The Vietnamese Student Association in India respectfully extends its best wishes to all Vietnamese students currently studying and living in India." },
+        { "type": "image", "src": "assets/images/news/5/1.jpg", "alt": "", "caption": "" },
+        { "type": "text", "value": "Wishing you good health, resilience, academic success, and continued pride in preserving Vietnamese identity while being away from home." }
       ]
     }
   },
   {
     "id": 6,
     "title": {
-      "vi": "vie",
-      "en": "eng"
+      "vi": "Sinh viên Việt Nam đạt thành tích xuất sắc tại Đại học Delhi",
+      "en": "Vietnamese Student Achieves Outstanding Academic Success at Delhi University"
     },
     "date": "2026-07-25",
     "category": "event",
-    "thumbnail": "assets/images/news/5/1.jpg",
+    "thumbnail": "assets/images/news/6/1.jpg",
     "summary": {
-      "vi": "vie...",
-      "en": "eng..."
+      "vi": "🎉 Thay mặt Hội Sinh viên Việt Nam tại Ấn Độ...",
+      "en": "🎉 On behalf of the Vietnamese Student Association in India..."
     },
     "featured": false,
     "content": {
       "vi": [
-        { "type": "text", "value": "vie" },
-        { "type": "image", "src": "assets/images/news/5/1.jpg", "alt": "Buổi gặp mặt", "caption": "Các bạn tân sinh viên tham dự" },
-        { "type": "text", "value": "vie" },
-        { "type": "text", "value": "vie" }
+        { "type": "text", "value": "🎉 Thay mặt Hội Sinh viên Việt Nam tại Ấn Độ, chúng tôi xin gửi lời chúc mừng nồng nhiệt và trân trọng nhất đến Đại đức Giác Minh Thức (thế danh Lê Linh) vì thành tích học tập đặc biệt xuất sắc – Thủ khoa chuyên ngành Phật học tại Đại học Delhi. 🏅📚" },
+        { "type": "image", "src": "assets/images/news/6/1.jpg", "alt": "Trao thưởng", "caption": "Sư Minh Thức nhận bằng khen từ hiệu trưởng" },
+        { "type": "text", "value": "🌏 Việc đạt được vị trí dẫn đầu tại một trong những trung tâm đào tạo Phật học hàng đầu thế giới không chỉ là minh chứng cho sự nỗ lực bền bỉ, trí tuệ và tinh thần cầu đạo tinh tấn của Thầy, mà còn là niềm tự hào chung của toàn thể cộng đồng sinh viên Việt Nam đang học tập tại vùng đất Phật. 🇻🇳🇮🇳" },
+        { "type": "image", "src": "assets/images/news/6/2.jpg", "alt": "", "caption": "New students attending" },
+        { "type": "text", "value": "✨ Thành tựu này đã góp phần khẳng định vị thế và hình ảnh con người Việt Nam hiếu học, kiên cường trên bản đồ giáo dục quốc tế." },
+        { "type": "image", "src": "assets/images/news/6/3.jpg", "alt": "", "caption": "Sư Minh Thức chụp ảnh lưu niệm cùng chủ tịch hội sinh viên Việt Nam tại Ấn Độ" },
+        { "type": "text", "value": "🔥 Sự thành công của Thầy hôm nay chính là nguồn cảm hứng mạnh mẽ, thắp sáng thêm ngọn lửa đam mê học thuật và nỗ lực vượt khó cho các bạn sinh viên Việt Nam tại Ấn Độ." },
+        { "type": "image", "src": "assets/images/news/6/4.jpg", "alt": "", "caption": "" },
+        { "type": "text", "value": "🏅 Hội Sinh viên Việt Nam tại Ấn Độ xin trân trọng ghi nhận và vinh danh những đóng góp của Thầy trong việc làm rạng danh hình ảnh sinh viên Việt Nam trên trường quốc tế." },
+        { "type": "image", "src": "assets/images/news/6/5.jpg", "alt": "", "caption": "" },
+        { "type": "text", "value": "🙏 Kính chúc Thầy luôn dồi dào sức khỏe, đạt được nhiều thành tựu hơn nữa trên bước đường nghiên cứu giáo lý, và sớm mang kiến thức uyên bác của mình đóng góp cho sự phát triển của Phật giáo cũng như giáo dục nước nhà." },
+        { "type": "text", "value": "🌟 Một lần nữa xin chúc mừng Thầy!" }
       ],
       "en": [
         { "type": "text", "value": "eng" },
-        { "type": "image", "src": "assets/images/news/5/1.jpg", "alt": "Gathering", "caption": "New students attending" },
+        { "type": "image", "src": "assets/images/news/6/1.jpg", "alt": "", "caption": "" },
+        { "type": "text", "value": "eng" },
+        { "type": "image", "src": "assets/images/news/6/2.jpg", "alt": "", "caption": "" },
+        { "type": "text", "value": "eng" },
+        { "type": "image", "src": "assets/images/news/6/3.jpg", "alt": "", "caption": "" },
+        { "type": "text", "value": "eng" },
+        { "type": "image", "src": "assets/images/news/6/4.jpg", "alt": "", "caption": "" },
+        { "type": "text", "value": "eng" },
+        { "type": "image", "src": "assets/images/news/6/5.jpg", "alt": "", "caption": "" },
         { "type": "text", "value": "eng" },
         { "type": "text", "value": "eng" }
       ]
@@ -199,7 +213,7 @@
     },
     "date": "2026-07-25",
     "category": "event",
-    "thumbnail": "assets/images/news/5/1.jpg",
+    "thumbnail": "assets/images/news/7/1.jpg",
     "summary": {
       "vi": "vie...",
       "en": "eng..."
@@ -208,13 +222,13 @@
     "content": {
       "vi": [
         { "type": "text", "value": "vie" },
-        { "type": "image", "src": "assets/images/news/5/1.jpg", "alt": "Buổi gặp mặt", "caption": "Các bạn tân sinh viên tham dự" },
+        { "type": "image", "src": "assets/images/news/7/1.jpg", "alt": "Buổi gặp mặt", "caption": "Các bạn tân sinh viên tham dự" },
         { "type": "text", "value": "vie" },
         { "type": "text", "value": "vie" }
       ],
       "en": [
         { "type": "text", "value": "eng" },
-        { "type": "image", "src": "assets/images/news/5/1.jpg", "alt": "Gathering", "caption": "New students attending" },
+        { "type": "image", "src": "assets/images/news/7/1.jpg", "alt": "Gathering", "caption": "New students attending" },
         { "type": "text", "value": "eng" },
         { "type": "text", "value": "eng" }
       ]
@@ -228,7 +242,7 @@
     },
     "date": "2026-07-25",
     "category": "event",
-    "thumbnail": "assets/images/news/5/1.jpg",
+    "thumbnail": "assets/images/news/8/1.jpg",
     "summary": {
       "vi": "vie...",
       "en": "eng..."
@@ -237,13 +251,13 @@
     "content": {
       "vi": [
         { "type": "text", "value": "vie" },
-        { "type": "image", "src": "assets/images/news/5/1.jpg", "alt": "Buổi gặp mặt", "caption": "Các bạn tân sinh viên tham dự" },
+        { "type": "image", "src": "assets/images/news/8/1.jpg", "alt": "Buổi gặp mặt", "caption": "Các bạn tân sinh viên tham dự" },
         { "type": "text", "value": "vie" },
         { "type": "text", "value": "vie" }
       ],
       "en": [
         { "type": "text", "value": "eng" },
-        { "type": "image", "src": "assets/images/news/5/1.jpg", "alt": "Gathering", "caption": "New students attending" },
+        { "type": "image", "src": "assets/images/news/8/1.jpg", "alt": "Gathering", "caption": "New students attending" },
         { "type": "text", "value": "eng" },
         { "type": "text", "value": "eng" }
       ]
@@ -257,7 +271,7 @@
     },
     "date": "2026-07-25",
     "category": "event",
-    "thumbnail": "assets/images/news/5/1.jpg",
+    "thumbnail": "assets/images/news/9/1.jpg",
     "summary": {
       "vi": "vie...",
       "en": "eng..."
@@ -266,13 +280,13 @@
     "content": {
       "vi": [
         { "type": "text", "value": "vie" },
-        { "type": "image", "src": "assets/images/news/5/1.jpg", "alt": "Buổi gặp mặt", "caption": "Các bạn tân sinh viên tham dự" },
+        { "type": "image", "src": "assets/images/news/9/1.jpg", "alt": "Buổi gặp mặt", "caption": "Các bạn tân sinh viên tham dự" },
         { "type": "text", "value": "vie" },
         { "type": "text", "value": "vie" }
       ],
       "en": [
         { "type": "text", "value": "eng" },
-        { "type": "image", "src": "assets/images/news/5/1.jpg", "alt": "Gathering", "caption": "New students attending" },
+        { "type": "image", "src": "assets/images/news/9/1.jpg", "alt": "Gathering", "caption": "New students attending" },
         { "type": "text", "value": "eng" },
         { "type": "text", "value": "eng" }
       ]
@@ -286,7 +300,7 @@
     },
     "date": "2026-07-25",
     "category": "event",
-    "thumbnail": "assets/images/news/5/1.jpg",
+    "thumbnail": "assets/images/news/10/1.jpg",
     "summary": {
       "vi": "vie...",
       "en": "eng..."
@@ -295,13 +309,13 @@
     "content": {
       "vi": [
         { "type": "text", "value": "vie" },
-        { "type": "image", "src": "assets/images/news/5/1.jpg", "alt": "Buổi gặp mặt", "caption": "Các bạn tân sinh viên tham dự" },
+        { "type": "image", "src": "assets/images/news/10/1.jpg", "alt": "Buổi gặp mặt", "caption": "Các bạn tân sinh viên tham dự" },
         { "type": "text", "value": "vie" },
         { "type": "text", "value": "vie" }
       ],
       "en": [
         { "type": "text", "value": "eng" },
-        { "type": "image", "src": "assets/images/news/5/1.jpg", "alt": "Gathering", "caption": "New students attending" },
+        { "type": "image", "src": "assets/images/news/10/1.jpg", "alt": "Gathering", "caption": "New students attending" },
         { "type": "text", "value": "eng" },
         { "type": "text", "value": "eng" }
       ]

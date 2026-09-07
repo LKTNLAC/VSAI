@@ -2157,6 +2157,14 @@ function renderSectionDetail(section, id) {
         metaWrapper.appendChild(date);
     }
 
+    // Location cho Activities
+    if (section === 'activities' && item.location) {
+        const location = document.createElement('span');
+        location.className = 'detail-location';
+        location.textContent = `📍 ${item.location}`;
+        metaWrapper.appendChild(location);
+    }
+
     if (item.category) {
         const category = document.createElement('span');
         category.className = 'detail-category badge';

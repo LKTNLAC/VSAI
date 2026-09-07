@@ -8,15 +8,22 @@
     "date": "2026-01-31",
     "location": "Bihar, India",
     "category": "charity",
-    "image": "assets/images/activities/1/1.jpg",
-    "description": {
+    "thumbnail": "assets/images/activities/1/cover.jpg",
+    "summary": {
+      "vi": "Đoàn từ thiện VSA India đã trao 160 bộ dụng cụ học tập và suất ăn trưa cho học sinh khó khăn tại Bihar.",
+      "en": "VSA India charity delegation gave 160 sets of school supplies and lunches to underprivileged students in Bihar."
+    },
+    "featured": true,
+    "content": {
       "vi": [
-        "👉Ngày 31/1/2026 ,Đoàn từ thiện được dẫn dắt bởi Assistant Professor Dr. Brenda, cùng các sinh viên Việt Nam đến từ trường Đại học Nalanda đã đến thăm và trao quà cho các em học sinh khó khăn ở trường tiểu học Avalokites Vara ở Adalpur, Barachatti, Gaya (Bihar), Ấn Độ. ",
-        "🙌Buổi gặp mặt và trao quà đã diễn ra trong không khí vô cùng nồng ấm. Các em còn chuẩn bị các tiết mục văn nghệ chào đón đoàn. Tổng cộng 160 bộ dụng cụ học tập và suất ăn trưa đã được trao đến cho các bạn học sinh từ lớp 1 đến lớp 3."
+        { "type": "text", "value": "👉 Ngày 31/1/2026, Đoàn từ thiện được dẫn dắt bởi Assistant Professor Dr. Brenda, cùng các sinh viên Việt Nam đến từ trường Đại học Nalanda đã đến thăm và trao quà cho các em học sinh khó khăn ở trường tiểu học Avalokites Vara ở Adalpur, Barachatti, Gaya (Bihar), Ấn Độ." },
+        { "type": "image", "src": "assets/images/activities/1/1.jpg", "alt": "Đoàn từ thiện tại trường học", "caption": "Đoàn từ thiện chụp ảnh lưu niệm cùng các em học sinh" },
+        { "type": "text", "value": "🙌 Buổi gặp mặt và trao quà đã diễn ra trong không khí vô cùng nồng ấm. Các em còn chuẩn bị các tiết mục văn nghệ chào đón đoàn. Tổng cộng 160 bộ dụng cụ học tập và suất ăn trưa đã được trao đến cho các bạn học sinh từ lớp 1 đến lớp 3." }
       ],
       "en": [
-        "[SAMPLE DATA] Cultural exchange event between Vietnamese and Indian students.",
-        "Activities include performances, food introduction, and language exchange."
+        { "type": "text", "value": "On January 31, 2026, a charity delegation led by Assistant Professor Dr. Brenda, along with Vietnamese students from Nalanda University, visited and gave gifts to underprivileged students at Avalokites Vara Primary School in Adalpur, Barachatti, Gaya (Bihar), India." },
+        { "type": "image", "src": "assets/images/activities/1/1.jpg", "alt": "Charity team at school", "caption": "Charity team taking photo with students" },
+        { "type": "text", "value": "The meeting and gift-giving ceremony took place in a very warm atmosphere. The students even prepared cultural performances to welcome the delegation. A total of 160 sets of school supplies and lunches were given to students from grades 1 to 3." }
       ]
     },
     "organizerId": 1
@@ -24,21 +31,36 @@
   {
     "id": 2,
     "title": {
-      "vi": "[MẪU] Hội thảo học bổng du học Ấn Độ",
-      "en": "[SAMPLE] Scholarship Seminar for Studying in India"
+      "vi": "🎉 RECAP TẾT CỘNG ĐỒNG 2026 🎉",
+      "en": "🎉 RECAP OF TET COMMUNITY 2026 🎉"
     },
-    "date": "2026-11-05",
-    "location": "Online",
-    "category": "academic",
-    "image": "assets/images/activities/activity-02.webp",
-    "description": {
+    "date": "2026-02-06",
+    "location": "Vietnam Embassy, Delhi, India",
+    "category": "event",
+    "thumbnail": "assets/images/activities/2/1.jpg",
+    "summary": {
+      "vi": "Ngày 06/02/2026, Hội Sinh viên Việt Nam tại Ấn Độ đã tham gia Lễ Tết Cộng đồng...",
+      "en": "On February 6, 2026, the Vietnamese Student Association in India participated in the Tet Community Festival..."
+    },
+    "featured": false,
+    "content": {
       "vi": [
-        "[DỮ LIỆU MẪU] Hội thảo chia sẻ thông tin về các học bổng du học tại Ấn Độ.",
-        "Các diễn giả là sinh viên đã nhận được học bổng từ các chương trình của chính phủ Ấn Độ."
+        { "type": "text", "value": "Ngày 06/02/2026, Hội Sinh viên Việt Nam tại Ấn Độ đã tham gia Lễ Tết Cộng đồng do Đại sứ quán Việt Nam tại Ấn Độ tổ chức trong không khí ấm áp, vui tươi và đậm chất Tết quê nhà 🇻🇳." },
+        { "type": "image", "src": "assets/images/activities/2/2.jpg", "alt": "Cán bộ gia đình đại sứ quán", "caption": "Cán bộ gia đình đại sứ quán chụp hình lưu niệm" },
+        { "type": "text", "value": "Đây là dịp để các bạn sinh viên và cộng đồng người Việt cùng gặp gỡ, giao lưu, chia sẻ những khoảnh khắc đầu xuân và cảm nhận trọn vẹn không khí Tết dù đang ở xa quê." },
+        { "type": "image", "src": "assets/images/activities/2/3.jpg", "alt": "Văn nghệ", "caption": "Sinh viên tại Delhi University trình diễn văn nghệ" },
+        { "type": "text", "value": "Xin gửi lời cảm ơn tới Đại sứ quán Việt Nam tại Ấn Độ đã tổ chức một chương trình ý nghĩa, giúp cộng đồng thêm gắn kết và lan tỏa tinh thần đoàn viên ❤️." },
+        { "type": "image", "src": "assets/images/activities/2/4.jpg", "alt": "Văn nghệ", "caption": "" },
+        { "type": "text", "value": "📸 Cùng nhìn lại một số khoảnh khắc đáng nhớ tại chương trình!" }
       ],
       "en": [
-        "[SAMPLE DATA] Seminar sharing information about scholarships for studying in India.",
-        "Speakers are students who have received scholarships from Indian government programs."
+        { "type": "text", "value": "On February 6, 2026, the Vietnamese Student Association in India participated in the Tet Community Festival organized by the Vietnamese Embassy in India, creating a warm and festive atmosphere reminiscent of home." },
+        { "type": "image", "src": "assets/images/activities/2/2.jpg", "alt": "Văn nghệ", "caption": "Embassy staff and their families pose for a commemorative photo." },
+        { "type": "text", "value": "This is an opportunity for students and the Vietnamese community to meet, socialize, share moments of early spring, and fully experience the Tet atmosphere even while far from home." },
+        { "type": "image", "src": "assets/images/activities/2/3.jpg", "alt": "Văn nghệ", "caption": "Students at Delhi University perform a cultural show." },
+        { "type": "text", "value": "We would like to express our gratitude to the Vietnamese Embassy in India for organizing such a meaningful program, which helps to strengthen community bonds and spread the spirit of solidarity ❤️." },
+        { "type": "image", "src": "assets/images/activities/2/4.jpg", "alt": "Văn nghệ", "caption": "" },
+        { "type": "text", "value": "📸 Let's look back at some memorable moments from the show!" }
       ]
     },
     "organizerId": 2
@@ -46,111 +68,516 @@
   {
     "id": 3,
     "title": {
-      "vi": "[MẪU] Giải bóng đá sinh viên Việt Nam tại Delhi",
-      "en": "[SAMPLE] Vietnamese Student Football Tournament in Delhi"
+      "vi": "NGÀY TẾT NGUYÊN ĐÁN CỔ TRUYỀN VIỆT NAM TẠI Đại học Nalanda, BIHAR, ẤN ĐỘ",
+      "en": "TRADITIONAL VIETNAMESE LUNAR NEW YEAR CELEBRATION AT Nalanda University, BIHAR, INDIA"
     },
-    "date": "2026-12-01",
-    "location": "Delhi",
-    "category": "sports",
-    "image": "assets/images/activities/activity-03.webp",
-    "description": {
+    "date": "2026-02-19",
+    "location": "Nalanda, Bihar, India",
+    "category": "culture",
+    "thumbnail": "assets/images/activities/3/1.jpg",
+    "summary": {
+      "vi": "Vào ngày 29 tháng Chạp năm Ất Tỵ, trong thời khắc thiêng liêng...",
+      "en": "On the 29th day of the 12th lunar month of the Year of the Snake (2026)..."
+    },
+    "featured": false,
+    "content": {
       "vi": [
-        "[DỮ LIỆU MẪU] Giải bóng đá thường niên dành cho sinh viên Việt Nam tại Delhi.",
-        "Sự kiện thu hút đông đảo sinh viên tham gia và cổ vũ."
+        { "type": "text", "value": "Vào ngày 29 tháng Chạp năm Ất Tỵ, trong thời khắc thiêng liêng chuyển giao giữa năm cũ và năm mới Bính Ngọ, cộng đồng sinh viên Việt Nam đang học tập tại Đại học Nalanda (Bihar, Ấn Độ) đã long trọng tổ chức Lễ Tết Nguyên Đán cổ truyền và cùng nhau đón giao thừa trong không khí trang nghiêm, ấm áp." },
+        { "type": "image", "src": "assets/images/activities/3/1.jpg", "alt": "Sinh viên", "caption": "Sinh viên tại đại học Nalanda" },
+        { "type": "text", "value": "Buổi lễ vinh dự đón tiếp Giáo sư Sachin Chaturvedi – Hiệu trưởng Đại học Quốc tế Nalanda; Giáo sư Godabarisha Mishra – Trưởng khoa Phật học; cùng quý giảng viên các khoa Phật học, Sử học, Triết học, Hindu học và đông đảo sinh viên quốc tế đến từ nhiều quốc gia." },
+        { "type": "image", "src": "assets/images/activities/3/2.jpg", "alt": "Sinh viên", "caption": "" },
+        { "type": "text", "value": "Điểm nhấn đặc biệt của chương trình là nghi thức tụng kinh cầu nguyện trong thời khắc chuyển giao giữa năm Ất Tỵ và năm Bính Ngọ. Đại tăng đến từ nhiều truyền thống và quốc gia như Việt Nam, Myanmar, Thái Lan, Tây Tạng, Lào, Sri Lanka, Campuchia… đã đồng thanh tụng niệm, gửi gắm lời cầu chúc cho một năm mới an lành, hòa bình và thịnh vượng." },
+        { "type": "image", "src": "assets/images/activities/3/3.jpg", "alt": "Đèn lồng", "caption": "" },
+        { "type": "text", "value": "Sau nghi thức tâm linh trang trọng, PGS.TS. Brenda đã thay mặt cộng đồng sinh viên Việt Nam gửi lời chúc mừng năm mới và lời tri ân sâu sắc đến Ngài Hiệu trưởng, đại diện các khoa, chư Tăng và toàn thể sinh viên tham dự. Trong không khí hân hoan, mọi người cùng thực hiện nghi thức thả đèn trời cầu phúc, gửi gắm những ước nguyện tốt đẹp cho năm mới." },
+        { "type": "image", "src": "assets/images/activities/3/4.jpg", "alt": "Đèn lồng", "caption": "" },
+        { "type": "text", "value": "Không gian Tết Việt được tái hiện sinh động qua hình ảnh cây mai vàng và cây đào hồng được trang trí trang nhã theo phong vị truyền thống. Nghi thức hái lộc đầu xuân mang lại niềm vui, sự hứng khởi và niềm tin vào những điều tốt lành trong năm mới." },
+        { "type": "image", "src": "assets/images/activities/3/5.jpg", "alt": "Sinh viên", "caption": "" },
+        { "type": "text", "value": "Buổi lễ khép lại trong bầu không khí ấm áp, chan hòa tình thân ái và tràn đầy hy vọng. Đây không chỉ là dịp để cộng đồng sinh viên Việt Nam vơi bớt nỗi nhớ quê hương, mà còn là cơ hội ý nghĩa để quảng bá và lan tỏa những giá trị văn hóa tốt đẹp của dân tộc Việt Nam đến bạn bè quốc tế." }
       ],
       "en": [
-        "[SAMPLE DATA] Annual football tournament for Vietnamese students in Delhi.",
-        "The event attracted many student participants and supporters."
+        { "type": "text", "value": "On the 29th day of the 12th lunar month of the Year of the Snake (2026), at the sacred moment of transition between the old year and the new year of the Horse (2026), the Vietnamese student community studying at Nalanda University (Bihar, India) solemnly celebrated the traditional Lunar New Year and welcomed the New Year together in a dignified and warm atmosphere." },
+        { "type": "image", "src": "assets/images/activities/3/1.jpg", "alt": "Bóng đá", "caption": "" },
+        { "type": "text", "value": "The ceremony was honored to welcome Professor Sachin Chaturvedi – President of Nalanda International University; Professor Godabarisha Mishra – Head of the Buddhist Studies Department; along with faculty members from the Buddhist Studies, History, Philosophy, and Hindu Studies departments, and a large number of international students from many countries." },
+        { "type": "image", "src": "assets/images/activities/3/2.jpg", "alt": "Bóng đá", "caption": "" },
+        { "type": "text", "value": "A special highlight of the program was the prayer ceremony during the transition between the Year of the Snake (2026) and the Year of the Horse (2026). Monks from various traditions and countries such as Vietnam, Myanmar, Thailand, Tibet, Laos, Sri Lanka, and Cambodia chanted in unison, offering wishes for a peaceful, prosperous, and joyful new year." },
+        { "type": "image", "src": "assets/images/activities/3/3.jpg", "alt": "Bóng đá", "caption": "" },
+        { "type": "text", "value": "Following the solemn spiritual ceremony, Associate Professor Brenda, on behalf of the Vietnamese student community, extended New Year greetings and expressed profound gratitude to the Rector, representatives from the faculties, the monks, and all the students in attendance. In a joyful atmosphere, everyone participated in the ritual of releasing sky lanterns to pray for blessings and send their best wishes for the new year." },
+        { "type": "image", "src": "assets/images/activities/3/4.jpg", "alt": "Bóng đá", "caption": "" },
+        { "type": "text", "value": "The atmosphere of Vietnamese Tet (Lunar New Year) is vividly recreated through images of elegantly decorated yellow apricot blossom trees and pink peach blossom trees in the traditional style. The ritual of picking lucky branches at the beginning of spring brings joy, excitement, and faith in good things in the new year." },
+        { "type": "text", "value": "The ceremony concluded in a warm, friendly, and hopeful atmosphere. This was not only an opportunity for the Vietnamese student community to alleviate their homesickness, but also a meaningful chance to promote and spread the beautiful cultural values ​​of the Vietnamese people to international friends." }
       ]
     },
     "organizerId": 3
   },
   {
-    "id": 3,
+    "id": 4,
     "title": {
-      "vi": "[MẪU] Giải bóng đá sinh viên Việt Nam tại Delhi",
-      "en": "[SAMPLE] Vietnamese Student Football Tournament in Delhi"
+      "vi": "GIAN HÀNG VIỆT NAM TẠI INTERNATIONAL YOUTH FESTIVAL 2025–2026 | PUNE UNIVERSITY",
+      "en": "VIETNAM BOOTH AT INTERNATIONAL YOUTH FESTIVAL 2025–2026 | PUNE UNIVERSITY"
     },
-    "date": "2026-12-01",
-    "location": "Delhi",
-    "category": "sports",
-    "image": "assets/images/activities/activity-03.webp",
-    "description": {
+    "date": "2026-03-03",
+    "location": "Pune, Maharashtra, India",
+    "category": "culture",
+    "thumbnail": "assets/images/activities/4/1.jpg",
+    "summary": {
+      "vi": "Giải bóng đá thường niên dành cho sinh viên Việt Nam tại Delhi.",
+      "en": "Annual football tournament for Vietnamese students in Delhi."
+    },
+    "featured": false,
+    "content": {
       "vi": [
-        "[DỮ LIỆU MẪU] Giải bóng đá thường niên dành cho sinh viên Việt Nam tại Delhi.",
-        "Sự kiện thu hút đông đảo sinh viên tham gia và cổ vũ."
+        { "type": "text", "value": "Hằng năm, Trường Đại học tại Pune tổ chức International Youth Festival dành cho sinh viên quốc tế với chuỗi hoạt động đa dạng gồm thể thao, ẩm thực và lễ hội văn hóa theo từng chủ đề của năm." },
+        { "type": "image", "src": "assets/images/activities/4/1.jpg", "alt": "", "caption": "" },
+        { "type": "text", "value": "Năm học 2025 – 2026, chương trình mang chủ đề: 'Say No to Drugs, Yes to Life'"},
+        { "type": "text", "value": "Festival bao gồm các hoạt động chính: Country in Charge Meeting và Sports Events: Football for Girls and Boys Volleyball for Girls and Boys 📅 Khai mạc: 23/01/2026 🔹 Food Festival 📅 03/02/2026. 🔹 Cultural Festival 📅 07/02/2026" },
+        { "type": "image", "src": "assets/images/activities/4/2.jpg", "alt": "", "caption": "Gian hàng Việt Nam tấp nập người" },
+        { "type": "text", "value": "Trong khuôn khổ chương trình, sinh viên Việt Nam sẽ tham gia với Gian hàng Việt Nam, giới thiệu những nét đặc sắc về văn hóa, ẩm thực và bản sắc dân tộc tới bạn bè quốc tế." },
+        { "type": "image", "src": "assets/images/activities/4/3.jpg", "alt": "", "caption": "Góc gian hàng Việt Nam" },
+        { "type": "text", "value": "Đây không chỉ là dịp giao lưu, học hỏi giữa sinh viên các quốc gia, mà còn là cơ hội để quảng bá hình ảnh Việt Nam năng động, thân thiện và giàu truyền thống tại Ấn Độ." },
+        { "type": "text", "value": "Hội Sinh viên Việt Nam tại Ấn Độ trân trọng chúc các bạn sinh viên tham gia chương trình đạt nhiều thành công và để lại dấu ấn đẹp trong lòng bạn bè quốc tế." }
+        
       ],
       "en": [
-        "[SAMPLE DATA] Annual football tournament for Vietnamese students in Delhi.",
-        "The event attracted many student participants and supporters."
+        { "type": "text", "value": "Every year, the University of Pune hosts the International Youth Festival for international students with a diverse range of activities including sports, cuisine, and cultural festivals themed around the year's focus." },
+        { "type": "image", "src": "assets/images/activities/4/1.jpg", "alt": "", "caption": "" },
+        { "type": "text", "value": "In the academic year 2025 – 2026, the program carries the theme: 'Say No to Drugs, Yes to Life'" },
+        { "type": "image", "src": "assets/images/activities/4/2.jpg", "alt": "", "caption": "The Vietnamese booth was bustling with people." },
+        { "type": "text", "value": "As part of the program, Vietnamese students will participate with the Vietnam Pavilion, showcasing the unique aspects of Vietnamese culture, cuisine, and national identity to international friends." },
+        { "type": "image", "src": "assets/images/activities/4/3.jpg", "alt": "", "caption": "" },
+        { "type": "text", "value": "This is not only an opportunity for exchange and learning among students from different countries, but also a chance to promote the image of Vietnam as a dynamic, friendly country with rich traditions in India." },
+        { "type": "text", "value": "The Vietnamese Student Association in India sincerely wishes all participating students great success in this program and hopes they will leave a positive impression on their international friends." }
       ]
     },
-    "organizerId": 3
+    "organizerId": 4
   },
   {
-    "id": 3,
+    "id": 5,
     "title": {
-      "vi": "[MẪU] Giải bóng đá sinh viên Việt Nam tại Delhi",
-      "en": "[SAMPLE] Vietnamese Student Football Tournament in Delhi"
+      "vi": "Giải bóng đá sinh viên Việt Nam tại Delhi",
+      "en": "Vietnamese Student Football Tournament in Delhi"
     },
     "date": "2026-12-01",
     "location": "Delhi",
     "category": "sports",
-    "image": "assets/images/activities/activity-03.webp",
-    "description": {
+    "thumbnail": "assets/images/activities/5/1.jpg",
+    "summary": {
+      "vi": "Giải bóng đá thường niên dành cho sinh viên Việt Nam tại Delhi.",
+      "en": "Annual football tournament for Vietnamese students in Delhi."
+    },
+    "featured": false,
+    "content": {
       "vi": [
-        "[DỮ LIỆU MẪU] Giải bóng đá thường niên dành cho sinh viên Việt Nam tại Delhi.",
-        "Sự kiện thu hút đông đảo sinh viên tham gia và cổ vũ."
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/activities/5/1.jpg", "alt": "Bóng đá", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/activities/5/1.jpg", "alt": "Bóng đá", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/activities/5/1.jpg", "alt": "Bóng đá", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/activities/5/1.jpg", "alt": "Bóng đá", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" }
       ],
       "en": [
-        "[SAMPLE DATA] Annual football tournament for Vietnamese students in Delhi.",
-        "The event attracted many student participants and supporters."
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/activities/5/1.jpg", "alt": "Bóng đá", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/activities/5/1.jpg", "alt": "Bóng đá", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/activities/5/1.jpg", "alt": "Bóng đá", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/activities/5/1.jpg", "alt": "Bóng đá", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" }
       ]
     },
-    "organizerId": 3
+    "organizerId": 5
   },
   {
-    "id": 3,
+    "id": 6,
     "title": {
-      "vi": "[MẪU] Giải bóng đá sinh viên Việt Nam tại Delhi",
-      "en": "[SAMPLE] Vietnamese Student Football Tournament in Delhi"
+      "vi": "Giải bóng đá sinh viên Việt Nam tại Delhi",
+      "en": "Vietnamese Student Football Tournament in Delhi"
     },
     "date": "2026-12-01",
     "location": "Delhi",
     "category": "sports",
-    "image": "assets/images/activities/activity-03.webp",
-    "description": {
+    "thumbnail": "assets/images/activities/6/1.jpg",
+    "summary": {
+      "vi": "Giải bóng đá thường niên dành cho sinh viên Việt Nam tại Delhi.",
+      "en": "Annual football tournament for Vietnamese students in Delhi."
+    },
+    "featured": false,
+    "content": {
       "vi": [
-        "[DỮ LIỆU MẪU] Giải bóng đá thường niên dành cho sinh viên Việt Nam tại Delhi.",
-        "Sự kiện thu hút đông đảo sinh viên tham gia và cổ vũ."
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/activities/6/1.jpg", "alt": "Bóng đá", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/activities/6/1.jpg", "alt": "Bóng đá", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/activities/6/1.jpg", "alt": "Bóng đá", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/activities/6/1.jpg", "alt": "Bóng đá", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" }
       ],
       "en": [
-        "[SAMPLE DATA] Annual football tournament for Vietnamese students in Delhi.",
-        "The event attracted many student participants and supporters."
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/activities/6/1.jpg", "alt": "Bóng đá", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/activities/6/1.jpg", "alt": "Bóng đá", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/activities/6/1.jpg", "alt": "Bóng đá", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/activities/6/1.jpg", "alt": "Bóng đá", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" }
       ]
     },
-    "organizerId": 3
+    "organizerId": 6
   },
   {
-    "id": 3,
+    "id": 7,
     "title": {
-      "vi": "[MẪU] Giải bóng đá sinh viên Việt Nam tại Delhi",
-      "en": "[SAMPLE] Vietnamese Student Football Tournament in Delhi"
+      "vi": "Giải bóng đá sinh viên Việt Nam tại Delhi",
+      "en": "Vietnamese Student Football Tournament in Delhi"
     },
     "date": "2026-12-01",
     "location": "Delhi",
     "category": "sports",
-    "image": "assets/images/activities/activity-03.webp",
-    "description": {
+    "thumbnail": "assets/images/activities/7/1.jpg",
+    "summary": {
+      "vi": "Giải bóng đá thường niên dành cho sinh viên Việt Nam tại Delhi.",
+      "en": "Annual football tournament for Vietnamese students in Delhi."
+    },
+    "featured": false,
+    "content": {
       "vi": [
-        "[DỮ LIỆU MẪU] Giải bóng đá thường niên dành cho sinh viên Việt Nam tại Delhi.",
-        "Sự kiện thu hút đông đảo sinh viên tham gia và cổ vũ."
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/activities/7/1.jpg", "alt": "Bóng đá", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/activities/7/1.jpg", "alt": "Bóng đá", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/activities/7/1.jpg", "alt": "Bóng đá", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/activities/7/1.jpg", "alt": "Bóng đá", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" }
       ],
       "en": [
-        "[SAMPLE DATA] Annual football tournament for Vietnamese students in Delhi.",
-        "The event attracted many student participants and supporters."
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/activities/7/1.jpg", "alt": "Bóng đá", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/activities/7/1.jpg", "alt": "Bóng đá", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/activities/7/1.jpg", "alt": "Bóng đá", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/activities/7/1.jpg", "alt": "Bóng đá", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" }
       ]
     },
-    "organizerId": 3
+    "organizerId": 7
+  },
+  {
+    "id": 8,
+    "title": {
+      "vi": "Giải bóng đá sinh viên Việt Nam tại Delhi",
+      "en": "Vietnamese Student Football Tournament in Delhi"
+    },
+    "date": "2026-12-01",
+    "location": "Delhi",
+    "category": "sports",
+    "thumbnail": "assets/images/activities/8/1.jpg",
+    "summary": {
+      "vi": "Giải bóng đá thường niên dành cho sinh viên Việt Nam tại Delhi.",
+      "en": "Annual football tournament for Vietnamese students in Delhi."
+    },
+    "featured": false,
+    "content": {
+      "vi": [
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/activities/8/1.jpg", "alt": "Bóng đá", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/activities/8/1.jpg", "alt": "Bóng đá", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/activities/8/1.jpg", "alt": "Bóng đá", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/activities/8/1.jpg", "alt": "Bóng đá", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" }
+      ],
+      "en": [
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/activities/8/1.jpg", "alt": "Bóng đá", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/activities/8/1.jpg", "alt": "Bóng đá", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/activities/8/1.jpg", "alt": "Bóng đá", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/activities/8/1.jpg", "alt": "Bóng đá", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" }
+      ]
+    },
+    "organizerId": 8
+  },
+  {
+    "id": 9,
+    "title": {
+      "vi": "Giải bóng đá sinh viên Việt Nam tại Delhi",
+      "en": "Vietnamese Student Football Tournament in Delhi"
+    },
+    "date": "2026-12-01",
+    "location": "Delhi",
+    "category": "sports",
+    "thumbnail": "assets/images/activities/9/1.jpg",
+    "summary": {
+      "vi": "Giải bóng đá thường niên dành cho sinh viên Việt Nam tại Delhi.",
+      "en": "Annual football tournament for Vietnamese students in Delhi."
+    },
+    "featured": false,
+    "content": {
+      "vi": [
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/activities/9/1.jpg", "alt": "Bóng đá", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/activities/9/1.jpg", "alt": "Bóng đá", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/activities/9/1.jpg", "alt": "Bóng đá", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/activities/9/1.jpg", "alt": "Bóng đá", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" }
+      ],
+      "en": [
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/activities/9/1.jpg", "alt": "Bóng đá", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/activities/9/1.jpg", "alt": "Bóng đá", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/activities/9/1.jpg", "alt": "Bóng đá", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/activities/9/1.jpg", "alt": "Bóng đá", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" }
+      ]
+    },
+    "organizerId": 9
+  },
+  {
+    "id": 10,
+    "title": {
+      "vi": "Giải bóng đá sinh viên Việt Nam tại Delhi",
+      "en": "Vietnamese Student Football Tournament in Delhi"
+    },
+    "date": "2026-12-01",
+    "location": "Delhi",
+    "category": "sports",
+    "thumbnail": "assets/images/activities/10/1.jpg",
+    "summary": {
+      "vi": "Giải bóng đá thường niên dành cho sinh viên Việt Nam tại Delhi.",
+      "en": "Annual football tournament for Vietnamese students in Delhi."
+    },
+    "featured": false,
+    "content": {
+      "vi": [
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/activities/10/1.jpg", "alt": "Bóng đá", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/activities/10/1.jpg", "alt": "Bóng đá", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/activities/10/1.jpg", "alt": "Bóng đá", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/activities/10/1.jpg", "alt": "Bóng đá", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" }
+      ],
+      "en": [
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/activities/10/1.jpg", "alt": "Bóng đá", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/activities/10/1.jpg", "alt": "Bóng đá", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/activities/10/1.jpg", "alt": "Bóng đá", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/activities/10/1.jpg", "alt": "Bóng đá", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" }
+      ]
+    },
+    "organizerId": 10
+  },
+  {
+    "id": 11,
+    "title": {
+      "vi": "Giải bóng đá sinh viên Việt Nam tại Delhi",
+      "en": "Vietnamese Student Football Tournament in Delhi"
+    },
+    "date": "2026-12-01",
+    "location": "Delhi",
+    "category": "sports",
+    "thumbnail": "assets/images/activities/11/1.jpg",
+    "summary": {
+      "vi": "Giải bóng đá thường niên dành cho sinh viên Việt Nam tại Delhi.",
+      "en": "Annual football tournament for Vietnamese students in Delhi."
+    },
+    "featured": false,
+    "content": {
+      "vi": [
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/activities/11/1.jpg", "alt": "Bóng đá", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/activities/11/1.jpg", "alt": "Bóng đá", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/activities/11/1.jpg", "alt": "Bóng đá", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/activities/11/1.jpg", "alt": "Bóng đá", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" }
+      ],
+      "en": [
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/activities/11/1.jpg", "alt": "Bóng đá", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/activities/11/1.jpg", "alt": "Bóng đá", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/activities/11/1.jpg", "alt": "Bóng đá", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/activities/11/1.jpg", "alt": "Bóng đá", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" }
+      ]
+    },
+    "organizerId": 11
+  },
+  {
+    "id": 12,
+    "title": {
+      "vi": "Giải bóng đá sinh viên Việt Nam tại Delhi",
+      "en": "Vietnamese Student Football Tournament in Delhi"
+    },
+    "date": "2026-12-01",
+    "location": "Delhi",
+    "category": "sports",
+    "thumbnail": "assets/images/activities/12/1.jpg",
+    "summary": {
+      "vi": "Giải bóng đá thường niên dành cho sinh viên Việt Nam tại Delhi.",
+      "en": "Annual football tournament for Vietnamese students in Delhi."
+    },
+    "featured": false,
+    "content": {
+      "vi": [
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/activities/12/1.jpg", "alt": "Bóng đá", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/activities/12/1.jpg", "alt": "Bóng đá", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/activities/12/1.jpg", "alt": "Bóng đá", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/activities/12/1.jpg", "alt": "Bóng đá", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" }
+      ],
+      "en": [
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/activities/12/1.jpg", "alt": "Bóng đá", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/activities/12/1.jpg", "alt": "Bóng đá", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/activities/12/1.jpg", "alt": "Bóng đá", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/activities/12/1.jpg", "alt": "Bóng đá", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" }
+      ]
+    },
+    "organizerId": 12
+  },
+  {
+    "id": 13,
+    "title": {
+      "vi": "Giải bóng đá sinh viên Việt Nam tại Delhi",
+      "en": "Vietnamese Student Football Tournament in Delhi"
+    },
+    "date": "2026-12-01",
+    "location": "Delhi",
+    "category": "sports",
+    "thumbnail": "assets/images/activities/13/1.jpg",
+    "summary": {
+      "vi": "Giải bóng đá thường niên dành cho sinh viên Việt Nam tại Delhi.",
+      "en": "Annual football tournament for Vietnamese students in Delhi."
+    },
+    "featured": false,
+    "content": {
+      "vi": [
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/activities/13/1.jpg", "alt": "Bóng đá", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/activities/13/1.jpg", "alt": "Bóng đá", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/activities/13/1.jpg", "alt": "Bóng đá", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/activities/13/1.jpg", "alt": "Bóng đá", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" }
+      ],
+      "en": [
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/activities/13/1.jpg", "alt": "Bóng đá", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/activities/13/1.jpg", "alt": "Bóng đá", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/activities/13/1.jpg", "alt": "Bóng đá", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/activities/13/1.jpg", "alt": "Bóng đá", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" }
+      ]
+    },
+    "organizerId": 13
+  },
+  {
+    "id": 14,
+    "title": {
+      "vi": "Giải bóng đá sinh viên Việt Nam tại Delhi",
+      "en": "Vietnamese Student Football Tournament in Delhi"
+    },
+    "date": "2026-12-01",
+    "location": "Delhi",
+    "category": "sports",
+    "thumbnail": "assets/images/activities/14/cover.webp",
+    "summary": {
+      "vi": "Giải bóng đá thường niên dành cho sinh viên Việt Nam tại Delhi.",
+      "en": "Annual football tournament for Vietnamese students in Delhi."
+    },
+    "featured": false,
+    "content": {
+      "vi": [
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/activities/14/1.jpg", "alt": "Bóng đá", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/activities/14/1.jpg", "alt": "Bóng đá", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/activities/14/1.jpg", "alt": "Bóng đá", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/activities/14/1.jpg", "alt": "Bóng đá", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" }
+      ],
+      "en": [
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/activities/14/1.jpg", "alt": "Bóng đá", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/activities/14/1.jpg", "alt": "Bóng đá", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/activities/14/1.jpg", "alt": "Bóng đá", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/activities/14/1.jpg", "alt": "Bóng đá", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" }
+      ]
+    },
+    "organizerId": 14
   }
 ]
