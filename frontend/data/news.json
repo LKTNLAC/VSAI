@@ -166,7 +166,7 @@
       "vi": "Sinh viên Việt Nam đạt thành tích xuất sắc tại Đại học Delhi",
       "en": "Vietnamese Student Achieves Outstanding Academic Success at Delhi University"
     },
-    "date": "2026-07-25",
+    "date": "2026-03-14",
     "category": "event",
     "thumbnail": "assets/images/news/6/1.jpg",
     "summary": {
@@ -211,7 +211,7 @@
       "vi": "THÔNG BÁO VỀ VIỆC TRIỂN KHAI CẤP HỘ CHIẾU ĐIỆN TỬ",
       "en": "NOTICE REGARDING THE IMPLEMENTATION OF ELECTRONIC PASSPORT"
     },
-    "date": "2026-07-25",
+    "date": "2026-03-17",
     "category": "event",
     "thumbnail": "assets/images/news/7/1.jpg",
     "summary": {
@@ -239,7 +239,7 @@
       "en": "CALL FOR UPDATING INFORMATION OF VIETNAMESE STUDENTS IN INDIA"
     },
     "date": "2026-04-19",
-    "category": "event",
+    "category": "announcement",
     "thumbnail": "assets/images/news/8/1.jpg",
     "summary": {
       "vi": "Nhằm xây dựng cơ sở dữ liệu và tăng cường kết nối cộng đồng...",
@@ -266,11 +266,11 @@
   {
     "id": 9,
     "title": {
-      "vi": "vie",
+      "vi": "📢 THÔNG BÁO PHÁT ĐỘNG THAM GIA GIẢI THƯỞNG TOÀN QUỐC VỀ THÔNG TIN ĐỐI NGOẠI LẦN THỨ XII - NĂM 2026",
       "en": "eng"
     },
     "date": "2026-07-25",
-    "category": "event",
+    "category": "announcement",
     "thumbnail": "assets/images/news/9/1.jpg",
     "summary": {
       "vi": "vie...",
@@ -279,14 +279,21 @@
     "featured": false,
     "content": {
       "vi": [
-        { "type": "text", "value": "vie" },
-        { "type": "image", "src": "assets/images/news/9/1.jpg", "alt": "Buổi gặp mặt", "caption": "Các bạn tân sinh viên tham dự" },
-        { "type": "text", "value": "vie" },
-        { "type": "text", "value": "vie" }
+        { "type": "text", "value": "Đại sứ quán Việt Nam tại Ấn Độ trân trọng thông báo và khuyến khích cộng đồng người Việt Nam, đặc biệt là sinh viên, nghiên cứu sinh, doanh nghiệp, tăng ni sinh và các hội đoàn người Việt tại Ấn Độ tham gia Giải thưởng toàn quốc về Thông tin đối ngoại lần thứ XII năm 2026." },
+        { "type": "text", "value": "Giải thưởng nhằm tôn vinh các cá nhân và tập thể có những đóng góp thiết thực trong công tác thông tin đối ngoại, quảng bá hình ảnh đất nước, con người Việt Nam và thúc đẩy quan hệ hữu nghị Việt Nam - Ấn Độ." },
+        { "type": "text", "value": "+ Đối tượng tham gia: Cá nhân, tổ chức trong và ngoài nước." },
+        { "type": "text", "value": "+ Nội dung: Các tác phẩm, sản phẩm truyền thông hoặc hoạt động, sự kiện góp phần quảng bá Việt Nam, quan hệ Việt Nam - Ấn Độ và công tác hội nhập quốc tế." },
+        { "type": "text", "value": "+ Hình thức nộp bài: Trực tuyến tại https://duthi.ttdn.vn" },
+        { "type": "text", "value": "+ Thông tin chi tiết về thể lệ và các hạng mục dự thi: https://giaithuong.ttdn.vn" },
+        { "type": "text", "value": "Sau khi nộp bài dự thi, kính đề nghị các tác giả thông báo cho Đại sứ quán qua email: consularsection@vietnamembassydelhi.in để thuận tiện trong việc tổng hợp và giới thiệu các tác phẩm tiêu biểu của cộng đồng người Việt Nam tại Ấn Độ." },
+        { "type": "text", "value": "Hội Sinh viên Việt Nam tại Ấn Độ mong nhận được sự hưởng ứng tích cực từ các bạn sinh viên, nghiên cứu sinh và cộng đồng người Việt trên toàn Ấn Độ." }
       ],
       "en": [
         { "type": "text", "value": "eng" },
-        { "type": "image", "src": "assets/images/news/9/1.jpg", "alt": "Gathering", "caption": "New students attending" },
+        { "type": "text", "value": "eng" },
+        { "type": "text", "value": "eng" },
+        { "type": "text", "value": "eng" },
+        { "type": "text", "value": "eng" },
         { "type": "text", "value": "eng" },
         { "type": "text", "value": "eng" }
       ]
