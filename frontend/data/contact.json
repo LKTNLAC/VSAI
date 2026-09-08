@@ -1,0 +1,79 @@
+{
+  "page": {
+    "title": {
+      "vi": "Liên hệ với Hội sinh viên Việt Nam tại Ấn Độ",
+      "en": "Contact Vietnamese Students' Association in India"
+    },
+    "subtitle": {
+      "vi": "Chúng tôi luôn sẵn sàng lắng nghe và hỗ trợ bạn",
+      "en": "We are always ready to listen and support you"
+    }
+  },
+  "info": {
+    "email": {
+      "label": "<i class='fas fa-envelope'></i> Email",
+      "value": "vsaiishere@gmail.com"
+    },
+    "facebook": {
+      "label": "<i class='fab fa-facebook'></i> Facebook",
+      "value": "https://www.facebook.com/VSAI.India"
+    },
+    "instagram": {
+      "label": "<i class='fab fa-instagram'></i> Instagram",
+      "value": "https://www.instagram.com/vsaindia"
+    },
+    "youtube": {
+      "label": "<i class='fab fa-youtube'></i> YouTube",
+      "value": "https://www.youtube.com/@VSAIndia"
+    }
+  },
+  "form": {
+    "title": {
+      "vi": "Gửi tin nhắn cho chúng tôi",
+      "en": "Send us a message"
+    },
+    "name": {
+      "vi": "Họ và tên",
+      "en": "Full Name"
+    },
+    "email": {
+      "vi": "Email",
+      "en": "Email"
+    },
+    "phone": {
+      "vi": "Số điện thoại (tùy chọn)",
+      "en": "Phone Number (optional)"
+    },
+    "subject": {
+      "vi": "Tiêu đề",
+      "en": "Subject"
+    },
+    "message": {
+      "vi": "Nội dung",
+      "en": "Message"
+    },
+    "submit": {
+      "vi": "Gửi tin nhắn",
+      "en": "Send Message"
+    },
+    "success": {
+      "vi": "✅ Cảm ơn bạn đã liên hệ. VSA India sẽ phản hồi trong thời gian sớm nhất.",
+      "en": "✅ Thank you for contacting us. VSA India will respond as soon as possible."
+    }
+  },
+  "emergency": {
+    "title": {
+      "vi": "🚨 Hỗ trợ khẩn cấp",
+      "en": "🚨 Emergency Support"
+    },
+    "note": {
+      "vi": "Trong trường hợp khẩn cấp, vui lòng liên hệ với Đại sứ quán Việt Nam tại Ấn Độ:",
+      "en": "In case of emergency, please contact the Vietnamese Embassy in India:"
+    },
+    "embassy": {
+      "name": "Đại sứ quán Việt Nam tại Ấn Độ",
+      "phone": "📞 +91-11-2687-9868",
+      "address": "📍 17, Kautilya Marg, Chanakyapuri, New Delhi, Delhi 110021"
+    }
+  }
+}

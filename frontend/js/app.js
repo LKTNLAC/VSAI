@@ -34,7 +34,8 @@ let state = {
         guide: [],
         cities: [],
         gallery: [],
-        about: {}
+        about: {},
+        contact: {}
     }
 };
 
@@ -118,6 +119,36 @@ const EMBEDDED_DATA = {
             { year: "2024", vi: "Kỷ niệm 5 năm thành lập và ra mắt website chính thức", en: "5th Anniversary and official website launch" },
             { year: "2025", vi: "Mở rộng hợp tác với các tổ chức sinh viên quốc tế", en: "Expanded cooperation with international student organizations" }
         ]
+    },
+    contact: {
+        page: {
+            subtitle: "Chúng tôi luôn sẵn sàng lắng nghe và hỗ trợ bạn"
+        },
+        info: {
+            email: { label: "📧 Email", value: "vsaiishere@gmail.com" },
+            facebook: { label: "📘 Facebook", value: "https://www.facebook.com/VSAI.India" },
+            instagram: { label: "📸 Instagram", value: "https://www.instagram.com/vsaindia" },
+            youtube: { label: "▶️ YouTube", value: "https://www.youtube.com/@VSAIndia" }
+        },
+        form: {
+            title: "Gửi tin nhắn cho chúng tôi",
+            name: "Họ và tên",
+            email: "Email",
+            phone: "Số điện thoại (tùy chọn)",
+            subject: "Tiêu đề",
+            message: "Nội dung",
+            submit: "Gửi tin nhắn",
+            success: "✅ Cảm ơn bạn đã liên hệ. VSA India sẽ phản hồi trong thời gian sớm nhất."
+        },
+        emergency: {
+            title: "🚨 Hỗ trợ khẩn cấp",
+            note: "Trong trường hợp khẩn cấp, vui lòng liên hệ với Đại sứ quán Việt Nam tại Ấn Độ:",
+            embassy: {
+                name: "Đại sứ quán Việt Nam tại Ấn Độ",
+                phone: "📞 +91-11-2687-9868",
+                address: "📍 17, Kautilya Marg, Chanakyapuri, New Delhi, Delhi 110021"
+            }
+        }
     }
 };
 
@@ -126,7 +157,7 @@ const EMBEDDED_DATA = {
 // =====================================================
 
 async function loadData() {
-    const files = ['members', 'activities', 'news', 'blog', 'guide', 'cities', 'gallery','about'];
+    const files = ['members', 'activities', 'news', 'blog', 'guide', 'cities', 'gallery','about','contact'];
     const basePath = 'data/';
     
     for (const name of files) {
@@ -173,7 +204,25 @@ const TRANSLATIONS = {
         map: { title: 'Bản đồ cộng đồng', subtitle: 'Sinh viên Việt Nam tại các thành phố Ấn Độ', viewAll: 'Xem chi tiết →' },
         gallery: { title: 'Thư viện ảnh', viewAll: 'Xem tất cả →', page: { subtitle: 'Những khoảnh khắc đáng nhớ của VSA India' } },
         cta: { title: 'Bạn đang học tập tại Ấn Độ?', text: 'Kết nối cùng cộng đồng sinh viên Việt Nam tại Ấn Độ.', cta: 'Tham gia ngay' },
-        members: { subtitle: 'Những người đại diện cho cộng đồng sinh viên Việt Nam tại Ấn Độ', bioLabel: 'Giới thiệu' }
+        members: { subtitle: 'Những người đại diện cho cộng đồng sinh viên Việt Nam tại Ấn Độ', bioLabel: 'Giới thiệu' },
+        contact: {
+            page: { subtitle: "Chúng tôi luôn sẵn sàng lắng nghe và hỗ trợ bạn" },
+            info: { title: "Thông tin liên hệ" },
+            form: {
+                title: "Gửi tin nhắn cho chúng tôi",
+                name: "Họ và tên",
+                email: "Email",
+                phone: "Số điện thoại (tùy chọn)",
+                subject: "Tiêu đề",
+                message: "Nội dung",
+                submit: "Gửi tin nhắn",
+                success: "✅ Cảm ơn bạn đã liên hệ. VSA India sẽ phản hồi trong thời gian sớm nhất."
+            },
+            emergency: {
+                title: "🚨 Hỗ trợ khẩn cấp",
+                note: "Trong trường hợp khẩn cấp, vui lòng liên hệ với Đại sứ quán Việt Nam tại Ấn Độ:"
+            }
+        }
     },
     en: {
         nav: { home: 'Home', about: 'About', members: 'Executive Committee', activities: 'Activities', news: 'News', blog: 'Blog', guide: 'Guide', map: 'Map', gallery: 'Gallery', forum: 'Forum', contact: 'Contact' },
@@ -194,8 +243,27 @@ const TRANSLATIONS = {
         map: { title: 'Community Map', subtitle: 'Vietnamese Students in Indian Cities', viewAll: 'View Details →' },
         gallery: { title: 'Gallery', viewAll: 'View All →', page: { subtitle: 'Memorable moments of VSA India' } },
         cta: { title: 'Are you studying in India?', text: 'Connect with the Vietnamese student community in India.', cta: 'Join Now' },
-        members: { subtitle: 'Representatives of the Vietnamese student community in India', bioLabel: 'About' }
+        members: { subtitle: 'Representatives of the Vietnamese student community in India', bioLabel: 'About' },
+        contact: {
+            page: { subtitle: "We are always ready to listen and support you" },
+            info: { title: "Contact Information" },
+            form: {
+                title: "Send us a message",
+                name: "Full Name",
+                email: "Email",
+                phone: "Phone Number (optional)",
+                subject: "Subject",
+                message: "Message",
+                submit: "Send Message",
+                success: "✅ Thank you for contacting us. VSA India will respond as soon as possible."
+            },
+            emergency: {
+                title: "🚨 Emergency Support",
+                note: "In case of emergency, please contact the Vietnamese Embassy in India:"
+            }
+        }
     }
+    
 };
 
 // =====================================================
@@ -442,6 +510,7 @@ function updateUILanguage() {
             renderForum(document.getElementById('forum-container'));
             break;
         case 'contact':
+            console.log('[VSA] 🔄 Updating contact section');
             renderContact(document.getElementById('contact-container'));
             break;
         default:
@@ -532,7 +601,10 @@ function renderHomeActivities(container) {
 function renderHomeNews(container) {
     if (!container) return;
     const data = state.data.news;
-    if (!data || data.length === 0) { renderPlaceholder(container, 'ui.placeholder'); return; }
+    if (!data || data.length === 0) { 
+        renderPlaceholder(container, 'ui.placeholder'); 
+        return; 
+    }
 
     // ===== SẮP XẾP THEO THỜI GIAN, LẤY 3 BÀI MỚI NHẤT =====
     const sorted = [...data].sort((a, b) => {
@@ -541,6 +613,7 @@ function renderHomeNews(container) {
     
     const items = sorted.slice(0, 3);
     const fragment = document.createDocumentFragment();
+    
     items.forEach(item => {
         const card = document.createElement('div');
         card.className = 'news-card';
@@ -569,12 +642,14 @@ function renderHomeNews(container) {
         const title = document.createElement('h3');
         title.textContent = item.title[state.currentLang] || item.title.vi;
         content.appendChild(title);
+        
         if (item.summary) {
             const summary = document.createElement('p');
             summary.className = 'text-muted text-sm';
             summary.textContent = (item.summary[state.currentLang] || item.summary.vi).substring(0, 120) + '...';
             content.appendChild(summary);
         }
+        
         const date = document.createElement('p');
         date.className = 'text-xs';
         date.textContent = item.date;
@@ -585,38 +660,25 @@ function renderHomeNews(container) {
         card.addEventListener('click', () => navigateTo(`#news/${item.id}`));
         fragment.appendChild(card);
     });
+    
     container.replaceChildren(fragment);
-    // Thêm ảnh thumbnail
-    const imgContainer = document.createElement('div');
-    imgContainer.className = 'news-thumbnail';
-
-    const img = document.createElement('img');
-    img.src = item.thumbnail || 'assets/images/placeholder.webp';
-    img.alt = item.title[state.currentLang] || item.title.vi;
-    img.loading = 'lazy';
-    img.onerror = function() {
-        this.style.display = 'none';
-        const fallback = document.createElement('span');
-        fallback.className = 'thumbnail-fallback';
-        fallback.textContent = '📰';
-        this.parentElement.appendChild(fallback);
-    };
-    imgContainer.appendChild(img);
-    card.prepend(imgContainer);
 }
 
 function renderHomeBlog(container) {
     if (!container) return;
     const data = state.data.blog;
-    if (!data || data.length === 0) { renderPlaceholder(container, 'ui.placeholder'); return; }
+    if (!data || data.length === 0) {
+        renderPlaceholder(container, 'ui.placeholder');
+        return;
+    }
     
-    // ===== SẮP XẾP THEO THỜI GIAN, LẤY 3 BÀI MỚI NHẤT =====
     const sorted = [...data].sort((a, b) => {
         return new Date(b.date) - new Date(a.date);
     });
     
     const items = sorted.slice(0, 3);
     const fragment = document.createDocumentFragment();
+    
     items.forEach(item => {
         const card = document.createElement('div');
         card.className = 'blog-card';
@@ -645,12 +707,14 @@ function renderHomeBlog(container) {
         const title = document.createElement('h3');
         title.textContent = item.title[state.currentLang] || item.title.vi;
         content.appendChild(title);
+        
         if (item.excerpt) {
             const excerpt = document.createElement('p');
             excerpt.className = 'text-muted text-sm';
             excerpt.textContent = (item.excerpt[state.currentLang] || item.excerpt.vi).substring(0, 120) + '...';
             content.appendChild(excerpt);
         }
+        
         const date = document.createElement('p');
         date.className = 'text-xs';
         date.textContent = item.date;
@@ -661,6 +725,7 @@ function renderHomeBlog(container) {
         card.addEventListener('click', () => navigateTo(`#blog/${item.id}`));
         fragment.appendChild(card);
     });
+    
     container.replaceChildren(fragment);
 }
 
@@ -2086,8 +2151,239 @@ function renderForum(container) {
 // =====================================================
 
 function renderContact(container) {
-    if (!container) return;
-    renderPlaceholder(container, 'ui.placeholder');
+    console.log('[VSA] 📞 renderContact() called');
+    console.log('[VSA] Container:', container);
+    
+    if (!container) {
+        console.warn('[VSA] ⚠️ Contact container not found');
+        return;
+    }
+    
+    const data = state.data.contact;
+    console.log('[VSA] Contact data in renderContact:', data);
+    
+    if (!data || !data.info) {
+        console.warn('[VSA] ⚠️ No contact data, rendering placeholder');
+        renderPlaceholder(container, 'ui.placeholder');
+        return;
+    }
+    
+    const infoContainer = document.getElementById('contact-info-container');
+    console.log('[VSA] Contact info container element:', infoContainer);
+    
+    if (infoContainer) {
+        renderContactInfo(infoContainer);
+    } else {
+        console.warn('[VSA] ⚠️ contact-info-container not found in DOM');
+    }
+    
+    const emergencyContainer = document.getElementById('emergency-container');
+    if (emergencyContainer) {
+        renderEmergency(emergencyContainer);
+    }
+    
+    initContactForm();
+}
+
+// =====================================================
+// 19a. CONTACT INFO
+// =====================================================
+
+function renderContactInfo(container) {
+    console.log('[VSA] 📍 renderContactInfo() called');
+    
+    if (!container) {
+        console.warn('[VSA] ⚠️ Contact info container not found');
+        return;
+    }
+    
+    const data = state.data.contact;
+    console.log('[VSA] Contact data in renderContactInfo:', data);
+    
+    if (!data || !data.info) {
+        console.warn('[VSA] ⚠️ No contact info data');
+        renderPlaceholder(container, 'ui.placeholder');
+        return;
+    }
+    
+    const keys = Object.keys(data.info);
+    console.log('[VSA] Contact info keys:', keys);
+    
+    if (keys.length === 0) {
+        renderPlaceholder(container, 'ui.placeholder');
+        return;
+    }
+    
+    const fragment = document.createDocumentFragment();
+    
+    keys.forEach(key => {
+        const item = data.info[key];
+        if (!item) return;
+        
+        const div = document.createElement('div');
+        div.className = 'contact-info-item';
+        
+        // Label - SỬ DỤNG innerHTML ĐỂ HIỂN THỊ HTML
+        const label = document.createElement('span');
+        label.className = 'contact-info-label';
+        label.innerHTML = item.label || key;  // ← Dùng innerHTML để render icon
+        div.appendChild(label);
+        
+        if (key === 'email') {
+            const value = document.createElement('a');
+            value.href = `mailto:${item.value}`;
+            value.textContent = item.value;
+            div.appendChild(value);
+        } else if (key === 'facebook' || key === 'instagram' || key === 'youtube') {
+            const value = document.createElement('a');
+            value.href = item.value;
+            value.target = '_blank';
+            value.rel = 'noopener noreferrer';
+            let displayText = item.value.replace(/^https?:\/\/(www\.)?/, '');
+            if (displayText.length > 30) {
+                displayText = displayText.substring(0, 30) + '...';
+            }
+            value.textContent = displayText;
+            div.appendChild(value);
+        } else {
+            const value = document.createElement('span');
+            value.textContent = item.value;
+            div.appendChild(value);
+        }
+        
+        fragment.appendChild(div);
+    });
+    
+    container.replaceChildren(fragment);
+    console.log('[VSA] ✅ Contact info rendered, child count:', container.children.length);
+}
+
+// =====================================================
+// 19b. EMERGENCY
+// =====================================================
+
+function renderEmergency(container) {
+    console.log('[VSA] 🚨 renderEmergency() called');
+    
+    if (!container) {
+        console.warn('[VSA] ⚠️ Emergency container not found');
+        return;
+    }
+    
+    const data = state.data.contact;
+    if (!data || !data.emergency) {
+        renderPlaceholder(container, 'ui.placeholder');
+        return;
+    }
+    
+    const fragment = document.createDocumentFragment();
+    const card = document.createElement('div');
+    card.className = 'emergency-card';
+    
+    // Embassy name
+    const name = document.createElement('h3');
+    name.textContent = data.emergency.embassy?.name || 'Đại sứ quán Việt Nam tại Ấn Độ';
+    card.appendChild(name);
+    
+    // Phone
+    if (data.emergency.embassy?.phone) {
+        const phone = document.createElement('p');
+        phone.className = 'emergency-phone';
+        phone.textContent = data.emergency.embassy.phone;
+        card.appendChild(phone);
+    }
+    
+    // Address
+    if (data.emergency.embassy?.address) {
+        const address = document.createElement('p');
+        address.className = 'emergency-address';
+        address.textContent = data.emergency.embassy.address;
+        card.appendChild(address);
+    }
+    
+    fragment.appendChild(card);
+    container.replaceChildren(fragment);
+    console.log('[VSA] ✅ Emergency rendered');
+}
+
+// =====================================================
+// 19c. CONTACT FORM – BACKEND API
+// =====================================================
+
+function initContactForm() {
+    const form = document.getElementById('contact-form');
+    if (!form) return;
+    
+    form.addEventListener('submit', async function(e) {
+        e.preventDefault();
+        
+        const name = document.getElementById('contact-name')?.value || '';
+        const email = document.getElementById('contact-email')?.value || '';
+        const phone = document.getElementById('contact-phone')?.value || '';
+        const subject = document.getElementById('contact-subject')?.value || '';
+        const message = document.getElementById('contact-message')?.value || '';
+        const btn = form.querySelector('.btn');
+        const successDiv = document.getElementById('form-success');
+        
+        if (!name || !email || !subject || !message) {
+            alert(state.currentLang === 'vi' 
+                ? 'Vui lòng điền đầy đủ thông tin.' 
+                : 'Please fill in all required fields.'
+            );
+            return;
+        }
+        
+        // Disable button, show loading
+        btn.textContent = state.currentLang === 'vi' ? 'Đang gửi...' : 'Sending...';
+        btn.disabled = true;
+        
+        // Hide old success message
+        if (successDiv) {
+            successDiv.style.display = 'none';
+        }
+        
+        try {
+            // Gọi API backend
+            const response = await fetch('/api/contact', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ name, email, phone, subject, message })
+            });
+            
+            const data = await response.json();
+            
+            if (data.success) {
+                // Hiển thị thành công
+                if (successDiv) {
+                    successDiv.textContent = data.message;
+                    successDiv.style.display = 'block';
+                }
+                form.reset();
+            } else {
+                alert(data.message || 'Có lỗi xảy ra. Vui lòng thử lại.');
+            }
+            
+        } catch (error) {
+            console.error('[VSA] Contact error:', error);
+            alert(state.currentLang === 'vi' 
+                ? 'Không thể kết nối đến máy chủ. Vui lòng thử lại sau.' 
+                : 'Cannot connect to server. Please try again later.'
+            );
+        }
+        
+        // Re-enable button
+        btn.textContent = state.currentLang === 'vi' ? 'Gửi tin nhắn' : 'Send Message';
+        btn.disabled = false;
+        
+        // Hide success after 5s
+        setTimeout(() => {
+            if (successDiv) {
+                successDiv.style.display = 'none';
+            }
+        }, 5000);
+    });
 }
 
 // =====================================================

@@ -190,76 +190,76 @@
         { "type": "text", "value": "🌟 Một lần nữa xin chúc mừng Thầy!" }
       ],
       "en": [
-        { "type": "text", "value": "eng" },
+        { "type": "text", "value": "🎉 On behalf of the Vietnamese Student Association in India, we would like to extend our warmest and most sincere congratulations to Venerable Giac Minh Thuc (secular name Le Linh) for his exceptionally outstanding academic achievement – ​​Valedictorian of the Buddhist Studies major at Delhi University. 🏅📚" },
         { "type": "image", "src": "assets/images/news/6/1.jpg", "alt": "", "caption": "" },
-        { "type": "text", "value": "eng" },
+        { "type": "text", "value": "🌏 Achieving a leading position at one of the world's top Buddhist training centers is not only a testament to the teacher's persistent efforts, wisdom, and diligent pursuit of the Dharma, but also a source of shared pride for the entire Vietnamese student community studying in this Buddhist land. 🇻🇳🇮🇳" },
         { "type": "image", "src": "assets/images/news/6/2.jpg", "alt": "", "caption": "" },
-        { "type": "text", "value": "eng" },
+        { "type": "text", "value": "✨ This achievement has contributed to affirming the position and image of studious and resilient Vietnamese people on the international education map." },
         { "type": "image", "src": "assets/images/news/6/3.jpg", "alt": "", "caption": "" },
-        { "type": "text", "value": "eng" },
+        { "type": "text", "value": "🔥 This success of the Teacher today is a powerful source of inspiration, kindling the flame of academic passion and the spirit of overcoming difficulties for Vietnamese students in India." },
         { "type": "image", "src": "assets/images/news/6/4.jpg", "alt": "", "caption": "" },
-        { "type": "text", "value": "eng" },
+        { "type": "text", "value": "🏅 The Vietnamese Student Association in India would like to express our heartfelt appreciation and recognition for the Teacher's contributions to representing the image of Vietnamese students on the international stage." },
         { "type": "image", "src": "assets/images/news/6/5.jpg", "alt": "", "caption": "" },
-        { "type": "text", "value": "eng" },
-        { "type": "text", "value": "eng" }
+        { "type": "text", "value": "🙏 We wish you, Sir, continued good health, even greater achievements in your Buddhist studies, and that you will soon contribute your profound knowledge to the development of Buddhism and national education." },
+        { "type": "text", "value": "🌟 Congratulations once again, Sir!" }
       ]
     }
   },
   {
     "id": 7,
     "title": {
-      "vi": "vie",
-      "en": "eng"
+      "vi": "THÔNG BÁO VỀ VIỆC TRIỂN KHAI CẤP HỘ CHIẾU ĐIỆN TỬ",
+      "en": "NOTICE REGARDING THE IMPLEMENTATION OF ELECTRONIC PASSPORT"
     },
     "date": "2026-07-25",
     "category": "event",
     "thumbnail": "assets/images/news/7/1.jpg",
     "summary": {
-      "vi": "vie...",
-      "en": "eng..."
+      "vi": "THÔNG BÁO VỀ VIỆC TRIỂN KHAI CẤP HỘ CHIẾU ĐIỆN TỬ...",
+      "en": "NOTICE REGARDING THE IMPLEMENTATION OF ELECTRONIC PASSPORT..."
     },
     "featured": false,
     "content": {
       "vi": [
-        { "type": "text", "value": "vie" },
-        { "type": "image", "src": "assets/images/news/7/1.jpg", "alt": "Buổi gặp mặt", "caption": "Các bạn tân sinh viên tham dự" },
-        { "type": "text", "value": "vie" },
-        { "type": "text", "value": "vie" }
+        { "type": "text", "value": "THÔNG BÁO VỀ VIỆC TRIỂN KHAI CẤP HỘ CHIẾU ĐIỆN TỬ cho công dân Việt Nam ở nước ngoài." },
+        { "type": "image", "src": "assets/images/news/7/1.jpg", "alt": "Thông báo", "caption": "Thông báo triển khai cấp hộ chiếu điện tử cho công dân ở nước ngoài" }
+        
       ],
       "en": [
-        { "type": "text", "value": "eng" },
-        { "type": "image", "src": "assets/images/news/7/1.jpg", "alt": "Gathering", "caption": "New students attending" },
-        { "type": "text", "value": "eng" },
-        { "type": "text", "value": "eng" }
+        { "type": "text", "value": "NOTICE REGARDING THE IMPLEMENTATION OF ELECTRONIC PASSPORT ISSUANCE FOR VIETNAMESE CITIZENS ABROAD." },
+        { "type": "image", "src": "assets/images/news/7/1.jpg", "alt": "Announcement", "caption": "" }
+        
       ]
     }
   },
   {
     "id": 8,
     "title": {
-      "vi": "vie",
-      "en": "eng"
+      "vi": "KÊU GỌI CẬP NHẬT THÔNG TIN SINH VIÊN VIỆT NAM TẠI ẤN ĐỘ",
+      "en": "CALL FOR UPDATING INFORMATION OF VIETNAMESE STUDENTS IN INDIA"
     },
-    "date": "2026-07-25",
+    "date": "2026-04-19",
     "category": "event",
     "thumbnail": "assets/images/news/8/1.jpg",
     "summary": {
-      "vi": "vie...",
+      "vi": "Nhằm xây dựng cơ sở dữ liệu và tăng cường kết nối cộng đồng...",
       "en": "eng..."
     },
     "featured": false,
     "content": {
       "vi": [
-        { "type": "text", "value": "vie" },
-        { "type": "image", "src": "assets/images/news/8/1.jpg", "alt": "Buổi gặp mặt", "caption": "Các bạn tân sinh viên tham dự" },
-        { "type": "text", "value": "vie" },
-        { "type": "text", "value": "vie" }
+        { "type": "text", "value": "Nhằm xây dựng cơ sở dữ liệu và tăng cường kết nối cộng đồng sinh viên Việt Nam đang học tập, sinh sống tại Ấn Độ, Hội Sinh viên Việt Nam tại Ấn Độ triển khai biểu mẫu thu thập thông tin sinh viên." },
+        { "type": "image", "src": "assets/images/news/8/1.jpg", "alt": "Milestone", "caption": "Sinh viên Việt Nam tại Delhi" },
+        { "type": "text", "value": "📌 Việc cung cấp thông tin sẽ giúp: Kết nối sinh viên Việt Nam trên toàn Ấn Độ, Hỗ trợ kịp thời khi cần thiết, Tổ chức các hoạt động học thuật, văn hóa, thể thao phù hợp, Xây dựng cộng đồng sinh viên gắn kết và hiệu quả hơn." },
+        { "type": "text", "value": "📝 Mời các bạn sinh viên dành ít phút điền thông tin: link Google Form ở phía dưới mục bình luận." },
+        { "type": "text", "value": "🔒 Thông tin được bảo mật và chỉ sử dụng cho mục đích hỗ trợ, kết nối sinh viên. Sự tham gia của các bạn là nền tảng quan trọng để Hội có thể hoạt động hiệu quả và phục vụ cộng đồng tốt hơn. Trân trọng cảm ơn và mong nhận được sự hưởng ứng từ các bạn!" }
       ],
       "en": [
-        { "type": "text", "value": "eng" },
-        { "type": "image", "src": "assets/images/news/8/1.jpg", "alt": "Gathering", "caption": "New students attending" },
-        { "type": "text", "value": "eng" },
-        { "type": "text", "value": "eng" }
+        { "type": "text", "value": "To build a database and strengthen connections within the Vietnamese student community studying and living in India, the Vietnamese Student Association in India is launching a form to collect student information." },
+        { "type": "image", "src": "assets/images/news/8/1.jpg", "alt": "Milestone", "caption": "Vietnamese students in Delhi" },
+        { "type": "text", "value": "📌 Providing information will help: Connect Vietnamese students across India, provide timely support when needed, organize appropriate academic, cultural, and sports activities, and build a more cohesive and effective student community." },
+        { "type": "text", "value": "📝 Hút các bạn sinh viên dành ít phút điền thông tin: link Google Form ở bên dưới mục bình luận." },
+        { "type": "text", "value": "🔒 Information is kept confidential and only used for the purpose of supporting and connecting students. Your participation is crucial for the association to operate effectively and serve the community better. Thank you for your support!" }
       ]
     }
   },

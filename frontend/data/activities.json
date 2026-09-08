@@ -153,42 +153,44 @@
   {
     "id": 5,
     "title": {
-      "vi": "Giải bóng đá sinh viên Việt Nam tại Delhi",
-      "en": "Vietnamese Student Football Tournament in Delhi"
+      "vi": "Khoảng khắc tại MILESTONE 2026",
+      "en": "RECAP MILESTONE 2026"
     },
-    "date": "2026-12-01",
+    "date": "2026-03-28",
     "location": "Delhi",
-    "category": "sports",
+    "category": "culture",
     "thumbnail": "assets/images/activities/5/1.jpg",
     "summary": {
-      "vi": "Giải bóng đá thường niên dành cho sinh viên Việt Nam tại Delhi.",
+      "vi": "Vào ngày 28/03/2026, Hội Sinh viên Việt Nam...",
       "en": "Annual football tournament for Vietnamese students in Delhi."
     },
     "featured": false,
     "content": {
       "vi": [
-        { "type": "text", "value": "" },
-        { "type": "image", "src": "assets/images/activities/5/1.jpg", "alt": "Bóng đá", "caption": "" },
-        { "type": "text", "value": "" },
-        { "type": "image", "src": "assets/images/activities/5/1.jpg", "alt": "Bóng đá", "caption": "" },
-        { "type": "text", "value": "" },
-        { "type": "image", "src": "assets/images/activities/5/1.jpg", "alt": "Bóng đá", "caption": "" },
-        { "type": "text", "value": "" },
-        { "type": "image", "src": "assets/images/activities/5/1.jpg", "alt": "Bóng đá", "caption": "" },
-        { "type": "text", "value": "" },
-        { "type": "text", "value": "" }
+        { "type": "text", "value": "Vào ngày 28/03/2026, Hội Sinh viên Việt Nam tại Ấn Độ đã tham gia 1 sự kiện dành cho các sinh viên quốc tế ở Delhi. Tại đây, Hội và các sinh viên cũng như các tăng ni sinh đã xây dựng 1 gian hàng trưng bày, quảng bá văn hóa và ẩm thực Việt Nam. Đặc biệt, màn trình diễn trang phục áo dài nón lá truyền thống được thể hiện đầy tự hào ngay trên sân khấu, thu hút sự quan tâm và yêu thích của bạn bè quốc tế. Mọi người đã tham gia và hưởng ứng không khí lễ hội 1 cách nhiệt huyết, sôi nổi, thể hiện tinh thần sẵn sàng hòa nhập, năng động và giàu lòng yêu nước." },
+        { "type": "image", "src": "assets/images/activities/5/1.jpg", "alt": "Khoảng khắc tại MILESTONE 2026", "caption": "" },
+        { "type": "text", "value": "❤️Để có được sự thành công như vậy là nhờ vào sự chung tay đồng lòng của các sinh viên, tăng ni sinh Việt Nam và đặc biệt là sự ủng hộ, hỗ trợ to lớn của Đại sứ quán Việt Nam tại Ấn Độ Vietnam Embassy Delhi. Đại sứ quán đã cung cấp các mô hình, vật dụng, tài trợ quỹ sinh viên cũng như là các đồ thủ công truyền thống để quảng bá đến bạn bè quốc tế." },
+        { "type": "image", "src": "assets/images/activities/5/2.jpg", "alt": "Khoảng khắc tại MILESTONE 2026", "caption": "" },
+        { "type": "text", "value": "Dù xa quê hương, nhưng nơi đây vẫn mang lại cảm giác như ở nhà. Mọi người kết nối, giúp đỡ nhau như tình thân, truyền thống gắn kết của người Việt Nam vẫn như vậy, luôn được gìn giữ. HSSVN mong muốn lan tỏa niềm vui và bày tỏ lời cảm ơn sâu sắc đến Đại sứ quán Việt Nam tại Ấn Độ  và với tất cả mọi người đã có mặt và cùng mang lại 1 ngày hội khó quên!🇻🇳🇻🇳🇻🇳" },
+        { "type": "image", "src": "assets/images/activities/5/3.jpg", "alt": "Khoảng khắc tại MILESTONE 2026", "caption": "Toàn bộ sinh viên Việt Nam tại Delhi chụp lưu niệm" },
+        { "type": "image", "src": "assets/images/activities/5/4.jpg", "alt": "Khoảng khắc tại MILESTONE 2026", "caption": "Gian hàng Việt Nam sầm uất" },
+        { "type": "image", "src": "assets/images/activities/5/5.jpg", "alt": "Khoảng khắc tại MILESTONE 2026", "caption": "" },
+        { "type": "image", "src": "assets/images/activities/5/6.jpg", "alt": "Khoảng khắc tại MILESTONE 2026", "caption": "" },
+        { "type": "image", "src": "assets/images/activities/5/7.jpg", "alt": "Khoảng khắc tại MILESTONE 2026", "caption": "" }
       ],
       "en": [
-        { "type": "text", "value": "" },
-        { "type": "image", "src": "assets/images/activities/5/1.jpg", "alt": "Bóng đá", "caption": "" },
-        { "type": "text", "value": "" },
-        { "type": "image", "src": "assets/images/activities/5/1.jpg", "alt": "Bóng đá", "caption": "" },
-        { "type": "text", "value": "" },
-        { "type": "image", "src": "assets/images/activities/5/1.jpg", "alt": "Bóng đá", "caption": "" },
-        { "type": "text", "value": "" },
-        { "type": "image", "src": "assets/images/activities/5/1.jpg", "alt": "Bóng đá", "caption": "" },
-        { "type": "text", "value": "" },
-        { "type": "text", "value": "" }
+        { "type": "text", "value": "On March 28, 2026, the Vietnamese Students’ Association in India participated in an international student event held in Delhi." },
+        { "type": "image", "src": "assets/images/activities/5/1.jpg", "alt": "Moment at MILESTONE 2026", "caption": "" },
+        { "type": "text", "value": "At the event, the Association, together with Vietnamese students and monastic students, set up a booth to showcase and promote Vietnamese culture and cuisine. In particular, the traditional **ao dai and conical hat** performance was proudly presented on stage, attracting great interest and appreciation from international friends. The vibrant and enthusiastic atmosphere reflected the spirit of integration, dynamism, and deep patriotism of Vietnamese youth." },
+        { "type": "image", "src": "assets/images/activities/5/2.jpg", "alt": "Moment at MILESTONE 2026", "caption": "" },
+        { "type": "text", "value": "❤️This success was made possible thanks to the unity and collective efforts of Vietnamese students and monastic students, as well as the strong support from the Embassy of Vietnam in India Vietnam Embassy Delhi. The Embassy provided traditional models, items, student's fund and handicrafts, helping to introduce Vietnamese culture to the international community." },
+        { "type": "image", "src": "assets/images/activities/5/3.jpg", "alt": "Moment at MILESTONE 2026", "caption": "All Vietnamese students in Delhi taking a group photo" },
+        { "type": "text", "value": "Although far from home, the event created a warm and familiar feeling. Everyone connected and supported one another like family, preserving the strong sense of unity that defines the Vietnamese people. The Vietnamese Students’ Association would like to express sincere gratitude to the Embassy of Vietnam in India and to everyone who participated and contributed to making this event truly unforgettable!🇻🇳🇻🇳🇻🇳" },
+        { "type": "image", "src": "assets/images/activities/5/4.jpg", "alt": "Moment at MILESTONE 2026", "caption": "Vietnamese booth at the event" },
+        { "type": "image", "src": "assets/images/activities/5/5.jpg", "alt": "Moment at MILESTONE 2026", "caption": "" },
+        { "type": "image", "src": "assets/images/activities/5/6.jpg", "alt": "Moment at MILESTONE 2026", "caption": "" },
+        { "type": "image", "src": "assets/images/activities/5/7.jpg", "alt": "Moment at MILESTONE 2026", "caption": "" }
+        
       ]
     },
     "organizerId": 5

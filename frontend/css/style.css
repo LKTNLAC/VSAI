@@ -2963,3 +2963,195 @@ p {
 .detail-location::before {
     content: '📍 ';
 }
+/* ====================================================
+   CONTACT PAGE
+   ==================================================== */
+
+.contact-page {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.contact-header {
+    text-align: center;
+    margin-bottom: var(--space-xl);
+}
+
+.contact-header h1 {
+    margin-bottom: var(--space-xs);
+}
+
+.contact-subtitle {
+    font-size: var(--font-size-lg);
+    color: var(--color-text-muted);
+}
+
+/* Contact Grid */
+.contact-grid {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    gap: var(--space-xl);
+    margin-bottom: var(--space-2xl);
+}
+
+/* Contact Info */
+.contact-info h2,
+.contact-form-wrapper h2 {
+    font-size: var(--font-size-2xl);
+    margin-bottom: var(--space-md);
+}
+
+.contact-info-item {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-xs);
+    padding: var(--space-sm) 0;
+    border-bottom: 1px solid var(--color-border);
+}
+
+.contact-info-item:last-child {
+    border-bottom: none;
+}
+
+.contact-info-label {
+    font-weight: 600;
+    font-size: var(--font-size-sm);
+    color: var(--color-text-muted);
+}
+
+.contact-info-item a {
+    color: var(--color-primary);
+    font-size: var(--font-size-md);
+    transition: color var(--transition-fast);
+}
+
+.contact-info-item a:hover {
+    color: var(--color-primary-dark);
+}
+
+/* Contact Form */
+.contact-form-wrapper {
+    background: var(--color-surface);
+    padding: var(--space-lg);
+    border-radius: var(--radius-md);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+}
+
+.contact-form .form-group {
+    margin-bottom: var(--space-md);
+}
+
+.contact-form label {
+    display: block;
+    font-size: var(--font-size-sm);
+    font-weight: 500;
+    color: var(--color-text);
+    margin-bottom: var(--space-xs);
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 0.75rem 1rem;
+    font-family: var(--font-body);
+    font-size: var(--font-size-md);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-sm);
+    background: var(--color-background);
+    transition: border-color var(--transition-fast);
+    color: var(--color-text);
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    outline: none;
+    border-color: var(--color-primary);
+    box-shadow: 0 0 0 3px rgba(139, 26, 26, 0.1);
+}
+
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+    color: var(--color-text-light);
+}
+
+.contact-form .btn {
+    width: 100%;
+    padding: 0.75rem 1.5rem;
+}
+
+.form-success {
+    margin-top: var(--space-md);
+    padding: var(--space-md);
+    background: #e8f5e9;
+    border-radius: var(--radius-sm);
+    color: #2e7d32;
+    font-size: var(--font-size-sm);
+    text-align: center;
+    display: none;
+}
+
+/* Emergency Section */
+.emergency-section {
+    margin-top: var(--space-xl);
+    padding: var(--space-lg);
+    background: #fff3e0;
+    border-radius: var(--radius-md);
+    border-left: 4px solid #e65100;
+}
+
+.emergency-section h2 {
+    font-size: var(--font-size-2xl);
+    color: #e65100;
+    margin-bottom: var(--space-xs);
+}
+
+.emergency-section > p {
+    color: var(--color-text-muted);
+    margin-bottom: var(--space-md);
+}
+
+.emergency-card {
+    background: var(--color-surface);
+    padding: var(--space-md);
+    border-radius: var(--radius-sm);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+}
+
+.emergency-card h3 {
+    font-size: var(--font-size-lg);
+    margin-bottom: var(--space-xs);
+}
+
+.emergency-phone {
+    font-size: var(--font-size-md);
+    font-weight: 500;
+    color: var(--color-primary);
+}
+
+.emergency-address {
+    font-size: var(--font-size-sm);
+    color: var(--color-text-muted);
+}
+
+/* ---------- RESPONSIVE ---------- */
+
+@media (max-width: 1023px) {
+    .contact-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 767px) {
+    .contact-grid {
+        grid-template-columns: 1fr;
+        gap: var(--space-lg);
+    }
+    
+    .contact-form-wrapper {
+        padding: var(--space-md);
+    }
+    
+    .emergency-section {
+        padding: var(--space-md);
+    }
+}
