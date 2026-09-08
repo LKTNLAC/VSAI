@@ -198,42 +198,41 @@
   {
     "id": 6,
     "title": {
-      "vi": "Giải bóng đá sinh viên Việt Nam tại Delhi",
-      "en": "Vietnamese Student Football Tournament in Delhi"
+      "vi": "Đón tiếp Tổng Bí Thư Tô Lâm qua thăm chính thức Ấn Độ",
+      "en": "Welcoming General Secretary To Lam on his official visit to India"
     },
-    "date": "2026-12-01",
+    "date": "2026-05-05",
     "location": "Delhi",
-    "category": "sports",
+    "category": "event",
     "thumbnail": "assets/images/activities/6/1.jpg",
     "summary": {
-      "vi": "Giải bóng đá thường niên dành cho sinh viên Việt Nam tại Delhi.",
-      "en": "Annual football tournament for Vietnamese students in Delhi."
+      "vi": "Hội Sinh viên Việt Nam tại Ấn Độ (VSAI) vô cùng vinh dự khi được...",
+      "en": "The Vietnamese Students’ Association in India (VSAI) was deeply honored..."
     },
     "featured": false,
     "content": {
       "vi": [
-        { "type": "text", "value": "" },
-        { "type": "image", "src": "assets/images/activities/6/1.jpg", "alt": "Bóng đá", "caption": "" },
-        { "type": "text", "value": "" },
-        { "type": "image", "src": "assets/images/activities/6/1.jpg", "alt": "Bóng đá", "caption": "" },
-        { "type": "text", "value": "" },
-        { "type": "image", "src": "assets/images/activities/6/1.jpg", "alt": "Bóng đá", "caption": "" },
-        { "type": "text", "value": "" },
-        { "type": "image", "src": "assets/images/activities/6/1.jpg", "alt": "Bóng đá", "caption": "" },
-        { "type": "text", "value": "" },
-        { "type": "text", "value": "" }
+        { "type": "text", "value": "Hội Sinh viên Việt Nam tại Ấn Độ (VSAI) vô cùng vinh dự khi được tham gia đón tiếp bác Tổng Bí thư, Chủ tịch nước Tô Lâm trong chuyến thăm cấp Nhà nước tới Cộng hòa Ấn Độ. Đồng hành cùng bác là các đồng chí lãnh đạo cấp cao của Đảng và Nhà nước Việt Nam." },
+        { "type": "image", "src": "assets/images/activities/6/1.jpg", "alt": "", "caption": "Chụp ảnh lưu niệm cùng đoàn công tác" },
+        { "type": "text", "value": "Trong khuôn khổ chuyến thăm, Hội đã tham gia chương trình đón tiếp bác tại khách sạn cũng như buổi gặp mặt thân mật dành cho cộng đồng người Việt Nam đang sinh sống, học tập và làm việc tại Ấn Độ. " },
+        { "type": "image", "src": "assets/images/activities/6/2.jpg", "alt": "", "caption": "Đồng chí ủy viên Nguyễn Gia Phúc đại diện phát biểu" },
+        { "type": "text", "value": "Tại buổi gặp mặt, đại diện Hội Sinh viên - bạn Nguyễn Gia Phúc - đã có bài phát biểu đầy xúc động và tự hào khi được Đảng và Nhà nước tạo điều kiện học tập tại Ấn Độ. Đồng thời, bạn cũng chia sẻ niềm vui khi luôn nhận được sự cởi mở, thân thiện và ngưỡng mộ từ bạn bè quốc tế mỗi khi biết mình là người Việt Nam. Bên cạnh đó, bạn tiếp tục khẳng định quyết tâm vượt qua mọi khó khăn, không ngừng học tập và tiếp thu tinh hoa giáo dục của nước bạn để một ngày trở về đóng góp, cống hiến cho sự phát triển của quê hương, đất nước. " },
+        { "type": "image", "src": "assets/images/activities/6/3.jpg", "alt": "", "caption": "Tổng Bí Thư Tô Lâm chào sinh viên Việt Nam tại Ấn Độ" },
+        { "type": "text", "value": "Bác Tô Lâm đã thể hiện sự quan tâm sâu sắc và dành nhiều lời biểu dương cho tinh thần học tập, ý chí vươn lên của sinh viên Việt Nam tại Ấn Độ. Đồng thời, bác cũng khẳng định sẽ tiếp tục tạo điều kiện và khuyến khích mạnh mẽ hơn nữa tinh thần hiếu học, cầu tiến của thế hệ trẻ Việt Nam. " },
+        { "type": "image", "src": "assets/images/activities/6/4.jpg", "alt": "", "caption": "Ban chấp hành Hội Sinh viên Việt Nam tại Ấn Độ" },
+        { "type": "text", "value": "Sự ghi nhận và động viên từ bác chính là nguồn động lực to lớn để mỗi sinh viên Việt Nam tại Ấn Độ không ngừng nỗ lực rèn luyện bản thân, trau dồi tri thức và bản lĩnh, xứng đáng với niềm tin, sự kỳ vọng của Đảng, Nhà nước và nhân dân. 🤝✨" }
+        
       ],
       "en": [
-        { "type": "text", "value": "" },
-        { "type": "image", "src": "assets/images/activities/6/1.jpg", "alt": "Bóng đá", "caption": "" },
-        { "type": "text", "value": "" },
-        { "type": "image", "src": "assets/images/activities/6/1.jpg", "alt": "Bóng đá", "caption": "" },
-        { "type": "text", "value": "" },
-        { "type": "image", "src": "assets/images/activities/6/1.jpg", "alt": "Bóng đá", "caption": "" },
-        { "type": "text", "value": "" },
-        { "type": "image", "src": "assets/images/activities/6/1.jpg", "alt": "Bóng đá", "caption": "" },
-        { "type": "text", "value": "" },
-        { "type": "text", "value": "" }
+        { "type": "text", "value": "The Vietnamese Students’ Association in India (VSAI) was deeply honored to participate in welcoming General Secretary and President Tô Lâm during his State visit to the Republic of India. Accompanying him were senior leaders of the Communist Party and the Government of Vietnam." },
+        { "type": "image", "src": "assets/images/activities/6/1.jpg", "alt": "", "caption": "Memorable photo with the delegation" },
+        { "type": "text", "value": "As part of the visit, VSAI had the privilege of joining the welcoming program at the hotel as well as the special gathering with the Vietnamese community currently living, studying, and working in India. " },
+        { "type": "image", "src": "assets/images/activities/6/2.jpg", "alt": "", "caption": "Comrade Nguyen Gia Phuc, a member of the committee, delivered a speech." },
+        { "type": "text", "value": "During the meeting, VSAI representative Nguyễn Gia Phúc delivered a heartfelt speech expressing gratitude and pride for being given the opportunity by the Party and the State to study in India. He also shared the warm reception, openness, and admiration that Vietnamese students often receive from Indian and international friends whenever they learn that they are from Vietnam. Furthermore, he reaffirmed the determination of Vietnamese students to overcome challenges, continuously pursue knowledge, and absorb the educational excellence of India in order to one day return home and contribute wholeheartedly to the development of Vietnam. " },
+        { "type": "image", "src": "assets/images/activities/6/3.jpg", "alt": "", "caption": "General Secretary and President Tô Lâm greeting Vietnamese students in India." },
+        { "type": "text", "value": "General Secretary and President Tô Lâm expressed his sincere care and appreciation for the spirit, dedication, and aspirations of Vietnamese students in India. He also emphasized continued support and encouragement for the studiousness and progressive mindset of Vietnamese youth. " },
+        { "type": "image", "src": "assets/images/activities/6/4.jpg", "alt": "", "caption": "Executive Committee of the Vietnamese Students’ Association in India" },
+        { "type": "text", "value": "The recognition and encouragement from the General Secretary and President serve as a tremendous source of motivation for every Vietnamese student in India to keep striving, improving themselves, enriching their knowledge and resilience, and living up to the trust and expectations of the Party, the State, and the Vietnamese people. 🤝✨" }
       ]
     },
     "organizerId": 6
