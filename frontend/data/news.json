@@ -334,124 +334,186 @@
   {
     "id": 11,
     "title": {
-      "vi": "",
-      "en": ""
+      "vi": "⚠️ **KHUYẾN CÁO AN TOÀN: ĐỀ PHÒNG MÓC TÚI KHI SỬ DỤNG METRO TẠI DELHI**",
+      "en": "⚠️ **SAFETY ADVISORY: PREVENT POCKET THEFT WHEN USING METRO IN DELHI**"
     },
-    "date": "2026-0-0",
-    "category": "",
+    "date": "2026-08-04",
+    "category": "announcement",
     "thumbnail": "assets/images/news/11/1.jpg",
     "summary": {
-      "vi": "...",
-      "en": "..."
+      "vi": "Trong thời gian gần đây, Hội Sinh viên Việt Nam tại Ấn Độ...",
+      "en": "In recent times, the Vietnamese Student Association in India..."
     },
     "featured": false,
     "content": {
       "vi": [
-        { "type": "text", "value": "" },
-        { "type": "image", "src": "assets/images/news/11/1.jpg", "alt": "", "caption": "" },
-        { "type": "text", "value": "" },
-        { "type": "text", "value": "" },
-        { "type": "text", "value": "" }
+        { "type": "text", "value": "Trong thời gian gần đây, Hội Sinh viên Việt Nam tại Ấn Độ đã tiếp nhận phản ánh từ một số sinh viên về các trường hợp bị móc túi và mất tài sản khi sử dụng hệ thống Metro tại Delhi, đặc biệt tại các ga đông người và trong khung giờ cao điểm." },
+        { "type": "image", "src": "assets/images/news/11/1.jpg", "alt": "", "caption": "Quang cảnh ga INA" },
+        { "type": "text", "value": "Nhằm giúp các bạn chủ động phòng tránh những rủi ro không đáng có, Hội xin gửi tới cộng đồng sinh viên một số lưu ý sau:" },
+        { "type": "text", "value": "🔹 Luôn bảo quản cẩn thận điện thoại, ví tiền, hộ chiếu và các giấy tờ quan trọng; hạn chế để tài sản có giá trị ở những vị trí dễ bị lấy cắp." },
+        { "type": "text", "value": "🔹 Nên đeo ba lô phía trước hoặc sử dụng túi xách có khóa kéo chắc chắn khi di chuyển tại những khu vực đông người." },
+        { "type": "text", "value": "🔹 Hạn chế sử dụng điện thoại hoặc mất tập trung khi lên xuống tàu và trong lúc di chuyển." },
+        { "type": "text", "value": "🔹 Cảnh giác với những tình huống chen lấn bất thường hoặc người lạ cố tình va chạm, đánh lạc hướng." },
+        { "type": "text", "value": "🔹 Nếu không may xảy ra mất tài sản hoặc gặp sự cố, hãy bình tĩnh thông báo ngay cho lực lượng an ninh hoặc nhân viên tại ga Metro để được hỗ trợ, đồng thời liên hệ với Hội Sinh viên Việt Nam tại Ấn Độ nếu cần hỗ trợ hoặc tư vấn thêm." },
+        { "type": "image", "src": "assets/images/news/11/2.jpg", "alt": "", "caption": "Bản đồ Metro Delhi" },
+        { "type": "text", "value": "An toàn của cộng đồng sinh viên luôn là ưu tiên của Hội. Chúng tôi mong các bạn nâng cao ý thức tự bảo vệ bản thân, đồng thời chia sẻ thông tin này tới bạn bè, đặc biệt là các sinh viên mới sang Ấn Độ, để cùng xây dựng một cộng đồng sinh viên Việt Nam đoàn kết, chủ động và an toàn." },
+        { "type": "text", "value": "Chúc các bạn luôn mạnh khỏe, học tập thuận lợi và có những trải nghiệm ý nghĩa tại Ấn Độ." },
+        { "type": "text", "value": "**Hội Sinh viên Việt Nam tại Ấn Độ**" }
       ],
       "en": [
-        { "type": "text", "value": "" },
-        { "type": "image", "src": "assets/images/news/11/1.jpg", "alt": "", "caption": "" },
-        { "type": "text", "value": "" },
-        { "type": "text", "value": "" },
-        { "type": "text", "value": "" }
+        { "type": "text", "value": "In recent times, the Vietnamese Student Association in India has received reports from several students about cases of pickpocketing and loss of property when using the Metro system in Delhi, especially at busy stations and during peak hours." },
+        { "type": "image", "src": "assets/images/news/11/1.jpg", "alt": "", "caption": "INA Station View" },
+        { "type": "text", "value": "In order to help you proactively avoid such risks, the Association would like to share the following tips:" },
+        { "type": "text", "value": "🔹 Always keep your phone, wallet, passport and important documents secure; avoid leaving valuable items in easily accessible places." },
+        { "type": "text", "value": "🔹 Wear your backpack in front or use a bag with a secure zipper when moving through crowded areas." },
+        { "type": "text", "value": "🔹 Avoid using your phone or getting distracted when getting on and off the train or while moving around." },
+        { "type": "text", "value": "🔹 Be cautious of unusual pushing or people deliberately bumping into you or trying to distract you." },
+        { "type": "text", "value": "🔹 If you unfortunately experience a loss of property or encounter any issues, please remain calm and report it immediately to the security personnel or staff at the Metro station for assistance, and contact the Vietnamese Student Association in India if you need further support or advice." },
+        { "type": "image", "src": "assets/images/news/11/2.jpg", "alt": "", "caption": "Delhi Metro Map" },
+        { "type": "text", "value": "The safety of our student community is always our top priority. We hope you will enhance your awareness of self-protection and share this information with your friends, especially new students who have just arrived in India, to help build a united, proactive and safe community of Vietnamese students." },
+        { "type": "text", "value": "We wish you good health, successful studies, and meaningful experiences in India." },
+        { "type": "text", "value": "**Vietnamese Student Association in India**" }
+        
       ]
     }
   },
   {
     "id": 12,
     "title": {
-      "vi": "",
-      "en": ""
+      "vi": "THÔNG BÁO CỦA UBND THÀNH PHỐ HỒ CHÍ MINH tổ chức chương trình Trại hè 'Thanh thiếu niên Kiều bào và Tuổi trẻ Thành phố' lần thứ 19 với chủ đề 'Tự hào Thành phố mang tên Bác'",
+      "en": "ANNOUNCEMENT FROM THE PEOPLE'S COMMITTEE OF HO CHI MINH CITY ORGANIZING THE 'YOUTH CAMP' PROGRAM FOR OVERSEAS VIETNAMESE YOUTH AND THE YOUTH OF THE CITY, 19TH EDITION, WITH THE THEME 'PROUD OF THE CITY NAMED AFTER PRESIDENT HO CHI MINH'"
     },
-    "date": "2026-0-0",
-    "category": "",
+    "date": "2026-08-15",
+    "category": "announcement",
     "thumbnail": "assets/images/news/12/1.jpg",
     "summary": {
-      "vi": "...",
-      "en": "..."
+      "vi": "Thực hiện chương trình công tác người Việt Nam ở nước ngoài...",
+      "en": "Implementing the program for Vietnamese people abroad..."
     },
     "featured": false,
     "content": {
       "vi": [
-        { "type": "text", "value": "" },
+        { "type": "text", "value": "Thực hiện chương trình công tác người Việt Nam ở nước ngoài trên địa bàn Thành phố Hồ Chí Minh năm 2026; Hưởng ứng các hoạt động chào mừng kỷ niệm 328 năm hình thành Thành phố Sài Gòn - Chợ Lớn - Gia Định - Thành phố Hồ Chí Minh (1698 - 2026); 50 năm Ngày Thành phố Sài Gòn - Gia Định chính thức vinh dự mang tên Chủ tịch Hồ Chí Minh (02/7/1976 - 02/7/2026), Văn phòng Ủy ban nhân dân Thành phố tổ chứcchương trình “Trại hè 2026”, thông tin cụ thể như sau:" },
         { "type": "image", "src": "assets/images/news/12/1.jpg", "alt": "", "caption": "" },
-        { "type": "text", "value": "" },
-        { "type": "text", "value": "" },
-        { "type": "text", "value": "" }
+        { "type": "text", "value": "1. Thời gian: Từ ngày 25/8/2026 – 29/8/2026 (5 ngày 4 đêm)." },
+        { "type": "text", "value": "2. Địa điểm: Thành phố Hồ Chí Minh (Phường Sài Gòn – đặc khu Côn Đảo –Phường Dĩ An)." },
+        { "type": "text", "value": "3. Số lượng và đối tượng đăng ký: thanh thiếu niên người Việt Nam ở nước ngoài; độ tuổi từ 12-25 tuổi" },
+        { "type": "text", "value": "4. Mục tiêu: Giúp cho các bạn thanh thiếu niên người Việt Nam ở nước ngoài có cơ hội giao lưu với thanh thiếu niên trong nước, nhằm nâng cao kiến thức về lịch sử, văn hóa dân tộc, thực hành và trau dồi tiếng Việt, tạo sự gắn kết giữa thế hệ trẻ người Việt Nam ở nước ngoài với quê hương, đất nước; Trại hè không chỉ dừng lại ở những ngày trải nghiệm, mà bài thu hoạch và những kỷ niệm sâu sắc khi tham gia các hoạt động tại Côn Đảo sẽ biến mỗi trại sinh thành một 'đại sứ văn hóa, lịch sử'. Khi trở về nước sở tại, chính các em sẽ là người lan tỏa những giá trị chân thực, tốt đẹp về đất nước và con người Việt Nam đến cộng đồng quốc tế." },
+        { "type": "text", "value": "- Chương trình hoạt động: tổ chức dâng hoa tại tượng đài Chủ tịch Hồ Chí Minh, Ngã Ba Giồng; giao lưu Câu Lạc bộ truyền thống kháng chiến Thành phố Hồ Chí Minh; giao lưu với cựu tù chính trị tại Côn Đảo; thắp nến tri ân tại Nghĩa trang Hàng Dương; tìm hiểu cụm di tích lịch sử nổi tiếng tại Côn Đảo; thực hiện công tác từ thiện xã hội, thăm mái ấm trên địa bàn Bình Dương; tổ chức giao lưu văn hóa, văn nghệ, sinh hoạt tập thể giữa thanh thiếu niên kiều bào với tuổi trẻ Thành phố; lồng ghép các nội dung thực hành tiếng Việt trong sinh hoạt, giao lưu, thuyết trình, trò chơi, biểu diễn và hoạt động tập thể." },
+        { "type": "text", "value": "5.  Kinh phí tham gia Trại hè:" },
+        { "type": "text", "value": "- Ủy ban nhân dân Thành phố Hồ Chí Minh đài thọ các chi phí ăn, ở, đi lại và các hoạt động của Trại hè trong 5 ngày 4 đêm tại Thành phố Hồ Chí Minh. " },
+        { "type": "text", "value": "- Trại sinh tự túc chi phí di chuyển về nước tham gia Trại hè và chi phí cá nhân ngoài chương trình Trại hè." },
+        { "type": "text", "value": "6. Tiếp nhận hồ sơ đăng ký" },
+        { "type": "text", "value": "Bộ phận Lãnh sự – Đại sứ quán Việt Nam tại Ấn Độ" },
+        { "type": "text", "value": "- Điện thoại/WhatsApp: +91 7042035588" },
+        { "type": "text", "value": "- Email: consularsection@vietnamembassydelhi.in" },
+        { "type": "text", "value": "- Thời hạn đăng ký: Trước ngày 19/08/2026" },
+        { "type": "text", "value": "Trân trọng!" }
       ],
       "en": [
-        { "type": "text", "value": "" },
+        { "type": "text", "value": "In implementing the program for overseas Vietnamese in Ho Chi Minh City in 2026; in response to activities celebrating the 328th anniversary of the formation of Saigon - Cholon - Gia Dinh - Ho Chi Minh City (1698 - 2026); and the 50th anniversary of the official renaming of Saigon - Gia Dinh to Ho Chi Minh City (July 2, 1976 - July 2, 2026), the Office of the People's Committee of Ho Chi Minh City is organizing the 'Summer Camp 2026' program, with the following details:" },
         { "type": "image", "src": "assets/images/news/12/1.jpg", "alt": "", "caption": "" },
-        { "type": "text", "value": "" },
-        { "type": "text", "value": "" },
-        { "type": "text", "value": "" }
+        { "type": "text", "value": "1. Duration: From August 25th, 2026 to August 29th, 2026 (5 days and 4 nights)." },
+        { "type": "text", "value": "2. Location: Ho Chi Minh City (Saigon Ward – Con Dao Special Zone – Di An Ward)." },
+        { "type": "text", "value": "3. Target Participants: Vietnamese youth living abroad and the youth of Ho Chi Minh City." },
+        { "type": "text", "value": "4. Objectives: To provide opportunities for Vietnamese youth living abroad to interact with their peers in the homeland, thereby enhancing their knowledge of history and culture, practicing the Vietnamese language, and fostering a sense of connection between the younger generation of Vietnamese people abroad and their homeland." },
+        { "type": "text", "value": "- Program Activities: Organizing flower offerings at the statue of President Ho Chi Minh, Ngã Ba Giồng; exchanging experiences with the Traditional Resistance Club of Ho Chi Minh City; interacting with former political prisoners at Con Dao; lighting candles in memory at Hang Duong Cemetery; exploring famous historical sites at Con Dao; engaging in social welfare activities, visiting shelters in Binh Duong province; organizing cultural exchanges, arts performances, and group activities between overseas Vietnamese youth and the youth of the city; integrating Vietnamese language practice into daily life, exchanges, presentations, games, performances, and group activities." },
+        { "type": "text", "value": "5. Program Costs:" },
+        { "type": "text", "value": "- The People's Committee of Ho Chi Minh City will cover all expenses for meals, accommodation, transportation, and program activities during the 5-day 4-night stay in the city." },
+        { "type": "text", "value": "- Participants will be responsible for their own travel costs to return to their home country and personal expenses outside the program." },
+        { "type": "text", "value": "6. Application Process" },
+        { "type": "text", "value": "Consular Section – Vietnam Embassy in India" },
+        { "type": "text", "value": "- Phone/WhatsApp: +91 7042035588" },
+        { "type": "text", "value": "- Email: consularsection@vietnamembassydelhi.in" },
+        { "type": "text", "value": "- Application Deadline: Before August 19th, 2026" },
+        { "type": "text", "value": "Best regards!" }
       ]
     }
   },
   {
     "id": 13,
     "title": {
-      "vi": "",
-      "en": ""
+      "vi": "CHÚC MỪNG NGÀY ĐỘC LẬP ẤN ĐỘ 15/8",
+      "en": "HAPPY INDEPENDENCE DAY, INDIA!"
     },
-    "date": "2026-0-0",
-    "category": "",
+    "date": "2026-08-15",
+    "category": "announcement",
     "thumbnail": "assets/images/news/13/1.jpg",
     "summary": {
-      "vi": "...",
-      "en": "..."
+      "vi": "Nhân dịp kỷ niệm Ngày Độc lập lần thứ 79 của Cộng hòa Ấn Độ (15/8/1947 – 15/8/2026)...",
+      "en": "On the occasion of the **79th Independence Day of the Republic of India (August 15, 1947 – August 15, 2026)**..."
     },
     "featured": false,
     "content": {
       "vi": [
-        { "type": "text", "value": "" },
-        { "type": "image", "src": "assets/images/news/13/1.jpg", "alt": "", "caption": "" },
-        { "type": "text", "value": "" },
-        { "type": "text", "value": "" },
-        { "type": "text", "value": "" }
+        {
+          "type": "text",
+          "value": "Nhân dịp kỷ niệm **Ngày Độc lập lần thứ 79 của Cộng hòa Ấn Độ (15/8/1947 – 15/8/2026)**, Hội Sinh viên Việt Nam tại Ấn Độ trân trọng gửi lời chúc mừng nồng nhiệt nhất tới Nhà nước, Chính phủ và nhân dân Ấn Độ, cùng toàn thể bạn bè Ấn Độ đang đồng hành và gắn bó với cộng đồng sinh viên Việt Nam."
+        },
+        {
+          "type": "text",
+          "value": "Đối với những sinh viên Việt Nam đang học tập và sinh sống tại Ấn Độ, ngày 15/8 không chỉ là dịp để cùng chia sẻ niềm vui của đất nước sở tại, mà còn là cơ hội để chúng ta tìm hiểu, trân trọng những giá trị lịch sử, văn hóa và con người của một đất nước giàu truyền thống."
+        },
+        {
+          "type": "image",
+          "src": "assets/images/news/13/1.jpg",
+          "alt": "Sinh viên ký túc xá quốc tế đại học Delhi University",
+          "caption": "Sinh viên ký túc xá quốc tế đại học Delhi University"
+        },
+        {
+          "type": "text",
+          "value": "🇻🇳🇮🇳 Hội Sinh viên Việt Nam tại Ấn Độ tin tưởng rằng tình hữu nghị truyền thống và quan hệ Đối tác Chiến lược Toàn diện Việt Nam – Ấn Độ sẽ tiếp tục được vun đắp, đặc biệt thông qua sự kết nối giữa thế hệ trẻ, sinh viên và thanh niên hai nước."
+        },
+        {
+          "type": "text",
+          "value": "Kính chúc **Cộng hòa Ấn Độ** ngày càng phát triển thịnh vượng, hòa bình và thành công."
+        },
+        {
+          "type": "text",
+          "value": "**Happy 80th Independence Day, India! 🇮🇳**"
+        },
+        {
+          "type": "text",
+          "value": "**Hội Sinh viên Việt Nam tại Ấn Độ** 🇻🇳"
+        }
       ],
       "en": [
-        { "type": "text", "value": "" },
+        { "type": "text", "value": "On the occasion of the **79th Independence Day of the Republic of India (August 15, 1947 – August 15, 2026)**, the Vietnamese Student Association in India respectfully extends its warmest congratulations to the State, Government, and people of India, and to all Indian friends who are accompanying and closely associated with the Vietnamese student community." },
+        { "type": "text", "value": "For Vietnamese students studying and living in India, August 15th is not only a time to share in the joy of their host country but also an opportunity to learn about and appreciate the historical, cultural, and human values of a nation with a rich tradition." },
         { "type": "image", "src": "assets/images/news/13/1.jpg", "alt": "", "caption": "" },
-        { "type": "text", "value": "" },
-        { "type": "text", "value": "" },
-        { "type": "text", "value": "" }
+        { "type": "text", "value": "The Vietnamese Student Association in India is confident that the traditional friendship and comprehensive strategic partnership between Vietnam and India will continue to be nurtured, especially through the connections between the youth of both countries." },
+        { "type": "text", "value": "Wishing the **Republic of India** continued prosperity, peace, and success." },
+        { "type": "text", "value": "**Happy 80th Independence Day, India! 🇮🇳**" },
+        { "type": "text", "value": "**Vietnamese Student Association in India** 🇻🇳" }
       ]
     }
   },
   {
     "id": 14,
     "title": {
-      "vi": "",
-      "en": ""
+      "vi": "Chúc mừng ngày cách mạng tháng 8 và ngày truyền thống Công an nhân dân Việt Nam",
+      "en": "Celebrating the August Revolution Day and the Founding Day of the Vietnamese People's Police"
     },
-    "date": "2026-0-0",
-    "category": "",
+    "date": "2026-08-19",
+    "category": "announcement",
     "thumbnail": "assets/images/news/14/1.jpg",
     "summary": {
-      "vi": "...",
-      "en": "..."
+      "vi": "Hôm nay, ngày 19-8-2026 là một ngày hết sức đặc biệt. Đây là...",
+      "en": "Today, August 19, 2026, is a very special day. It is the..."
     },
     "featured": false,
     "content": {
       "vi": [
-        { "type": "text", "value": "" },
+        { "type": "text", "value": "🇻🇳Hôm nay, ngày 19-8-2026 là một ngày hết sức đặc biệt. Đây là ngày kỉ niệm 81 năm Cách mạng Tháng Tám thành công, là dịp để nhìn lại, hồi tưởng về những chiến công to lớn của ông cha ta, cũng là dịp để khẳng định sự đại đoàn kết toàn dân tộc là sức mạnh to lớn nhất và là nhân tố quyết định trong công cuộc xây dựng, bảo vệ và phát triển Tổ quốc Việt Nam xã hội chủ nghĩa." },
         { "type": "image", "src": "assets/images/news/14/1.jpg", "alt": "", "caption": "" },
-        { "type": "text", "value": "" },
-        { "type": "text", "value": "" },
-        { "type": "text", "value": "" }
+        { "type": "text", "value": "🇻🇳Đồng thời hôm nay cũng là ngày kỉ niệm 81 năm ngày truyền thống của Công an nhân dân Việt Nam và 21 năm ngày hội 'Toàn dân bảo vệ an ninh Tổ quốc'. Được mệnh danh là 'thanh bảo kiếm' sắc bén và là 'lá chắn thép' vững chắc của Đảng, Nhà nước và Nhân dân, mốc son lịch sử 81 năm là minh chứng lịch sử cho sự hình thành và phát triển vững mạnh của lực lượng Công an nhân dân đã và đang ngày đêm đấu tranh vì sự nghiệp của Đảng, sự tồn vong của chế độ XHCN, an ninh Tổ quốc và sự bình yên của Nhân dân. " },
+        { "type": "text", "value": "🇻🇳HSVVN tại Ấn Độ một lần nữa khẳng định chí hướng, sự quyết tâm trong học tập và rèn luyện, vì một tương lai xây dựng đất nước Việt Nam ngày càng vững mạnh, giàu đẹp!" }
       ],
       "en": [
-        { "type": "text", "value": "" },
+        { "type": "text", "value": "Today, August 19, 2026, is a very special day. It is the anniversary of the successful August Revolution, a time to look back and remember the great achievements of our ancestors, and also a time to affirm that national unity is the greatest strength and a decisive factor in the cause of building, defending, and developing the socialist fatherland of Vietnam." },
         { "type": "image", "src": "assets/images/news/14/1.jpg", "alt": "", "caption": "" },
-        { "type": "text", "value": "" },
-        { "type": "text", "value": "" },
-        { "type": "text", "value": "" }
+        { "type": "text", "value": "At the same time, today is also the anniversary of the 81st founding day of the Vietnamese People's Police and the 21st anniversary of the 'All People Protect National Security' festival. Known as the 'sharp sword' and the 'steel shield' of the Party, State, and People, the 81-year milestone is a historical testament to the formation and robust development of the Vietnamese People's Police force, which has been fighting day and night for the Party's cause, the survival of socialism, national security, and the peace of the people." },
+        { "type": "text", "value": "The Vietnamese students in India once again demonstrate their aspirations and determination in their studies and training, for a future of building a strong and prosperous Vietnam!" }
       ]
     }
   },
@@ -462,7 +524,7 @@
       "en": ""
     },
     "date": "2026-0-0",
-    "category": "",
+    "category": "announcement",
     "thumbnail": "assets/images/news/15/1.jpg",
     "summary": {
       "vi": "...",

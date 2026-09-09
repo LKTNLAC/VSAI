@@ -7,7 +7,7 @@
     },
     "date": "2026-01-31",
     "location": "Bihar, India",
-    "category": "charity",
+    "category": "community",
     "thumbnail": "assets/images/activities/1/cover.jpg",
     "summary": {
       "vi": "Đoàn từ thiện VSA India đã trao 160 bộ dụng cụ học tập và suất ăn trưa cho học sinh khó khăn tại Bihar.",
@@ -96,13 +96,13 @@
       ],
       "en": [
         { "type": "text", "value": "On the 29th day of the 12th lunar month of the Year of the Snake (2026), at the sacred moment of transition between the old year and the new year of the Horse (2026), the Vietnamese student community studying at Nalanda University (Bihar, India) solemnly celebrated the traditional Lunar New Year and welcomed the New Year together in a dignified and warm atmosphere." },
-        { "type": "image", "src": "assets/images/activities/3/1.jpg", "alt": "Bóng đá", "caption": "" },
+        { "type": "image", "src": "assets/images/activities/3/1.jpg", "alt": "Students", "caption": "Students at Nalanda University" },
         { "type": "text", "value": "The ceremony was honored to welcome Professor Sachin Chaturvedi – President of Nalanda International University; Professor Godabarisha Mishra – Head of the Buddhist Studies Department; along with faculty members from the Buddhist Studies, History, Philosophy, and Hindu Studies departments, and a large number of international students from many countries." },
-        { "type": "image", "src": "assets/images/activities/3/2.jpg", "alt": "Bóng đá", "caption": "" },
+        { "type": "image", "src": "assets/images/activities/3/2.jpg", "alt": "Students", "caption": "" },
         { "type": "text", "value": "A special highlight of the program was the prayer ceremony during the transition between the Year of the Snake (2026) and the Year of the Horse (2026). Monks from various traditions and countries such as Vietnam, Myanmar, Thailand, Tibet, Laos, Sri Lanka, and Cambodia chanted in unison, offering wishes for a peaceful, prosperous, and joyful new year." },
-        { "type": "image", "src": "assets/images/activities/3/3.jpg", "alt": "Bóng đá", "caption": "" },
+        { "type": "image", "src": "assets/images/activities/3/3.jpg", "alt": "Sky Lanterns", "caption": "" },
         { "type": "text", "value": "Following the solemn spiritual ceremony, Associate Professor Brenda, on behalf of the Vietnamese student community, extended New Year greetings and expressed profound gratitude to the Rector, representatives from the faculties, the monks, and all the students in attendance. In a joyful atmosphere, everyone participated in the ritual of releasing sky lanterns to pray for blessings and send their best wishes for the new year." },
-        { "type": "image", "src": "assets/images/activities/3/4.jpg", "alt": "Bóng đá", "caption": "" },
+        { "type": "image", "src": "assets/images/activities/3/4.jpg", "alt": "Students", "caption": "" },
         { "type": "text", "value": "The atmosphere of Vietnamese Tet (Lunar New Year) is vividly recreated through images of elegantly decorated yellow apricot blossom trees and pink peach blossom trees in the traditional style. The ritual of picking lucky branches at the beginning of spring brings joy, excitement, and faith in good things in the new year." },
         { "type": "text", "value": "The ceremony concluded in a warm, friendly, and hopeful atmosphere. This was not only an opportunity for the Vietnamese student community to alleviate their homesickness, but also a meaningful chance to promote and spread the beautiful cultural values ​​of the Vietnamese people to international friends." }
       ]
@@ -120,8 +120,8 @@
     "category": "culture",
     "thumbnail": "assets/images/activities/4/1.jpg",
     "summary": {
-      "vi": "Giải bóng đá thường niên dành cho sinh viên Việt Nam tại Delhi.",
-      "en": "Annual football tournament for Vietnamese students in Delhi."
+      "vi": "...",
+      "en": "..."
     },
     "featured": false,
     "content": {
@@ -162,7 +162,7 @@
     "thumbnail": "assets/images/activities/5/1.jpg",
     "summary": {
       "vi": "Vào ngày 28/03/2026, Hội Sinh viên Việt Nam...",
-      "en": "Annual football tournament for Vietnamese students in Delhi."
+      "en": "..."
     },
     "featured": false,
     "content": {
@@ -240,42 +240,35 @@
   {
     "id": 7,
     "title": {
-      "vi": "Giải bóng đá sinh viên Việt Nam tại Delhi",
-      "en": "Vietnamese Student Football Tournament in Delhi"
+      "vi": "🇻🇳🇮🇳 HỘI SINH VIÊN VIỆT NAM TẠI ẤN ĐỘ THAM GIA ĐỐI THOẠI LÃNH ĐẠO TRẺ BRICS 3.0",
+      "en": "🇻🇳🇮🇳 VIETNAMESE STUDENTS’ ASSOCIATION IN INDIA PARTICIPATES IN BRICS 3.0 YOUTH LEADERS DIALOGUE"
     },
-    "date": "2026-12-01",
+    "date": "2026-08-08",
     "location": "Delhi",
-    "category": "sports",
+    "category": "external",
     "thumbnail": "assets/images/activities/7/1.jpg",
     "summary": {
-      "vi": "Giải bóng đá thường niên dành cho sinh viên Việt Nam tại Delhi.",
-      "en": "Annual football tournament for Vietnamese students in Delhi."
+      "vi": "🗓 Ngày 7/8, trong khuôn khổ Đối thoại Lãnh đạo trẻ BRICS 3.0 đang diễn ra...",
+      "en": "🗓 On August 7th, within the framework of the BRICS 3.0 Young Leaders Dialogue taking place..."
     },
     "featured": false,
     "content": {
       "vi": [
-        { "type": "text", "value": "" },
-        { "type": "image", "src": "assets/images/activities/7/1.jpg", "alt": "Bóng đá", "caption": "" },
-        { "type": "text", "value": "" },
-        { "type": "image", "src": "assets/images/activities/7/1.jpg", "alt": "Bóng đá", "caption": "" },
-        { "type": "text", "value": "" },
-        { "type": "image", "src": "assets/images/activities/7/1.jpg", "alt": "Bóng đá", "caption": "" },
-        { "type": "text", "value": "" },
-        { "type": "image", "src": "assets/images/activities/7/1.jpg", "alt": "Bóng đá", "caption": "" },
-        { "type": "text", "value": "" },
-        { "type": "text", "value": "" }
+        { "type": "text", "value": "🗓 Ngày 7/8, trong khuôn khổ Đối thoại Lãnh đạo trẻ BRICS 3.0 đang diễn ra tại thủ đô New Delhi, đại diện HSVVN tại Ấn Độ đã có bài phát biểu, chia sẻ quan điểm về vai trò của thanh niên trong hội nhập quốc tế." },
+        { "type": "image", "src": "assets/images/activities/7/1.jpg", "alt": "", "caption": "Đồng chi ủy viên Nguyễn Gia Phúc chia sẻ quan điểm" },
+        { "type": "text", "value": "🤝 Bài phát biểu của bạn Nguyễn Gia Phúc - đại diện HSVVN tại Ấn Độ, thể hiện sự quan tâm của cộng đồng du học sinh Việt Nam tới Hội nghị Thượng đỉnh Thanh niên Toàn cầu năm 2026 (Rising Youth Summit 2026), dự kiến diễn ra trực tuyến vào Ngày Quốc tế Thanh niên -12/8 tới. Đồng thời nhấn mạnh, các diễn đàn quốc tế như Đối thoại Lãnh đạo trẻ BRICS và Hội nghị Thượng đỉnh Thanh niên Toàn cầu không chỉ tạo cơ hội để thanh niên học hỏi kinh nghiệm về lãnh đạo, quản trị, khởi nghiệp và phát triển bền vững, mà còn giúp người trẻ trực tiếp đóng góp sáng kiến cho các vấn đề chung của thế giới. Qua đó, thanh niên không chỉ là lực lượng thụ hưởng thành quả phát triển mà còn phải trở thành những người kiến tạo tương lai." },
+        { "type": "image", "src": "assets/images/activities/7/2.jpg", "alt": "", "caption": "" },
+        { "type": "text", "value": "🎯 HSVVN tại Ấn Độ khẳng định sẽ tiếp tục khuyến khích sinh viên tích cực tham gia các hoạt động học thuật, nghiên cứu và hợp tác quốc tế; tích lũy tri thức, công nghệ và tư duy đổi mới để sẵn sàng trở về đóng góp cho sự phát triển của đất nước." },
+        { "type": "image", "src": "assets/images/activities/7/3.jpg", "alt": "", "caption": "Sinh viên tại Delhi University tham gia đối thoại" }
+        
       ],
       "en": [
-        { "type": "text", "value": "" },
-        { "type": "image", "src": "assets/images/activities/7/1.jpg", "alt": "Bóng đá", "caption": "" },
-        { "type": "text", "value": "" },
-        { "type": "image", "src": "assets/images/activities/7/1.jpg", "alt": "Bóng đá", "caption": "" },
-        { "type": "text", "value": "" },
-        { "type": "image", "src": "assets/images/activities/7/1.jpg", "alt": "Bóng đá", "caption": "" },
-        { "type": "text", "value": "" },
-        { "type": "image", "src": "assets/images/activities/7/1.jpg", "alt": "Bóng đá", "caption": "" },
-        { "type": "text", "value": "" },
-        { "type": "text", "value": "" }
+        { "type": "text", "value": "🗓 On August 7th, within the framework of the BRICS 3.0 Young Leaders Dialogue taking place in New Delhi, the representative of the Vietnamese Student Association in India delivered a speech, sharing their views on the role of youth in international integration." },
+        { "type": "image", "src": "assets/images/activities/7/1.jpg", "alt": "", "caption": "Comrade Nguyen Gia Phuc, a member of the committee, delivered a speech." },
+        { "type": "text", "value": "🤝 Nguyen Gia Phuc's speech, representing the Vietnamese Student Association in India, reflects the Vietnamese student community's interest in the Rising Youth Summit 2026, scheduled to take place online on International Youth Day, August 12th. He also emphasized that international forums such as the BRICS Young Leaders Dialogue and the Rising Youth Summit not only provide opportunities for young people to learn about leadership, governance, entrepreneurship, and sustainable development, but also enable them to directly contribute initiatives to global issues. Through this, young people should not only benefit from development achievements but also become builders of the future." },
+        { "type": "image", "src": "assets/images/activities/7/2.jpg", "alt": "", "caption": "" },
+        { "type": "text", "value": "🎯 The Vietnamese Student Association in India emphasized its commitment to encouraging students to actively participate in academic, research, and international cooperation activities; accumulating knowledge, technology, and innovative thinking to be ready to contribute to the country's development upon their return." },
+        { "type": "image", "src": "assets/images/activities/7/3.jpg", "alt": "", "caption": "Students at Delhi University participate in the dialogue" }
       ]
     },
     "organizerId": 7
@@ -283,42 +276,34 @@
   {
     "id": 8,
     "title": {
-      "vi": "Giải bóng đá sinh viên Việt Nam tại Delhi",
-      "en": "Vietnamese Student Football Tournament in Delhi"
+      "vi": "HỘI SINH VIÊN VIỆT NAM TẠI ẤN ĐỘ THAM DỰ HỘI NGHỊ BRICS CCI",
+      "en": "VIETNAMESE STUDENTS’ ASSOCIATION IN INDIA PARTICIPATES IN BRICS CCI CONFERENCE"
     },
-    "date": "2026-12-01",
+    "date": "2026-08-20",
     "location": "Delhi",
-    "category": "sports",
+    "category": "external",
     "thumbnail": "assets/images/activities/8/1.jpg",
     "summary": {
-      "vi": "Giải bóng đá thường niên dành cho sinh viên Việt Nam tại Delhi.",
-      "en": "Annual football tournament for Vietnamese students in Delhi."
+      "vi": "HSVVN tại Ấn Độ vinh dự tham gia Hội nghị BRICS CCI, một diễn đàn...",
+      "en": "Vietnamese students in India are honored to participate in the BRICS CCI conference..."
     },
     "featured": false,
     "content": {
       "vi": [
-        { "type": "text", "value": "" },
-        { "type": "image", "src": "assets/images/activities/8/1.jpg", "alt": "Bóng đá", "caption": "" },
-        { "type": "text", "value": "" },
-        { "type": "image", "src": "assets/images/activities/8/1.jpg", "alt": "Bóng đá", "caption": "" },
-        { "type": "text", "value": "" },
-        { "type": "image", "src": "assets/images/activities/8/1.jpg", "alt": "Bóng đá", "caption": "" },
-        { "type": "text", "value": "" },
-        { "type": "image", "src": "assets/images/activities/8/1.jpg", "alt": "Bóng đá", "caption": "" },
-        { "type": "text", "value": "" },
-        { "type": "text", "value": "" }
+        { "type": "image", "src": "assets/images/activities/8/1.jpg", "alt": "", "caption": "" },
+        { "type": "text", "value": "HSVVN tại Ấn Độ vinh dự tham gia Hội nghị BRICS CCI, một diễn đàn quan trọng quy tụ các tổ chức, doanh nghiệp, chuyên gia, thanh niên và các nhà khởi nghiệp nhằm thúc đẩy thương mại, kinh doanh và tinh thần khởi nghiệp trong khối BRICS thông qua hoạt động kết nối, đối thoại chính sách và các sự kiện kinh doanh toàn cầu." },
+        { "type": "image", "src": "assets/images/activities/8/2.jpg", "alt": "", "caption": "" },
+        { "type": "text", "value": "Đây là cơ hội để sinh viên Việt Nam tại Ấn Độ giao lưu, kết nối và mở rộng hợp tác quốc tế, đồng thời chia sẻ hình ảnh, tiếng nói và tinh thần năng động của người Việt Nam trong môi trường quốc tế, mở ra thêm nhiều cơ hội hợp tác trong giáo dục, khởi nghiệp, công nghệ, văn hóa và phát triển thanh niên." },
+        { "type": "image", "src": "assets/images/activities/8/3.jpg", "alt": "", "caption": "" },
+        { "type": "image", "src": "assets/images/activities/8/4.jpg", "alt": "", "caption": "" }
       ],
       "en": [
-        { "type": "text", "value": "" },
-        { "type": "image", "src": "assets/images/activities/8/1.jpg", "alt": "Bóng đá", "caption": "" },
-        { "type": "text", "value": "" },
-        { "type": "image", "src": "assets/images/activities/8/1.jpg", "alt": "Bóng đá", "caption": "" },
-        { "type": "text", "value": "" },
-        { "type": "image", "src": "assets/images/activities/8/1.jpg", "alt": "Bóng đá", "caption": "" },
-        { "type": "text", "value": "" },
-        { "type": "image", "src": "assets/images/activities/8/1.jpg", "alt": "Bóng đá", "caption": "" },
-        { "type": "text", "value": "" },
-        { "type": "text", "value": "" }
+        { "type": "image", "src": "assets/images/activities/8/1.jpg", "alt": "", "caption": "" },
+        { "type": "text", "value": "Vietnamese students in India are honored to participate in the BRICS CCI conference, an important forum that brings together organizations, businesses, experts, youth, and entrepreneurs to promote trade, business, and the spirit of entrepreneurship within the BRICS bloc through networking activities, policy dialogue, and global business events." },
+        { "type": "image", "src": "assets/images/activities/8/2.jpg", "alt": "", "caption": "" },
+        { "type": "text", "value": "This is an opportunity for Vietnamese students in India to network, connect, and expand international cooperation, while sharing the image, voice, and dynamic spirit of the Vietnamese people in the international environment, opening up more opportunities for collaboration in education, entrepreneurship, technology, culture, and youth development." },
+        { "type": "image", "src": "assets/images/activities/8/3.jpg", "alt": "", "caption": "" },
+        { "type": "image", "src": "assets/images/activities/8/4.jpg", "alt": "", "caption": "" }
       ]
     },
     "organizerId": 8
@@ -326,40 +311,40 @@
   {
     "id": 9,
     "title": {
-      "vi": "Giải bóng đá sinh viên Việt Nam tại Delhi",
-      "en": "Vietnamese Student Football Tournament in Delhi"
+      "vi": "",
+      "en": ""
     },
-    "date": "2026-12-01",
+    "date": "2026-0-0",
     "location": "Delhi",
-    "category": "sports",
+    "category": "",
     "thumbnail": "assets/images/activities/9/1.jpg",
     "summary": {
-      "vi": "Giải bóng đá thường niên dành cho sinh viên Việt Nam tại Delhi.",
-      "en": "Annual football tournament for Vietnamese students in Delhi."
+      "vi": "...",
+      "en": "..."
     },
     "featured": false,
     "content": {
       "vi": [
         { "type": "text", "value": "" },
-        { "type": "image", "src": "assets/images/activities/9/1.jpg", "alt": "Bóng đá", "caption": "" },
+        { "type": "image", "src": "assets/images/activities/9/1.jpg", "alt": "", "caption": "" },
         { "type": "text", "value": "" },
-        { "type": "image", "src": "assets/images/activities/9/1.jpg", "alt": "Bóng đá", "caption": "" },
+        { "type": "image", "src": "assets/images/activities/9/1.jpg", "alt": "", "caption": "" },
         { "type": "text", "value": "" },
-        { "type": "image", "src": "assets/images/activities/9/1.jpg", "alt": "Bóng đá", "caption": "" },
+        { "type": "image", "src": "assets/images/activities/9/1.jpg", "alt": "", "caption": "" },
         { "type": "text", "value": "" },
-        { "type": "image", "src": "assets/images/activities/9/1.jpg", "alt": "Bóng đá", "caption": "" },
+        { "type": "image", "src": "assets/images/activities/9/1.jpg", "alt": "", "caption": "" },
         { "type": "text", "value": "" },
         { "type": "text", "value": "" }
       ],
       "en": [
         { "type": "text", "value": "" },
-        { "type": "image", "src": "assets/images/activities/9/1.jpg", "alt": "Bóng đá", "caption": "" },
+        { "type": "image", "src": "assets/images/activities/9/1.jpg", "alt": "", "caption": "" },
         { "type": "text", "value": "" },
-        { "type": "image", "src": "assets/images/activities/9/1.jpg", "alt": "Bóng đá", "caption": "" },
+        { "type": "image", "src": "assets/images/activities/9/1.jpg", "alt": "", "caption": "" },
         { "type": "text", "value": "" },
-        { "type": "image", "src": "assets/images/activities/9/1.jpg", "alt": "Bóng đá", "caption": "" },
+        { "type": "image", "src": "assets/images/activities/9/1.jpg", "alt": "", "caption": "" },
         { "type": "text", "value": "" },
-        { "type": "image", "src": "assets/images/activities/9/1.jpg", "alt": "Bóng đá", "caption": "" },
+        { "type": "image", "src": "assets/images/activities/9/1.jpg", "alt": "", "caption": "" },
         { "type": "text", "value": "" },
         { "type": "text", "value": "" }
       ]
@@ -369,40 +354,40 @@
   {
     "id": 10,
     "title": {
-      "vi": "Giải bóng đá sinh viên Việt Nam tại Delhi",
-      "en": "Vietnamese Student Football Tournament in Delhi"
+      "vi": "",
+      "en": ""
     },
-    "date": "2026-12-01",
+    "date": "2026-0-0",
     "location": "Delhi",
-    "category": "sports",
+    "category": "",
     "thumbnail": "assets/images/activities/10/1.jpg",
     "summary": {
-      "vi": "Giải bóng đá thường niên dành cho sinh viên Việt Nam tại Delhi.",
-      "en": "Annual football tournament for Vietnamese students in Delhi."
+      "vi": "...",
+      "en": "..."
     },
     "featured": false,
     "content": {
       "vi": [
         { "type": "text", "value": "" },
-        { "type": "image", "src": "assets/images/activities/10/1.jpg", "alt": "Bóng đá", "caption": "" },
+        { "type": "image", "src": "assets/images/activities/10/1.jpg", "alt": "", "caption": "" },
         { "type": "text", "value": "" },
-        { "type": "image", "src": "assets/images/activities/10/1.jpg", "alt": "Bóng đá", "caption": "" },
+        { "type": "image", "src": "assets/images/activities/10/1.jpg", "alt": "", "caption": "" },
         { "type": "text", "value": "" },
-        { "type": "image", "src": "assets/images/activities/10/1.jpg", "alt": "Bóng đá", "caption": "" },
+        { "type": "image", "src": "assets/images/activities/10/1.jpg", "alt": "", "caption": "" },
         { "type": "text", "value": "" },
-        { "type": "image", "src": "assets/images/activities/10/1.jpg", "alt": "Bóng đá", "caption": "" },
+        { "type": "image", "src": "assets/images/activities/10/1.jpg", "alt": "", "caption": "" },
         { "type": "text", "value": "" },
         { "type": "text", "value": "" }
       ],
       "en": [
         { "type": "text", "value": "" },
-        { "type": "image", "src": "assets/images/activities/10/1.jpg", "alt": "Bóng đá", "caption": "" },
+        { "type": "image", "src": "assets/images/activities/10/1.jpg", "alt": "", "caption": "" },
         { "type": "text", "value": "" },
-        { "type": "image", "src": "assets/images/activities/10/1.jpg", "alt": "Bóng đá", "caption": "" },
+        { "type": "image", "src": "assets/images/activities/10/1.jpg", "alt": "", "caption": "" },
         { "type": "text", "value": "" },
-        { "type": "image", "src": "assets/images/activities/10/1.jpg", "alt": "Bóng đá", "caption": "" },
+        { "type": "image", "src": "assets/images/activities/10/1.jpg", "alt": "", "caption": "" },
         { "type": "text", "value": "" },
-        { "type": "image", "src": "assets/images/activities/10/1.jpg", "alt": "Bóng đá", "caption": "" },
+        { "type": "image", "src": "assets/images/activities/10/1.jpg", "alt": "", "caption": "" },
         { "type": "text", "value": "" },
         { "type": "text", "value": "" }
       ]
@@ -412,40 +397,40 @@
   {
     "id": 11,
     "title": {
-      "vi": "Giải bóng đá sinh viên Việt Nam tại Delhi",
-      "en": "Vietnamese Student Football Tournament in Delhi"
+      "vi": "",
+      "en": ""
     },
-    "date": "2026-12-01",
+    "date": "2026-0-0",
     "location": "Delhi",
-    "category": "sports",
+    "category": "",
     "thumbnail": "assets/images/activities/11/1.jpg",
     "summary": {
-      "vi": "Giải bóng đá thường niên dành cho sinh viên Việt Nam tại Delhi.",
-      "en": "Annual football tournament for Vietnamese students in Delhi."
+      "vi": "...",
+      "en": "..."
     },
     "featured": false,
     "content": {
       "vi": [
         { "type": "text", "value": "" },
-        { "type": "image", "src": "assets/images/activities/11/1.jpg", "alt": "Bóng đá", "caption": "" },
+        { "type": "image", "src": "assets/images/activities/11/1.jpg", "alt": "", "caption": "" },
         { "type": "text", "value": "" },
-        { "type": "image", "src": "assets/images/activities/11/1.jpg", "alt": "Bóng đá", "caption": "" },
+        { "type": "image", "src": "assets/images/activities/11/1.jpg", "alt": "", "caption": "" },
         { "type": "text", "value": "" },
-        { "type": "image", "src": "assets/images/activities/11/1.jpg", "alt": "Bóng đá", "caption": "" },
+        { "type": "image", "src": "assets/images/activities/11/1.jpg", "alt": "", "caption": "" },
         { "type": "text", "value": "" },
-        { "type": "image", "src": "assets/images/activities/11/1.jpg", "alt": "Bóng đá", "caption": "" },
+        { "type": "image", "src": "assets/images/activities/11/1.jpg", "alt": "", "caption": "" },
         { "type": "text", "value": "" },
         { "type": "text", "value": "" }
       ],
       "en": [
         { "type": "text", "value": "" },
-        { "type": "image", "src": "assets/images/activities/11/1.jpg", "alt": "Bóng đá", "caption": "" },
+        { "type": "image", "src": "assets/images/activities/11/1.jpg", "alt": "", "caption": "" },
         { "type": "text", "value": "" },
-        { "type": "image", "src": "assets/images/activities/11/1.jpg", "alt": "Bóng đá", "caption": "" },
+        { "type": "image", "src": "assets/images/activities/11/1.jpg", "alt": "", "caption": "" },
         { "type": "text", "value": "" },
-        { "type": "image", "src": "assets/images/activities/11/1.jpg", "alt": "Bóng đá", "caption": "" },
+        { "type": "image", "src": "assets/images/activities/11/1.jpg", "alt": "", "caption": "" },
         { "type": "text", "value": "" },
-        { "type": "image", "src": "assets/images/activities/11/1.jpg", "alt": "Bóng đá", "caption": "" },
+        { "type": "image", "src": "assets/images/activities/11/1.jpg", "alt": "", "caption": "" },
         { "type": "text", "value": "" },
         { "type": "text", "value": "" }
       ]
@@ -455,40 +440,40 @@
   {
     "id": 12,
     "title": {
-      "vi": "Giải bóng đá sinh viên Việt Nam tại Delhi",
-      "en": "Vietnamese Student Football Tournament in Delhi"
+      "vi": "",
+      "en": ""
     },
-    "date": "2026-12-01",
+    "date": "2026-0-0",
     "location": "Delhi",
-    "category": "sports",
+    "category": "",
     "thumbnail": "assets/images/activities/12/1.jpg",
     "summary": {
-      "vi": "Giải bóng đá thường niên dành cho sinh viên Việt Nam tại Delhi.",
-      "en": "Annual football tournament for Vietnamese students in Delhi."
+      "vi": "...",
+      "en": "..."
     },
     "featured": false,
     "content": {
       "vi": [
         { "type": "text", "value": "" },
-        { "type": "image", "src": "assets/images/activities/12/1.jpg", "alt": "Bóng đá", "caption": "" },
+        { "type": "image", "src": "assets/images/activities/12/1.jpg", "alt": "", "caption": "" },
         { "type": "text", "value": "" },
-        { "type": "image", "src": "assets/images/activities/12/1.jpg", "alt": "Bóng đá", "caption": "" },
+        { "type": "image", "src": "assets/images/activities/12/1.jpg", "alt": "", "caption": "" },
         { "type": "text", "value": "" },
-        { "type": "image", "src": "assets/images/activities/12/1.jpg", "alt": "Bóng đá", "caption": "" },
+        { "type": "image", "src": "assets/images/activities/12/1.jpg", "alt": "", "caption": "" },
         { "type": "text", "value": "" },
-        { "type": "image", "src": "assets/images/activities/12/1.jpg", "alt": "Bóng đá", "caption": "" },
+        { "type": "image", "src": "assets/images/activities/12/1.jpg", "alt": "", "caption": "" },
         { "type": "text", "value": "" },
         { "type": "text", "value": "" }
       ],
       "en": [
         { "type": "text", "value": "" },
-        { "type": "image", "src": "assets/images/activities/12/1.jpg", "alt": "Bóng đá", "caption": "" },
+        { "type": "image", "src": "assets/images/activities/12/1.jpg", "alt": "", "caption": "" },
         { "type": "text", "value": "" },
-        { "type": "image", "src": "assets/images/activities/12/1.jpg", "alt": "Bóng đá", "caption": "" },
+        { "type": "image", "src": "assets/images/activities/12/1.jpg", "alt": "", "caption": "" },
         { "type": "text", "value": "" },
-        { "type": "image", "src": "assets/images/activities/12/1.jpg", "alt": "Bóng đá", "caption": "" },
+        { "type": "image", "src": "assets/images/activities/12/1.jpg", "alt": "", "caption": "" },
         { "type": "text", "value": "" },
-        { "type": "image", "src": "assets/images/activities/12/1.jpg", "alt": "Bóng đá", "caption": "" },
+        { "type": "image", "src": "assets/images/activities/12/1.jpg", "alt": "", "caption": "" },
         { "type": "text", "value": "" },
         { "type": "text", "value": "" }
       ]
@@ -498,40 +483,40 @@
   {
     "id": 13,
     "title": {
-      "vi": "Giải bóng đá sinh viên Việt Nam tại Delhi",
-      "en": "Vietnamese Student Football Tournament in Delhi"
+      "vi": "",
+      "en": ""
     },
-    "date": "2026-12-01",
+    "date": "2026-0-0",
     "location": "Delhi",
-    "category": "sports",
+    "category": "",
     "thumbnail": "assets/images/activities/13/1.jpg",
     "summary": {
-      "vi": "Giải bóng đá thường niên dành cho sinh viên Việt Nam tại Delhi.",
-      "en": "Annual football tournament for Vietnamese students in Delhi."
+      "vi": "...",
+      "en": "..."
     },
     "featured": false,
     "content": {
       "vi": [
         { "type": "text", "value": "" },
-        { "type": "image", "src": "assets/images/activities/13/1.jpg", "alt": "Bóng đá", "caption": "" },
+        { "type": "image", "src": "assets/images/activities/13/1.jpg", "alt": "", "caption": "" },
         { "type": "text", "value": "" },
-        { "type": "image", "src": "assets/images/activities/13/1.jpg", "alt": "Bóng đá", "caption": "" },
+        { "type": "image", "src": "assets/images/activities/13/1.jpg", "alt": "", "caption": "" },
         { "type": "text", "value": "" },
-        { "type": "image", "src": "assets/images/activities/13/1.jpg", "alt": "Bóng đá", "caption": "" },
+        { "type": "image", "src": "assets/images/activities/13/1.jpg", "alt": "", "caption": "" },
         { "type": "text", "value": "" },
-        { "type": "image", "src": "assets/images/activities/13/1.jpg", "alt": "Bóng đá", "caption": "" },
+        { "type": "image", "src": "assets/images/activities/13/1.jpg", "alt": "", "caption": "" },
         { "type": "text", "value": "" },
         { "type": "text", "value": "" }
       ],
       "en": [
         { "type": "text", "value": "" },
-        { "type": "image", "src": "assets/images/activities/13/1.jpg", "alt": "Bóng đá", "caption": "" },
+        { "type": "image", "src": "assets/images/activities/13/1.jpg", "alt": "", "caption": "" },
         { "type": "text", "value": "" },
-        { "type": "image", "src": "assets/images/activities/13/1.jpg", "alt": "Bóng đá", "caption": "" },
+        { "type": "image", "src": "assets/images/activities/13/1.jpg", "alt": "", "caption": "" },
         { "type": "text", "value": "" },
-        { "type": "image", "src": "assets/images/activities/13/1.jpg", "alt": "Bóng đá", "caption": "" },
+        { "type": "image", "src": "assets/images/activities/13/1.jpg", "alt": "", "caption": "" },
         { "type": "text", "value": "" },
-        { "type": "image", "src": "assets/images/activities/13/1.jpg", "alt": "Bóng đá", "caption": "" },
+        { "type": "image", "src": "assets/images/activities/13/1.jpg", "alt": "", "caption": "" },
         { "type": "text", "value": "" },
         { "type": "text", "value": "" }
       ]
@@ -541,40 +526,40 @@
   {
     "id": 14,
     "title": {
-      "vi": "Giải bóng đá sinh viên Việt Nam tại Delhi",
-      "en": "Vietnamese Student Football Tournament in Delhi"
+      "vi": "",
+      "en": ""
     },
-    "date": "2026-12-01",
+    "date": "2026-0-0",
     "location": "Delhi",
-    "category": "sports",
+    "category": "",
     "thumbnail": "assets/images/activities/14/cover.webp",
     "summary": {
-      "vi": "Giải bóng đá thường niên dành cho sinh viên Việt Nam tại Delhi.",
-      "en": "Annual football tournament for Vietnamese students in Delhi."
+      "vi": "...",
+      "en": "..."
     },
     "featured": false,
     "content": {
       "vi": [
         { "type": "text", "value": "" },
-        { "type": "image", "src": "assets/images/activities/14/1.jpg", "alt": "Bóng đá", "caption": "" },
+        { "type": "image", "src": "assets/images/activities/14/1.jpg", "alt": "", "caption": "" },
         { "type": "text", "value": "" },
-        { "type": "image", "src": "assets/images/activities/14/1.jpg", "alt": "Bóng đá", "caption": "" },
+        { "type": "image", "src": "assets/images/activities/14/1.jpg", "alt": "", "caption": "" },
         { "type": "text", "value": "" },
-        { "type": "image", "src": "assets/images/activities/14/1.jpg", "alt": "Bóng đá", "caption": "" },
+        { "type": "image", "src": "assets/images/activities/14/1.jpg", "alt": "", "caption": "" },
         { "type": "text", "value": "" },
-        { "type": "image", "src": "assets/images/activities/14/1.jpg", "alt": "Bóng đá", "caption": "" },
+        { "type": "image", "src": "assets/images/activities/14/1.jpg", "alt": "", "caption": "" },
         { "type": "text", "value": "" },
         { "type": "text", "value": "" }
       ],
       "en": [
         { "type": "text", "value": "" },
-        { "type": "image", "src": "assets/images/activities/14/1.jpg", "alt": "Bóng đá", "caption": "" },
+        { "type": "image", "src": "assets/images/activities/14/1.jpg", "alt": "", "caption": "" },
         { "type": "text", "value": "" },
-        { "type": "image", "src": "assets/images/activities/14/1.jpg", "alt": "Bóng đá", "caption": "" },
+        { "type": "image", "src": "assets/images/activities/14/1.jpg", "alt": "", "caption": "" },
         { "type": "text", "value": "" },
-        { "type": "image", "src": "assets/images/activities/14/1.jpg", "alt": "Bóng đá", "caption": "" },
+        { "type": "image", "src": "assets/images/activities/14/1.jpg", "alt": "", "caption": "" },
         { "type": "text", "value": "" },
-        { "type": "image", "src": "assets/images/activities/14/1.jpg", "alt": "Bóng đá", "caption": "" },
+        { "type": "image", "src": "assets/images/activities/14/1.jpg", "alt": "", "caption": "" },
         { "type": "text", "value": "" },
         { "type": "text", "value": "" }
       ]
