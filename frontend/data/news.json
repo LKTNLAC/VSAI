@@ -269,12 +269,12 @@
       "vi": "📢 THÔNG BÁO PHÁT ĐỘNG THAM GIA GIẢI THƯỞNG TOÀN QUỐC VỀ THÔNG TIN ĐỐI NGOẠI LẦN THỨ XII - NĂM 2026",
       "en": "eng"
     },
-    "date": "2026-07-25",
+    "date": "2026-06-14",
     "category": "announcement",
     "thumbnail": "assets/images/news/9/1.jpg",
     "summary": {
-      "vi": "vie...",
-      "en": "eng..."
+      "vi": "Đại sứ quán Việt Nam tại Ấn Độ trân trọng thông báo...",
+      "en": "The Vietnamese Embassy in India is pleased to announce..."
     },
     "featured": false,
     "content": {
@@ -289,43 +289,1907 @@
         { "type": "text", "value": "Hội Sinh viên Việt Nam tại Ấn Độ mong nhận được sự hưởng ứng tích cực từ các bạn sinh viên, nghiên cứu sinh và cộng đồng người Việt trên toàn Ấn Độ." }
       ],
       "en": [
-        { "type": "text", "value": "eng" },
-        { "type": "text", "value": "eng" },
-        { "type": "text", "value": "eng" },
-        { "type": "text", "value": "eng" },
-        { "type": "text", "value": "eng" },
-        { "type": "text", "value": "eng" },
-        { "type": "text", "value": "eng" }
+        { "type": "text", "value": "The Vietnamese Embassy in India is pleased to announce and encourage the Vietnamese community, especially students, researchers, businesses, novices, and Vietnamese associations in India to participate in the XII National Award for Foreign Information in 2026." },
+        { "type": "text", "value": "The award aims to recognize individuals and organizations that have made substantial contributions to foreign information work, promoting the image of the country and Vietnamese people, and fostering friendly relations between Vietnam and India." },
+        { "type": "text", "value": "+ Target participants: Individuals and organizations within and outside the country." },
+        { "type": "text", "value": "+ Content: Works, communication products, or activities and events that contribute to promoting Vietnam, Vietnam-India relations, and international integration." },
+        { "type": "text", "value": "+ Submission method: Online at https://duthi.ttdn.vn" },
+        { "type": "text", "value": "+ Detailed information about the rules and categories: https://giaithuong.ttdn.vn" },
+        { "type": "text", "value": "After submitting their entries, authors are kindly requested to inform the Embassy via email at consularsection@vietnamembassydelhi.in to facilitate the compilation and presentation of outstanding works from the Vietnamese community in India."},
+        { "type": "text", "value": "Hội Sinh viên Việt Nam tại Ấn Độ mong nhận được sự hưởng ứng tích cực từ các bạn sinh viên, nghiên cứu sinh và cộng đồng người Việt trên toàn Ấn Độ." }
       ]
     }
   },
   {
     "id": 10,
     "title": {
-      "vi": "vie",
-      "en": "eng"
+      "vi": "THÔNG BÁO về việc tham gia Data for Life mùa 4",
+      "en": "Notification about participating in Data for Life Season 4"
     },
-    "date": "2026-07-25",
-    "category": "event",
+    "date": "2026-07-07",
+    "category": "announcement",
     "thumbnail": "assets/images/news/10/1.jpg",
     "summary": {
-      "vi": "vie...",
-      "en": "eng..."
+      "vi": "Đại sứ quán Việt Nam tại Ấn Độ trân trọng thông báo...",
+      "en": "The Vietnamese Embassy in India is pleased to announce..."
     },
     "featured": false,
     "content": {
       "vi": [
-        { "type": "text", "value": "vie" },
-        { "type": "image", "src": "assets/images/news/10/1.jpg", "alt": "Buổi gặp mặt", "caption": "Các bạn tân sinh viên tham dự" },
-        { "type": "text", "value": "vie" },
-        { "type": "text", "value": "vie" }
+        { "type": "text", "value": "Đại sứ quán Việt Nam tại Ấn Độ trân trọng thông báo tới các tăng ni sinh, sinh viên và toàn thể bà con cộng đồng người Việt Nam tại Ấn Độ về cuộc thi Data for Life mùa 4 với chủ đề “Build Together”. " },
+        { "type": "image", "src": "assets/images/news/10/1.jpg", "alt": "Thông báo", "caption": "" },
+        { "type": "text", "value": "Đây là cuộc thi do Bộ Công an tổ chức nhằm thúc đẩy đổi mới sáng tạo, ứng dụng dữ liệu và công nghệ số để giải quyết các bài toán thực tiễn, góp phần phục vụ chuyển đổi số quốc gia và phát triển Chính phủ số, kinh tế số, xã hội số. Cuộc thi là cơ hội để các cá nhân, tổ chức, doanh nghiệp và sinh viên cùng chung tay phát triển các giải pháp sáng tạo, thúc đẩy chuyển đổi số quốc gia vì một Việt Nam phát triển bền vững." },
+        { "type": "text", "value": "Thông tin chi tiết về thể lệ, hướng dẫn tham gia và gửi ý tưởng được đăng tải trên Cổng thông tin điện tử chính thức của Cuộc thi tại địa chỉ https://dataforlife.vn/ và chuyên mục 'Đóng góp ý tưởng' tại địa chỉ https://dataforlife.vn/dong-gop-y-tuong/. Đại sứ quán rất mong bà con, tăng ni sinh, sinh viên Việt Nam tại Ấn Độ sau khi nộp bài dự thi vui lòng thông tin cho Đại sứ quán qua email consularsection@vietnamembassydelhi.in để thuận tiện trong việc tổng hợp, giới thiệu và lan tỏa các tác phẩm tiêu biểu của cộng đồng tại địa bàn." },
+        { "type": "text", "value": "Đại sứ quán trân trọng cảm ơn và mong nhận được sự quan tâm, hưởng ứng của cộng đồng." }
       ],
       "en": [
-        { "type": "text", "value": "eng" },
-        { "type": "image", "src": "assets/images/news/10/1.jpg", "alt": "Gathering", "caption": "New students attending" },
-        { "type": "text", "value": "eng" },
-        { "type": "text", "value": "eng" }
+        { "type": "text", "value": "The Vietnamese Embassy in India is pleased to announce the fourth season of the Data for Life competition with the theme “Build Together”. " },
+        { "type": "image", "src": "assets/images/news/10/1.jpg", "alt": "Notification", "caption": "" },
+        { "type": "text", "value": "This is a competition organized by the Ministry of Public Security to promote innovation and the application of data and digital technology to solve real-world problems, contributing to the national digital transformation and the development of a digital government, digital economy, and digital society. This competition is an opportunity for individuals, organizations, businesses, and students to collaborate in developing creative solutions and promoting the national digital transformation for a sustainable Vietnam." },
+        { "type": "text", "value": "Detailed information about the rules, guidelines for participation, and idea submission can be found on the official website of the competition at https://dataforlife.vn/ and the 'Submit Ideas' section at https://dataforlife.vn/dong-gop-y-tuong/. The Vietnamese Embassy encourages all participants to inform them via email at consularsection@vietnamembassydelhi.in after submitting their entries to facilitate the compilation, presentation, and dissemination of outstanding works from the community." },
+        { "type": "text", "value": "The Vietnamese Embassy in India deeply appreciates the support and participation of the community." }
+      ]
+    }
+  },
+  {
+    "id": 11,
+    "title": {
+      "vi": "",
+      "en": ""
+    },
+    "date": "2026-0-0",
+    "category": "",
+    "thumbnail": "assets/images/news/11/1.jpg",
+    "summary": {
+      "vi": "...",
+      "en": "..."
+    },
+    "featured": false,
+    "content": {
+      "vi": [
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/news/11/1.jpg", "alt": "", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" }
+      ],
+      "en": [
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/news/11/1.jpg", "alt": "", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" }
+      ]
+    }
+  },
+  {
+    "id": 12,
+    "title": {
+      "vi": "",
+      "en": ""
+    },
+    "date": "2026-0-0",
+    "category": "",
+    "thumbnail": "assets/images/news/12/1.jpg",
+    "summary": {
+      "vi": "...",
+      "en": "..."
+    },
+    "featured": false,
+    "content": {
+      "vi": [
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/news/12/1.jpg", "alt": "", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" }
+      ],
+      "en": [
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/news/12/1.jpg", "alt": "", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" }
+      ]
+    }
+  },
+  {
+    "id": 13,
+    "title": {
+      "vi": "",
+      "en": ""
+    },
+    "date": "2026-0-0",
+    "category": "",
+    "thumbnail": "assets/images/news/13/1.jpg",
+    "summary": {
+      "vi": "...",
+      "en": "..."
+    },
+    "featured": false,
+    "content": {
+      "vi": [
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/news/13/1.jpg", "alt": "", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" }
+      ],
+      "en": [
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/news/13/1.jpg", "alt": "", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" }
+      ]
+    }
+  },
+  {
+    "id": 14,
+    "title": {
+      "vi": "",
+      "en": ""
+    },
+    "date": "2026-0-0",
+    "category": "",
+    "thumbnail": "assets/images/news/14/1.jpg",
+    "summary": {
+      "vi": "...",
+      "en": "..."
+    },
+    "featured": false,
+    "content": {
+      "vi": [
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/news/14/1.jpg", "alt": "", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" }
+      ],
+      "en": [
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/news/14/1.jpg", "alt": "", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" }
+      ]
+    }
+  },
+  {
+    "id": 15,
+    "title": {
+      "vi": "",
+      "en": ""
+    },
+    "date": "2026-0-0",
+    "category": "",
+    "thumbnail": "assets/images/news/15/1.jpg",
+    "summary": {
+      "vi": "...",
+      "en": "..."
+    },
+    "featured": false,
+    "content": {
+      "vi": [
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/news/15/1.jpg", "alt": "", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" }
+      ],
+      "en": [
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/news/15/1.jpg", "alt": "", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" }
+      ]
+    }
+  },
+  {
+    "id": 16,
+    "title": {
+      "vi": "",
+      "en": ""
+    },
+    "date": "2026-0-0",
+    "category": "",
+    "thumbnail": "assets/images/news/16/1.jpg",
+    "summary": {
+      "vi": "...",
+      "en": "..."
+    },
+    "featured": false,
+    "content": {
+      "vi": [
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/news/16/1.jpg", "alt": "", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" }
+      ],
+      "en": [
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/news/16/1.jpg", "alt": "", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" }
+      ]
+    }
+  },
+  {
+    "id": 17,
+    "title": {
+      "vi": "",
+      "en": ""
+    },
+    "date": "2026-0-0",
+    "category": "",
+    "thumbnail": "assets/images/news/17/1.jpg",
+    "summary": {
+      "vi": "...",
+      "en": "..."
+    },
+    "featured": false,
+    "content": {
+      "vi": [
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/news/17/1.jpg", "alt": "", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" }
+      ],
+      "en": [
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/news/17/1.jpg", "alt": "", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" }
+      ]
+    }
+  },
+  {
+    "id": 18,
+    "title": {
+      "vi": "",
+      "en": ""
+    },
+    "date": "2026-0-0",
+    "category": "",
+    "thumbnail": "assets/images/news/18/1.jpg",
+    "summary": {
+      "vi": "...",
+      "en": "..."
+    },
+    "featured": false,
+    "content": {
+      "vi": [
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/news/18/1.jpg", "alt": "", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" }
+      ],
+      "en": [
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/news/18/1.jpg", "alt": "", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" }
+      ]
+    }
+  },
+  {
+    "id": 19,
+    "title": {
+      "vi": "",
+      "en": ""
+    },
+    "date": "2026-0-0",
+    "category": "",
+    "thumbnail": "assets/images/news/19/1.jpg",
+    "summary": {
+      "vi": "...",
+      "en": "..."
+    },
+    "featured": false,
+    "content": {
+      "vi": [
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/news/19/1.jpg", "alt": "", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" }
+      ],
+      "en": [
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/news/19/1.jpg", "alt": "", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" }
+      ]
+    }
+  },
+  {
+    "id": 20,
+    "title": {
+      "vi": "",
+      "en": ""
+    },
+    "date": "2026-0-0",
+    "category": "",
+    "thumbnail": "assets/images/news/20/1.jpg",
+    "summary": {
+      "vi": "...",
+      "en": "..."
+    },
+    "featured": false,
+    "content": {
+      "vi": [
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/news/20/1.jpg", "alt": "", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" }
+      ],
+      "en": [
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/news/20/1.jpg", "alt": "", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" }
+      ]
+    }
+  },
+  {
+    "id": 21,
+    "title": {
+      "vi": "",
+      "en": ""
+    },
+    "date": "2026-0-0",
+    "category": "",
+    "thumbnail": "assets/images/news/21/1.jpg",
+    "summary": {
+      "vi": "...",
+      "en": "..."
+    },
+    "featured": false,
+    "content": {
+      "vi": [
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/news/21/1.jpg", "alt": "", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" }
+      ],
+      "en": [
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/news/21/1.jpg", "alt": "", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" }
+      ]
+    }
+  },
+  {
+    "id": 22,
+    "title": {
+      "vi": "",
+      "en": ""
+    },
+    "date": "2026-0-0",
+    "category": "",
+    "thumbnail": "assets/images/news/22/1.jpg",
+    "summary": {
+      "vi": "...",
+      "en": "..."
+    },
+    "featured": false,
+    "content": {
+      "vi": [
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/news/22/1.jpg", "alt": "", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" }
+      ],
+      "en": [
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/news/22/1.jpg", "alt": "", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" }
+      ]
+    }
+  },
+  {
+    "id": 23,
+    "title": {
+      "vi": "",
+      "en": ""
+    },
+    "date": "2026-0-0",
+    "category": "",
+    "thumbnail": "assets/images/news/23/1.jpg",
+    "summary": {
+      "vi": "...",
+      "en": "..."
+    },
+    "featured": false,
+    "content": {
+      "vi": [
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/news/23/1.jpg", "alt": "", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" }
+      ],
+      "en": [
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/news/23/1.jpg", "alt": "", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" }
+      ]
+    }
+  },
+  {
+    "id": 24,
+    "title": {
+      "vi": "",
+      "en": ""
+    },
+    "date": "2026-0-0",
+    "category": "",
+    "thumbnail": "assets/images/news/24/1.jpg",
+    "summary": {
+      "vi": "...",
+      "en": "..."
+    },
+    "featured": false,
+    "content": {
+      "vi": [
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/news/24/1.jpg", "alt": "", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" }
+      ],
+      "en": [
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/news/24/1.jpg", "alt": "", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" }
+      ]
+    }
+  },
+  {
+    "id": 25,
+    "title": {
+      "vi": "",
+      "en": ""
+    },
+    "date": "2026-0-0",
+    "category": "",
+    "thumbnail": "assets/images/news/25/1.jpg",
+    "summary": {
+      "vi": "...",
+      "en": "..."
+    },
+    "featured": false,
+    "content": {
+      "vi": [
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/news/25/1.jpg", "alt": "", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" }
+      ],
+      "en": [
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/news/25/1.jpg", "alt": "", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" }
+      ]
+    }
+  },
+  {
+    "id": 26,
+    "title": {
+      "vi": "",
+      "en": ""
+    },
+    "date": "2026-0-0",
+    "category": "",
+    "thumbnail": "assets/images/news/26/1.jpg",
+    "summary": {
+      "vi": "...",
+      "en": "..."
+    },
+    "featured": false,
+    "content": {
+      "vi": [
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/news/26/1.jpg", "alt": "", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" }
+      ],
+      "en": [
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/news/26/1.jpg", "alt": "", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" }
+      ]
+    }
+  },
+  {
+    "id": 27,
+    "title": {
+      "vi": "",
+      "en": ""
+    },
+    "date": "2026-0-0",
+    "category": "",
+    "thumbnail": "assets/images/news/27/1.jpg",
+    "summary": {
+      "vi": "...",
+      "en": "..."
+    },
+    "featured": false,
+    "content": {
+      "vi": [
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/news/27/1.jpg", "alt": "", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" }
+      ],
+      "en": [
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/news/27/1.jpg", "alt": "", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" }
+      ]
+    }
+  },
+  {
+    "id": 28,
+    "title": {
+      "vi": "",
+      "en": ""
+    },
+    "date": "2026-0-0",
+    "category": "",
+    "thumbnail": "assets/images/news/28/1.jpg",
+    "summary": {
+      "vi": "...",
+      "en": "..."
+    },
+    "featured": false,
+    "content": {
+      "vi": [
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/news/28/1.jpg", "alt": "", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" }
+      ],
+      "en": [
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/news/28/1.jpg", "alt": "", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" }
+      ]
+    }
+  },
+  {
+    "id": 29,
+    "title": {
+      "vi": "",
+      "en": ""
+    },
+    "date": "2026-0-0",
+    "category": "",
+    "thumbnail": "assets/images/news/29/1.jpg",
+    "summary": {
+      "vi": "...",
+      "en": "..."
+    },
+    "featured": false,
+    "content": {
+      "vi": [
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/news/29/1.jpg", "alt": "", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" }
+      ],
+      "en": [
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/news/29/1.jpg", "alt": "", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" }
+      ]
+    }
+  },
+  {
+    "id": 30,
+    "title": {
+      "vi": "",
+      "en": ""
+    },
+    "date": "2026-0-0",
+    "category": "",
+    "thumbnail": "assets/images/news/30/1.jpg",
+    "summary": {
+      "vi": "...",
+      "en": "..."
+    },
+    "featured": false,
+    "content": {
+      "vi": [
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/news/30/1.jpg", "alt": "", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" }
+      ],
+      "en": [
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/news/30/1.jpg", "alt": "", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" }
+      ]
+    }
+  },
+  {
+    "id": 31,
+    "title": {
+      "vi": "",
+      "en": ""
+    },
+    "date": "2026-0-0",
+    "category": "",
+    "thumbnail": "assets/images/news/31/1.jpg",
+    "summary": {
+      "vi": "...",
+      "en": "..."
+    },
+    "featured": false,
+    "content": {
+      "vi": [
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/news/31/1.jpg", "alt": "", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" }
+      ],
+      "en": [
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/news/31/1.jpg", "alt": "", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" }
+      ]
+    }
+  },
+  {
+    "id": 32,
+    "title": {
+      "vi": "",
+      "en": ""
+    },
+    "date": "2026-0-0",
+    "category": "",
+    "thumbnail": "assets/images/news/32/1.jpg",
+    "summary": {
+      "vi": "...",
+      "en": "..."
+    },
+    "featured": false,
+    "content": {
+      "vi": [
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/news/32/1.jpg", "alt": "", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" }
+      ],
+      "en": [
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/news/32/1.jpg", "alt": "", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" }
+      ]
+    }
+  },
+  {
+    "id": 33,
+    "title": {
+      "vi": "",
+      "en": ""
+    },
+    "date": "2026-0-0",
+    "category": "",
+    "thumbnail": "assets/images/news/33/1.jpg",
+    "summary": {
+      "vi": "...",
+      "en": "..."
+    },
+    "featured": false,
+    "content": {
+      "vi": [
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/news/33/1.jpg", "alt": "", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" }
+      ],
+      "en": [
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/news/33/1.jpg", "alt": "", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" }
+      ]
+    }
+  },
+  {
+    "id": 34,
+    "title": {
+      "vi": "",
+      "en": ""
+    },
+    "date": "2026-0-0",
+    "category": "",
+    "thumbnail": "assets/images/news/34/1.jpg",
+    "summary": {
+      "vi": "...",
+      "en": "..."
+    },
+    "featured": false,
+    "content": {
+      "vi": [
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/news/34/1.jpg", "alt": "", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" }
+      ],
+      "en": [
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/news/34/1.jpg", "alt": "", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" }
+      ]
+    }
+  },
+  {
+    "id": 35,
+    "title": {
+      "vi": "",
+      "en": ""
+    },
+    "date": "2026-0-0",
+    "category": "",
+    "thumbnail": "assets/images/news/35/1.jpg",
+    "summary": {
+      "vi": "...",
+      "en": "..."
+    },
+    "featured": false,
+    "content": {
+      "vi": [
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/news/35/1.jpg", "alt": "", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" }
+      ],
+      "en": [
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/news/35/1.jpg", "alt": "", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" }
+      ]
+    }
+  },
+  {
+    "id": 36,
+    "title": {
+      "vi": "",
+      "en": ""
+    },
+    "date": "2026-0-0",
+    "category": "",
+    "thumbnail": "assets/images/news/36/1.jpg",
+    "summary": {
+      "vi": "...",
+      "en": "..."
+    },
+    "featured": false,
+    "content": {
+      "vi": [
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/news/36/1.jpg", "alt": "", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" }
+      ],
+      "en": [
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/news/36/1.jpg", "alt": "", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" }
+      ]
+    }
+  },
+  {
+    "id": 37,
+    "title": {
+      "vi": "",
+      "en": ""
+    },
+    "date": "2026-0-0",
+    "category": "",
+    "thumbnail": "assets/images/news/37/1.jpg",
+    "summary": {
+      "vi": "...",
+      "en": "..."
+    },
+    "featured": false,
+    "content": {
+      "vi": [
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/news/37/1.jpg", "alt": "", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" }
+      ],
+      "en": [
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/news/37/1.jpg", "alt": "", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" }
+      ]
+    }
+  },
+  {
+    "id": 38,
+    "title": {
+      "vi": "",
+      "en": ""
+    },
+    "date": "2026-0-0",
+    "category": "",
+    "thumbnail": "assets/images/news/38/1.jpg",
+    "summary": {
+      "vi": "...",
+      "en": "..."
+    },
+    "featured": false,
+    "content": {
+      "vi": [
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/news/38/1.jpg", "alt": "", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" }
+      ],
+      "en": [
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/news/38/1.jpg", "alt": "", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" }
+      ]
+    }
+  },
+  {
+    "id": 39,
+    "title": {
+      "vi": "",
+      "en": ""
+    },
+    "date": "2026-0-0",
+    "category": "",
+    "thumbnail": "assets/images/news/39/1.jpg",
+    "summary": {
+      "vi": "...",
+      "en": "..."
+    },
+    "featured": false,
+    "content": {
+      "vi": [
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/news/39/1.jpg", "alt": "", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" }
+      ],
+      "en": [
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/news/39/1.jpg", "alt": "", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" }
+      ]
+    }
+  },
+  {
+    "id": 40,
+    "title": {
+      "vi": "",
+      "en": ""
+    },
+    "date": "2026-0-0",
+    "category": "",
+    "thumbnail": "assets/images/news/40/1.jpg",
+    "summary": {
+      "vi": "...",
+      "en": "..."
+    },
+    "featured": false,
+    "content": {
+      "vi": [
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/news/40/1.jpg", "alt": "", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" }
+      ],
+      "en": [
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/news/40/1.jpg", "alt": "", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" }
+      ]
+    }
+  },
+  {
+    "id": 41,
+    "title": {
+      "vi": "",
+      "en": ""
+    },
+    "date": "2026-0-0",
+    "category": "",
+    "thumbnail": "assets/images/news/41/1.jpg",
+    "summary": {
+      "vi": "...",
+      "en": "..."
+    },
+    "featured": false,
+    "content": {
+      "vi": [
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/news/41/1.jpg", "alt": "", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" }
+      ],
+      "en": [
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/news/41/1.jpg", "alt": "", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" }
+      ]
+    }
+  },
+  {
+    "id": 42,
+    "title": {
+      "vi": "",
+      "en": ""
+    },
+    "date": "2026-0-0",
+    "category": "",
+    "thumbnail": "assets/images/news/42/1.jpg",
+    "summary": {
+      "vi": "...",
+      "en": "..."
+    },
+    "featured": false,
+    "content": {
+      "vi": [
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/news/42/1.jpg", "alt": "", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" }
+      ],
+      "en": [
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/news/42/1.jpg", "alt": "", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" }
+      ]
+    }
+  },
+  {
+    "id": 43,
+    "title": {
+      "vi": "",
+      "en": ""
+    },
+    "date": "2026-0-0",
+    "category": "",
+    "thumbnail": "assets/images/news/43/1.jpg",
+    "summary": {
+      "vi": "...",
+      "en": "..."
+    },
+    "featured": false,
+    "content": {
+      "vi": [
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/news/43/1.jpg", "alt": "", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" }
+      ],
+      "en": [
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/news/43/1.jpg", "alt": "", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" }
+      ]
+    }
+  },
+  {
+    "id": 44,
+    "title": {
+      "vi": "",
+      "en": ""
+    },
+    "date": "2026-0-0",
+    "category": "",
+    "thumbnail": "assets/images/news/44/1.jpg",
+    "summary": {
+      "vi": "...",
+      "en": "..."
+    },
+    "featured": false,
+    "content": {
+      "vi": [
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/news/44/1.jpg", "alt": "", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" }
+      ],
+      "en": [
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/news/44/1.jpg", "alt": "", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" }
+      ]
+    }
+  },
+  {
+    "id": 45,
+    "title": {
+      "vi": "",
+      "en": ""
+    },
+    "date": "2026-0-0",
+    "category": "",
+    "thumbnail": "assets/images/news/45/1.jpg",
+    "summary": {
+      "vi": "...",
+      "en": "..."
+    },
+    "featured": false,
+    "content": {
+      "vi": [
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/news/45/1.jpg", "alt": "", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" }
+      ],
+      "en": [
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/news/45/1.jpg", "alt": "", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" }
+      ]
+    }
+  },
+  {
+    "id": 46,
+    "title": {
+      "vi": "",
+      "en": ""
+    },
+    "date": "2026-0-0",
+    "category": "",
+    "thumbnail": "assets/images/news/46/1.jpg",
+    "summary": {
+      "vi": "...",
+      "en": "..."
+    },
+    "featured": false,
+    "content": {
+      "vi": [
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/news/46/1.jpg", "alt": "", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" }
+      ],
+      "en": [
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/news/46/1.jpg", "alt": "", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" }
+      ]
+    }
+  },
+  {
+    "id": 47,
+    "title": {
+      "vi": "",
+      "en": ""
+    },
+    "date": "2026-0-0",
+    "category": "",
+    "thumbnail": "assets/images/news/47/1.jpg",
+    "summary": {
+      "vi": "...",
+      "en": "..."
+    },
+    "featured": false,
+    "content": {
+      "vi": [
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/news/47/1.jpg", "alt": "", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" }
+      ],
+      "en": [
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/news/47/1.jpg", "alt": "", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" }
+      ]
+    }
+  },
+  {
+    "id": 48,
+    "title": {
+      "vi": "",
+      "en": ""
+    },
+    "date": "2026-0-0",
+    "category": "",
+    "thumbnail": "assets/images/news/48/1.jpg",
+    "summary": {
+      "vi": "...",
+      "en": "..."
+    },
+    "featured": false,
+    "content": {
+      "vi": [
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/news/48/1.jpg", "alt": "", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" }
+      ],
+      "en": [
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/news/48/1.jpg", "alt": "", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" }
+      ]
+    }
+  },
+  {
+    "id": 49,
+    "title": {
+      "vi": "",
+      "en": ""
+    },
+    "date": "2026-0-0",
+    "category": "",
+    "thumbnail": "assets/images/news/49/1.jpg",
+    "summary": {
+      "vi": "...",
+      "en": "..."
+    },
+    "featured": false,
+    "content": {
+      "vi": [
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/news/49/1.jpg", "alt": "", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" }
+      ],
+      "en": [
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/news/49/1.jpg", "alt": "", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" }
+      ]
+    }
+  },
+  {
+    "id": 50,
+    "title": {
+      "vi": "",
+      "en": ""
+    },
+    "date": "2026-0-0",
+    "category": "",
+    "thumbnail": "assets/images/news/50/1.jpg",
+    "summary": {
+      "vi": "...",
+      "en": "..."
+    },
+    "featured": false,
+    "content": {
+      "vi": [
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/news/50/1.jpg", "alt": "", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" }
+      ],
+      "en": [
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/news/50/1.jpg", "alt": "", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" }
+      ]
+    }
+  },
+  {
+    "id": 51,
+    "title": {
+      "vi": "",
+      "en": ""
+    },
+    "date": "2026-0-0",
+    "category": "",
+    "thumbnail": "assets/images/news/51/1.jpg",
+    "summary": {
+      "vi": "...",
+      "en": "..."
+    },
+    "featured": false,
+    "content": {
+      "vi": [
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/news/51/1.jpg", "alt": "", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" }
+      ],
+      "en": [
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/news/51/1.jpg", "alt": "", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" }
+      ]
+    }
+  },
+  {
+    "id": 52,
+    "title": {
+      "vi": "",
+      "en": ""
+    },
+    "date": "2026-0-0",
+    "category": "",
+    "thumbnail": "assets/images/news/52/1.jpg",
+    "summary": {
+      "vi": "...",
+      "en": "..."
+    },
+    "featured": false,
+    "content": {
+      "vi": [
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/news/52/1.jpg", "alt": "", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" }
+      ],
+      "en": [
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/news/52/1.jpg", "alt": "", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" }
+      ]
+    }
+  },
+  {
+    "id": 53,
+    "title": {
+      "vi": "",
+      "en": ""
+    },
+    "date": "2026-0-0",
+    "category": "",
+    "thumbnail": "assets/images/news/53/1.jpg",
+    "summary": {
+      "vi": "...",
+      "en": "..."
+    },
+    "featured": false,
+    "content": {
+      "vi": [
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/news/53/1.jpg", "alt": "", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" }
+      ],
+      "en": [
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/news/53/1.jpg", "alt": "", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" }
+      ]
+    }
+  },
+  {
+    "id": 54,
+    "title": {
+      "vi": "",
+      "en": ""
+    },
+    "date": "2026-0-0",
+    "category": "",
+    "thumbnail": "assets/images/news/54/1.jpg",
+    "summary": {
+      "vi": "...",
+      "en": "..."
+    },
+    "featured": false,
+    "content": {
+      "vi": [
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/news/54/1.jpg", "alt": "", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" }
+      ],
+      "en": [
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/news/54/1.jpg", "alt": "", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" }
+      ]
+    }
+  },
+  {
+    "id": 55,
+    "title": {
+      "vi": "",
+      "en": ""
+    },
+    "date": "2026-0-0",
+    "category": "",
+    "thumbnail": "assets/images/news/55/1.jpg",
+    "summary": {
+      "vi": "...",
+      "en": "..."
+    },
+    "featured": false,
+    "content": {
+      "vi": [
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/news/55/1.jpg", "alt": "", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" }
+      ],
+      "en": [
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/news/55/1.jpg", "alt": "", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" }
+      ]
+    }
+  },
+  {
+    "id": 56,
+    "title": {
+      "vi": "",
+      "en": ""
+    },
+    "date": "2026-0-0",
+    "category": "",
+    "thumbnail": "assets/images/news/56/1.jpg",
+    "summary": {
+      "vi": "...",
+      "en": "..."
+    },
+    "featured": false,
+    "content": {
+      "vi": [
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/news/56/1.jpg", "alt": "", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" }
+      ],
+      "en": [
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/news/56/1.jpg", "alt": "", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" }
+      ]
+    }
+  },
+  {
+    "id": 57,
+    "title": {
+      "vi": "",
+      "en": ""
+    },
+    "date": "2026-0-0",
+    "category": "",
+    "thumbnail": "assets/images/news/57/1.jpg",
+    "summary": {
+      "vi": "...",
+      "en": "..."
+    },
+    "featured": false,
+    "content": {
+      "vi": [
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/news/57/1.jpg", "alt": "", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" }
+      ],
+      "en": [
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/news/57/1.jpg", "alt": "", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" }
+      ]
+    }
+  },
+  {
+    "id": 58,
+    "title": {
+      "vi": "",
+      "en": ""
+    },
+    "date": "2026-0-0",
+    "category": "",
+    "thumbnail": "assets/images/news/58/1.jpg",
+    "summary": {
+      "vi": "...",
+      "en": "..."
+    },
+    "featured": false,
+    "content": {
+      "vi": [
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/news/58/1.jpg", "alt": "", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" }
+      ],
+      "en": [
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/news/58/1.jpg", "alt": "", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" }
+      ]
+    }
+  },
+  {
+    "id": 59,
+    "title": {
+      "vi": "",
+      "en": ""
+    },
+    "date": "2026-0-0",
+    "category": "",
+    "thumbnail": "assets/images/news/59/1.jpg",
+    "summary": {
+      "vi": "...",
+      "en": "..."
+    },
+    "featured": false,
+    "content": {
+      "vi": [
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/news/59/1.jpg", "alt": "", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" }
+      ],
+      "en": [
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/news/59/1.jpg", "alt": "", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" }
+      ]
+    }
+  },
+  {
+    "id": 60,
+    "title": {
+      "vi": "",
+      "en": ""
+    },
+    "date": "2026-0-0",
+    "category": "",
+    "thumbnail": "assets/images/news/60/1.jpg",
+    "summary": {
+      "vi": "...",
+      "en": "..."
+    },
+    "featured": false,
+    "content": {
+      "vi": [
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/news/60/1.jpg", "alt": "", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" }
+      ],
+      "en": [
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/news/60/1.jpg", "alt": "", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" }
+      ]
+    }
+  },
+  {
+    "id": 61,
+    "title": {
+      "vi": "",
+      "en": ""
+    },
+    "date": "2026-0-0",
+    "category": "",
+    "thumbnail": "assets/images/news/61/1.jpg",
+    "summary": {
+      "vi": "...",
+      "en": "..."
+    },
+    "featured": false,
+    "content": {
+      "vi": [
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/news/61/1.jpg", "alt": "", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" }
+      ],
+      "en": [
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/news/61/1.jpg", "alt": "", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" }
+      ]
+    }
+  },
+  {
+    "id": 62,
+    "title": {
+      "vi": "",
+      "en": ""
+    },
+    "date": "2026-0-0",
+    "category": "",
+    "thumbnail": "assets/images/news/62/1.jpg",
+    "summary": {
+      "vi": "...",
+      "en": "..."
+    },
+    "featured": false,
+    "content": {
+      "vi": [
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/news/62/1.jpg", "alt": "", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" }
+      ],
+      "en": [
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/news/62/1.jpg", "alt": "", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" }
+      ]
+    }
+  },
+  {
+    "id": 63,
+    "title": {
+      "vi": "",
+      "en": ""
+    },
+    "date": "2026-0-0",
+    "category": "",
+    "thumbnail": "assets/images/news/63/1.jpg",
+    "summary": {
+      "vi": "...",
+      "en": "..."
+    },
+    "featured": false,
+    "content": {
+      "vi": [
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/news/63/1.jpg", "alt": "", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" }
+      ],
+      "en": [
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/news/63/1.jpg", "alt": "", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" }
+      ]
+    }
+  },
+  {
+    "id": 64,
+    "title": {
+      "vi": "",
+      "en": ""
+    },
+    "date": "2026-0-0",
+    "category": "",
+    "thumbnail": "assets/images/news/64/1.jpg",
+    "summary": {
+      "vi": "...",
+      "en": "..."
+    },
+    "featured": false,
+    "content": {
+      "vi": [
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/news/64/1.jpg", "alt": "", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" }
+      ],
+      "en": [
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/news/64/1.jpg", "alt": "", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" }
+      ]
+    }
+  },
+  {
+    "id": 65,
+    "title": {
+      "vi": "",
+      "en": ""
+    },
+    "date": "2026-0-0",
+    "category": "",
+    "thumbnail": "assets/images/news/65/1.jpg",
+    "summary": {
+      "vi": "...",
+      "en": "..."
+    },
+    "featured": false,
+    "content": {
+      "vi": [
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/news/65/1.jpg", "alt": "", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" }
+      ],
+      "en": [
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/news/65/1.jpg", "alt": "", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" }
+      ]
+    }
+  },
+  {
+    "id": 66,
+    "title": {
+      "vi": "",
+      "en": ""
+    },
+    "date": "2026-0-0",
+    "category": "",
+    "thumbnail": "assets/images/news/66/1.jpg",
+    "summary": {
+      "vi": "...",
+      "en": "..."
+    },
+    "featured": false,
+    "content": {
+      "vi": [
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/news/66/1.jpg", "alt": "", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" }
+      ],
+      "en": [
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/news/66/1.jpg", "alt": "", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" }
+      ]
+    }
+  },
+  {
+    "id": 67,
+    "title": {
+      "vi": "",
+      "en": ""
+    },
+    "date": "2026-0-0",
+    "category": "",
+    "thumbnail": "assets/images/news/67/1.jpg",
+    "summary": {
+      "vi": "...",
+      "en": "..."
+    },
+    "featured": false,
+    "content": {
+      "vi": [
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/news/67/1.jpg", "alt": "", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" }
+      ],
+      "en": [
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/news/67/1.jpg", "alt": "", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" }
+      ]
+    }
+  },
+  {
+    "id": 68,
+    "title": {
+      "vi": "",
+      "en": ""
+    },
+    "date": "2026-0-0",
+    "category": "",
+    "thumbnail": "assets/images/news/68/1.jpg",
+    "summary": {
+      "vi": "...",
+      "en": "..."
+    },
+    "featured": false,
+    "content": {
+      "vi": [
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/news/68/1.jpg", "alt": "", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" }
+      ],
+      "en": [
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/news/68/1.jpg", "alt": "", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" }
+      ]
+    }
+  },
+  {
+    "id": 69,
+    "title": {
+      "vi": "",
+      "en": ""
+    },
+    "date": "2026-0-0",
+    "category": "",
+    "thumbnail": "assets/images/news/69/1.jpg",
+    "summary": {
+      "vi": "...",
+      "en": "..."
+    },
+    "featured": false,
+    "content": {
+      "vi": [
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/news/69/1.jpg", "alt": "", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" }
+      ],
+      "en": [
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/news/69/1.jpg", "alt": "", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" }
+      ]
+    }
+  },
+  {
+    "id": 70,
+    "title": {
+      "vi": "",
+      "en": ""
+    },
+    "date": "2026-0-0",
+    "category": "",
+    "thumbnail": "assets/images/news/70/1.jpg",
+    "summary": {
+      "vi": "...",
+      "en": "..."
+    },
+    "featured": false,
+    "content": {
+      "vi": [
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/news/70/1.jpg", "alt": "", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" }
+      ],
+      "en": [
+        { "type": "text", "value": "" },
+        { "type": "image", "src": "assets/images/news/70/1.jpg", "alt": "", "caption": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" },
+        { "type": "text", "value": "" }
       ]
     }
   }
+
 ]

@@ -28,6 +28,7 @@ let state = {
     },
     data: {
         members: [],
+        alumni: [],
         activities: [],
         news: [],
         blog: [],
@@ -50,6 +51,9 @@ const EMBEDDED_DATA = {
         { id: 1, name: "Nguyễn Văn A (Mẫu)", position: "president", image: "assets/images/members/member-01.webp", city: "Delhi", bio: { vi: "[MẪU] Chủ tịch VSA India", en: "[SAMPLE] President" } },
         { id: 2, name: "Trần Thị B (Mẫu)", position: "vice_president", image: "assets/images/members/member-02.webp", city: "Pune", bio: { vi: "[MẪU] Phó Chủ tịch", en: "[SAMPLE] Vice President" } },
         { id: 3, name: "Lê Văn C (Mẫu)", position: "secretary", image: "assets/images/members/member-03.webp", city: "Delhi", bio: { vi: "[MẪU] Thư ký", en: "[SAMPLE] Secretary" } }
+    ],
+    alumni: [
+        { id: 1, name: "Nguyễn Văn X", position: "president", image: "assets/images/alumni/alumni-01.webp", city: "Delhi", bio: { vi: "Chủ tịch VSA India nhiệm kỳ 2023-2024.", en: "President 2023-2024" }, term: "2023-2024" }
     ],
     activities: [
         { id: 1, title: { vi: "[MẪU] Giao lưu văn hóa Việt - Ấn", en: "[SAMPLE] Cultural Exchange" }, date: "2026-10-15", location: "Delhi", category: "culture", image: "assets/images/activities/activity-01.webp", description: { vi: ["[MẪU] Hoạt động giao lưu"], en: ["[SAMPLE] Cultural exchange"] }, organizerId: 1 },
@@ -157,7 +161,7 @@ const EMBEDDED_DATA = {
 // =====================================================
 
 async function loadData() {
-    const files = ['members', 'activities', 'news', 'blog', 'guide', 'cities', 'gallery','about','contact'];
+    const files = ['members', 'activities', 'news', 'blog', 'guide', 'cities', 'gallery','about','contact','alumni'];
     const basePath = 'data/';
     
     for (const name of files) {
@@ -204,7 +208,15 @@ const TRANSLATIONS = {
         map: { title: 'Bản đồ cộng đồng', subtitle: 'Sinh viên Việt Nam tại các thành phố Ấn Độ', viewAll: 'Xem chi tiết →' },
         gallery: { title: 'Thư viện ảnh', viewAll: 'Xem tất cả →', page: { subtitle: 'Những khoảnh khắc đáng nhớ của VSA India' } },
         cta: { title: 'Bạn đang học tập tại Ấn Độ?', text: 'Kết nối cùng cộng đồng sinh viên Việt Nam tại Ấn Độ.', cta: 'Tham gia ngay' },
-        members: { subtitle: 'Những người đại diện cho cộng đồng sinh viên Việt Nam tại Ấn Độ', bioLabel: 'Giới thiệu' },
+        members: {
+            subtitle: 'Những người đại diện cho cộng đồng sinh viên Việt Nam tại Ấn Độ',
+            bioLabel: 'Giới thiệu',
+            tab: {
+                current: 'Ban Chấp hành hiện tại',
+                alumni: 'Cựu thành viên'
+            },
+            term: 'Nhiệm kỳ'
+        },
         contact: {
             page: { subtitle: "Chúng tôi luôn sẵn sàng lắng nghe và hỗ trợ bạn" },
             info: { title: "Thông tin liên hệ" },
@@ -243,7 +255,15 @@ const TRANSLATIONS = {
         map: { title: 'Community Map', subtitle: 'Vietnamese Students in Indian Cities', viewAll: 'View Details →' },
         gallery: { title: 'Gallery', viewAll: 'View All →', page: { subtitle: 'Memorable moments of VSA India' } },
         cta: { title: 'Are you studying in India?', text: 'Connect with the Vietnamese student community in India.', cta: 'Join Now' },
-        members: { subtitle: 'Representatives of the Vietnamese student community in India', bioLabel: 'About' },
+        members: {
+            subtitle: 'Representatives of the Vietnamese student community in India',
+            bioLabel: 'Biography',
+            tab: {
+                current: 'Current Executive Committee',
+                alumni: 'Alumni Members'
+            },
+            term: 'Term'
+        },
         contact: {
             page: { subtitle: "We are always ready to listen and support you" },
             info: { title: "Contact Information" },
@@ -479,6 +499,7 @@ function updateUILanguage() {
                 const homeInfo = document.getElementById('home-map-info');
                 if (homeInfo) renderHomeMapInfo(homeInfo);
             }, 500);
+            renderHome(document.getElementById('home-container'));
             break;
         case 'about':
             // GỌI renderAbout() THAY VÌ renderAbout(container)
@@ -761,6 +782,27 @@ function renderHomeGallery(container) {
         fragment.appendChild(item);
     });
     container.replaceChildren(fragment);
+}
+// =====================================================
+// 9. HOME – RENDER TRANG CHỦ (THÊM VÀO)
+// =====================================================
+
+function renderHome(container) {
+    // Khởi tạo Hero Slider
+    initHeroSlider();
+    
+    // Các phần preview trên trang chủ
+    renderHomeActivities(document.getElementById('home-activities-container'));
+    renderHomeNews(document.getElementById('home-news-container'));
+    renderHomeBlog(document.getElementById('home-blog-container'));
+    renderHomeGallery(document.getElementById('home-gallery-container'));
+    
+    // Map preview
+    setTimeout(() => {
+        renderHomeMap();
+        const homeInfo = document.getElementById('home-map-info');
+        if (homeInfo) renderHomeMapInfo(homeInfo);
+    }, 500);
 }
 
 // =====================================================
@@ -1192,19 +1234,35 @@ function renderTimeline(container) {
 }
 
 // =====================================================
-// 11. MEMBERS
+// 11. MEMBERS – CÓ TAB
 // =====================================================
+
+let membersTab = 'current';
 
 function renderMembers(container) {
     if (!container) return;
-    const data = state.data.members;
-    if (!data || data.length === 0) { renderPlaceholder(container, 'ui.placeholder'); return; }
+    
+    let data = [];
+    if (membersTab === 'current') {
+        data = state.data.members;
+    } else {
+        data = state.data.alumni;
+    }
+    
+    if (!data || data.length === 0) {
+        renderPlaceholder(container, 'ui.placeholder');
+        return;
+    }
+    
     const positionOrder = { president: 0, vice_president: 1, secretary: 2, treasurer: 3, member: 4, advisor: 5 };
     const sorted = [...data].sort((a, b) => (positionOrder[a.position] ?? 99) - (positionOrder[b.position] ?? 99));
     const fragment = document.createDocumentFragment();
+    
     sorted.forEach(member => {
         const card = document.createElement('div');
         card.className = 'member-card';
+        
+        // Image
         const imgContainer = document.createElement('div');
         imgContainer.className = 'member-image';
         const img = document.createElement('img');
@@ -1218,28 +1276,59 @@ function renderMembers(container) {
         };
         imgContainer.appendChild(img);
         card.appendChild(imgContainer);
+        
+        // Name
         const name = document.createElement('h3');
         name.textContent = member.name;
         card.appendChild(name);
+        
+        // Position
         const pos = document.createElement('p');
         pos.className = 'member-position';
         pos.textContent = translateEnum('position', member.position);
         card.appendChild(pos);
+        
+        // City
         if (member.city) {
             const city = document.createElement('p');
             city.className = 'member-city text-sm';
             city.textContent = member.city;
             card.appendChild(city);
         }
+        
+        // Term (for alumni)
+        if (membersTab === 'alumni' && member.term) {
+            const term = document.createElement('p');
+            term.className = 'member-term text-xs';
+            term.textContent = `${t('members.term')}: ${member.term}`;
+            card.appendChild(term);
+        }
+        
+        // Bio
         if (member.bio && (member.bio.vi || member.bio.en)) {
             const bio = document.createElement('p');
             bio.className = 'member-bio text-sm text-muted';
             bio.textContent = (member.bio[state.currentLang] || member.bio.vi || '').substring(0, 120) + '...';
             card.appendChild(bio);
         }
+        
         fragment.appendChild(card);
     });
+    
     container.replaceChildren(fragment);
+}
+
+function initMembersTabs() {
+    const tabs = document.querySelectorAll('.members-tab');
+    tabs.forEach(tab => {
+        tab.addEventListener('click', () => {
+            tabs.forEach(t => t.classList.remove('active'));
+            tab.classList.add('active');
+            membersTab = tab.dataset.tab;
+            const container = document.getElementById('members-container');
+            if (container) renderMembers(container);
+        });
+    });
 }
 
 // =====================================================
@@ -2590,12 +2679,17 @@ function renderSection(section) {
     if (!container) return;
     
     switch (section) {
-        case 'home': break;
+        case 'home': 
+            renderHome(container);
+            break;
         case 'about':
             // GỌI renderAbout() THAY VÌ renderAbout(container)
             renderAbout();
             break;
-        case 'members': renderMembers(container); break;
+        case 'members':
+            renderMembers(container);
+            initMembersTabs();
+            break;
         case 'activities': 
             // Reset page khi filter thay đổi
             if (activitiesFilter !== 'all' && state.pagination.activities.page !== 1) {
@@ -2691,7 +2785,405 @@ async function init() {
     console.log('[VSA] Phase 6 complete. Waiting for approval.');
 }
 
-// Start
+// =====================================================
+// 25. LOADING CONTROL
+// =====================================================
+
+function hideLoading() {
+    const overlay = document.getElementById('loading-overlay');
+    if (overlay) {
+        overlay.classList.add('hidden');
+        // Remove from DOM after animation
+        setTimeout(() => {
+            overlay.style.display = 'none';
+        }, 700);
+    }
+}
+
+// Gọi hideLoading khi trang đã sẵn sàng
+document.addEventListener('DOMContentLoaded', function() {
+    // Ẩn loading khi mọi thứ đã load
+    window.addEventListener('load', hideLoading);
+    // Fallback: ẩn sau 3 giây nếu load lâu
+    setTimeout(hideLoading, 3000);
+});
+
+// =====================================================
+// SLIDER – HERO SLIDER TỪ HOẠT ĐỘNG
+// =====================================================
+
+let sliderInterval = null;
+let currentSlide = 0;
+let sliderData = [];
+
+function initHeroSlider() {
+    // Lấy dữ liệu từ activities
+    const activities = state.data.activities;
+    if (!activities || activities.length === 0) {
+        // Fallback: nếu không có hoạt động, dùng ảnh mặc định
+        sliderData = [
+            { 
+                src: 'assets/images/hero/hero-01.webp', 
+                alt: 'VSA India', 
+                title: 'VSA India',
+                id: null,
+                link: '#activities'
+            }
+        ];
+    } else {
+        // Sắp xếp theo thời gian (mới nhất → cũ nhất)
+        const sorted = [...activities].sort((a, b) => {
+            return new Date(b.date) - new Date(a.date);
+        });
+        
+        // Lấy ảnh từ mỗi hoạt động (ưu tiên image, fallback thumbnail)
+        sliderData = sorted.map(activity => {
+            // Lấy ảnh từ activity
+            let imgSrc = activity.image || activity.thumbnail || null;
+            
+            // Nếu không có ảnh, dùng ảnh mặc định
+            if (!imgSrc) {
+                imgSrc = 'assets/images/hero/hero-placeholder.webp';
+            }
+            
+            return {
+                src: imgSrc,
+                alt: activity.title[state.currentLang] || activity.title.vi || 'VSA India',
+                title: activity.title[state.currentLang] || activity.title.vi || 'Hoạt động VSA India',
+                id: activity.id,
+                link: `#activities/${activity.id}`
+            };
+        });
+    }
+
+    renderSlider();
+    startSlider();
+    initSliderControls();
+}
+
+function renderSlider() {
+    const container = document.getElementById('slider-container');
+    if (!container) return;
+
+    const fragment = document.createDocumentFragment();
+    sliderData.forEach((slide, index) => {
+        const slideDiv = document.createElement('div');
+        slideDiv.className = `slider-slide ${index === 0 ? 'active' : ''}`;
+        slideDiv.dataset.index = index;
+        slideDiv.dataset.link = slide.link || '#activities';
+        slideDiv.style.cursor = 'pointer';
+        
+        // Thêm sự kiện click vào slide
+        slideDiv.addEventListener('click', function() {
+            const link = this.dataset.link;
+            if (link) {
+                navigateTo(link);
+            }
+        });
+        
+        const img = document.createElement('img');
+        img.src = slide.src;
+        img.alt = slide.alt || 'VSA India';
+        img.loading = 'lazy';
+        img.onerror = function() {
+            this.style.display = 'none';
+            const fallback = document.createElement('div');
+            fallback.className = 'slider-fallback';
+            fallback.textContent = '📸';
+            this.parentElement.appendChild(fallback);
+        };
+        slideDiv.appendChild(img);
+        
+        // Thêm overlay text nhẹ (tên hoạt động) 
+        /*
+        const info = document.createElement('div');
+        info.className = 'slider-info';
+        const titleSpan = document.createElement('span');
+        titleSpan.className = 'slider-info-title';
+        titleSpan.textContent = slide.title;
+        info.appendChild(titleSpan);
+        const hint = document.createElement('span');
+        hint.className = 'slider-info-hint';
+        hint.textContent = '🔍 Click để xem chi tiết';
+        info.appendChild(hint);
+        slideDiv.appendChild(info);*/
+        
+        fragment.appendChild(slideDiv);
+    });
+
+    container.replaceChildren(fragment);
+    renderDots();
+}
+
+function renderDots() {
+    const dotsContainer = document.getElementById('slider-dots');
+    if (!dotsContainer) return;
+
+    const fragment = document.createDocumentFragment();
+    sliderData.forEach((_, index) => {
+        const dot = document.createElement('button');
+        dot.className = `slider-dot ${index === 0 ? 'active' : ''}`;
+        dot.dataset.index = index;
+        dot.setAttribute('aria-label', `Slide ${index + 1}`);
+        dot.addEventListener('click', () => goToSlide(index));
+        fragment.appendChild(dot);
+    });
+    dotsContainer.replaceChildren(fragment);
+}
+
+function goToSlide(index) {
+    const slides = document.querySelectorAll('.slider-slide');
+    const dots = document.querySelectorAll('.slider-dot');
+    
+    if (!slides.length) return;
+    
+    if (index < 0) index = slides.length - 1;
+    if (index >= slides.length) index = 0;
+    
+    currentSlide = index;
+    
+    slides.forEach((slide, i) => {
+        slide.classList.toggle('active', i === index);
+    });
+    
+    dots.forEach((dot, i) => {
+        dot.classList.toggle('active', i === index);
+    });
+}
+
+function nextSlide() {
+    goToSlide(currentSlide + 1);
+}
+
+function prevSlide() {
+    goToSlide(currentSlide - 1);
+}
+
+function startSlider() {
+    if (sliderInterval) clearInterval(sliderInterval);
+    sliderInterval = setInterval(nextSlide, 5000);
+}
+
+function stopSlider() {
+    if (sliderInterval) {
+        clearInterval(sliderInterval);
+        sliderInterval = null;
+    }
+}
+
+function initSliderControls() {
+    const prevBtn = document.getElementById('slider-prev');
+    const nextBtn = document.getElementById('slider-next');
+    const slider = document.getElementById('hero-slider');
+
+    if (prevBtn) {
+        prevBtn.addEventListener('click', (e) => {
+            e.stopPropagation();
+            stopSlider();
+            prevSlide();
+            setTimeout(startSlider, 5000);
+        });
+    }
+
+    if (nextBtn) {
+        nextBtn.addEventListener('click', (e) => {
+            e.stopPropagation();
+            stopSlider();
+            nextSlide();
+            setTimeout(startSlider, 5000);
+        });
+    }
+
+    if (slider) {
+        slider.addEventListener('mouseenter', stopSlider);
+        slider.addEventListener('mouseleave', startSlider);
+        
+        let touchStartX = 0;
+        slider.addEventListener('touchstart', (e) => {
+            touchStartX = e.touches[0].clientX;
+            stopSlider();
+        }, { passive: true });
+        
+        slider.addEventListener('touchend', (e) => {
+            const touchEndX = e.changedTouches[0].clientX;
+            if (touchStartX - touchEndX > 50) {
+                nextSlide();
+            } else if (touchEndX - touchStartX > 50) {
+                prevSlide();
+            }
+            setTimeout(startSlider, 5000);
+        }, { passive: true });
+    }
+}
+// =====================================================
+// 26. PAGE LOADER – HIỆU ỨNG LOADING HIỆN ĐẠI
+// =====================================================
+
+let loaderTimeout = null;
+let isFirstLoad = true;
+
+function showLoader() {
+    const loader = document.getElementById('page-loader');
+    if (!loader) return;
+    
+    // Reset progress bar
+    const progressBar = document.getElementById('loader-progress-bar');
+    if (progressBar) {
+        progressBar.style.width = '0%';
+    }
+    
+    // Hiển thị loader
+    loader.classList.remove('fade-out');
+    loader.classList.add('active');
+    
+    // Tăng dần progress bar
+    let progress = 0;
+    const interval = setInterval(() => {
+        progress += Math.random() * 15 + 5;
+        if (progress > 85) progress = 85;
+        if (progressBar) {
+            progressBar.style.width = Math.min(progress, 85) + '%';
+        }
+    }, 200);
+    
+    // Lưu interval để clear sau
+    loader._progressInterval = interval;
+}
+
+function hideLoader() {
+    const loader = document.getElementById('page-loader');
+    if (!loader) return;
+    
+    // Hoàn thành progress bar
+    const progressBar = document.getElementById('loader-progress-bar');
+    if (progressBar) {
+        progressBar.style.width = '100%';
+    }
+    
+    // Clear interval
+    if (loader._progressInterval) {
+        clearInterval(loader._progressInterval);
+        loader._progressInterval = null;
+    }
+    
+    // Ẩn loader
+    setTimeout(() => {
+        loader.classList.remove('active');
+        loader.classList.add('fade-out');
+    }, 400);
+}
+
+function updateLoaderText(text) {
+    const textEl = document.getElementById('loader-text');
+    if (textEl) {
+        // Xóa nội dung cũ và set nội dung mới
+        textEl.textContent = text;
+    }
+}
+
+// =====================================================
+// 27. WRAP ROUTER VỚI LOADING
+// =====================================================
+
+// Lưu hàm renderRoute gốc
+const originalRenderRoute = renderRoute;
+
+// Ghi đè renderRoute để có loading
+renderRoute = function() {
+    const route = getRouteFromHash();
+    const section = route.section;
+    const validSections = ['home', 'about', 'members', 'activities', 'news', 'blog', 'guide', 'map', 'gallery', 'forum', 'contact'];
+    
+    if (!validSections.includes(section)) {
+        window.location.hash = 'home';
+        return;
+    }
+    
+    // Show loading
+    showLoader();
+    
+    // Cập nhật text theo section
+    const sectionNames = {
+        home: 'Đang tải trang chủ...',
+        about: 'Đang tải thông tin...',
+        members: 'Đang tải Ban Chấp hành...',
+        activities: 'Đang tải hoạt động...',
+        news: 'Đang tải tin tức...',
+        blog: 'Đang tải blog...',
+        guide: 'Đang tải cẩm nang...',
+        map: 'Đang tải bản đồ...',
+        gallery: 'Đang tải thư viện ảnh...',
+        forum: 'Đang tải diễn đàn...',
+        contact: 'Đang tải liên hệ...'
+    };
+    updateLoaderText(sectionNames[section] || 'Đang tải...');
+    
+    // Thực hiện render sau khi loading hiển thị
+    setTimeout(() => {
+        // Gọi hàm render gốc
+        originalRenderRoute();
+        
+        // Ẩn loader sau khi render
+        setTimeout(() => {
+            hideLoader();
+        }, 300);
+    }, 400);
+};
+
+// =====================================================
+// 28. WRAP NAVIGATE VỚI LOADING
+// =====================================================
+
+// Lưu hàm navigateTo gốc
+const originalNavigateTo = navigateTo;
+
+// Ghi đè navigateTo để có loading
+navigateTo = function(hash) {
+    // Nếu đang ở cùng trang, không loading
+    const currentHash = window.location.hash.slice(1) || 'home';
+    const targetHash = hash.slice(1) || 'home';
+    
+    if (currentHash === targetHash) {
+        window.location.hash = hash;
+        return;
+    }
+    
+    // Show loading và chuyển trang
+    showLoader();
+    
+    setTimeout(() => {
+        originalNavigateTo(hash);
+        // Ẩn loader sau khi hash change
+        setTimeout(() => {
+            hideLoader();
+        }, 300);
+    }, 300);
+};
+
+// =====================================================
+// 29. LOADING CHO TRANG CHỦ LẦN ĐẦU
+// =====================================================
+
+// Ghi đè hàm init để có loading khi load trang lần đầu
+const originalInit = init;
+
+init = async function() {
+    // Hiển thị loader ngay khi bắt đầu
+    showLoader();
+    updateLoaderText('Đang khởi tạo...');
+    
+    // Gọi init gốc
+    await originalInit();
+    
+    // Ẩn loader sau khi init xong
+    setTimeout(() => {
+        hideLoader();
+    }, 500);
+};
+
+// =====================================================
+// START
+// =====================================================
 if (document.readyState === 'loading') {
     document.addEventListener('DOMContentLoaded', init);
 } else {
