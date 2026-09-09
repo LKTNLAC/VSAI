@@ -16,6 +16,27 @@
     <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
 </head>
 <body>
+    <!-- =================================================== -->
+    <!-- LOADING OVERLAY HIỆN ĐẠI                          -->
+    <!-- =================================================== -->
+    <div id="page-loader" class="page-loader">
+        <div class="loader-container">
+            <div class="loader-ring">
+                <div class="loader-ring-inner"></div>
+            </div>
+            <div class="loader-ring loader-ring-2">
+                <div class="loader-ring-inner"></div>
+            </div>
+            <div class="loader-ring loader-ring-3">
+                <div class="loader-ring-inner"></div>
+            </div>
+            <div class="loader-logo">VSA</div>
+            <div class="loader-progress">
+                <div class="loader-progress-bar" id="loader-progress-bar"></div>
+            </div>
+            <p class="loader-text" id="loader-text">Đang tải...</p>
+        </div>
+    </div>
     <!-- ==================== HEADER ==================== -->
     <header class="site-header" role="banner">
         <div class="container header-inner">
@@ -51,19 +72,28 @@
     <main class="site-main" role="main">
         <!-- HOME -->
         <section id="home" class="page-section active" role="region" aria-label="Trang chủ">
-            <!-- HERO -->
-            <section class="hero" aria-label="Hero">
-                <div class="container">
-                    <div class="hero-content">
-                        <h1 class="hero-title" data-i18n="hero.title">Kết nối sinh viên Việt Nam tại Ấn Độ</h1>
-                        <p class="hero-subtitle" data-i18n="hero.subtitle">Hội Sinh viên Việt Nam tại Ấn Độ – VSA India</p>
-                        <div class="hero-actions">
+            <!-- =================================================== -->
+            <!-- HERO SLIDER – TOÀN MÀN HÌNH                        -->
+            <!-- =================================================== -->
+            <section class="hero-slider" id="hero-slider">
+                <div class="slider-container" id="slider-container">
+                    <!-- JS sẽ render slides -->
+                </div>
+                <!-- Slider Controls -->
+                <button class="slider-arrow slider-prev" id="slider-prev" aria-label="Previous">‹</button>
+                <button class="slider-arrow slider-next" id="slider-next" aria-label="Next">›</button>
+                <div class="slider-dots" id="slider-dots"></div>
+                <!-- Overlay Content -->
+                <div class="slider-overlay">
+                    <div class="slider-content">
+                        <h1 class="slider-title" data-i18n="hero.title">Kết nối sinh viên Việt Nam tại Ấn Độ</h1>
+                        <p class="slider-subtitle" data-i18n="hero.subtitle">Hội Sinh viên Việt Nam tại Ấn Độ – VSA India</p>
+                        <div class="slider-actions">
                             <a href="#activities" class="btn btn-primary" data-i18n="hero.cta.activities">Xem hoạt động</a>
                             <a href="#about" class="btn btn-secondary" data-i18n="hero.cta.about">Tìm hiểu thêm</a>
                         </div>
                     </div>
                 </div>
-                <div class="hero-bg"></div>
             </section>
 
             <!-- ABOUT PREVIEW -->
@@ -185,7 +215,16 @@
                 <div class="members-page">
                     <h1 data-i18n="headings.members">Ban Chấp hành</h1>
                     <p class="members-subtitle" data-i18n="members.subtitle">Những người đại diện cho cộng đồng sinh viên Việt Nam tại Ấn Độ</p>
-                    <div id="members-container" class="members-grid"></div>
+                    
+                    <!-- Tabs -->
+                    <div class="members-tabs">
+                        <button class="members-tab active" data-tab="current" data-i18n="members.tab.current">Ban Chấp hành hiện tại</button>
+                        <button class="members-tab" data-tab="alumni" data-i18n="members.tab.alumni">Cựu thành viên</button>
+                    </div>
+                    
+                    <div id="members-container" class="members-grid">
+                        <!-- JS sẽ render -->
+                    </div>
                 </div>
             </div>
         </section>

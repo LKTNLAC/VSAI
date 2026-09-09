@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "name": "Nguyễn Văn X",
+    "position": "president",
+    "image": "assets/images/alumni/1.jpg",
+    "city": "Delhi",
+    "bio": {
+      "vi": "Chủ tịch VSA India nhiệm kỳ 2023-2024. Hiện đang là nghiên cứu sinh tại Đại học Delhi.",
+      "en": "President of VSA India for the 2023-2024 term. Currently a research scholar at Delhi University."
+    },
+    "term": "2023-2024"
+  },
+  {
+    "id": 2,
+    "name": "Trần Thị Y",
+    "position": "vice_president",
+    "image": "assets/images/alumni/2.jpg",
+    "city": "Pune",
+    "bio": {
+      "vi": "Phó Chủ tịch VSA India nhiệm kỳ 2023-2024.",
+      "en": "Vice President of VSA India for the 2023-2024 term."
+    },
+    "term": "2023-2024"
+  },
+  {
+    "id": 3,
+    "name": "Lê Văn Z",
+    "position": "secretary",
+    "image": "assets/images/alumni/3.jpg",
+    "city": "Delhi",
+    "bio": {
+      "vi": "Thư ký VSA India nhiệm kỳ 2022-2023.",
+      "en": "Secretary of VSA India for the 2022-2023 term."
+    },
+    "term": "2022-2023"
+  },
+  {
+    "id": 4,
+    "name": "Phạm Thị W",
+    "position": "president",
+    "image": "assets/images/alumni/4.jpg",
+    "city": "Mumbai",
+    "bio": {
+      "vi": "Chủ tịch VSA India nhiệm kỳ 2022-2023.",
+      "en": "President of VSA India for the 2022-2023 term."
+    },
+    "term": "2022-2023"
+  }
+]
