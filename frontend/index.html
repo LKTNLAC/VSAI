@@ -17,24 +17,59 @@
 </head>
 <body>
     <!-- =================================================== -->
-    <!-- LOADING OVERLAY HIỆN ĐẠI                          -->
+    <!-- LOADING CHARKHA – BÁNH XE ẤN ĐỘ                  -->
     <!-- =================================================== -->
     <div id="page-loader" class="page-loader">
         <div class="loader-container">
-            <div class="loader-ring">
-                <div class="loader-ring-inner"></div>
+            <!-- Charkha Wheel + Text Ring -->
+            <div class="charkha-wrapper">
+                <!-- Bánh xe Charkha -->
+                <div class="charkha-wheel">
+                    <svg viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+                        <!-- Outer Rim -->
+                        <circle class="charkha-rim" cx="60" cy="60" r="52"/>
+                        
+                        <!-- Inner Rim -->
+                        <circle class="charkha-inner-rim" cx="60" cy="60" r="40"/>
+                        
+                        <!-- Spokes -->
+                        <line class="charkha-spokes" x1="60" y1="8" x2="60" y2="112"/>
+                        <line class="charkha-spokes" x1="8" y1="60" x2="112" y2="60"/>
+                        <line class="charkha-spokes" x1="23" y1="23" x2="97" y2="97"/>
+                        <line class="charkha-spokes" x1="97" y1="23" x2="23" y2="97"/>
+                        
+                        <!-- Spinning Dots -->
+                        <circle class="charkha-dot" cx="60" cy="12" r="4"/>
+                        <circle class="charkha-dot" cx="60" cy="108" r="4"/>
+                        <circle class="charkha-dot" cx="12" cy="60" r="4"/>
+                        <circle class="charkha-dot" cx="108" cy="60" r="4"/>
+                        <circle class="charkha-dot" cx="28" cy="28" r="4"/>
+                        <circle class="charkha-dot" cx="92" cy="92" r="4"/>
+                        <circle class="charkha-dot" cx="92" cy="28" r="4"/>
+                        <circle class="charkha-dot" cx="28" cy="92" r="4"/>
+                        
+                        <!-- Center -->
+                        <circle class="charkha-center" cx="60" cy="60" r="8"/>
+                        <circle class="charkha-center-ring" cx="60" cy="60" r="14"/>
+                    </svg>
+                    <div class="charkha-string"></div>
+                </div>
+                
+                <!-- Spinning Text Ring (bao quanh bánh xe) -->
+                <div class="loader-ring-text">
+                    <svg viewBox="0 0 180 180" xmlns="http://www.w3.org/2000/svg">
+                        <path id="textCircle" d="M 90,90 m -75,0 a 75,75 0 1,1 150,0 a 75,75 0 1,1 -150,0" fill="none"/>
+                        <text>
+                            <textPath href="#textCircle" startOffset="0%">
+                                VSA INDIA • KẾT NỐI • HỖ TRỢ • PHÁT TRIỂN •
+                            </textPath>
+                        </text>
+                    </svg>
+                </div>
             </div>
-            <div class="loader-ring loader-ring-2">
-                <div class="loader-ring-inner"></div>
-            </div>
-            <div class="loader-ring loader-ring-3">
-                <div class="loader-ring-inner"></div>
-            </div>
-            <div class="loader-logo">VSA</div>
-            <div class="loader-progress">
-                <div class="loader-progress-bar" id="loader-progress-bar"></div>
-            </div>
-            <p class="loader-text" id="loader-text">Đang tải...</p>
+            
+            <!-- Loading Text -->
+            <p class="loader-text" id="loader-text">Đang tải</p>
         </div>
     </div>
     <!-- ==================== HEADER ==================== -->
