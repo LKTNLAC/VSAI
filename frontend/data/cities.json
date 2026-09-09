@@ -1,42 +1,154 @@
 [
   {
     "city": "Delhi",
-    "students": 35,
+    "students": 100,
     "universities": ["Delhi University", "JNU", "IIIT Delhi"],
-    "representativeId": 1,
+    "representativeId": [1,2,6,7,8,9,10],
     "lat": 28.6139,
     "lng": 77.2090
   },
   {
+    "city": "Rajgir",
+    "students": 35,
+    "universities": ["Nalanda University"],
+    "representativeId": [4,5],
+    "lat": 25.0260,
+    "lng": 85.4211
+  },
+  {
+    "city": "Ahmedabad",
+    "students": 15,
+    "universities": ["Gujarat University", "MS University of Baroda"],
+    "representativeId": null,
+    "lat": 23.0225,
+    "lng": 72.5714
+  },
+  {
+    "city": "Gautam Buddha Nagar",
+    "students": 20,
+    "universities": ["Gautam Buddha University"],
+    "representativeId": null,
+    "lat": 28.4013,
+    "lng": 77.3163
+  },
+  {
     "city": "Pune",
-    "students": 18,
+    "students": 10,
     "universities": ["Pune University", "Symbiosis"],
-    "representativeId": 2,
+    "representativeId": 3,
     "lat": 18.5204,
     "lng": 73.8567
   },
   {
     "city": "Mumbai",
-    "students": 12,
+    "students": 10,
     "universities": ["Mumbai University", "IIT Bombay"],
-    "representativeId": 3,
+    "representativeId": 11,
     "lat": 19.0760,
     "lng": 72.8777
   },
   {
+    "city": "Hyderabad",
+    "students": 5,
+    "universities": ["Hyderabad University", "IIIT Hyderabad", "The English and Foreign Languages University"],
+    "representativeId": null,
+    "lat": 17.3850,
+    "lng": 78.4867
+  },
+  {
+    "city": "Thiruvananthapuram",
+    "students": 5,
+    "universities": ["University of Kerala", "Naval Academy"],
+    "representativeId": null,
+    "lat": 8.5241,
+    "lng": 76.9366
+  },
+  {
+    "city": "Trivandrum",
+    "students": 5,
+    "universities": ["University of Kerala"],
+    "representativeId": 12,
+    "lat": 8.4974,
+    "lng": 76.9523
+  },
+  {
+    "city": "Mysore",
+    "students": 5,
+    "universities": ["University of Mysore"],
+    "representativeId": null,
+    "lat": 12.2958,
+    "lng": 76.6394
+  },
+  {
+    "city": "Roorkee",
+    "students": 2,
+    "universities": ["IIT Roorkee"],
+    "representativeId": null,
+    "lat": 29.8670,
+    "lng": 77.8959
+  },
+  {
     "city": "Bangalore",
-    "students": 10,
+    "students": 1,
     "universities": ["Bangalore University", "Christ University"],
     "representativeId": null,
     "lat": 12.9716,
     "lng": 77.5946
   },
   {
-    "city": "Hyderabad",
+    "city": "Vadodara",
     "students": 8,
-    "universities": ["Hyderabad University", "IIIT Hyderabad"],
+    "universities": ["MS University of Baroda"],
     "representativeId": null,
-    "lat": 17.3850,
-    "lng": 78.4867
+    "lat": 22.3072,
+    "lng": 73.1812
+  },
+  {
+    "city": "Visakhapatnam",
+    "students": 10,
+    "universities": ["Andhra University", "GITAM University"],
+    "representativeId": null,
+    "lat": 17.6868,
+    "lng": 83.2185
+  },
+  {
+    "city": "Varanasi",
+    "students": 20,
+    "universities": ["Banaras Hindu University"],
+    "representativeId": null,
+    "lat": 25.3176,
+    "lng": 82.9739
+  },
+  {
+    "city": "Kochi",
+    "students": 12,
+    "universities": ["Cochin University of Science and Technology"],
+    "representativeId": null,
+    "lat": 9.9312,
+    "lng": 76.2673
+  },
+  {
+    "city": "Wardha",
+    "students": 4,
+    "universities": ["Mahatma Gandhi Antarrashtriya Hindi Vishwavidyalaya"],
+    "representativeId": null,
+    "lat": 20.7382,
+    "lng": 78.6028
+  },
+  {
+    "city": "Dibrugarh",
+    "students": 6,
+    "universities": ["Dibrugarh University"],
+    "representativeId": null,
+    "lat": 27.4754,
+    "lng": 95.0040
+  },
+  {
+    "city": "Patiala",
+    "students": 1,
+    "universities": ["Punjabi University"],
+    "representativeId": null,
+    "lat": 30.3398,
+    "lng": 76.3869
   }
 ]

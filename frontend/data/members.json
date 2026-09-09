@@ -23,51 +23,51 @@
   },
   {
     "id": 3,
-    "name": "Nguyễn Trung Hiếu",
+    "name": "Lê Thị Quỳnh",
     "position": "vice_president",
     "image": "assets/images/members/3.jpg",
-    "city": "Delhi",
+    "city": "Pune",
     "bio": {
-      "vi": "Phó Chủ tịch Hội Sinh viên Việt Nam tại Ấn Độ. Sinh viên tại Đại học Delhi.",
-      "en": "Vice President of VSA India. Student at Delhi University."
+      "vi": "Phó Chủ tịch Hội Sinh viên Việt Nam tại Ấn Độ. Sinh viên tại Đại học Pune.",
+      "en": "Vice President of VSA India. Student at Pune University."
     }
   },
   {
     "id": 4,
-    "name": "Nguyễn Trung Hiếu",
+    "name": "Nguyễn Thanh Vũ",
     "position": "vice_president",
     "image": "assets/images/members/4.jpg",
-    "city": "Delhi",
+    "city": "Rajgir",
     "bio": {
-      "vi": "Phó Chủ tịch Hội Sinh viên Việt Nam tại Ấn Độ. Sinh viên tại Đại học Delhi.",
-      "en": "Vice President of VSA India. Student at Delhi University."
+      "vi": "Phó Chủ tịch Hội Sinh viên Việt Nam tại Ấn Độ. Sinh viên tại Đại học Nalanda.",
+      "en": "Vice President of VSA India. Student at Nalanda University."
     }
   },
   {
     "id": 5,
-    "name": "Lê Văn C (Mẫu)",
+    "name": "Phan Nhật Trường",
     "position": "commissioner",
     "image": "assets/images/members/5.jpg",
-    "city": "Delhi",
+    "city": "Rajgir",
     "bio": {
-      "vi": "Ủy viên Hội Sinh viên Việt Nam tại Ấn Độ. Sinh viên tại Đại học Delhi.",
-      "en": "Commissioner of VSA India. Student at Delhi University."
+      "vi": "Ủy viên Hội Sinh viên Việt Nam tại Ấn Độ. Sinh viên tại Đại học Nalanda.",
+      "en": "Commissioner of VSA India. Student at Nalanda University."
     }
   },
   {
     "id": 6,
-    "name": "Lê Văn C (Mẫu)",
+    "name": "Vũ Đức Tùng",
     "position": "commissioner",
     "image": "assets/images/members/6.jpg",
     "city": "Delhi",
     "bio": {
-      "vi": "Ủy viên Hội Sinh viên Việt Nam tại Ấn Độ. Sinh viên tại Đại học Delhi.",
-      "en": "Commissioner of VSA India. Student at Delhi University."
+      "vi": "Ủy viên Hội Sinh viên Việt Nam tại Ấn Độ. Sinh viên tại Indraprastha Institute of Information Technology Delhi.",
+      "en": "Commissioner of VSA India. Student at Indraprastha Institute of Information Technology Delhi."
     }
   },
   {
     "id": 7,
-    "name": "Lê Văn C (Mẫu)",
+    "name": "Nguyễn Gia Phúc",
     "position": "commissioner",
     "image": "assets/images/members/7.jpg",
     "city": "Delhi",
@@ -78,7 +78,7 @@
   },
   {
     "id": 8,
-    "name": "Lê Văn C (Mẫu)",
+    "name": "Nguyễn Trần Nhật Thanh",
     "position": "commissioner",
     "image": "assets/images/members/8.jpg",
     "city": "Delhi",
@@ -89,7 +89,7 @@
   },
   {
     "id": 9,
-    "name": "Lê Văn C (Mẫu)",
+    "name": "Hoàng Cao Sơn",
     "position": "commissioner",
     "image": "assets/images/members/9.jpg",
     "city": "Delhi",
@@ -100,7 +100,7 @@
   },
   {
     "id": 10,
-    "name": "Lê Văn C (Mẫu)",
+    "name": "Phạm Anh Tú",
     "position": "commissioner",
     "image": "assets/images/members/10.jpg",
     "city": "Delhi",
@@ -111,24 +111,24 @@
   },
   {
     "id": 11,
-    "name": "Lê Văn C (Mẫu)",
+    "name": "Trương Tuấn Đạt",
     "position": "commissioner",
     "image": "assets/images/members/11.jpg",
-    "city": "Delhi",
+    "city": "Mumbai",
     "bio": {
-      "vi": "Ủy viên Hội Sinh viên Việt Nam tại Ấn Độ. Sinh viên tại Đại học Delhi.",
-      "en": "Commissioner of VSA India. Student at Delhi University."
+      "vi": "Ủy viên Hội Sinh viên Việt Nam tại Ấn Độ. Sinh viên tại Đại học Mumbai.",
+      "en": "Commissioner of VSA India. Student at Mumbai University."
     }
   },
   {
     "id": 12,
-    "name": "Lê Văn C (Mẫu)",
+    "name": "Nguyễn Cao Khánh Linh",
     "position": "commissioner",
     "image": "assets/images/members/12.jpg",
-    "city": "Delhi",
+    "city": "Trivandrum",
     "bio": {
-      "vi": "Ủy viên Hội Sinh viên Việt Nam tại Ấn Độ. Sinh viên tại Đại học Delhi.",
-      "en": "Commissioner of VSA India. Student at Delhi University."
+      "vi": "Ủy viên Hội Sinh viên Việt Nam tại Ấn Độ. Sinh viên tại Đại học Kerela.",
+      "en": "Commissioner of VSA India. Student at Kerela University."
     }
   }
 ]

@@ -832,7 +832,6 @@ function renderHomeMap() {
         return;
     }
 
-    // Nếu Leaflet chưa tải, tải nó lên
     if (typeof L === 'undefined') {
         console.log('[VSA] ⏳ Leaflet not loaded, loading for home map...');
         loadLeafletWithRetry().then(() => {
@@ -847,14 +846,12 @@ function renderHomeMap() {
         return;
     }
 
-    // Xóa map cũ nếu có
     if (homeMapInstance) {
         homeMapInstance.remove();
         homeMapInstance = null;
     }
 
     try {
-        // Fix marker icon
         if (L.Icon && L.Icon.Default) {
             delete L.Icon.Default.prototype._getIconUrl;
             L.Icon.Default.mergeOptions({
@@ -883,12 +880,35 @@ function renderHomeMap() {
         console.log('[VSA] ✅ Home tile layer added');
 
         const cities = state.data.cities || [];
+        const members = state.data.members || [];
         const markerData = [];
+        
         cities.forEach(city => {
             if (city.lat && city.lng && city.lat !== 0 && city.lng !== 0) {
+                // Lấy danh sách đại diện (cho popup)
+                let repNames = [];
+                if (city.representativeId) {
+                    if (Array.isArray(city.representativeId)) {
+                        city.representativeId.forEach(id => {
+                            const rep = members.find(m => m.id === id);
+                            if (rep) repNames.push(rep.name);
+                        });
+                    } else {
+                        const rep = members.find(m => m.id === city.representativeId);
+                        if (rep) repNames.push(rep.name);
+                    }
+                }
+                if (repNames.length === 0) repNames.push('Chưa có đại diện');
+                
+                const popupContent = `
+                    <strong>${city.city}</strong><br>
+                    👨‍🎓 Sinh viên: ${city.students || 0}<br>
+                    👤 ${repNames.slice(0, 2).join(', ')}${repNames.length > 2 ? ` +${repNames.length - 2} người khác` : ''}
+                `;
+                
                 L.marker([city.lat, city.lng])
                     .addTo(homeMapInstance)
-                    .bindPopup(city.city);
+                    .bindPopup(popupContent);
                 markerData.push([city.lat, city.lng]);
             }
         });
@@ -1944,6 +1964,7 @@ function initFullMap() {
     }
 
     try {
+        // Fix marker icon
         if (L.Icon && L.Icon.Default) {
             delete L.Icon.Default.prototype._getIconUrl;
             L.Icon.Default.mergeOptions({
@@ -1967,20 +1988,41 @@ function initFullMap() {
         console.log('[VSA] ✅ Tile layer added');
 
         const cities = state.data.cities || [];
+        const members = state.data.members || [];
         let markerCount = 0;
+        
         cities.forEach(city => {
             if (city.lat && city.lng && city.lat !== 0 && city.lng !== 0) {
-                let repName = 'Chưa có đại diện';
+                // Lấy danh sách đại diện
+                let repNames = [];
+                
                 if (city.representativeId) {
-                    const rep = state.data.members.find(m => m.id === city.representativeId);
-                    if (rep) repName = rep.name;
+                    // Nếu là mảng
+                    if (Array.isArray(city.representativeId)) {
+                        city.representativeId.forEach(id => {
+                            const rep = members.find(m => m.id === id);
+                            if (rep) repNames.push(rep.name);
+                        });
+                    } else {
+                        // Nếu là số đơn lẻ (fallback)
+                        const rep = members.find(m => m.id === city.representativeId);
+                        if (rep) repNames.push(rep.name);
+                    }
                 }
-
+                
+                // Nếu không có đại diện
+                if (repNames.length === 0) {
+                    repNames.push('Chưa có đại diện');
+                }
+                
+                // Tạo popup content
+                let repDisplay = repNames.map(name => `👤 ${name}`).join('<br>');
+                
                 const popupContent = `
                     <strong>${city.city}</strong><br>
                     👨‍🎓 Sinh viên: ${city.students || 0}<br>
                     🏫 ${Array.isArray(city.universities) ? city.universities.join(', ') : 'N/A'}<br>
-                    👤 Đại diện: ${repName}
+                    ${repDisplay}
                 `;
 
                 L.marker([city.lat, city.lng])
@@ -2039,6 +2081,7 @@ function renderMapInfo(container) {
     }
     
     const cities = state.data.cities;
+    const members = state.data.members;
     if (!cities || cities.length === 0) {
         renderPlaceholder(container, 'ui.placeholder');
         return;
@@ -2074,12 +2117,29 @@ function renderMapInfo(container) {
             item.appendChild(uni);
         }
         
+        // Hiển thị đại diện - HỖ TRỢ MẢNG
         if (city.representativeId) {
-            const rep = state.data.members.find(m => m.id === city.representativeId);
-            if (rep) {
+            let repNames = [];
+            
+            if (Array.isArray(city.representativeId)) {
+                city.representativeId.forEach(id => {
+                    const rep = members.find(m => m.id === id);
+                    if (rep) repNames.push(rep.name);
+                });
+            } else {
+                const rep = members.find(m => m.id === city.representativeId);
+                if (rep) repNames.push(rep.name);
+            }
+            
+            if (repNames.length > 0) {
                 const repEl = document.createElement('div');
                 repEl.className = 'city-detail';
-                repEl.textContent = `👤 ${rep.name}`;
+                // Nếu có nhiều đại diện, hiển thị tối đa 2 và thêm "..."
+                if (repNames.length <= 2) {
+                    repEl.textContent = `👤 ${repNames.join(', ')}`;
+                } else {
+                    repEl.textContent = `👤 ${repNames.slice(0, 2).join(', ')} +${repNames.length - 2} người khác`;
+                }
                 item.appendChild(repEl);
             }
         }
