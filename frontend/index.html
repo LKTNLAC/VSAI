@@ -142,9 +142,7 @@
                             <a href="#about" class="btn btn-outline" data-i18n="about.cta">Tìm hiểu thêm về VSA India</a>
                         </div>
                         <div class="about-image">
-                            <div class="about-image-placeholder">
-                                <span data-i18n="about.image">Ảnh hoạt động VSA India</span>
-                            </div>
+                            <img src="assets/images/home/1.jpg" alt="VSA India hoạt động" class="about-image-img" loading="lazy" />
                         </div>
                     </div>
                 </div>
@@ -248,17 +246,28 @@
         <section id="members" class="page-section" role="region" aria-label="Ban Chấp hành">
             <div class="container">
                 <div class="members-page">
-                    <h1 data-i18n="headings.members">Ban Chấp hành</h1>
-                    <p class="members-subtitle" data-i18n="members.subtitle">Những người đại diện cho cộng đồng sinh viên Việt Nam tại Ấn Độ</p>
-                    
-                    <!-- Tabs -->
-                    <div class="members-tabs">
-                        <button class="members-tab active" data-tab="current" data-i18n="members.tab.current">Ban Chấp hành hiện tại</button>
-                        <button class="members-tab" data-tab="alumni" data-i18n="members.tab.alumni">Cựu thành viên</button>
+                    <!-- Danh sách thành viên (hiển thị mặc định) -->
+                    <div id="members-list-view">
+                        <h1 data-i18n="headings.members">Ban Chấp hành</h1>
+                        <p class="members-subtitle" data-i18n="members.subtitle">Những người đại diện cho cộng đồng sinh viên Việt Nam tại Ấn Độ</p>
+                        
+                        <!-- Tabs -->
+                        <div class="members-tabs">
+                            <button class="members-tab active" data-tab="current" data-i18n="members.tab.current">Ban Chấp hành hiện tại</button>
+                            <button class="members-tab" data-tab="alumni" data-i18n="members.tab.alumni">Cựu thành viên</button>
+                        </div>
+                        
+                        <div id="members-container" class="members-grid">
+                            <!-- JS sẽ render -->
+                        </div>
                     </div>
                     
-                    <div id="members-container" class="members-grid">
-                        <!-- JS sẽ render -->
+                    <!-- Chi tiết thành viên (ẩn mặc định) -->
+                    <div id="member-detail-view" style="display: none;">
+                        <a href="#members" class="back-link" id="member-back-link">← Quay lại danh sách</a>
+                        <div id="member-detail-container">
+                            <!-- JS sẽ render -->
+                        </div>
                     </div>
                 </div>
             </div>
@@ -482,6 +491,21 @@
             <img id="lightbox-img" src="" alt="" />
             <div class="lightbox-caption" id="lightbox-caption"></div>
             <div class="lightbox-counter" id="lightbox-counter"></div>
+        </div>
+    </div>
+    <!-- =================================================== -->
+    <!-- MEMBER DETAIL MODAL                                  -->
+    <!-- =================================================== -->
+    <div id="member-modal" class="member-modal" role="dialog" aria-modal="true" aria-labelledby="member-modal-name">
+        <div class="member-modal-overlay" id="member-modal-overlay"></div>
+        <div class="member-modal-content">
+            <!-- Close Button -->
+            <button class="member-modal-close" id="member-modal-close" aria-label="Đóng">&times;</button>
+            
+            <!-- Modal Body -->
+            <div class="member-modal-body" id="member-modal-body">
+                <!-- JS sẽ render -->
+            </div>
         </div>
     </div>
 

@@ -9,7 +9,7 @@
   },
   {
     "city": "Rajgir",
-    "students": 35,
+    "students": 60,
     "universities": ["Nalanda University"],
     "representativeId": [4,5],
     "lat": 25.0260,

@@ -520,62 +520,76 @@
   {
     "id": 15,
     "title": {
-      "vi": "",
+      "vi": "Chia buồn lữ lụt Nepal",
       "en": ""
     },
-    "date": "2026-0-0",
+    "date": "2026-08-27",
     "category": "announcement",
     "thumbnail": "assets/images/news/15/1.jpg",
     "summary": {
-      "vi": "...",
-      "en": "..."
+      "vi": "Hội Sinh Viên Việt Nam tại Ấn Độ xin gửi lời chia buồn...",
+      "en": "The Vietnamese Student Association in India extends its deepest condolences..."
     },
     "featured": false,
     "content": {
       "vi": [
-        { "type": "text", "value": "" },
-        { "type": "image", "src": "assets/images/news/15/1.jpg", "alt": "", "caption": "" },
-        { "type": "text", "value": "" },
-        { "type": "text", "value": "" },
-        { "type": "text", "value": "" }
+        { "type": "text", "value": "Hội Sinh Viên Việt Nam tại Ấn Độ xin gửi lời chia buồn sâu sắc tới các gia đình và thân nhân của những người thiệt mạng, đồng thời chia sẻ với tất cả những người bị ảnh hưởng bởi trận lũ lụt này" },
+        { "type": "image", "src": "assets/images/news/15/1.jpg", "alt": "", "caption": "" }
       ],
       "en": [
-        { "type": "text", "value": "" },
-        { "type": "image", "src": "assets/images/news/15/1.jpg", "alt": "", "caption": "" },
-        { "type": "text", "value": "" },
-        { "type": "text", "value": "" },
-        { "type": "text", "value": "" }
+        { "type": "text", "value": "The Vietnamese Student Association in India extends its deepest condolences to the families and relatives of those who lost their lives, and shares its sympathy with all those affected by this flood." },
+        { "type": "image", "src": "assets/images/news/15/1.jpg", "alt": "", "caption": "" }
       ]
     }
   },
   {
     "id": 16,
     "title": {
-      "vi": "",
-      "en": ""
+      "vi": "💙 HỘI NGHỊ BAN CHẤP HÀNH TRUNG ƯƠNG HỘI SINH VIÊN VIỆT NAM LẦN THỨ 5 (MỞ RỘNG), KHÓA XI",
+      "en": "💙 5TH (EXTENDED) MEETING OF THE CENTRAL EXECUTIVE COMMITTEE OF THE VIETNAMESE STUDENT ASSOCIATION, 11TH TERM"
     },
-    "date": "2026-0-0",
-    "category": "",
+    "date": "2026-08-31",
+    "category": "event",
     "thumbnail": "assets/images/news/16/1.jpg",
     "summary": {
-      "vi": "...",
-      "en": "..."
+      "vi": "Sáng ngày 25/8, tại tỉnh Khánh Hòa, Trung ương Hội Sinh viên Việt Nam tổ chức...",
+      "en": "On the morning of August 25th, in Khanh Hoa province, the Central Committee of the Vietnam Student Union held..."
     },
     "featured": false,
     "content": {
       "vi": [
-        { "type": "text", "value": "" },
-        { "type": "image", "src": "assets/images/news/16/1.jpg", "alt": "", "caption": "" },
-        { "type": "text", "value": "" },
-        { "type": "text", "value": "" },
-        { "type": "text", "value": "" }
+        { "type": "image", "src": "assets/images/news/16/1.jpg", "alt": "", "caption": "Đồng chí Lâm Tùng phát biểu" },
+        { "type": "text", "value": "Sáng ngày 25/8, tại tỉnh Khánh Hòa, Trung ương Hội Sinh viên Việt Nam tổ chức Hội nghị Ban Chấp hành Trung ương Hội Sinh viên Việt Nam lần thứ 5 (mở rộng), khóa XI." },
+        { "type": "image", "src": "assets/images/news/16/2.jpg", "alt": "", "caption": "Đồng chí Hồ Hồng Nguyên - Bí thư Ban Chấp hành Trung ương Đoàn khóa XIII." },
+        { "type": "text", "value": "Tham dự Hội nghị có đồng chí Hồ Hồng Nguyên, Bí thư Trung ương Đoàn, Chủ tịch Hội đồng Đội Trung ương; các đồng chí Ủy viên Ban Chấp hành, Ủy viên Ban Kiểm tra Trung ương Hội Sinh viên Việt Nam; Thường trực Hội Sinh viên các tỉnh, thành phố, các đại học, trường đại học, học viện, cao đẳng trên cả nước và Hội Sinh viên Việt Nam ở nước ngoài." },
+        { "type": "image", "src": "assets/images/news/16/3.jpg", "alt": "", "caption": "Đồng chí Lâm Tùng - Phó Chủ tịch Trung ương Hội Sinh viên Việt Nam, Ủy viên Ban Chấp hành Đảng bộ Trung ương." },
+        { "type": "text", "value": "Đồng chí Lâm Tùng, Ủy viên Ban Thường vụ Trung ương Đoàn, Phó Trưởng Ban Công tác Thanh thiếu nhi Trung ương Đoàn, Phó Chủ tịch Thường trực Trung ương Hội Sinh viên Việt Nam chủ trì Hội nghị." },
+        { "type": "image", "src": "assets/images/news/16/4.jpg", "alt": "", "caption": "Đồng chí Nguyễn Tiến Hưng - Bí thư Thành Đoàn Hà Nội khóa XVI, nhiệm kỳ 2022 - 2027" },
+        { "type": "text", "value": "Tại Hội nghị, các đại biểu đã nghe Báo cáo tổng kết công tác Hội và phong trào sinh viên năm học 2025 - 2026; tập trung thảo luận, chia sẻ nhiều mô hình hay, cách làm hiệu quả; đồng thời thống nhất các nhiệm vụ, giải pháp trọng tâm nhằm triển khai hiệu quả công tác Hội và phong trào sinh viên năm học 2026 - 2027." },
+        { "type": "image", "src": "assets/images/news/16/5.jpg", "alt": "", "caption": "Đồng chí Phạm Thị Thu Hiền - Bí thư Tỉnh Đoàn Thái Nguyên khóa XV" },
+        { "type": "text", "value": "Dịp này, Trung ương Hội Sinh viên Việt Nam đã biểu dương, khen thưởng các tập thể, cá nhân có thành tích xuất sắc trong công tác Hội và phong trào sinh viên năm học 2025 - 2026." },
+        { "type": "image", "src": "assets/images/news/16/6.jpg", "alt": "", "caption": "Đồng chí Nguyễn Đăng Khoa - Phó Bí thư Thành Đoàn, Chủ nhiệm Ủy ban Kiểm tra Thành Đoàn và Chủ tịch Hội Sinh viên Việt Nam TPHCM." },
+        { "type": "text", "value": "🇻🇳🇮🇳 Đại diện Hội Sinh viên Việt Nam tại Ấn Độ, đồng chí Bùi Hoàng Long, Chủ tịch Hội Sinh viên Việt Nam tại Ấn Độ, đã tham dự Hội nghị, cùng đại diện các Hội Sinh viên Việt Nam ở nước ngoài trao đổi, kết nối và tiếp thu những định hướng, kinh nghiệm trong triển khai công tác Hội và phong trào sinh viên. " },
+        { "type": "image", "src": "assets/images/news/16/7.jpg", "alt": "", "caption": "Đồng chí Vũ Huy Dương - Ủy viên Ban Chấp hành Trung ương Đoàn TNCS Hồ Chí Minh" },
+        { "type": "text", "value": "Đây cũng là dịp để Hội Sinh viên Việt Nam tại Ấn Độ tiếp tục củng cố sự kết nối với Trung ương Hội Sinh viên Việt Nam và các cấp bộ Hội trong cả nước; đồng thời học hỏi những mô hình, cách làm phù hợp để từng bước nâng cao chất lượng hoạt động Hội, đáp ứng tốt hơn nhu cầu của sinh viên Việt Nam đang học tập và sinh sống tại Ấn Độ." },
+        { "type": "image", "src": "assets/images/news/16/9.jpg", "alt": "", "caption": "Ban chủ trì" }
       ],
       "en": [
-        { "type": "text", "value": "" },
-        { "type": "image", "src": "assets/images/news/16/1.jpg", "alt": "", "caption": "" },
-        { "type": "text", "value": "" },
-        { "type": "text", "value": "" },
-        { "type": "text", "value": "" }
+        { "type": "image", "src": "assets/images/news/16/1.jpg", "alt": "", "caption": "Comrade Lam Tung delivered a speech." },
+        { "type": "text", "value": "On the morning of August 25th, in Khanh Hoa province, the Central Committee of the Vietnam Student Union held the 5th (expanded) meeting of the Central Executive Committee of the Vietnam Student Union, 11th term." },
+        { "type": "image", "src": "assets/images/news/16/2.jpg", "alt": "", "caption": "Comrade Ho Hong Nguyen - Secretary of the Central Executive Committee of the 13th National Youth Union" },
+        { "type": "text", "value": "Attending the Conference were Comrade Ho Hong Nguyen, Secretary of the Central Committee of the Youth Union and Chairman of the Central Council of the Young Pioneers; members of the Executive Committee and the Inspection Committee of the Vietnam Student Association; Standing Committees of Student Associations in provinces, cities, universities, colleges, and academies nationwide; and the Vietnam Student Association abroad." },
+        { "type": "image", "src": "assets/images/news/16/3.jpg", "alt": "", "caption": "Comrade Lam Tung - Vice President of the Central Committee of the Vietnam Student Association, Member of the Central Committee of the Communist Party of Vietnam." },
+        { "type": "text", "value": "Comrade Lam Tung, Member of the Standing Committee of the Central Committee of the Youth Union, Deputy Head of the Central Committee's Youth and Children Affairs Department, and Permanent Vice President of the Central Committee of the Vietnam Student Association, chaired the conference." },
+        { "type": "image", "src": "assets/images/news/16/4.jpg", "alt": "", "caption": "Comrade Nguyen Tien Hung - Secretary of the Hanoi Youth Union, 16th term, 2022-2027" },
+        { "type": "text", "value": "At the Conference, delegates heard a report summarizing the work of the Student Union and student movement in the 2025-2026 academic year; focused on discussing and sharing many good models and effective methods; and agreed on key tasks and solutions to effectively implement the work of the Student Union and student movement in the 2026-2027 academic year." },
+        { "type": "image", "src": "assets/images/news/16/5.jpg", "alt": "", "caption": "Comrade Pham Thi Thu Hien - Secretary of the Thai Nguyen Provincial Youth Union, 15th term" },
+        { "type": "text", "value": "On this occasion, the Central Committee of the Vietnam Student Union commended and rewarded collectives and individuals who achieved outstanding results in the Union's work and student movements in the 2015-2026 academic year." },
+        { "type": "image", "src": "assets/images/news/16/6.jpg", "alt": "", "caption": "Comrade Nguyen Dang Khoa - Deputy Secretary of the City Youth Union, Head of the City Youth Union's Inspection Committee, and President of the Vietnam Student Association of Ho Chi Minh City." },
+        { "type": "text", "value": "🇻🇳🇮🇳 Representing the Vietnamese Student Association in India, Comrade Bui Hoang Long, President of the Vietnamese Student Association in India, attended the Conference, exchanging ideas, connecting, and learning from the orientations and experiences in implementing the Association's work and student movements along with representatives of Vietnamese Student Associations abroad." },
+        { "type": "image", "src": "assets/images/news/16/7.jpg", "alt": "", "caption": "Comrade Vu Huy Duong - Member of the Central Executive Committee of the Ho Chi Minh Communist Youth Union" },
+        { "type": "text", "value": "This is also an opportunity for the Vietnamese Student Association in India to further strengthen its connection with the Central Committee of the Vietnamese Student Association and its branches nationwide; and to learn from suitable models and methods to gradually improve the quality of the Association's activities, better meeting the needs of Vietnamese students studying and living in India." },
+        { "type": "image", "src": "assets/images/news/16/9.jpg", "alt": "", "caption": "Chairing committee" }
       ]
     }
   },

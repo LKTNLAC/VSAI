@@ -1,22 +1,38 @@
 [
   {
     "id": 1,
-    "name": "Nguyễn Văn X",
+    "name": "Bùi Hoàng Long",
     "position": "president",
     "image": "assets/images/alumni/1.jpg",
     "city": "Delhi",
+    "birthday": "02-02-2004",
+    "major": "Computer Science",
+    "university": "Delhi University",
+    "hometown": "Lê Chân, Hải Phòng, Việt Nam",
+    "quote": {
+      "vi": "Kết nối để cùng phát triển.",
+      "en": "Connect to grow together."
+    },
     "bio": {
-      "vi": "Chủ tịch VSA India nhiệm kỳ 2023-2024. Hiện đang là nghiên cứu sinh tại Đại học Delhi.",
+      "vi": "Chủ tịch VSA India nhiệm kỳ 2025-2026. Hiện đang là nghiên cứu sinh tại Đại học Delhi.",
       "en": "President of VSA India for the 2023-2024 term. Currently a research scholar at Delhi University."
     },
-    "term": "2023-2024"
+    "term": "2025-2026"
   },
   {
     "id": 2,
     "name": "Trần Thị Y",
     "position": "vice_president",
     "image": "assets/images/alumni/2.jpg",
-    "city": "Pune",
+    "city": "",
+    "birthday": "0-0-200",
+    "major": "",
+    "university": "University",
+    "hometown": "Việt Nam",
+    "quote": {
+      "vi": ".",
+      "en": "."
+    },
     "bio": {
       "vi": "Phó Chủ tịch VSA India nhiệm kỳ 2023-2024.",
       "en": "Vice President of VSA India for the 2023-2024 term."
@@ -28,7 +44,15 @@
     "name": "Lê Văn Z",
     "position": "secretary",
     "image": "assets/images/alumni/3.jpg",
-    "city": "Delhi",
+    "city": "",
+    "birthday": "0-0-200",
+    "major": "",
+    "university": "University",
+    "hometown": "Việt Nam",
+    "quote": {
+      "vi": ".",
+      "en": "."
+    },
     "bio": {
       "vi": "Thư ký VSA India nhiệm kỳ 2022-2023.",
       "en": "Secretary of VSA India for the 2022-2023 term."
@@ -41,6 +65,14 @@
     "position": "president",
     "image": "assets/images/alumni/4.jpg",
     "city": "Mumbai",
+    "birthday": "0-0-200",
+    "major": "",
+    "university": "University",
+    "hometown": "Việt Nam",
+    "quote": {
+      "vi": ".",
+      "en": "."
+    },
     "bio": {
       "vi": "Chủ tịch VSA India nhiệm kỳ 2022-2023.",
       "en": "President of VSA India for the 2022-2023 term."
