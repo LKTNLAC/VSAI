@@ -596,31 +596,35 @@
   {
     "id": 17,
     "title": {
-      "vi": "",
-      "en": ""
+      "vi": "KỶ NIỆM 81 NĂM NGÀY QUỐC KHÁNH NƯỚC CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM (02/09/1945 – 02/09/2026)",
+      "en": "🇻🇳 CELEBRATING THE 81ST ANNIVERSARY OF THE NATIONAL DAY OF THE SOCIALIST REPUBLIC OF VIETNAM (02 SEPTEMBER 1945 - 02 SEPTEMBER 2026)"
     },
-    "date": "2026-0-0",
-    "category": "",
+    "date": "2026-09-02",
+    "category": "event",
     "thumbnail": "assets/images/news/17/1.jpg",
     "summary": {
-      "vi": "...",
-      "en": "..."
+      "vi": "Ngày 02 tháng 9 năm 1945 đã đi vào lịch sử dân tộc...",
+      "en": "02 September 1945 has gone down in the history of the Vietnamese nation..."
     },
     "featured": false,
     "content": {
       "vi": [
-        { "type": "text", "value": "" },
+        { "type": "text", "value": "🇻🇳Ngày 02 tháng 9 năm 1945 đã đi vào lịch sử dân tộc như một dấu mốc thiêng liêng, khi tại Quảng trường Ba Đình, Chủ tịch Hồ Chí Minh đọc Tuyên ngôn Độc lập, khai sinh nước Việt Nam Dân chủ Cộng hòa, nay là nước Cộng hòa xã hội chủ nghĩa Việt Nam." },
         { "type": "image", "src": "assets/images/news/17/1.jpg", "alt": "", "caption": "" },
-        { "type": "text", "value": "" },
-        { "type": "text", "value": "" },
-        { "type": "text", "value": "" }
+        { "type": "text", "value": "🇻🇳Trải qua 81 năm xây dựng, bảo vệ và phát triển đất nước, dân tộc Việt Nam luôn phát huy tinh thần đoàn kết, ý chí tự lực, tự cường và khát vọng vươn lên, đồng thời không ngừng mở rộng quan hệ hữu nghị và hợp tác với bạn bè quốc tế." },
+        { "type": "text", "value": "🇻🇳Trong không khí trang trọng và tự hào của ngày Quốc khánh, Hội Sinh viên Việt Nam tại Ấn Độ xin bày tỏ lòng biết ơn sâu sắc đối với các thế hệ cha ông đã hy sinh vì độc lập, tự do của Tổ quốc; đồng thời trân trọng những thành tựu mà đất nước đã đạt được trên hành trình hội nhập và phát triển." },
+        { "type": "text", "value": "🇻🇳Dù đang học tập và sinh sống xa quê hương, mỗi sinh viên Việt Nam tại Ấn Độ luôn mang trong mình niềm tự hào dân tộc, ý thức gìn giữ những giá trị tốt đẹp của Việt Nam và góp phần vun đắp tình hữu nghị, hiểu biết và hợp tác giữa nhân dân hai nước Việt Nam - Ấn Độ." },
+        { "type": "text", "value": "🇻🇳Nhân dịp kỷ niệm 81 năm Quốc khánh nước Cộng hòa xã hội chủ nghĩa Việt Nam, kính chúc đất nước Việt Nam ngày càng phát triển phồn vinh, nhân dân ấm no, hạnh phúc và thịnh vượng." },
+        { "type": "text", "value": "Trân trọng!" }
       ],
       "en": [
-        { "type": "text", "value": "" },
+        { "type": "text", "value": "🇻🇳 02 September 1945 has gone down in the history of the Vietnamese nation as a sacred milestone. On this historic day at Ba Dinh Square, President Ho Chi Minh read the Declaration of Independence, proclaiming the birth of the Democratic Republic of Vietnam, now the Socialist Republic of Vietnam." },
         { "type": "image", "src": "assets/images/news/17/1.jpg", "alt": "", "caption": "" },
-        { "type": "text", "value": "" },
-        { "type": "text", "value": "" },
-        { "type": "text", "value": "" }
+        { "type": "text", "value": "🇻🇳 Over the past 81 years of nation-building, safeguarding and development, the Vietnamese people have consistently upheld the spirit of solidarity, self-reliance, resilience and aspiration for progress, while continuously expanding friendship and cooperation with countries and peoples around the world." },
+        { "type": "text", "value": "🇻🇳 In the solemn and proud atmosphere of National Day, the Vietnamese Students’ Association in India would like to express our profound gratitude to the generations of Vietnamese people who sacrificed for the independence and freedom of the Fatherland. We also take pride in and deeply appreciate the achievements Vietnam has made throughout its journey of integration and development." },
+        { "type": "text", "value": "🇻🇳 Although studying and living far from our homeland, every Vietnamese student in India carries a deep sense of national pride and a strong commitment to preserving the cherished values of Vietnam. We also strive to contribute to strengthening friendship, mutual understanding and cooperation between the peoples of Vietnam and India." },
+        { "type": "text", "value": "🇻🇳 On the occasion of the 81st anniversary of the National Day of the Socialist Republic of Vietnam, we wish Vietnam continued prosperity and development, and wish all Vietnamese people peace, happiness and well-being." },
+        { "type": "text", "value": "With sincere respect and best wishes." }
       ]
     }
   },
