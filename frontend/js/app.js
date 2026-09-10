@@ -148,8 +148,8 @@ const EMBEDDED_DATA = {
             title: "🚨 Hỗ trợ khẩn cấp",
             note: "Trong trường hợp khẩn cấp, vui lòng liên hệ với Đại sứ quán Việt Nam tại Ấn Độ:",
             embassy: {
-                name: "Đại sứ quán Việt Nam tại Ấn Độ",
-                phone: "📞 +91-11-2687-9868",
+                name: "Bảo Hộ Công Dân - Đại sứ quán Việt Nam tại Ấn Độ",
+                phone: "📞 +91-70420-35588",
                 address: "📍 17, Kautilya Marg, Chanakyapuri, New Delhi, Delhi 110021"
             }
         }
@@ -506,6 +506,7 @@ function updateUILanguage() {
             renderAbout();
             break;
         case 'members':
+            hideMemberDetail();
             renderMembers(document.getElementById('members-container'));
             break;
         case 'activities':
@@ -601,18 +602,88 @@ function renderHomeActivities(container) {
     items.forEach(activity => {
         const card = document.createElement('div');
         card.className = 'activity-card';
+        card.style.cursor = 'pointer';
+        
+        // === HÌNH ẢNH VỚI HIỆU ỨNG HOVER ===
+        const imgContainer = document.createElement('div');
+        imgContainer.className = 'activity-card-image';
+        
+        // Ảnh chính (image)
+        const img = document.createElement('img');
+        img.src = activity.image || 'assets/images/placeholder.webp';
+        img.alt = activity.title[state.currentLang] || activity.title.vi;
+        img.loading = 'lazy';
+        img.className = 'activity-card-img';
+        img.onerror = function() {
+            this.style.display = 'none';
+            const fallback = document.createElement('span');
+            fallback.className = 'thumbnail-fallback';
+            fallback.textContent = '📅';
+            this.parentElement.appendChild(fallback);
+        };
+        imgContainer.appendChild(img);
+        
+        // Ảnh hover (nếu có thumbnail hoặc ảnh khác)
+        if (activity.thumbnail && activity.thumbnail !== activity.image) {
+            const imgHover = document.createElement('img');
+            imgHover.src = activity.thumbnail;
+            imgHover.alt = activity.title[state.currentLang] || activity.title.vi;
+            imgHover.loading = 'lazy';
+            imgHover.className = 'activity-card-img-hover';
+            imgHover.onerror = function() {
+                this.style.display = 'none';
+            };
+            imgContainer.appendChild(imgHover);
+        } else if (activity.gallery && activity.gallery.length > 0) {
+            // Nếu có gallery, dùng ảnh đầu tiên làm ảnh hover
+            const imgHover = document.createElement('img');
+            imgHover.src = activity.gallery[0];
+            imgHover.alt = activity.title[state.currentLang] || activity.title.vi;
+            imgHover.loading = 'lazy';
+            imgHover.className = 'activity-card-img-hover';
+            imgHover.onerror = function() {
+                this.style.display = 'none';
+            };
+            imgContainer.appendChild(imgHover);
+        }
+        
+        // Overlay gradient
+        const overlay = document.createElement('div');
+        overlay.className = 'activity-card-overlay';
+        imgContainer.appendChild(overlay);
+        
+        card.appendChild(imgContainer);
+        
+        // === NỘI DUNG ===
+        const content = document.createElement('div');
+        content.className = 'activity-card-content';
+        
         const title = document.createElement('h3');
         title.textContent = activity.title[state.currentLang] || activity.title.vi;
-        card.appendChild(title);
-        const date = document.createElement('p');
+        content.appendChild(title);
+        
+        const meta = document.createElement('div');
+        meta.className = 'activity-card-meta';
+        
+        const date = document.createElement('span');
         date.className = 'text-sm text-muted';
-        date.textContent = activity.date;
-        card.appendChild(date);
-        const category = document.createElement('p');
-        category.className = 'text-xs';
+        date.textContent = `📅 ${activity.date}`;
+        meta.appendChild(date);
+        
+        const location = document.createElement('span');
+        location.className = 'text-sm text-muted';
+        location.textContent = `📍 ${activity.location}`;
+        meta.appendChild(location);
+        
+        content.appendChild(meta);
+        
+        const category = document.createElement('span');
+        category.className = 'badge';
         category.textContent = translateEnum('category', activity.category);
-        card.appendChild(category);
-        card.style.cursor = 'pointer';
+        content.appendChild(category);
+        
+        card.appendChild(content);
+        
         card.addEventListener('click', () => navigateTo(`#activities/${activity.id}`));
         fragment.appendChild(card);
     });
@@ -753,7 +824,27 @@ function renderHomeBlog(container) {
 function renderHomeGallery(container) {
     if (!container) return;
     const data = state.data.gallery;
-    if (!data || data.length === 0 || !data[0]?.photos) {
+    if (!data || data.length === 0) {
+        renderPlaceholder(container, 'ui.placeholder');
+        return;
+    }
+    
+    // Lấy ảnh từ album đầu tiên (hoặc gộp nhiều album)
+    let allPhotos = [];
+    data.forEach(album => {
+        if (album.photos) {
+            album.photos.forEach(photo => {
+                allPhotos.push({
+                    src: photo.src,
+                    alt: photo.alt || album.title[state.currentLang] || 'VSA India',
+                    caption: photo.caption ? (photo.caption[state.currentLang] || photo.caption.vi) : ''
+                });
+            });
+        }
+    });
+    
+    // Nếu không có ảnh, hiển thị placeholder
+    if (allPhotos.length === 0) {
         const fragment = document.createDocumentFragment();
         for (let i = 0; i < 4; i++) {
             const item = document.createElement('div');
@@ -767,20 +858,45 @@ function renderHomeGallery(container) {
         container.replaceChildren(fragment);
         return;
     }
-    const album = data[0];
-    const photos = album.photos.slice(0, 4);
+    
+    // Lấy tối đa 4 ảnh
+    const photos = allPhotos.slice(0, 4);
     const fragment = document.createDocumentFragment();
+    
     photos.forEach((photo, index) => {
         const item = document.createElement('div');
         item.className = 'gallery-item';
-        if (index === 0 && photos.length > 1) { item.style.gridColumn = 'span 2'; item.style.gridRow = 'span 2'; }
-        const placeholder = document.createElement('span');
-        placeholder.textContent = '📷';
-        item.appendChild(placeholder);
+        if (index === 0 && photos.length > 1) {
+            item.style.gridColumn = 'span 2';
+            item.style.gridRow = 'span 2';
+        }
+        
+        // Tạo thẻ img thật
+        const img = document.createElement('img');
+        img.src = photo.src;
+        img.alt = photo.alt;
+        img.loading = 'lazy';
+        img.onerror = function() {
+            this.style.display = 'none';
+            const fallback = document.createElement('span');
+            fallback.textContent = '📷';
+            this.parentElement.appendChild(fallback);
+        };
+        item.appendChild(img);
+        
+        // Overlay caption khi hover
+        if (photo.caption) {
+            const captionOverlay = document.createElement('div');
+            captionOverlay.className = 'gallery-caption';
+            captionOverlay.textContent = photo.caption;
+            item.appendChild(captionOverlay);
+        }
+        
         item.style.cursor = 'pointer';
         item.addEventListener('click', () => navigateTo('#gallery'));
         fragment.appendChild(item);
     });
+    
     container.replaceChildren(fragment);
 }
 // =====================================================
@@ -1274,13 +1390,16 @@ function renderMembers(container) {
         return;
     }
     
-    const positionOrder = { president: 0, vice_president: 1, secretary: 2, treasurer: 3, member: 4, advisor: 5 };
+    const positionOrder = { president: 0, vice_president: 1, secretary: 2, treasurer: 3, commissioner: 4, member: 4, advisor: 5 };
     const sorted = [...data].sort((a, b) => (positionOrder[a.position] ?? 99) - (positionOrder[b.position] ?? 99));
     const fragment = document.createDocumentFragment();
     
     sorted.forEach(member => {
         const card = document.createElement('div');
         card.className = 'member-card';
+        card.style.cursor = 'pointer';
+        card.dataset.memberId = member.id;
+        card.dataset.memberType = membersTab;
         
         // Image
         const imgContainer = document.createElement('div');
@@ -1332,6 +1451,11 @@ function renderMembers(container) {
             card.appendChild(bio);
         }
         
+        // Click event
+        card.addEventListener('click', () => {
+            openMemberModal(member, membersTab);
+        });
+        
         fragment.appendChild(card);
     });
     
@@ -1350,6 +1474,293 @@ function initMembersTabs() {
         });
     });
 }
+// =====================================================
+// 11a. MEMBER DETAIL MODAL
+// =====================================================
+
+function openMemberModal(member, type) {
+    const modal = document.getElementById('member-modal');
+    const modalBody = document.getElementById('member-modal-body');
+    if (!modal || !modalBody) return;
+    
+    const lang = state.currentLang;
+    const fragment = document.createDocumentFragment();
+    
+    // === HEADER: Ảnh + Tên + Chức vụ ===
+    const header = document.createElement('div');
+    header.className = 'member-modal-header';
+    
+    // Ảnh lớn
+    const imgWrapper = document.createElement('div');
+    imgWrapper.className = 'member-modal-image';
+    const img = document.createElement('img');
+    img.src = member.image || 'assets/images/members/placeholder.webp';
+    img.alt = member.name;
+    img.onerror = function() {
+        this.style.display = 'none';
+        this.parentElement.textContent = '👤';
+        this.parentElement.style.cssText = 'display:flex;align-items:center;justify-content:center;font-size:5rem;background:var(--color-surface-alt);border-radius:50%;aspect-ratio:1/1;';
+    };
+    imgWrapper.appendChild(img);
+    header.appendChild(imgWrapper);
+    
+    // Thông tin
+    const info = document.createElement('div');
+    info.className = 'member-modal-info';
+    
+    const name = document.createElement('h2');
+    name.id = 'member-modal-name';
+    name.textContent = member.name;
+    info.appendChild(name);
+    
+    const pos = document.createElement('p');
+    pos.className = 'member-modal-position';
+    pos.textContent = translateEnum('position', member.position);
+    info.appendChild(pos);
+    
+    // Quote
+    if (member.quote) {
+        const quote = document.createElement('p');
+        quote.className = 'member-modal-quote';
+        quote.textContent = `"${member.quote[lang] || member.quote.vi}"`;
+        info.appendChild(quote);
+    }
+    
+    const meta = document.createElement('div');
+    meta.className = 'member-modal-meta';
+    
+    if (member.city) {
+        const city = document.createElement('span');
+        city.className = 'member-modal-tag';
+        city.innerHTML = `<i class="fas fa-map-marker-alt"></i> ${member.city}`;
+        meta.appendChild(city);
+    }
+    
+    if (type === 'alumni' && member.term) {
+        const term = document.createElement('span');
+        term.className = 'member-modal-tag';
+        term.innerHTML = `<i class="fas fa-calendar-alt"></i> ${member.term}`;
+        meta.appendChild(term);
+    }
+    
+    info.appendChild(meta);
+    header.appendChild(info);
+    fragment.appendChild(header);
+    
+    // === DIVIDER ===
+    const divider = document.createElement('hr');
+    divider.className = 'member-modal-divider';
+    fragment.appendChild(divider);
+    
+    // === THÔNG TIN CÁ NHÂN ===
+    const personalInfoSection = document.createElement('div');
+    personalInfoSection.className = 'member-modal-section';
+    
+    const personalTitle = document.createElement('h3');
+    personalTitle.className = 'member-modal-section-title';
+    personalTitle.textContent = lang === 'vi' ? 'Thông tin cá nhân' : 'Personal Information';
+    personalInfoSection.appendChild(personalTitle);
+    
+    const infoGrid = document.createElement('div');
+    infoGrid.className = 'member-info-grid';
+    
+    // Ngày sinh
+    if (member.birthday) {
+        const birthdayItem = document.createElement('div');
+        birthdayItem.className = 'member-info-item';
+        birthdayItem.innerHTML = `
+            <div class="member-info-icon"><i class="fas fa-birthday-cake"></i></div>
+            <div class="member-info-content">
+                <span class="member-info-label">${lang === 'vi' ? 'Ngày sinh' : 'Birthday'}</span>
+                <span class="member-info-value">${formatDate(member.birthday)}</span>
+            </div>
+        `;
+        infoGrid.appendChild(birthdayItem);
+    }
+    
+    // Quê quán
+    if (member.hometown) {
+        const hometownItem = document.createElement('div');
+        hometownItem.className = 'member-info-item';
+        hometownItem.innerHTML = `
+            <div class="member-info-icon"><i class="fas fa-home"></i></div>
+            <div class="member-info-content">
+                <span class="member-info-label">${lang === 'vi' ? 'Quê quán' : 'Hometown'}</span>
+                <span class="member-info-value">${member.hometown}</span>
+            </div>
+        `;
+        infoGrid.appendChild(hometownItem);
+    }
+    
+    // Ngành học
+    if (member.major) {
+        const majorItem = document.createElement('div');
+        majorItem.className = 'member-info-item';
+        majorItem.innerHTML = `
+            <div class="member-info-icon"><i class="fas fa-graduation-cap"></i></div>
+            <div class="member-info-content">
+                <span class="member-info-label">${lang === 'vi' ? 'Ngành học' : 'Major'}</span>
+                <span class="member-info-value">${member.major}</span>
+            </div>
+        `;
+        infoGrid.appendChild(majorItem);
+    }
+    
+    // Trường
+    if (member.university) {
+        const uniItem = document.createElement('div');
+        uniItem.className = 'member-info-item';
+        uniItem.innerHTML = `
+            <div class="member-info-icon"><i class="fas fa-university"></i></div>
+            <div class="member-info-content">
+                <span class="member-info-label">${lang === 'vi' ? 'Trường' : 'University'}</span>
+                <span class="member-info-value">${member.university}</span>
+            </div>
+        `;
+        infoGrid.appendChild(uniItem);
+    }
+    
+    if (infoGrid.children.length > 0) {
+        personalInfoSection.appendChild(infoGrid);
+        fragment.appendChild(personalInfoSection);
+    }
+    
+    // === BIO CHI TIẾT ===
+    if (member.bio) {
+        const bioSection = document.createElement('div');
+        bioSection.className = 'member-modal-section';
+        
+        const bioTitle = document.createElement('h3');
+        bioTitle.className = 'member-modal-section-title';
+        bioTitle.textContent = lang === 'vi' ? 'Giới thiệu' : 'Biography';
+        bioSection.appendChild(bioTitle);
+        
+        const bioText = document.createElement('p');
+        bioText.className = 'member-modal-bio';
+        bioText.textContent = member.bio[lang] || member.bio.vi || '';
+        bioSection.appendChild(bioText);
+        
+        fragment.appendChild(bioSection);
+    }
+    
+    // === LIÊN HỆ ===
+    if (member.email || member.facebook || member.instagram || member.linkedin) {
+        const contactSection = document.createElement('div');
+        contactSection.className = 'member-modal-section';
+        
+        const contactTitle = document.createElement('h3');
+        contactTitle.className = 'member-modal-section-title';
+        contactTitle.textContent = lang === 'vi' ? 'Liên hệ' : 'Contact';
+        contactSection.appendChild(contactTitle);
+        
+        const contactList = document.createElement('div');
+        contactList.className = 'member-modal-contact';
+        
+        if (member.email) {
+            const email = document.createElement('a');
+            email.href = `mailto:${member.email}`;
+            email.className = 'member-modal-contact-item email';
+            email.innerHTML = `<i class="fas fa-envelope"></i><span>${member.email}</span>`;
+            contactList.appendChild(email);
+        }
+        
+        if (member.facebook) {
+            const fb = document.createElement('a');
+            fb.href = member.facebook;
+            fb.target = '_blank';
+            fb.rel = 'noopener noreferrer';
+            fb.className = 'member-modal-contact-item facebook';
+            fb.innerHTML = `<i class="fab fa-facebook-f"></i><span>Facebook</span>`;
+            contactList.appendChild(fb);
+        }
+        
+        if (member.instagram) {
+            const ig = document.createElement('a');
+            ig.href = member.instagram;
+            ig.target = '_blank';
+            ig.rel = 'noopener noreferrer';
+            ig.className = 'member-modal-contact-item instagram';
+            ig.innerHTML = `<i class="fab fa-instagram"></i><span>Instagram</span>`;
+            contactList.appendChild(ig);
+        }
+        
+        if (member.linkedin) {
+            const li = document.createElement('a');
+            li.href = member.linkedin;
+            li.target = '_blank';
+            li.rel = 'noopener noreferrer';
+            li.className = 'member-modal-contact-item linkedin';
+            li.innerHTML = `<i class="fab fa-linkedin-in"></i><span>LinkedIn</span>`;
+            contactList.appendChild(li);
+        }
+        
+        contactSection.appendChild(contactList);
+        fragment.appendChild(contactSection);
+    }
+    
+    modalBody.replaceChildren(fragment);
+    
+    // Hiển thị modal
+    modal.classList.add('active');
+    document.body.style.overflow = 'hidden';
+    
+    setTimeout(() => {
+        const closeBtn = document.getElementById('member-modal-close');
+        if (closeBtn) closeBtn.focus();
+    }, 100);
+}
+
+// Helper: Format ngày sinh
+function formatDate(dateString) {
+    if (!dateString) return '';
+    const date = new Date(dateString);
+    if (isNaN(date.getTime())) return dateString;
+    
+    const day = String(date.getDate()).padStart(2, '0');
+    const month = String(date.getMonth() + 1).padStart(2, '0');
+    const year = date.getFullYear();
+    
+    return `${day}/${month}/${year}`;
+}
+
+function closeMemberModal() {
+    const modal = document.getElementById('member-modal');
+    if (!modal) return;
+    
+    modal.classList.remove('active');
+    document.body.style.overflow = '';
+}
+
+function initMemberModal() {
+    const modal = document.getElementById('member-modal');
+    const overlay = document.getElementById('member-modal-overlay');
+    const closeBtn = document.getElementById('member-modal-close');
+    
+    if (overlay) {
+        overlay.addEventListener('click', closeMemberModal);
+    }
+    
+    if (closeBtn) {
+        closeBtn.addEventListener('click', closeMemberModal);
+    }
+    
+    // Đóng bằng phím Escape
+    document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape' && modal && modal.classList.contains('active')) {
+            closeMemberModal();
+        }
+    });
+}
+
+function hideMemberDetail() {
+    const listView = document.getElementById('members-list-view');
+    const detailView = document.getElementById('member-detail-view');
+    
+    if (listView && detailView) {
+        listView.style.display = 'block';
+        detailView.style.display = 'none';
+    }
+}
 
 // =====================================================
 // 12. ACTIVITIES
@@ -1366,6 +1777,7 @@ function renderActivities(container) {
     const sorted = [...data].sort((a, b) => {
         return new Date(b.date) - new Date(a.date);
     });
+    
     // Filter
     let filtered = sorted;
     if (activitiesFilter !== 'all') filtered = sorted.filter(item => item.category === activitiesFilter);
@@ -1378,39 +1790,92 @@ function renderActivities(container) {
         return;
     }
 
-     // === PHÂN TRANG ===
+    // === PHÂN TRANG ===
     const perPage = state.pagination.activities.perPage || 6;
     const currentPage = state.pagination.activities.page || 1;
     const totalPages = Math.ceil(filtered.length / perPage);
     const start = (currentPage - 1) * perPage;
     const end = start + perPage;
     const pageItems = filtered.slice(start, end);
-    
 
     const fragment = document.createDocumentFragment();
-    filtered.forEach(activity => {
+    pageItems.forEach(activity => {
         const card = document.createElement('div');
         card.className = 'activity-item';
+        card.style.cursor = 'pointer';
+        
+        // === HÌNH ẢNH VỚI HIỆU ỨNG HOVER ===
+        const imgContainer = document.createElement('div');
+        imgContainer.className = 'activity-item-image';
+        
+        // Ảnh chính
+        const img = document.createElement('img');
+        img.src = activity.image || 'assets/images/placeholder.webp';
+        img.alt = activity.title[state.currentLang] || activity.title.vi;
+        img.loading = 'lazy';
+        img.className = 'activity-item-img';
+        img.onerror = function() {
+            this.style.display = 'none';
+            const fallback = document.createElement('span');
+            fallback.className = 'thumbnail-fallback';
+            fallback.textContent = '📅';
+            this.parentElement.appendChild(fallback);
+        };
+        imgContainer.appendChild(img);
+        
+        // Ảnh hover (nếu có)
+        if (activity.thumbnail && activity.thumbnail !== activity.image) {
+            const imgHover = document.createElement('img');
+            imgHover.src = activity.thumbnail;
+            imgHover.alt = activity.title[state.currentLang] || activity.title.vi;
+            imgHover.loading = 'lazy';
+            imgHover.className = 'activity-item-img-hover';
+            imgHover.onerror = function() {
+                this.style.display = 'none';
+            };
+            imgContainer.appendChild(imgHover);
+        } else if (activity.gallery && activity.gallery.length > 0) {
+            const imgHover = document.createElement('img');
+            imgHover.src = activity.gallery[0];
+            imgHover.alt = activity.title[state.currentLang] || activity.title.vi;
+            imgHover.loading = 'lazy';
+            imgHover.className = 'activity-item-img-hover';
+            imgHover.onerror = function() {
+                this.style.display = 'none';
+            };
+            imgContainer.appendChild(imgHover);
+        }
+        
+        card.appendChild(imgContainer);
+        
+        // === NỘI DUNG ===
         const content = document.createElement('div');
         content.className = 'activity-item-content';
+        
         const title = document.createElement('h3');
         title.textContent = activity.title[state.currentLang] || activity.title.vi;
         content.appendChild(title);
+        
         const meta = document.createElement('div');
         meta.className = 'activity-meta';
+        
         const date = document.createElement('span');
         date.className = 'text-sm';
         date.textContent = activity.date;
         meta.appendChild(date);
+        
         const location = document.createElement('span');
         location.className = 'text-sm text-muted';
         location.textContent = `📍 ${activity.location}`;
         meta.appendChild(location);
+        
         const category = document.createElement('span');
         category.className = 'badge';
         category.textContent = translateEnum('category', activity.category);
         meta.appendChild(category);
+        
         content.appendChild(meta);
+        
         if (activity.description) {
             const desc = document.createElement('p');
             desc.className = 'text-sm text-muted';
@@ -1419,13 +1884,15 @@ function renderActivities(container) {
             if (desc.textContent && desc.textContent.length > 120) desc.textContent = desc.textContent.substring(0, 120) + '...';
             content.appendChild(desc);
         }
+        
         card.appendChild(content);
-        card.style.cursor = 'pointer';
+        
         card.addEventListener('click', () => navigateTo(`#activities/${activity.id}`));
         fragment.appendChild(card);
     });
     container.replaceChildren(fragment);
-    // === PAGINATION CONTROLS ===
+    
+    // === PAGINATION ===
     renderPagination(container, 'activities', currentPage, totalPages);
 }
 
@@ -2747,6 +3214,7 @@ function renderSection(section) {
             renderAbout();
             break;
         case 'members':
+            hideMemberDetail(); 
             renderMembers(container);
             initMembersTabs();
             break;
@@ -2822,6 +3290,7 @@ async function init() {
     initLanguageSwitch();
     initEventListeners();
     initLightbox();
+    initMemberModal();
     
     // PRELOAD LEAFLET – để sẵn cho Home Map
     if (typeof L === 'undefined') {

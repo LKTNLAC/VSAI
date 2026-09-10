@@ -5,10 +5,22 @@
     "position": "president",
     "image": "assets/images/members/1.jpg",
     "city": "Delhi",
+    "birthday": "02-02-2004",
+    "major": "Computer Science",
+    "university": "Delhi University",
+    "hometown": "Lê Chân, Hải Phòng, Việt Nam",
+    "quote": {
+      "vi": "Kết nối để cùng phát triển.",
+      "en": "Connect to grow together."
+    },
     "bio": {
       "vi": "Chủ tịch Hội Sinh viên Việt Nam tại Ấn Độ nhiệm kỳ 2025-2027. Sinh viên năm cuối tại Delhi University.",
       "en": "President of VSA India for the 2025-2027 term. Final year student at Delhi University."
-    }
+    },
+    "email": "nhulac2004@gmail.com",
+    "facebook": "https://www.facebook.com/bui.hoang.long.lac.33/",
+    "instagram": "https://www.instagram.com/____nlac____/",
+    "linkedin": "https://www.linkedin.com/in/long-ho%C3%A0ng-b%C3%B9i-432516260/"
   },
   {
     "id": 2,
@@ -16,10 +28,21 @@
     "position": "vice_president",
     "image": "assets/images/members/2.jpg",
     "city": "Delhi",
+    "birthday": "02-05-2004",
+    "major": "Computer Science",
+    "university": "Delhi University",
+    "hometown": "Tây Ninh (Long An cũ), Việt Nam",
+    "quote": {
+      "vi": "",
+      "en": ""
+    },
     "bio": {
-      "vi": "Phó Chủ tịch Hội Sinh viên Việt Nam tại Ấn Độ. Sinh viên tại Đại học Delhi.",
+      "vi": "Phó Chủ tịch Hội Sinh viên Việt Nam tại Ấn Độ. Sinh viên năm 3 tại Đại học Delhi.",
       "en": "Vice President of VSA India. Student at Delhi University."
-    }
+    },
+    "email": "@gmail.com",
+    "facebook": "https://facebook.com/...",
+    "linkedin": "https://linkedin.com/in/..."
   },
   {
     "id": 3,
@@ -27,10 +50,21 @@
     "position": "vice_president",
     "image": "assets/images/members/3.jpg",
     "city": "Pune",
+    "birthday": "10-03-1982",
+    "major": "Buddhist Studies",
+    "university": "Pune University",
+    "hometown": "Việt Nam",
+    "quote": {
+      "vi": ".",
+      "en": "."
+    },
     "bio": {
-      "vi": "Phó Chủ tịch Hội Sinh viên Việt Nam tại Ấn Độ. Sinh viên tại Đại học Pune.",
-      "en": "Vice President of VSA India. Student at Pune University."
-    }
+      "vi": "Phó Chủ tịch Hội Sinh viên Việt Nam tại Ấn Độ. Thạc sĩ tại Đại học Pune.",
+      "en": "Vice President of VSA India. Master at Pune University."
+    },
+    "email": "@gmail.com",
+    "facebook": "https://facebook.com/...",
+    "linkedin": "https://linkedin.com/in/..."
   },
   {
     "id": 4,
@@ -38,10 +72,21 @@
     "position": "vice_president",
     "image": "assets/images/members/4.jpg",
     "city": "Rajgir",
+    "birthday": "15-08-1999",
+    "major": "Buddhist Studies",
+    "university": "Nalanda University",
+    "hometown": "Việt Nam",
+    "quote": {
+      "vi": ".",
+      "en": "."
+    },
     "bio": {
-      "vi": "Phó Chủ tịch Hội Sinh viên Việt Nam tại Ấn Độ. Sinh viên tại Đại học Nalanda.",
-      "en": "Vice President of VSA India. Student at Nalanda University."
-    }
+      "vi": "Phó Chủ tịch Hội Sinh viên Việt Nam tại Ấn Độ. Thạc sĩ tại Đại học Nalanda.",
+      "en": "Vice President of VSA India. Master at Nalanda University."
+    },
+    "email": "@gmail.com",
+    "facebook": "https://facebook.com/...",
+    "linkedin": "https://linkedin.com/in/..."
   },
   {
     "id": 5,
@@ -49,10 +94,21 @@
     "position": "commissioner",
     "image": "assets/images/members/5.jpg",
     "city": "Rajgir",
+    "birthday": "09-03-1999",
+    "major": "Buddhist Studies",
+    "university": "Nalanda University",
+    "hometown": "Việt Nam",
+    "quote": {
+      "vi": ".",
+      "en": "."
+    },
     "bio": {
-      "vi": "Ủy viên Hội Sinh viên Việt Nam tại Ấn Độ. Sinh viên tại Đại học Nalanda.",
-      "en": "Commissioner of VSA India. Student at Nalanda University."
-    }
+      "vi": "Ủy viên Hội Sinh viên Việt Nam tại Ấn Độ. Thạc sĩ tại Đại học Nalanda.",
+      "en": "Commissioner of VSA India. Master at Nalanda University."
+    },
+    "email": "@gmail.com",
+    "facebook": "https://facebook.com/...",
+    "linkedin": "https://linkedin.com/in/..."
   },
   {
     "id": 6,
@@ -60,10 +116,21 @@
     "position": "commissioner",
     "image": "assets/images/members/6.jpg",
     "city": "Delhi",
+    "birthday": "28-02-2005",
+    "major": "Computer Science",
+    "university": "Indraprastha Institute of Information Technology Delhi",
+    "hometown": "Hà Nội, Việt Nam",
+    "quote": {
+      "vi": ".",
+      "en": "."
+    },
     "bio": {
-      "vi": "Ủy viên Hội Sinh viên Việt Nam tại Ấn Độ. Sinh viên tại Indraprastha Institute of Information Technology Delhi.",
+      "vi": "Ủy viên Hội Sinh viên Việt Nam tại Ấn Độ. Sinh viên năm 4 tại Indraprastha Institute of Information Technology Delhi.",
       "en": "Commissioner of VSA India. Student at Indraprastha Institute of Information Technology Delhi."
-    }
+    },
+    "email": "@gmail.com",
+    "facebook": "https://facebook.com/...",
+    "linkedin": "https://linkedin.com/in/..."
   },
   {
     "id": 7,
@@ -71,8 +138,16 @@
     "position": "commissioner",
     "image": "assets/images/members/7.jpg",
     "city": "Delhi",
+    "birthday": "26-03-2005",
+    "major": "Computer Science",
+    "university": "Delhi University",
+    "hometown": "Thái Nguyên (Bắc Kạn cũ), Việt Nam",
+    "quote": {
+      "vi": ".",
+      "en": "."
+    },
     "bio": {
-      "vi": "Ủy viên Hội Sinh viên Việt Nam tại Ấn Độ. Sinh viên tại Đại học Delhi.",
+      "vi": "Ủy viên Hội Sinh viên Việt Nam tại Ấn Độ. Sinh viên năm 3 tại Đại học Delhi.",
       "en": "Commissioner of VSA India. Student at Delhi University."
     }
   },
@@ -82,10 +157,21 @@
     "position": "commissioner",
     "image": "assets/images/members/8.jpg",
     "city": "Delhi",
+    "birthday": "02-05-2005",
+    "major": "Computer Science",
+    "university": "Delhi University",
+    "hometown": "An Giang, Việt Nam",
+    "quote": {
+      "vi": ".",
+      "en": "."
+    },
     "bio": {
-      "vi": "Ủy viên Hội Sinh viên Việt Nam tại Ấn Độ. Sinh viên tại Đại học Delhi.",
+      "vi": "Ủy viên Hội Sinh viên Việt Nam tại Ấn Độ. Sinh viên năm 3 tại Đại học Delhi.",
       "en": "Commissioner of VSA India. Student at Delhi University."
-    }
+    },
+    "email": "@gmail.com",
+    "facebook": "https://facebook.com/...",
+    "linkedin": "https://linkedin.com/in/..."
   },
   {
     "id": 9,
@@ -93,10 +179,21 @@
     "position": "commissioner",
     "image": "assets/images/members/9.jpg",
     "city": "Delhi",
+    "birthday": "12-08-2005",
+    "major": "Coumputer Science",
+    "university": "Delhi University",
+    "hometown": "Cao Bằng, Việt Nam",
+    "quote": {
+      "vi": ".",
+      "en": "."
+    },
     "bio": {
-      "vi": "Ủy viên Hội Sinh viên Việt Nam tại Ấn Độ. Sinh viên tại Đại học Delhi.",
+      "vi": "Ủy viên Hội Sinh viên Việt Nam tại Ấn Độ. Sinh viên năm 3 tại Đại học Delhi.",
       "en": "Commissioner of VSA India. Student at Delhi University."
-    }
+    },
+    "email": "@gmail.com",
+    "facebook": "https://facebook.com/...",
+    "linkedin": "https://linkedin.com/in/..."
   },
   {
     "id": 10,
@@ -104,10 +201,21 @@
     "position": "commissioner",
     "image": "assets/images/members/10.jpg",
     "city": "Delhi",
+    "birthday": "19-09-2005",
+    "major": "Computer Science",
+    "university": "Delhi University",
+    "hometown": "Tp. Đồng Nai (Bình Phước cũ), Việt Nam",
+    "quote": {
+      "vi": ".",
+      "en": "."
+    },
     "bio": {
-      "vi": "Ủy viên Hội Sinh viên Việt Nam tại Ấn Độ. Sinh viên tại Đại học Delhi.",
+      "vi": "Ủy viên Hội Sinh viên Việt Nam tại Ấn Độ. Sinh viên năm 3 tại Đại học Delhi.",
       "en": "Commissioner of VSA India. Student at Delhi University."
-    }
+    },
+    "email": "@gmail.com",
+    "facebook": "https://facebook.com/...",
+    "linkedin": "https://linkedin.com/in/..."
   },
   {
     "id": 11,
@@ -115,10 +223,21 @@
     "position": "commissioner",
     "image": "assets/images/members/11.jpg",
     "city": "Mumbai",
+    "birthday": "12-01-2007",
+    "major": "Business Administration",
+    "university": "Mumbai University",
+    "hometown": "Hà Nội, Việt Nam",
+    "quote": {
+      "vi": ".",
+      "en": "."
+    },
     "bio": {
-      "vi": "Ủy viên Hội Sinh viên Việt Nam tại Ấn Độ. Sinh viên tại Đại học Mumbai.",
+      "vi": "Ủy viên Hội Sinh viên Việt Nam tại Ấn Độ. Sinh viên năm 1 tại Đại học Mumbai.",
       "en": "Commissioner of VSA India. Student at Mumbai University."
-    }
+    },
+    "email": "@gmail.com",
+    "facebook": "https://facebook.com/...",
+    "linkedin": "https://linkedin.com/in/..."
   },
   {
     "id": 12,
@@ -126,9 +245,20 @@
     "position": "commissioner",
     "image": "assets/images/members/12.jpg",
     "city": "Trivandrum",
+    "birthday": "24-03-2007",
+    "major": "Business Administration",
+    "university": "Kerela University",
+    "hometown": "Hà Nội, Việt Nam",
+    "quote": {
+      "vi": ".",
+      "en": "."
+    },
     "bio": {
-      "vi": "Ủy viên Hội Sinh viên Việt Nam tại Ấn Độ. Sinh viên tại Đại học Kerela.",
+      "vi": "Ủy viên Hội Sinh viên Việt Nam tại Ấn Độ. Sinh viên năm 1 tại Đại học Kerela.",
       "en": "Commissioner of VSA India. Student at Kerela University."
-    }
+    },
+    "email": "@gmail.com",
+    "facebook": "https://facebook.com/...",
+    "linkedin": "https://linkedin.com/in/..."
   }
 ]

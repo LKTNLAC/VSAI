@@ -3,37 +3,53 @@
     "id": 1,
     "activityId": 1,
     "title": {
-      "vi": "[MẪU] Giao lưu văn hóa Việt - Ấn 2026",
-      "en": "[SAMPLE] Vietnam-India Cultural Exchange 2026"
+      "vi": "Buổi từ thiện tại trường tiểu học Avalokites Vara ở Adalpur, Barachatti, Gaya (Bihar), Ấn Độ",
+      "en": "Charity event at Avalokites Vara Primary School in Adalpur, Barachatti, Gaya (Bihar), India"
     },
-    "date": "2026-10-15",
-    "location": "Delhi",
-    "category": "culture",
-    "cover": "assets/images/gallery/cover-01.webp",
+    "date": "2026-01-31",
+    "location": "Bihar",
+    "category": "community",
+    "cover": "assets/images/gallery/1/1.jpg",
     "photos": [
       {
-        "src": "assets/images/gallery/photo-01.webp",
+        "src": "assets/images/gallery/1/1.jpg",
         "caption": {
-          "vi": "[MẪU] Sinh viên biểu diễn văn nghệ",
-          "en": "[SAMPLE] Student cultural performance"
+          "vi": "Đoàn từ thiện chụp ảnh lưu niệm cùng các em học sinh",
+          "en": "Charity team taking photo with students"
         },
-        "alt": "Vietnamese students performing"
+        "alt": ""
       },
       {
-        "src": "assets/images/gallery/photo-02.webp",
+        "src": "assets/images/gallery/1/2.jpg",
         "caption": {
-          "vi": "[MẪU] Giao lưu ẩm thực",
-          "en": "[SAMPLE] Food exchange"
+          "vi": "Đoàn từ thiện chụp ảnh lưu niệm cùng các em học sinh",
+          "en": "Charity team taking photo with students"
         },
-        "alt": "Students sharing food"
+        "alt": ""
       },
       {
-        "src": "assets/images/gallery/photo-03.webp",
+        "src": "assets/images/gallery/1/3.jpg",
         "caption": {
-          "vi": "[MẪU] Chụp ảnh lưu niệm",
-          "en": "[SAMPLE] Group photo"
+          "vi": "Đoàn từ thiện chụp ảnh lưu niệm cùng các em học sinh",
+          "en": "Charity team taking photo with students"
         },
-        "alt": "Group photo of participants"
+        "alt": ""
+      },
+      {
+        "src": "assets/images/gallery/1/4.jpg",
+        "caption": {
+          "vi": "Đoàn từ thiện chụp ảnh lưu niệm cùng các em học sinh",
+          "en": "Charity team taking photo with students"
+        },
+        "alt": ""
+      },
+      {
+        "src": "assets/images/gallery/1/5.jpg",
+        "caption": {
+          "vi": "Đoàn từ thiện chụp ảnh lưu niệm cùng các em học sinh",
+          "en": "Charity team taking photo with students"
+        },
+        "alt": ""
       }
     ]
   },
@@ -41,29 +57,690 @@
     "id": 2,
     "activityId": 3,
     "title": {
-      "vi": "[MẪU] Giải bóng đá sinh viên 2026",
-      "en": "[SAMPLE] Student Football Tournament 2026"
+      "vi": "🎉 RECAP TẾT CỘNG ĐỒNG 2026 🎉",
+      "en": "🎉 RECAP OF TET COMMUNITY 2026 🎉"
     },
-    "date": "2026-12-01",
-    "location": "Delhi",
-    "category": "sports",
-    "cover": "assets/images/gallery/cover-02.webp",
+    "date": "2026-02-06",
+    "location": "Vietnam Embassy, Delhi, India",
+    "category": "event",
+    "cover": "assets/images/activities/2/1.jpg",
     "photos": [
       {
-        "src": "assets/images/gallery/photo-04.webp",
+        "src": "assets/images/activities/2/1.jpg",
         "caption": {
-          "vi": "[MẪU] Trận chung kết",
-          "en": "[SAMPLE] Final match"
+          "vi": "",
+          "en": ""
         },
-        "alt": "Football final match"
+        "alt": ""
       },
       {
-        "src": "assets/images/gallery/photo-05.webp",
+        "src": "assets/images/activities/2/2.jpg",
         "caption": {
-          "vi": "[MẪU] Đội chiến thắng",
-          "en": "[SAMPLE] Winning team"
+          "vi": "Cán bộ gia đình đại sứ quán chụp hình lưu niệm",
+          "en": "Embassy staff and their families pose for a commemorative photo."
         },
-        "alt": "Winning team celebration"
+        "alt": ""
+      },
+      {
+        "src": "assets/images/activities/2/3.jpg",
+        "caption": {
+          "vi": "Sinh viên tại Delhi University trình diễn văn nghệ",
+          "en": "Students at Delhi University perform a cultural show."
+        },
+        "alt": ""
+      },
+      {
+        "src": "assets/images/activities/2/4.jpg",
+        "caption": {
+          "vi": "",
+          "en": ""
+        },
+        "alt": ""
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "activityId": 3,
+    "title": {
+      "vi": "NGÀY TẾT NGUYÊN ĐÁN CỔ TRUYỀN VIỆT NAM TẠI Đại học Nalanda, BIHAR, ẤN ĐỘ",
+      "en": "TRADITIONAL VIETNAMESE LUNAR NEW YEAR CELEBRATION AT Nalanda University, BIHAR, INDIA"
+    },
+    "date": "2026-02-19",
+    "location": "Nalanda",
+    "category": "culture",
+    "cover": "assets/images/activities/3/1.jpg",
+    "photos": [
+      {
+        "src": "assets/images/activities/3/1.jpg",
+        "caption": {
+          "vi": "Sinh viên tại đại học Nalanda",
+          "en": "Student in Nalanda University"
+        },
+        "alt": ""
+      },
+      {
+        "src": "assets/images/activities/3/2.jpg",
+        "caption": {
+          "vi": "",
+          "en": ""
+        },
+        "alt": ""
+      },
+      {
+        "src": "assets/images/activities/3/3.jpg",
+        "caption": {
+          "vi": "",
+          "en": ""
+        },
+        "alt": ""
+      },
+      {
+        "src": "assets/images/activities/3/4.jpg",
+        "caption": {
+          "vi": "",
+          "en": ""
+        },
+        "alt": ""
+      },{
+        "src": "assets/images/activities/3/5.jpg",
+        "caption": {
+          "vi": "",
+          "en": ""
+        },
+        "alt": ""
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "activityId": 4,
+    "title": {
+      "vi": "GIAN HÀNG VIỆT NAM TẠI INTERNATIONAL YOUTH FESTIVAL 2025–2026 | PUNE UNIVERSITY",
+      "en": "VIETNAM BOOTH AT INTERNATIONAL YOUTH FESTIVAL 2025–2026 | PUNE UNIVERSITY"
+    },
+    "date": "2026-03-03",
+    "location": "Pune",
+    "category": "culture",
+    "cover": "assets/images/activities/4/1.jpg",
+    "photos": [
+      {
+        "src": "assets/images/activities/4/1.jpg",
+        "caption": {
+          "vi": "",
+          "en": ""
+        },
+        "alt": ""
+      },
+      {
+        "src": "assets/images/activities/4/2.jpg",
+        "caption": {
+          "vi": "Gian hàng Việt Nam tấp nập người",
+          "en": "The Vietnamese booth was bustling with people."
+        },
+        "alt": ""
+      },
+      {
+        "src": "assets/images/activities/4/3.jpg",
+        "caption": {
+          "vi": "Góc gian hàng Việt Nam",
+          "en": ""
+        },
+        "alt": ""
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "activityId": 5,
+    "title": {
+      "vi": "Khoảng khắc tại MILESTONE 2026",
+      "en": "RECAP MILESTONE 2026"
+    },
+    "date": "2026-03-28",
+    "location": "Delhi",
+    "category": "culture",
+    "cover": "assets/images/activities/5/1.jpg",
+    "photos": [
+      {
+        "src": "assets/images/activities/5/1.jpg",
+        "caption": {
+          "vi": "",
+          "en": ""
+        },
+        "alt": ""
+      },
+      {
+        "src": "assets/images/activities/5/2.jpg",
+        "caption": {
+          "vi": "",
+          "en": ""
+        },
+        "alt": ""
+      },
+      {
+        "src": "assets/images/activities/5/3.jpg",
+        "caption": {
+          "vi": "Toàn bộ sinh viên Việt Nam tại Delhi chụp lưu niệm",
+          "en": "All Vietnamese students in Delhi taking a group photo"
+        },
+        "alt": ""
+      },
+      {
+        "src": "assets/images/activities/5/4.jpg",
+        "caption": {
+          "vi": "Gian hàng Việt Nam sầm uất",
+          "en": "Vietnamese booth at the event"
+        },
+        "alt": ""
+      },
+      {
+        "src": "assets/images/activities/5/5.jpg",
+        "caption": {
+          "vi": "",
+          "en": ""
+        },
+        "alt": ""
+      },
+      {
+        "src": "assets/images/activities/5/6.jpg",
+        "caption": {
+          "vi": "",
+          "en": ""
+        },
+        "alt": ""
+      },
+      {
+        "src": "assets/images/activities/5/7.jpg",
+        "caption": {
+          "vi": "",
+          "en": ""
+        },
+        "alt": ""
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "activityId": 6,
+    "title": {
+      "vi": "Đón tiếp Tổng Bí Thư Tô Lâm qua thăm chính thức Ấn Độ",
+      "en": "Welcoming General Secretary To Lam on his official visit to India"
+    },
+    "date": "2026-05-05",
+    "location": "Delhi",
+    "category": "event",
+    "cover": "assets/images/activities/6/1.jpg",
+    "photos": [
+      {
+        "src": "assets/images/activities/6/1.jpg",
+        "caption": {
+          "vi": "Chụp ảnh lưu niệm cùng đoàn công tác",
+          "en": "Memorable photo with the delegation"
+        },
+        "alt": ""
+      },
+      {
+        "src": "assets/images/activities/6/2.jpg",
+        "caption": {
+          "vi": "Đồng chí ủy viên Nguyễn Gia Phúc đại diện phát biểu",
+          "en": "Comrade Nguyen Gia Phuc, a member of the committee, delivered a speech."
+        },
+        "alt": ""
+      },
+      {
+        "src": "assets/images/activities/6/3.jpg",
+        "caption": {
+          "vi": "Tổng Bí Thư Tô Lâm chào sinh viên Việt Nam tại Ấn Độ",
+          "en": "General Secretary and President Tô Lâm greeting Vietnamese students in India."
+        },
+        "alt": ""
+      },
+      {
+        "src": "assets/images/activities/6/4.jpg",
+        "caption": {
+          "vi": "Ban chấp hành Hội Sinh viên Việt Nam tại Ấn Độ",
+          "en": "Executive Committee of the Vietnamese Students’ Association in India"
+        },
+        "alt": ""
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "activityId": 7,
+    "title": {
+      "vi": "🇻🇳🇮🇳 HỘI SINH VIÊN VIỆT NAM TẠI ẤN ĐỘ THAM GIA ĐỐI THOẠI LÃNH ĐẠO TRẺ BRICS 3.0",
+      "en": "🇻🇳🇮🇳 VIETNAMESE STUDENTS’ ASSOCIATION IN INDIA PARTICIPATES IN BRICS 3.0 YOUTH LEADERS DIALOGUE"
+    },
+    "date": "2026-08-08",
+    "location": "Delhi",
+    "category": "external",
+    "cover": "assets/images/activities/7/1.jpg",
+    "photos": [
+      {
+        "src": "assets/images/activities/7/1.jpg",
+        "caption": {
+          "vi": "Đồng chi ủy viên Nguyễn Gia Phúc chia sẻ quan điểm",
+          "en": "Comrade Nguyen Gia Phuc, a member of the committee, delivered a speech."
+        },
+        "alt": ""
+      },
+      {
+        "src": "assets/images/activities/7/2.jpg",
+        "caption": {
+          "vi": "",
+          "en": ""
+        },
+        "alt": ""
+      },
+      {
+        "src": "assets/images/activities/7/3.jpg",
+        "caption": {
+          "vi": "Sinh viên tại Delhi University tham gia đối thoại",
+          "en": "Students at Delhi University participate in the dialogue"
+        },
+        "alt": ""
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "activityId": 8,
+    "title": {
+      "vi": "HỘI SINH VIÊN VIỆT NAM TẠI ẤN ĐỘ THAM DỰ HỘI NGHỊ BRICS CCI",
+      "en": "VIETNAMESE STUDENTS’ ASSOCIATION IN INDIA PARTICIPATES IN BRICS CCI CONFERENCE"
+    },
+    "date": "2026-08-20",
+    "location": "Delhi",
+    "category": "external",
+    "cover": "assets/images/activities/8/1.jpg",
+    "photos": [
+      {
+        "src": "assets/images/activities/8/1.jpg",
+        "caption": {
+          "vi": "",
+          "en": ""
+        },
+        "alt": ""
+      },
+      {
+        "src": "assets/images/activities/8/2.jpg",
+        "caption": {
+          "vi": "",
+          "en": ""
+        },
+        "alt": ""
+      },
+      {
+        "src": "assets/images/activities/8/3.jpg",
+        "caption": {
+          "vi": "",
+          "en": ""
+        },
+        "alt": ""
+      },
+      {
+        "src": "assets/images/activities/8/4.jpg",
+        "caption": {
+          "vi": "",
+          "en": ""
+        },
+        "alt": ""
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "activityId": 9,
+    "title": {
+      "vi": "💙 HỘI NGHỊ BAN CHẤP HÀNH TRUNG ƯƠNG HỘI SINH VIÊN VIỆT NAM LẦN THỨ 5 (MỞ RỘNG), KHÓA XI",
+      "en": "💙 5TH (EXTENDED) MEETING OF THE CENTRAL EXECUTIVE COMMITTEE OF THE VIETNAMESE STUDENT ASSOCIATION, 11TH TERM"
+    },
+    "date": "2026-08-31",
+    "location": "Khanh Hoa, Vietnam",
+    "category": "event",
+    "cover": "assets/images/news/16/1.jpg",
+    "photos": [
+      {
+        "src": "assets/images/news/16/1.jpg",
+        "caption": {
+          "vi": "Đồng chí Lâm Tùng phát biểu",
+          "en": "Comrade Lam Tung delivered a speech."
+        },
+        "alt": ""
+      },
+      {
+        "src": "assets/images/news/16/2.jpg",
+        "caption": {
+          "vi": "Đồng chí Hồ Hồng Nguyên - Bí thư Ban Chấp hành Trung ương Đoàn khóa XIII.",
+          "en": "Comrade Ho Hong Nguyen - Secretary of the Central Executive Committee of the 13th National Youth Union"
+        },
+        "alt": ""
+      },
+      {
+        "src": "assets/images/news/16/3.jpg",
+        "caption": {
+          "vi": "Đồng chí Lâm Tùng - Phó Chủ tịch Trung ương Hội Sinh viên Việt Nam, Ủy viên Ban Chấp hành Đảng bộ Trung ương.",
+          "en": "Comrade Lam Tung - Vice President of the Central Committee of the Vietnam Student Association, Member of the Central Committee of the Communist Party of Vietnam."
+        },
+        "alt": ""
+      },
+      {
+        "src": "assets/images/news/16/4.jpg",
+        "caption": {
+          "vi": "Đồng chí Nguyễn Tiến Hưng - Bí thư Thành Đoàn Hà Nội khóa XVI, nhiệm kỳ 2022 - 2027",
+          "en": "Comrade Nguyen Tien Hung - Secretary of the Hanoi Youth Union, 16th term, 2022-2027"
+        },
+        "alt": ""
+      },
+      {
+        "src": "assets/images/news/16/5.jpg",
+        "caption": {
+          "vi": "Đồng chí Phạm Thị Thu Hiền - Bí thư Tỉnh Đoàn Thái Nguyên khóa XV",
+          "en": "Comrade Pham Thi Thu Hien - Secretary of the Thai Nguyen Provincial Youth Union, 15th term"
+        },
+        "alt": ""
+      },
+      {
+        "src": "assets/images/news/16/6.jpg",
+        "caption": {
+          "vi": "Đồng chí Nguyễn Đăng Khoa - Phó Bí thư Thành Đoàn, Chủ nhiệm Ủy ban Kiểm tra Thành Đoàn và Chủ tịch Hội Sinh viên Việt Nam TPHCM.",
+          "en": "Comrade Nguyen Dang Khoa - Deputy Secretary of the City Youth Union, Head of the City Youth Union's Inspection Committee, and President of the Vietnam Student Association of Ho Chi Minh City."
+        },
+        "alt": ""
+      },
+      {
+        "src": "assets/images/news/16/7.jpg",
+        "caption": {
+          "vi": "Đồng chí Vũ Huy Dương - Ủy viên Ban Chấp hành Trung ương Đoàn TNCS Hồ Chí Minh",
+          "en": "Comrade Vu Huy Duong - Member of the Central Executive Committee of the Ho Chi Minh Communist Youth Union"
+        },
+        "alt": ""
+      },
+      {
+        "src": "assets/images/news/16/9.jpg",
+        "caption": {
+          "vi": "Ban chủ trì",
+          "en": "Chairing committee"
+        },
+        "alt": ""
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "activityId": 10,
+    "title": {
+      "vi": "HỘI SINH VIÊN VIỆT NAM TẠI ẤN ĐỘ THAM DỰ HỘI NGHỊ BRICS CCI",
+      "en": "VIETNAMESE STUDENTS’ ASSOCIATION IN INDIA PARTICIPATES IN BRICS CCI CONFERENCE"
+    },
+    "date": "2026-08-20",
+    "location": "Delhi",
+    "category": "external",
+    "cover": "assets/images/activities/10/1.jpg",
+    "photos": [
+      {
+        "src": "assets/images/activities/10/1.jpg",
+        "caption": {
+          "vi": "",
+          "en": ""
+        },
+        "alt": ""
+      },
+      {
+        "src": "assets/images/activities/10/2.jpg",
+        "caption": {
+          "vi": "",
+          "en": ""
+        },
+        "alt": ""
+      },
+      {
+        "src": "assets/images/activities/10/3.jpg",
+        "caption": {
+          "vi": "",
+          "en": ""
+        },
+        "alt": ""
+      },
+      {
+        "src": "assets/images/activities/10/4.jpg",
+        "caption": {
+          "vi": "",
+          "en": ""
+        },
+        "alt": ""
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "activityId": 11,
+    "title": {
+      "vi": "HỘI SINH VIÊN VIỆT NAM TẠI ẤN ĐỘ THAM DỰ HỘI NGHỊ BRICS CCI",
+      "en": "VIETNAMESE STUDENTS’ ASSOCIATION IN INDIA PARTICIPATES IN BRICS CCI CONFERENCE"
+    },
+    "date": "2026-08-20",
+    "location": "Delhi",
+    "category": "external",
+    "cover": "assets/images/activities/11/1.jpg",
+    "photos": [
+      {
+        "src": "assets/images/activities/11/1.jpg",
+        "caption": {
+          "vi": "",
+          "en": ""
+        },
+        "alt": ""
+      },
+      {
+        "src": "assets/images/activities/11/2.jpg",
+        "caption": {
+          "vi": "",
+          "en": ""
+        },
+        "alt": ""
+      },
+      {
+        "src": "assets/images/activities/11/3.jpg",
+        "caption": {
+          "vi": "",
+          "en": ""
+        },
+        "alt": ""
+      },
+      {
+        "src": "assets/images/activities/11/4.jpg",
+        "caption": {
+          "vi": "",
+          "en": ""
+        },
+        "alt": ""
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "activityId": 12,
+    "title": {
+      "vi": "HỘI SINH VIÊN VIỆT NAM TẠI ẤN ĐỘ THAM DỰ HỘI NGHỊ BRICS CCI",
+      "en": "VIETNAMESE STUDENTS’ ASSOCIATION IN INDIA PARTICIPATES IN BRICS CCI CONFERENCE"
+    },
+    "date": "2026-08-20",
+    "location": "Delhi",
+    "category": "external",
+    "cover": "assets/images/activities/12/1.jpg",
+    "photos": [
+      {
+        "src": "assets/images/activities/12/1.jpg",
+        "caption": {
+          "vi": "",
+          "en": ""
+        },
+        "alt": ""
+      },
+      {
+        "src": "assets/images/activities/12/2.jpg",
+        "caption": {
+          "vi": "",
+          "en": ""
+        },
+        "alt": ""
+      },
+      {
+        "src": "assets/images/activities/12/3.jpg",
+        "caption": {
+          "vi": "",
+          "en": ""
+        },
+        "alt": ""
+      },
+      {
+        "src": "assets/images/activities/12/4.jpg",
+        "caption": {
+          "vi": "",
+          "en": ""
+        },
+        "alt": ""
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "activityId": 13,
+    "title": {
+      "vi": "HỘI SINH VIÊN VIỆT NAM TẠI ẤN ĐỘ THAM DỰ HỘI NGHỊ BRICS CCI",
+      "en": "VIETNAMESE STUDENTS’ ASSOCIATION IN INDIA PARTICIPATES IN BRICS CCI CONFERENCE"
+    },
+    "date": "2026-08-20",
+    "location": "Delhi",
+    "category": "external",
+    "cover": "assets/images/activities/13/1.jpg",
+    "photos": [
+      {
+        "src": "assets/images/activities/13/1.jpg",
+        "caption": {
+          "vi": "",
+          "en": ""
+        },
+        "alt": ""
+      },
+      {
+        "src": "assets/images/activities/13/2.jpg",
+        "caption": {
+          "vi": "",
+          "en": ""
+        },
+        "alt": ""
+      },
+      {
+        "src": "assets/images/activities/13/3.jpg",
+        "caption": {
+          "vi": "",
+          "en": ""
+        },
+        "alt": ""
+      },
+      {
+        "src": "assets/images/activities/13/4.jpg",
+        "caption": {
+          "vi": "",
+          "en": ""
+        },
+        "alt": ""
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "activityId": 14,
+    "title": {
+      "vi": "HỘI SINH VIÊN VIỆT NAM TẠI ẤN ĐỘ THAM DỰ HỘI NGHỊ BRICS CCI",
+      "en": "VIETNAMESE STUDENTS’ ASSOCIATION IN INDIA PARTICIPATES IN BRICS CCI CONFERENCE"
+    },
+    "date": "2026-08-20",
+    "location": "Delhi",
+    "category": "external",
+    "cover": "assets/images/activities/14/1.jpg",
+    "photos": [
+      {
+        "src": "assets/images/activities/14/1.jpg",
+        "caption": {
+          "vi": "",
+          "en": ""
+        },
+        "alt": ""
+      },
+      {
+        "src": "assets/images/activities/14/2.jpg",
+        "caption": {
+          "vi": "",
+          "en": ""
+        },
+        "alt": ""
+      },
+      {
+        "src": "assets/images/activities/14/3.jpg",
+        "caption": {
+          "vi": "",
+          "en": ""
+        },
+        "alt": ""
+      },
+      {
+        "src": "assets/images/activities/14/4.jpg",
+        "caption": {
+          "vi": "",
+          "en": ""
+        },
+        "alt": ""
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "activityId": 15,
+    "title": {
+      "vi": "HỘI SINH VIÊN VIỆT NAM TẠI ẤN ĐỘ THAM DỰ HỘI NGHỊ BRICS CCI",
+      "en": "VIETNAMESE STUDENTS’ ASSOCIATION IN INDIA PARTICIPATES IN BRICS CCI CONFERENCE"
+    },
+    "date": "2026-08-20",
+    "location": "Delhi",
+    "category": "external",
+    "cover": "assets/images/activities/15/1.jpg",
+    "photos": [
+      {
+        "src": "assets/images/activities/15/1.jpg",
+        "caption": {
+          "vi": "",
+          "en": ""
+        },
+        "alt": ""
+      },
+      {
+        "src": "assets/images/activities/15/2.jpg",
+        "caption": {
+          "vi": "",
+          "en": ""
+        },
+        "alt": ""
+      },
+      {
+        "src": "assets/images/activities/15/3.jpg",
+        "caption": {
+          "vi": "",
+          "en": ""
+        },
+        "alt": ""
+      },
+      {
+        "src": "assets/images/activities/15/4.jpg",
+        "caption": {
+          "vi": "",
+          "en": ""
+        },
+        "alt": ""
       }
     ]
   }
