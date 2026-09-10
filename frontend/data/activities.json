@@ -368,12 +368,12 @@
   {
     "id": 9,
     "title": {
-      "vi": "",
+      "vi": "👥️ SÔI NỔI THẢO LUẬN TẠI 3 TỔ THẢO LUẬN HỘI NGHỊ SƠ KẾT GIỮA NHIỆM KỲ ĐẠI HỘI XI",
       "en": ""
     },
-    "date": "2026-0-0",
+    "date": "2026-09-01",
     "location": "Delhi",
-    "category": "",
+    "category": "community",
     "thumbnail": "assets/images/activities/9/1.jpg",
     "image": "assets/images/activities/9/1.jpg",
     "gallery": [
@@ -382,22 +382,20 @@
       "assets/images/activities/9/4.jpg"
     ],
     "summary": {
-      "vi": "...",
+      "vi": "Chiều ngày 25/8, trong khuôn khổ Hội nghị đại biểu sơ kết giữa nhiệm kỳ...",
       "en": "..."
     },
     "featured": false,
     "content": {
       "vi": [
-        { "type": "text", "value": "" },
+        { "type": "text", "value": "Chiều ngày 25/8, trong khuôn khổ Hội nghị đại biểu sơ kết giữa nhiệm kỳ triển khai thực hiện Nghị quyết Đại hội đại biểu toàn quốc Hội Sinh viên Việt Nam lần thứ XI, nhiệm kỳ 2023 - 2028, các đại biểu đã tham gia 03 tổ thảo luận, cùng trao đổi, chia sẻ và đóng góp nhiều ý kiến tâm huyết, trách nhiệm trong công tác Hội và phong trào sinh viên." },
         { "type": "image", "src": "assets/images/activities/9/1.jpg", "alt": "", "caption": "" },
-        { "type": "text", "value": "" },
-        { "type": "image", "src": "assets/images/activities/9/1.jpg", "alt": "", "caption": "" },
-        { "type": "text", "value": "" },
-        { "type": "image", "src": "assets/images/activities/9/1.jpg", "alt": "", "caption": "" },
-        { "type": "text", "value": "" },
-        { "type": "image", "src": "assets/images/activities/9/1.jpg", "alt": "", "caption": "" },
-        { "type": "text", "value": "" },
-        { "type": "text", "value": "" }
+        { "type": "text", "value": "🗣 Với tinh thần dân chủ, thẳng thắn và phát huy trí tuệ tập thể, các đại biểu tập trung nghiên cứu, góp ý, báo cáo sơ kết giữa nhiệm kỳ triển khai thực hiện Nghị quyết Đại hội đại biểu toàn quốc Hội Sinh viên Việt Nam lần thứ XI; đồng thời đề xuất nhiều giải pháp, sáng kiến, mô hình phù hợp với thực tiễn, góp phần nâng cao chất lượng công tác Hội và phong trào sinh viên trong giai đoạn còn lại của nhiệm kỳ." },
+        { "type": "image", "src": "assets/images/activities/9/2.jpg", "alt": "", "caption": "" },
+        { "type": "text", "value": "🇻🇳🇮🇳Tham dự Hội nghị với tư cách đại diện Hội Sinh viên Việt Nam ở nước ngoài, đồng chí Bùi Hoàng Long - Chủ tịch Hội Sinh viên Việt Nam tại Ấn Độ đã cùng các đại biểu tham gia thảo luận, trao đổi và đóng góp ý kiến từ thực tiễn hoạt động của sinh viên Việt Nam đang học tập, nghiên cứu và sinh sống tại Ấn Độ." },
+        { "type": "image", "src": "assets/images/activities/9/3.jpg", "alt": "", "caption": "" },
+        { "type": "text", "value": "Hội Sinh viên Việt Nam tại Ấn Độ trân trọng cơ hội được kết nối, học hỏi và đóng góp cùng Hội Sinh Viên Việt Nam và các Hội Sinh Viên khác, qua đó tiếp tục xây dựng tổ chức Hội ngày càng vững mạnh và đồng hành hiệu quả hơn với sinh viên Việt Nam tại Ấn Độ." },
+        { "type": "image", "src": "assets/images/activities/9/4.jpg", "alt": "", "caption": "" }
       ],
       "en": [
         { "type": "text", "value": "" },
@@ -417,42 +415,49 @@
   {
     "id": 10,
     "title": {
-      "vi": "",
+      "vi": "LỄ DÂNG HOA KỶ NIỆM 81 NĂM QUỐC KHÁNH NƯỚC CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM (02/09/1945 - 02/09/2026)",
       "en": ""
     },
-    "date": "2026-0-0",
+    "date": "2026-09-02",
     "location": "Delhi",
-    "category": "",
+    "category": "event",
     "thumbnail": "assets/images/activities/10/1.jpg",
+    "image": "assets/images/activities/10/1.jpg",
+    "gallery": [
+      "assets/images/activities/10/4.jpg",
+      "assets/images/activities/10/3.jpg",
+      "assets/images/activities/10/2.jpg",
+      "assets/images/activities/10/5.jpg"
+    ],
     "summary": {
-      "vi": "...",
+      "vi": "Nhân dịp kỷ niệm 81 năm Quốc khánh nước Cộng hòa xã hội chủ nghĩa Việt Nam...",
       "en": "..."
     },
     "featured": false,
     "content": {
       "vi": [
-        { "type": "text", "value": "" },
-        { "type": "image", "src": "assets/images/activities/10/1.jpg", "alt": "", "caption": "" },
-        { "type": "text", "value": "" },
-        { "type": "image", "src": "assets/images/activities/10/1.jpg", "alt": "", "caption": "" },
-        { "type": "text", "value": "" },
-        { "type": "image", "src": "assets/images/activities/10/1.jpg", "alt": "", "caption": "" },
-        { "type": "text", "value": "" },
-        { "type": "image", "src": "assets/images/activities/10/1.jpg", "alt": "", "caption": "" },
-        { "type": "text", "value": "" },
-        { "type": "text", "value": "" }
+        { "type": "text", "value": "Nhân dịp kỷ niệm 81 năm Quốc khánh nước Cộng hòa xã hội chủ nghĩa Việt Nam (02/09/1945 - 02/09/2026), vào chiều ngày 02/09/2026, Hội Sinh viên Việt Nam tại Ấn Độ đã tổ chức Lễ dâng hoa tại G20 Park, New Delhi, với sự tham gia của đông đảo du học sinh Việt Nam đang học tập và sinh sống tại Delhi." },
+        { "type": "image", "src": "assets/images/activities/10/1.jpg", "alt": "", "caption": "Tượng Hồ Chí Minh ở công viên G20 Delhi" },
+        { "type": "text", "value": "Trong không khí trang nghiêm và thiêng liêng của ngày Quốc khánh, Lễ dâng hoa là dịp để cộng đồng người Việt Nam tại Ấn Độ cùng hướng về Tổ quốc, bày tỏ lòng thành kính và tri ân sâu sắc đối với các thế hệ cha anh đã hy sinh, cống hiến cho sự nghiệp đấu tranh giành độc lập, thống nhất và xây dựng đất nước." },
+        { "type": "image", "src": "assets/images/activities/10/2.jpg", "alt": "", "caption": "Đồng chí ủy viên Nguyễn Gia Phúc dâng hoa" },
+        { "type": "text", "value": "Hoạt động cũng góp phần vun đắp tinh thần đoàn kết, lòng tự hào dân tộc và tình yêu quê hương, đất nước trong cộng đồng du học sinh Việt Nam tại Ấn Độ; đồng thời là dịp để những người con Việt Nam đang học tập và sinh sống xa quê hương cùng nhau gìn giữ những giá trị truyền thống tốt đẹp và hướng về cội nguồn." },
+        { "type": "image", "src": "assets/images/activities/10/3.jpg", "alt": "", "caption": "Sinh viên Việt Nam tại Delhi tưởng niệm Bác" },
+        { "type": "text", "value": "Hội Sinh viên Việt Nam tại Ấn Độ trân trọng kính chúc toàn thể người Việt Nam ở trong và ngoài nước một ngày Quốc khánh 02/09 ý nghĩa, tự hào và đoàn kết." },
+        { "type": "image", "src": "assets/images/activities/10/4.jpg", "alt": "", "caption": "Sinh viên Việt Nam tại Delhi chụp hình lưu niệm" },
+        { "type": "text", "value": "Chúc mừng Quốc khánh nước Cộng hòa xã hội chủ nghĩa Việt Nam!" },
+        { "type": "image", "src": "assets/images/activities/10/5.jpg", "alt": "", "caption": "Sinh viên Việt Nam tại Delhi chụp hình lưu niệm" }
       ],
       "en": [
         { "type": "text", "value": "" },
         { "type": "image", "src": "assets/images/activities/10/1.jpg", "alt": "", "caption": "" },
         { "type": "text", "value": "" },
-        { "type": "image", "src": "assets/images/activities/10/1.jpg", "alt": "", "caption": "" },
+        { "type": "image", "src": "assets/images/activities/10/2.jpg", "alt": "", "caption": "" },
         { "type": "text", "value": "" },
-        { "type": "image", "src": "assets/images/activities/10/1.jpg", "alt": "", "caption": "" },
+        { "type": "image", "src": "assets/images/activities/10/3.jpg", "alt": "", "caption": "" },
         { "type": "text", "value": "" },
-        { "type": "image", "src": "assets/images/activities/10/1.jpg", "alt": "", "caption": "" },
+        { "type": "image", "src": "assets/images/activities/10/4.jpg", "alt": "", "caption": "" },
         { "type": "text", "value": "" },
-        { "type": "text", "value": "" }
+        { "type": "image", "src": "assets/images/activities/10/5.jpg", "alt": "", "caption": "" }
       ]
     },
     "organizerId": 10
@@ -460,42 +465,51 @@
   {
     "id": 11,
     "title": {
-      "vi": "",
-      "en": ""
+      "vi": "🇻🇳🇮🇳KỶ NIỆM 81 NĂM NGÀY QUỐC KHÁNH NƯỚC CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM (02/09/1945 – 02/09/2026) TẠI NALANDA UNIVERSITY",
+      "en": "🇻🇳🇮🇳 COMMEMORATING THE 81ST ANNIVERSARY OF THE NATIONAL DAY OF THE SOCIALIST REPUBLIC OF VIETNAM (02/09/1945 - 02/09/2026) AT NALANDA UNIVERSITY"
     },
-    "date": "2026-0-0",
+    "date": "2026-09-03",
     "location": "Delhi",
-    "category": "",
-    "thumbnail": "assets/images/activities/11/1.jpg",
+    "category": "event",
+    "thumbnail": "assets/images/activities/11/8.jpg",
+    "image": "assets/images/activities/11/8.jpg",
+    "gallery": [
+      "assets/images/activities/11/4.jpg",
+      "assets/images/activities/11/3.jpg",
+      "assets/images/activities/11/2.jpg",
+      "assets/images/activities/11/5.jpg"
+    ],
     "summary": {
-      "vi": "...",
-      "en": "..."
+      "vi": "Dù ở bất kì nơi đâu, bất kì lúc nào, đất nước Việt Nam vẫn luôn ở trong tim...",
+      "en": "Wherever we may be, and whenever it may be, Vietnam will always remain..."
     },
     "featured": false,
     "content": {
       "vi": [
-        { "type": "text", "value": "" },
-        { "type": "image", "src": "assets/images/activities/11/1.jpg", "alt": "", "caption": "" },
-        { "type": "text", "value": "" },
-        { "type": "image", "src": "assets/images/activities/11/1.jpg", "alt": "", "caption": "" },
-        { "type": "text", "value": "" },
-        { "type": "image", "src": "assets/images/activities/11/1.jpg", "alt": "", "caption": "" },
-        { "type": "text", "value": "" },
-        { "type": "image", "src": "assets/images/activities/11/1.jpg", "alt": "", "caption": "" },
-        { "type": "text", "value": "" },
-        { "type": "text", "value": "" }
+        { "type": "image", "src": "assets/images/activities/11/8.jpg", "alt": "", "caption": "Sinh viên Việt Nam tại đại học Nalanda" },
+        { "type": "text", "value": "🇻🇳Dù ở bất kì nơi đâu, bất kì lúc nào, đất nước Việt Nam vẫn luôn ở trong tim mỗi người con đất Việt. Tinh thần hòa đồng, đoàn kết và lòng yêu nước nồng nàn vẫn sáng chói ở Ấn Độ nơi đây. " },
+        { "type": "image", "src": "assets/images/activities/11/12.jpg", "alt": "", "caption": "Đại học Nalanda" },
+        { "type": "text", "value": "🇻🇳Thật vậy, vào ngày 2/9/2026, đông đảo các sinh viên Việt Nam và các tăng ni sinh Việt Nam cùng với sinh viên bạn bè quốc tế tại Đại học Nalanda đã tổ chức chương trình giao lưu nhân ngày kỷ niệm 81 năm Quốc khánh nước Cộng hòa xã hội chủ nghĩa Việt Nam (2/9/1945 - 2/9/2026) trong sự trang trọng nhưng không kém phần hân hoan vui tươi." },
+        { "type": "image", "src": "assets/images/activities/11/3.jpg", "alt": "", "caption": "Phó Hiệu trưởng GS. Sachin Chaturvedi" },
+        { "type": "text", "value": "🇮🇳Với sự tham dự trực tiếp của Phó Hiệu trưởng GS. Sachin Chaturvedi cùng với các cán bộ, giảng viên, bầu không khí của chương trình càng trở nên đặc biệt, ý nghĩa. " },
+        { "type": "image", "src": "assets/images/activities/11/4.jpg", "alt": "", "caption": "Đại sứ Việt Nam tại Ấn Độ Trinh Minh Mạnh đã gửi thông điệp chúc mừng" },
+        { "type": "text", "value": "🇻🇳Cũng tại đây, Đại sứ Việt Nam tại Ấn Độ Trinh Minh Mạnh đã gửi thông điệp chúc mừng, nhấn mạnh tình hữu nghị giữa Việt Nam và Ấn Độ, đồng thời thể hiện sự quan tâm đối với cộng đồng người Việt đang học tập sinh sống tại đại học." },
+        { "type": "image", "src": "assets/images/activities/11/14.jpg", "alt": "", "caption": "Sinh viên tại đại học Nalanda" },
+        { "type": "text", "value": "Hội Sinh Viên Việt Nam tại Ấn Độ vô cùng trân trọng và biết ơn đối với những lời nhắn nhủ, chia sẻ của ngài Đại sứ và ngài Phó Hiệu trưởng. Hội cũng vô cùng trân quý những đóng góp, cố gắng của các sinh viên, tăng ni sinh Việt Nam và bạn bè quốc tế. Qua đây, Hội kính chúc các bạn chân cứng đá mềm, thuận buồm xuôi gió, vững bước trên con đường của mình, chúc cho Việt Nam quốc thái dân an, vững mạnh giàu đẹp, kính chúc cho tình hữu nghị Việt Ấn ngày càng vững chắc, mãi mãi trường tồn!" }
       ],
       "en": [
-        { "type": "text", "value": "" },
-        { "type": "image", "src": "assets/images/activities/11/1.jpg", "alt": "", "caption": "" },
-        { "type": "text", "value": "" },
-        { "type": "image", "src": "assets/images/activities/11/1.jpg", "alt": "", "caption": "" },
-        { "type": "text", "value": "" },
-        { "type": "image", "src": "assets/images/activities/11/1.jpg", "alt": "", "caption": "" },
-        { "type": "text", "value": "" },
-        { "type": "image", "src": "assets/images/activities/11/1.jpg", "alt": "", "caption": "" },
-        { "type": "text", "value": "" },
-        { "type": "text", "value": "" }
+        { "type": "image", "src": "assets/images/activities/11/8.jpg", "alt": "", "caption": "" },
+        { "type": "text", "value": "🇻🇳 Wherever we may be, and whenever it may be, Vietnam will always remain in the heart of every Vietnamese. The spirit of harmony, solidarity, and passionate patriotism continues to shine brightly here in India." },
+        { "type": "image", "src": "assets/images/activities/11/12.jpg", "alt": "", "caption": "" },
+        { "type": "text", "value": "🇻🇳 Indeed, on 2 September 2026, a large number of Vietnamese students and Vietnamese Buddhist monastics, together with international students and friends at Nalanda University, organized a gathering to commemorate the 81st anniversary of the National Day of the Socialist Republic of Vietnam (02/09/1945 - 02/09/2026), in an atmosphere that was both solemn and filled with joy, warmth, and happiness." },
+        { "type": "image", "src": "assets/images/activities/11/3.jpg", "alt": "", "caption": "" },
+        { "type": "text", "value": "🇮🇳 With the direct presence of Vice-Chancellor Prof. Sachin Chaturvedi, together with university staff and faculty members, the atmosphere of the celebration became even more special and meaningful." },
+        { "type": "image", "src": "assets/images/activities/11/4.jpg", "alt": "", "caption": "" },
+        { "type": "text", "value": "🇻🇳 On this occasion, the Ambassador of Vietnam to India, H.E. Trinh Minh Manh, also conveyed a congratulatory message, emphasizing the friendship between Vietnam and India, while expressing his care and attention towards the Vietnamese community currently studying and living at the university." },
+        { "type": "image", "src": "assets/images/activities/11/14.jpg", "alt": "", "caption": "" },
+        { "type": "text", "value": "The Vietnamese Students’ Association in India sincerely expresses our deep appreciation and gratitude for the thoughtful messages and meaningful sharing from H.E. the Ambassador and the Vice-Chancellor. The Association also greatly cherishes and appreciates the contributions, dedication, and efforts of all Vietnamese students, Vietnamese Buddhist monastics, and international friends." },
+        { "type": "text", "value": "Through this occasion, the Association wishes you all strength, resilience, and success, may your journeys ahead be smooth and your paths filled with favorable winds. May Vietnam enjoy peace, prosperity, and enduring strength; and may the friendship between Vietnam and India continue to grow stronger and remain everlasting!" },
+        { "type": "text", "value": "🇻🇳🇮🇳 LONG LIVE THE FRIENDSHIP BETWEEN VIETNAM AND INDIA! 🤝"}
       ]
     },
     "organizerId": 11
@@ -503,30 +517,44 @@
   {
     "id": 12,
     "title": {
-      "vi": "",
+      "vi": "⚽️🇻🇳 Thể Thao | Hội Sinh viên Việt Nam tại Ấn Độ",
       "en": ""
     },
-    "date": "2026-0-0",
+    "date": "2026-09-03",
     "location": "Delhi",
-    "category": "",
+    "category": "sports",
     "thumbnail": "assets/images/activities/12/1.jpg",
+    "image": "assets/images/activities/12/1.jpg",
+    "gallery": [
+      "assets/images/activities/12/2.jpg",
+      "assets/images/activities/12/3.jpg",
+      "assets/images/activities/12/4.jpg",
+      "assets/images/activities/12/5.jpg",
+      "assets/images/activities/12/6.jpg",
+      "assets/images/activities/12/7.jpg",
+      "assets/images/activities/12/8.jpg",
+      "assets/images/activities/12/9.jpg"
+    ],
     "summary": {
-      "vi": "...",
+      "vi": "Nhân dịp kỷ niệm 81 năm ngày Quốc khánh nước Cộng hòa xã hội chủ nghĩa Việt Nam...",
       "en": "..."
     },
     "featured": false,
     "content": {
       "vi": [
-        { "type": "text", "value": "" },
         { "type": "image", "src": "assets/images/activities/12/1.jpg", "alt": "", "caption": "" },
-        { "type": "text", "value": "" },
-        { "type": "image", "src": "assets/images/activities/12/1.jpg", "alt": "", "caption": "" },
-        { "type": "text", "value": "" },
-        { "type": "image", "src": "assets/images/activities/12/1.jpg", "alt": "", "caption": "" },
-        { "type": "text", "value": "" },
-        { "type": "image", "src": "assets/images/activities/12/1.jpg", "alt": "", "caption": "" },
-        { "type": "text", "value": "" },
-        { "type": "text", "value": "" }
+        { "type": "text", "value": "Nhân dịp kỷ niệm 81 năm ngày Quốc khánh nước Cộng hòa xã hội chủ nghĩa Việt Nam (2/9/1945 - 2/9/2026), Hội Sinh viên Việt Nam tại Ấn Độ đã tổ chức 1 buổi giao lưu bóng đá ở Delhi. " },
+        { "type": "image", "src": "assets/images/activities/12/2.jpg", "alt": "", "caption": "" },
+        { "type": "text", "value": "Với mong muốn tạo ra một sân chơi lành mạnh, tăng cường rèn luyện thể chất và đặc biệt là tạo cơ hội để các bạn sinh viên Việt Nam tại Ấn Độ giao lưu, kết nối, gắn kết hơn trong học tập, công việc và đời sống. " },
+        { "type": "image", "src": "assets/images/activities/12/3.jpg", "alt": "", "caption": "" },
+        { "type": "text", "value": "Cùng gác lại chuỗi ngày học và làm việc vất vả, các sinh viên đã có cho mình những giây phút thể thao sảng khoái, năng động. Những bước chạy phá tan mệt mỏi, những giọt mồ hôi mặn chát nhưng chỉ có nụ cười trên môi. Có lẽ đây chính là những lúc các sinh viên thật sự sống và tận hưởng từng giây phút trên sân cỏ." },
+        { "type": "image", "src": "assets/images/activities/12/4.jpg", "alt": "", "caption": "" },
+        { "type": "text", "value": "❤️ Cảm ơn tất cả các bạn đã tham gia và góp phần tạo nên một buổi giao lưu thể thao thật nhiều năng lượng! Hội Sinh viên Việt Nam tại Ấn Độ sẽ cố gắng tổ chức thêm thật nhiều hoạt động thiết thực và ý nghĩa như thế này!" },
+        { "type": "image", "src": "assets/images/activities/12/5.jpg", "alt": "", "caption": "" },
+        { "type": "text", "value": "Hẹn gặp lại! 🇻🇳⚽️" },
+        { "type": "image", "src": "assets/images/activities/12/6.jpg", "alt": "", "caption": "" },
+        { "type": "text", "value": "📷: Tiến Lượng" },
+        { "type": "image", "src": "assets/images/activities/12/7.jpg", "alt": "", "caption": "" }
       ],
       "en": [
         { "type": "text", "value": "" },
