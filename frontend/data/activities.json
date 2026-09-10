@@ -9,6 +9,11 @@
     "location": "Bihar, India",
     "category": "community",
     "thumbnail": "assets/images/activities/1/cover.jpg",
+    "image": "assets/images/activities/1/1.jpg",
+    "gallery": [
+      "assets/images/activities/1/2.jpg",
+      "assets/images/activities/1/3.jpg"
+    ],
     "summary": {
       "vi": "Đoàn từ thiện VSA India đã trao 160 bộ dụng cụ học tập và suất ăn trưa cho học sinh khó khăn tại Bihar.",
       "en": "VSA India charity delegation gave 160 sets of school supplies and lunches to underprivileged students in Bihar."
@@ -16,14 +21,22 @@
     "featured": true,
     "content": {
       "vi": [
-        { "type": "text", "value": "👉 Ngày 31/1/2026, Đoàn từ thiện được dẫn dắt bởi Assistant Professor Dr. Brenda, cùng các sinh viên Việt Nam đến từ trường Đại học Nalanda đã đến thăm và trao quà cho các em học sinh khó khăn ở trường tiểu học Avalokites Vara ở Adalpur, Barachatti, Gaya (Bihar), Ấn Độ." },
         { "type": "image", "src": "assets/images/activities/1/1.jpg", "alt": "Đoàn từ thiện tại trường học", "caption": "Đoàn từ thiện chụp ảnh lưu niệm cùng các em học sinh" },
-        { "type": "text", "value": "🙌 Buổi gặp mặt và trao quà đã diễn ra trong không khí vô cùng nồng ấm. Các em còn chuẩn bị các tiết mục văn nghệ chào đón đoàn. Tổng cộng 160 bộ dụng cụ học tập và suất ăn trưa đã được trao đến cho các bạn học sinh từ lớp 1 đến lớp 3." }
+        { "type": "text", "value": "👉 Ngày 31/1/2026, Đoàn từ thiện được dẫn dắt bởi Assistant Professor Dr. Brenda, cùng các sinh viên Việt Nam đến từ trường Đại học Nalanda đã đến thăm và trao quà cho các em học sinh khó khăn ở trường tiểu học Avalokites Vara ở Adalpur, Barachatti, Gaya (Bihar), Ấn Độ." },
+        { "type": "image", "src": "assets/images/activities/1/2.jpg", "alt": "Đoàn từ thiện tại trường học", "caption": "Đoàn từ thiện chụp ảnh lưu niệm cùng các em học sinh" },
+        { "type": "text", "value": "🙌 Buổi gặp mặt và trao quà đã diễn ra trong không khí vô cùng nồng ấm. Các em còn chuẩn bị các tiết mục văn nghệ chào đón đoàn. Tổng cộng 160 bộ dụng cụ học tập và suất ăn trưa đã được trao đến cho các bạn học sinh từ lớp 1 đến lớp 3." },
+        { "type": "image", "src": "assets/images/activities/1/3.jpg", "alt": "Đoàn từ thiện tại trường học", "caption": "Đoàn từ thiện chụp ảnh lưu niệm cùng các em học sinh" },
+        { "type": "image", "src": "assets/images/activities/1/4.jpg", "alt": "Đoàn từ thiện tại trường học", "caption": "Đoàn từ thiện chụp ảnh lưu niệm cùng các em học sinh" },
+        { "type": "image", "src": "assets/images/activities/1/5.jpg", "alt": "Đoàn từ thiện tại trường học", "caption": "Đoàn từ thiện chụp ảnh lưu niệm cùng các em học sinh" }
       ],
       "en": [
+        { "type": "image", "src": "assets/images/activities/1/1.jpg", "alt": "Đoàn từ thiện tại trường học", "caption": "Charity team taking photo with students" },
         { "type": "text", "value": "On January 31, 2026, a charity delegation led by Assistant Professor Dr. Brenda, along with Vietnamese students from Nalanda University, visited and gave gifts to underprivileged students at Avalokites Vara Primary School in Adalpur, Barachatti, Gaya (Bihar), India." },
-        { "type": "image", "src": "assets/images/activities/1/1.jpg", "alt": "Charity team at school", "caption": "Charity team taking photo with students" },
-        { "type": "text", "value": "The meeting and gift-giving ceremony took place in a very warm atmosphere. The students even prepared cultural performances to welcome the delegation. A total of 160 sets of school supplies and lunches were given to students from grades 1 to 3." }
+        { "type": "image", "src": "assets/images/activities/1/2.jpg", "alt": "Charity team at school", "caption": "Charity team taking photo with students" },
+        { "type": "text", "value": "The meeting and gift-giving ceremony took place in a very warm atmosphere. The students even prepared cultural performances to welcome the delegation. A total of 160 sets of school supplies and lunches were given to students from grades 1 to 3." },
+        { "type": "image", "src": "assets/images/activities/1/3.jpg", "alt": "Charity team at school", "caption": "Charity team taking photo with students" },
+        { "type": "image", "src": "assets/images/activities/1/4.jpg", "alt": "Charity team at school", "caption": "Charity team taking photo with students" },
+        { "type": "image", "src": "assets/images/activities/1/5.jpg", "alt": "Charity team at school", "caption": "Charity team taking photo with students" }
       ]
     },
     "organizerId": 1
@@ -38,6 +51,12 @@
     "location": "Vietnam Embassy, Delhi, India",
     "category": "event",
     "thumbnail": "assets/images/activities/2/1.jpg",
+    "image": "assets/images/activities/2/1.jpg",
+    "gallery": [
+      "assets/images/activities/2/2.jpg",
+      "assets/images/activities/2/3.jpg",
+      "assets/images/activities/2/4.jpg"
+    ],
     "summary": {
       "vi": "Ngày 06/02/2026, Hội Sinh viên Việt Nam tại Ấn Độ đã tham gia Lễ Tết Cộng đồng...",
       "en": "On February 6, 2026, the Vietnamese Student Association in India participated in the Tet Community Festival..."
@@ -75,6 +94,13 @@
     "location": "Nalanda, Bihar, India",
     "category": "culture",
     "thumbnail": "assets/images/activities/3/1.jpg",
+    "image": "assets/images/activities/3/1.jpg",
+    "gallery": [
+      "assets/images/activities/3/2.jpg",
+      "assets/images/activities/3/3.jpg",
+      "assets/images/activities/3/4.jpg",
+      "assets/images/activities/3/5.jpg"
+    ],
     "summary": {
       "vi": "Vào ngày 29 tháng Chạp năm Ất Tỵ, trong thời khắc thiêng liêng...",
       "en": "On the 29th day of the 12th lunar month of the Year of the Snake (2026)..."
@@ -119,9 +145,14 @@
     "location": "Pune, Maharashtra, India",
     "category": "culture",
     "thumbnail": "assets/images/activities/4/1.jpg",
+    "image": "assets/images/activities/4/1.jpg",
+    "gallery": [
+      "assets/images/activities/4/2.jpg",
+      "assets/images/activities/4/3.jpg"
+    ],
     "summary": {
-      "vi": "...",
-      "en": "..."
+      "vi": "Hằng năm, Trường Đại học tại Pune tổ chức...",
+      "en": "Every year, the University of Pune hosts the..."
     },
     "featured": false,
     "content": {
@@ -160,9 +191,18 @@
     "location": "Delhi",
     "category": "culture",
     "thumbnail": "assets/images/activities/5/1.jpg",
+    "image": "assets/images/activities/5/1.jpg",
+    "gallery": [
+      "assets/images/activities/5/2.jpg",
+      "assets/images/activities/5/3.jpg",
+      "assets/images/activities/5/4.jpg",
+      "assets/images/activities/5/5.jpg",
+      "assets/images/activities/5/6.jpg",
+      "assets/images/activities/5/7.jpg"
+    ],
     "summary": {
       "vi": "Vào ngày 28/03/2026, Hội Sinh viên Việt Nam...",
-      "en": "..."
+      "en": "On March 28, 2026, the Vietnamese Students’ Association..."
     },
     "featured": false,
     "content": {
@@ -205,6 +245,12 @@
     "location": "Delhi",
     "category": "event",
     "thumbnail": "assets/images/activities/6/1.jpg",
+    "image": "assets/images/activities/6/1.jpg",
+    "gallery": [
+      "assets/images/activities/6/2.jpg",
+      "assets/images/activities/6/3.jpg",
+      "assets/images/activities/6/4.jpg"
+    ],
     "summary": {
       "vi": "Hội Sinh viên Việt Nam tại Ấn Độ (VSAI) vô cùng vinh dự khi được...",
       "en": "The Vietnamese Students’ Association in India (VSAI) was deeply honored..."
@@ -247,6 +293,11 @@
     "location": "Delhi",
     "category": "external",
     "thumbnail": "assets/images/activities/7/1.jpg",
+    "image": "assets/images/activities/7/1.jpg",
+    "gallery": [
+      "assets/images/activities/7/2.jpg",
+      "assets/images/activities/7/3.jpg"
+    ],
     "summary": {
       "vi": "🗓 Ngày 7/8, trong khuôn khổ Đối thoại Lãnh đạo trẻ BRICS 3.0 đang diễn ra...",
       "en": "🗓 On August 7th, within the framework of the BRICS 3.0 Young Leaders Dialogue taking place..."
@@ -283,6 +334,12 @@
     "location": "Delhi",
     "category": "external",
     "thumbnail": "assets/images/activities/8/1.jpg",
+    "image": "assets/images/activities/8/1.jpg",
+    "gallery": [
+      "assets/images/activities/8/2.jpg",
+      "assets/images/activities/8/3.jpg",
+      "assets/images/activities/8/4.jpg"
+    ],
     "summary": {
       "vi": "HSVVN tại Ấn Độ vinh dự tham gia Hội nghị BRICS CCI, một diễn đàn...",
       "en": "Vietnamese students in India are honored to participate in the BRICS CCI conference..."
@@ -318,6 +375,12 @@
     "location": "Delhi",
     "category": "",
     "thumbnail": "assets/images/activities/9/1.jpg",
+    "image": "assets/images/activities/9/1.jpg",
+    "gallery": [
+      "assets/images/activities/9/2.jpg",
+      "assets/images/activities/9/3.jpg",
+      "assets/images/activities/9/4.jpg"
+    ],
     "summary": {
       "vi": "...",
       "en": "..."
