@@ -192,7 +192,7 @@ const TRANSLATIONS = {
         newsCategory: { announcement: 'Thông báo', event: 'Sự kiện', general: 'Chung' },
         blogCategory: { study: 'Học tập', life: 'Cuộc sống', culture: 'Văn hóa', travel: 'Du lịch', food: 'Ẩm thực', experience: 'Trải nghiệm' },
         guideCategory: { visa: 'Visa', residence: 'Chỗ ở', university: 'Trường học', banking: 'Ngân hàng', sim: 'SIM & Internet', transport: 'Di chuyển', healthcare: 'Y tế', food: 'Ẩm thực', shopping: 'Mua sắm', safety: 'An toàn', emergency: 'Khẩn cấp', culture: 'Văn hóa' },
-        position: { president: 'Chủ tịch', vice_president: 'Phó Chủ tịch', secretary: 'Thư ký', treasurer: 'Thủ quỹ', member: 'Ủy viên', advisor: 'Cố vấn' },
+        position: { president: 'Chủ tịch', vice_president: 'Phó Chủ tịch', commissioner:"Ủy viên", secretary: 'Thư ký', treasurer: 'Thủ quỹ', member: 'Ủy viên', advisor: 'Cố vấn' },
         hero: { title: 'Kết nối sinh viên Việt Nam tại Ấn Độ', subtitle: 'Hội Sinh viên Việt Nam tại Ấn Độ – VSA India', cta: { activities: 'Xem hoạt động', about: 'Tìm hiểu thêm' } },
         about: 
         { 
@@ -245,7 +245,7 @@ const TRANSLATIONS = {
         newsCategory: { announcement: 'Announcement', event: 'Event', general: 'General' },
         blogCategory: { study: 'Study', life: 'Life', culture: 'Culture', travel: 'Travel', food: 'Food', experience: 'Experience' },
         guideCategory: { visa: 'Visa', residence: 'Residence', university: 'University', banking: 'Banking', sim: 'SIM & Internet', transport: 'Transport', healthcare: 'Healthcare', food: 'Food', shopping: 'Shopping', safety: 'Safety', emergency: 'Emergency', culture: 'Culture' },
-        position: { president: 'President', vice_president: 'Vice President', secretary: 'Secretary', treasurer: 'Treasurer', member: 'Member', advisor: 'Advisor' },
+        position: { president: 'President', vice_president: 'Vice President', commissioner:"Commissioner", secretary: 'Secretary', treasurer: 'Treasurer', member: 'Member', advisor: 'Advisor' },
         hero: { title: 'Connecting Vietnamese Students in India', subtitle: 'Vietnamese Students\' Association in India – VSA India', cta: { activities: 'View Activities', about: 'Learn More' } },
         about: { title: 'What is VSA India?', text1: 'The Vietnamese Students\' Association in India (VSA India) is the representative organization for Vietnamese students studying and living in India.', text2: 'We connect, support, and create opportunities for Vietnamese students in India to develop in academics, culture, and community.', cta: 'Learn More About VSA India', image: 'VSA India Activity' },
         activities: { title: 'Featured Activities', viewAll: 'View All →', page: { subtitle: 'VSA India activities and events' } },
