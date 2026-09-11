@@ -107,7 +107,7 @@
       "en": "Spring Homecoming Program 2026"
     },
     "date": "2026-01-28",
-    "category": "event",
+    "category": "announcement",
     "thumbnail": "assets/images/news/4/1.jpg",
     "summary": {
       "vi": "🌸 Tết là dịp để người Việt Nam được đoàn tụ bên gia đình,...",
@@ -167,7 +167,7 @@
       "en": "Vietnamese Student Achieves Outstanding Academic Success at Delhi University"
     },
     "date": "2026-03-14",
-    "category": "event",
+    "category": "general",
     "thumbnail": "assets/images/news/6/1.jpg",
     "summary": {
       "vi": "🎉 Thay mặt Hội Sinh viên Việt Nam tại Ấn Độ...",
@@ -212,7 +212,7 @@
       "en": "NOTICE REGARDING THE IMPLEMENTATION OF ELECTRONIC PASSPORT"
     },
     "date": "2026-03-17",
-    "category": "event",
+    "category": "announcement",
     "thumbnail": "assets/images/news/7/1.jpg",
     "summary": {
       "vi": "THÔNG BÁO VỀ VIỆC TRIỂN KHAI CẤP HỘ CHIẾU ĐIỆN TỬ...",
@@ -631,62 +631,76 @@
   {
     "id": 18,
     "title": {
-      "vi": "",
-      "en": ""
+      "vi": "🇮🇳KRISHNA JANMASHTAMI 2026 – LỄ HỘI KỶ NIỆM NGÀY ĐỨC KRISHNA GIÁNG SINH",
+      "en": "🇮🇳KRISHNA JANMASHTAMI 2026 – FESTIVAL CELEBRATING THE BIRTH OF KRISHNA"
     },
-    "date": "2026-0-0",
-    "category": "",
+    "date": "2026-09-04",
+    "category": "culture",
     "thumbnail": "assets/images/news/18/1.jpg",
     "summary": {
-      "vi": "...",
-      "en": "..."
+      "vi": "Trong đời sống văn hóa và tinh thần của Ấn Độ, Krishna Janmashtami là một...",
+      "en": "In the cultural and spiritual life of India, Krishna Janmashtami is..."
     },
     "featured": false,
     "content": {
       "vi": [
-        { "type": "text", "value": "" },
+        { "type": "text", "value": "Trong đời sống văn hóa và tinh thần của Ấn Độ, Krishna Janmashtami là một trong những lễ hội quan trọng của cộng đồng Hindu, được tổ chức hằng năm để kỷ niệm sự giáng sinh của Krishna tại Mathura." },
         { "type": "image", "src": "assets/images/news/18/1.jpg", "alt": "", "caption": "" },
-        { "type": "text", "value": "" },
-        { "type": "text", "value": "" },
-        { "type": "text", "value": "" }
+        { "type": "text", "value": "Theo truyền thống Hindu, Krishna được xem là một hóa thân của thần Vishnu, gắn liền với nhiều câu chuyện, truyền thuyết và giáo lý có ảnh hưởng sâu rộng trong đời sống tinh thần của người Hindu. Hình tượng Krishna thường được biết đến như biểu tượng của tình yêu, lòng từ bi, trí tuệ và sự chính trực." },
+        { "type": "text", "value": "Theo truyền thống, Krishna được sinh vào lúc nửa đêm, vì vậy nhiều nghi lễ và hoạt động mừng Janmashtami cũng được tổ chức vào thời điểm này. Các tín đồ thường cầu nguyện, ca hát, nhịn ăn, trang hoàng đền thờ và tái hiện những câu chuyện gắn với cuộc đời của Krishna." },
+        { "type": "text", "value": "Một hoạt động đặc trưng trong dịp lễ là Dahi Handi - các nhóm người cùng tạo thành “kim tự tháp người” để tiếp cận và phá những chiếc nồi đất chứa sữa đông được treo trên cao. Hoạt động này gắn với những câu chuyện dân gian về Krishna khi còn nhỏ và tạo nên không khí sôi động tại nhiều địa phương." },
+        { "type": "text", "value": "Janmashtami không chỉ là một lễ hội tôn giáo mà còn là dịp để cộng đồng cùng gìn giữ, tái hiện và lan tỏa những giá trị văn hóa truyền thống, qua đó phản ánh sự đa dạng và phong phú trong đời sống tinh thần của Ấn Độ." }
       ],
       "en": [
-        { "type": "text", "value": "" },
+        { "type": "text", "value": "In the cultural and spiritual life of India, Krishna Janmashtami is one of the most important festivals of the Hindu community, celebrated annually to commemorate the birth of Krishna in Mathura." },
         { "type": "image", "src": "assets/images/news/18/1.jpg", "alt": "", "caption": "" },
-        { "type": "text", "value": "" },
-        { "type": "text", "value": "" },
-        { "type": "text", "value": "" }
+        { "type": "text", "value": "In Hindu tradition, Krishna is considered an incarnation of the god Vishnu, associated with many stories, legends, and teachings that have a profound influence on the spiritual life of Hindus. Krishna's image is often known as a symbol of love, compassion, wisdom, and integrity." },
+        { "type": "text", "value": "Traditionally, Krishna was born at midnight, so many rituals and activities celebrating Janmashtami are held at this time. Devotees typically pray, sing, fast, decorate shrines, and reenact stories related to Krishna's life." },
+        { "type": "text", "value": "A characteristic activity during the festival is Dahi Handi – groups of people form 'human pyramids' to approach and break open earthenware pots containing curdled milk that are suspended high above the ground. This activity is linked to folk tales about Krishna's childhood and creates a lively atmosphere in many localities." },
+        { "type": "text", "value": "Janmashtami is not only a religious festival but also an opportunity for the community to preserve, recreate, and spread traditional cultural values, thereby reflecting the diversity and richness of India's spiritual life." }
       ]
     }
   },
   {
     "id": 19,
     "title": {
-      "vi": "",
-      "en": ""
+      "vi": "🇻🇳 CHÚC MỪNG 3 SINH VIÊN VIỆT NAM XUẤT SẮC ĐẠT HUY CHƯƠNG VÀNG (THỦ KHOA) TẠI ĐẠI HỌC NALANDA – VINH DỰ ĐƯỢC TỔNG THỐNG ẤN ĐỘ TRAO TẶNG",
+      "en": "🇬🇧 CONGRATULATIONS TO THREE OUTSTANDING VIETNAMESE STUDENTS AWARDED GOLD MEDALS (VALEDICTORIANS) AT Nalanda University – HONORED BY THE PRESIDENT OF INDIA"
     },
-    "date": "2026-0-0",
-    "category": "",
+    "date": "2026-03-31",
+    "category": "general",
     "thumbnail": "assets/images/news/19/1.jpg",
     "summary": {
-      "vi": "...",
-      "en": "..."
+      "vi": "Ngày 31/3/2026, Đại học Nalanda (Rajgir, bang Bihar, Ấn Độ) đã long trọng tổ chức...",
+      "en": "On March 31, 2026, Nalanda University (Rajgir, Bihar, India) solemnly held..."
     },
     "featured": false,
     "content": {
       "vi": [
-        { "type": "text", "value": "" },
         { "type": "image", "src": "assets/images/news/19/1.jpg", "alt": "", "caption": "" },
-        { "type": "text", "value": "" },
-        { "type": "text", "value": "" },
-        { "type": "text", "value": "" }
+        { "type": "text", "value": "Ngày 31/3/2026, Đại học Nalanda (Rajgir, bang Bihar, Ấn Độ) đã long trọng tổ chức Lễ tốt nghiệp lần thứ hai, đánh dấu cột mốc quan trọng trong hành trình học thuật của hơn 600 tân Tiến sĩ và Thạc sĩ đến từ 31 quốc gia trên thế giới." },
+        { "type": "image", "src": "assets/images/news/19/2.jpg", "alt": "", "caption": "" },
+        { "type": "text", "value": "Buổi lễ càng thêm trang trọng và ý nghĩa với sự hiện diện cao quý của Ngài Tổng thống Ấn Độ Smt. Droupadi Murmu; Ngài Thống đốc bang Bihar, Trung tướng Syed Ata Hasnain; Ngài Bộ trưởng Bộ Ngoại giao Ấn Độ, Tiến sĩ S. Jaishankar; Ngài Thư ký (phụ trách khu vực phía Đông), Bộ Ngoại giao Ấn Độ, Shri P. Kumaran; cùng các học giả, đại diện các Đại sứ quán, cơ quan ngoại giao của nhiều quốc gia, và gia đình, người thân đến tham dự, chung vui và chúc mừng." },
+        { "type": "image", "src": "assets/images/news/19/3.jpg", "alt": "", "caption": "" },
+        { "type": "text", "value": "Đặc biệt, xin chúc mừng 3 sinh viên Việt Nam thuộc các khóa 2018–2020, 2021–2023 và 2023–2025 đã xuất sắc giành Huy chương Vàng (Thủ khoa), vinh dự được trực tiếp Ngài Tổng thống Droupadi Murmu trao tặng:" },
+        { "type": "text", "value": "1. Nguyễn Huỳnh Xuân Trinh (Sư cô Lạc Diệu Nga) – Thủ khoa Thạc sỹ chuyên ngành Nghiên cứu Phật học, So sánh Triết học Tôn giáo (Khóa 2018–2020). " },
+        { "type": "text", "value": "2. Phạm Thị Thu Thảo (Sư cô Thiên Đức) – Thủ khoa Thạc sỹ chuyên ngành Nghiên cứu Phật học, So sánh Triết học Tôn giáo (Khóa 2021–2023). " },
+        { "type": "text", "value": "3. Ngô Võ Đình Huấn (Thầy Thích Tịnh Nghiêm) – Thủ khoa Thạc sỹ chuyên ngành Nghiên cứu Phật học, So sánh Triết học Tôn giáo (Khóa 2023–2025)." },
+        { "type": "image", "src": "assets/images/news/19/4.jpg", "alt": "", "caption": "" },
+        { "type": "text", "value": "Đây không chỉ là thành quả xứng đáng cho quá trình học tập và nghiên cứu đầy nỗ lực, mà còn là niềm tự hào lớn lao của Quý Thầy, Quý Sư cô; đồng thời là niềm vinh dự chung của cộng đồng người Việt tại Nalanda nói riêng và toàn thể sinh viên Việt Nam đang học tập và nghiên cứu tại Ấn Độ nói chung." }
       ],
       "en": [
-        { "type": "text", "value": "" },
         { "type": "image", "src": "assets/images/news/19/1.jpg", "alt": "", "caption": "" },
-        { "type": "text", "value": "" },
-        { "type": "text", "value": "" },
-        { "type": "text", "value": "" }
+        { "type": "text", "value": "On March 31, 2026, Nalanda University (Rajgir, Bihar, India) solemnly held its Second Convocation Ceremony, marking an important milestone in the academic journey of over 600 PhD and Master’s graduates from 31 countries worldwide." },
+        { "type": "image", "src": "assets/images/news/19/2.jpg", "alt": "", "caption": "" },
+        { "type": "text", "value": "The ceremony was honored by the distinguished presence of Her Excellency Droupadi Murmu, President of India; Lieutenant General Syed Ata Hasnain, Governor of Bihar; Dr. S. Jaishankar, Minister of External Affairs of India; Shri P. Kumaran, Secretary (East), Ministry of External Affairs; along with scholars, representatives of diplomatic missions, and families of the graduates." },
+        { "type": "image", "src": "assets/images/news/19/3.jpg", "alt": "", "caption": "" },
+        { "type": "text", "value": "In particular, heartfelt congratulations to three Vietnamese students from the 2018–2020, 2021–2023, and 2023–2025 cohorts who were awarded Gold Medals (Valedictorian distinction) and had the honor of receiving their awards directly from President Droupadi Murmu:" },
+        { "type": "text", "value": "1. Nguyen Huynh Xuan Trinh (Venerable Lac Dieu Nga) – Valedictorian, Master’s Program in Buddhist Studies, Comparative Religious Philosophy (2018–2020)." },
+        { "type": "text", "value": "2. Pham Thi Thu Thao (Venerable Thien Duc) – Valedictorian, Master’s Program in Buddhist Studies, Comparative Religious Philosophy (2021–2023)." },
+        { "type": "text", "value": "3. Ngo Vo Dinh Huan (Venerable Thich Tinh Nghiem) – Valedictorian, Master’s Program in Buddhist Studies, Comparative Religious Philosophy (2023–2025)." },
+        { "type": "image", "src": "assets/images/news/19/4.jpg", "alt": "", "caption": "" },
+        { "type": "text", "value": "These achievements not only reflect their dedication and excellence in academic pursuit, but also represent a great source of pride for their monastic communities, as well as for the Vietnamese community at Nalanda and Vietnamese students across India." }
       ]
     }
   },
