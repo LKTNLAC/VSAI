@@ -2953,14 +2953,16 @@ function initContactForm() {
         btn.textContent = state.currentLang === 'vi' ? 'Đang gửi...' : 'Sending...';
         btn.disabled = true;
         
-        // Hide old success message
         if (successDiv) {
             successDiv.style.display = 'none';
         }
         
+        // === TỰ ĐỘNG PHÁT HIỆN API URL ===
+        const API_URL = getApiUrl();
+        console.log('[VSA] 📤 Gửi form đến:', API_URL);
+        
         try {
-            // Gọi API backend
-            const response = await fetch('/api/contact', {
+            const response = await fetch(API_URL, {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
@@ -2971,7 +2973,6 @@ function initContactForm() {
             const data = await response.json();
             
             if (data.success) {
-                // Hiển thị thành công
                 if (successDiv) {
                     successDiv.textContent = data.message;
                     successDiv.style.display = 'block';
@@ -2982,24 +2983,50 @@ function initContactForm() {
             }
             
         } catch (error) {
-            console.error('[VSA] Contact error:', error);
+            console.error('[VSA] ❌ Contact error:', error);
             alert(state.currentLang === 'vi' 
                 ? 'Không thể kết nối đến máy chủ. Vui lòng thử lại sau.' 
                 : 'Cannot connect to server. Please try again later.'
             );
         }
         
-        // Re-enable button
         btn.textContent = state.currentLang === 'vi' ? 'Gửi tin nhắn' : 'Send Message';
         btn.disabled = false;
         
-        // Hide success after 5s
         setTimeout(() => {
             if (successDiv) {
                 successDiv.style.display = 'none';
             }
         }, 5000);
     });
+}
+
+// =====================================================
+// HELPER: TỰ ĐỘNG PHÁT HIỆN API URL
+// =====================================================
+
+function getApiUrl() {
+    const hostname = window.location.hostname;
+    const protocol = window.location.protocol;
+    
+    // Nếu chạy trên VPS (domain thật)
+    if (hostname === 'svvntaiando.io.vn' || hostname === 'www.svvntaiando.io.vn') {
+        return '/api/contact';
+    }
+    
+    // Nếu chạy trên IP VPS
+    if (hostname === '34.87.184.165') {
+        return '/api/contact';
+    }
+    
+    // Nếu chạy Live Server hoặc localhost
+    if (hostname === 'localhost' || hostname === '127.0.0.1' || hostname === '') {
+        // Gọi API đến VPS production
+        return 'https://svvntaiando.io.vn/api/contact';
+    }
+    
+    // Mặc định: dùng relative path
+    return '/api/contact';
 }
 
 // =====================================================
