@@ -71,18 +71,18 @@
     "name": "Nguyễn Thanh Vũ",
     "position": "vice_president",
     "image": "assets/images/members/4.jpg",
-    "city": "Rajgir",
+    "city": "Ahmedabad",
     "birthday": "15-08-1999",
-    "major": "Buddhist Studies",
-    "university": "Nalanda University",
+    "major": "International Studies",
+    "university": "Gujarat University",
     "hometown": "Việt Nam",
     "quote": {
       "vi": ".",
       "en": "."
     },
     "bio": {
-      "vi": "Phó Chủ tịch Hội Sinh viên Việt Nam tại Ấn Độ. Thạc sĩ tại Đại học Nalanda.",
-      "en": "Vice President of VSA India. Master at Nalanda University."
+      "vi": "Phó Chủ tịch Hội Sinh viên Việt Nam tại Ấn Độ. Tiến sĩ tại Đại học Gujarat.",
+      "en": "Vice President of VSA India. Researcher at Gujarat University."
     },
     "email": "@gmail.com",
     "facebook": "https://facebook.com/...",
@@ -95,7 +95,7 @@
     "image": "assets/images/members/5.jpg",
     "city": "Rajgir",
     "birthday": "09-03-1999",
-    "major": "Buddhist Studies",
+    "major": "Hindu Studies",
     "university": "Nalanda University",
     "hometown": "Việt Nam",
     "quote": {

@@ -28,8 +28,8 @@
     "students": 20,
     "universities": ["Gautam Buddha University"],
     "representativeId": null,
-    "lat": 28.4013,
-    "lng": 77.3163
+    "lat": 28.419329,
+    "lng": 77.524555
   },
   {
     "city": "Pune",
@@ -58,7 +58,7 @@
   {
     "city": "Thiruvananthapuram",
     "students": 5,
-    "universities": ["University of Kerala", "Naval Academy"],
+    "universities": ["University of Kerala"],
     "representativeId": null,
     "lat": 8.5241,
     "lng": 76.9366
@@ -150,5 +150,29 @@
     "representativeId": null,
     "lat": 30.3398,
     "lng": 76.3869
+  },
+  {
+    "city": "Kannur",
+    "students": 1,
+    "universities": ["Indian Naval Academy - INA Ezhimala"],
+    "representativeId": null,
+    "lat": 12.041244,
+    "lng": 75.193382
+  },
+  {
+    "city": "Bylakuppe",
+    "students": 1,
+    "universities": ["Sera Mey Monastic University"],
+    "representativeId": null,
+    "lat": 12.420429,
+    "lng": 75.952035
+  },
+  {
+    "city": "Khairagarh",
+    "students": 1,
+    "universities": ["Indira Kala Sangeet Vishwadyalaya University "],
+    "representativeId": null,
+    "lat": 21.420622, 
+    "lng": 80.978512
   }
 ]

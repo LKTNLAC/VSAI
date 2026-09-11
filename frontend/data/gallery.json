@@ -472,10 +472,10 @@
     "id": 10,
     "activityId": 10,
     "title": {
-      "vi": "HỘI SINH VIÊN VIỆT NAM TẠI ẤN ĐỘ THAM DỰ HỘI NGHỊ BRICS CCI",
-      "en": "VIETNAMESE STUDENTS’ ASSOCIATION IN INDIA PARTICIPATES IN BRICS CCI CONFERENCE"
+      "vi": "LỄ DÂNG HOA KỶ NIỆM 81 NĂM QUỐC KHÁNH NƯỚC CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM (02/09/1945 - 02/09/2026)",
+      "en": "FLOWER-LAUNCHING CEREMONY COMMEMORATING THE 81ST ANNIVERSARY OF THE NATIONAL DAY OF THE SOCIALIST REPUBLIC OF VIETNAM (SEPTEMBER 2, 1945 - SEPTEMBER 2, 2026)"
     },
-    "date": "2026-08-20",
+    "date": "2026-09-02",
     "location": "Delhi",
     "category": "external",
     "cover": "assets/images/activities/10/1.jpg",
@@ -483,32 +483,40 @@
       {
         "src": "assets/images/activities/10/1.jpg",
         "caption": {
-          "vi": "",
-          "en": ""
+          "vi": "Tượng Hồ Chí Minh ở công viên G20, Delhi",
+          "en": "Ho Chi Minh statue at G20 park, Delhi"
         },
         "alt": ""
       },
       {
         "src": "assets/images/activities/10/2.jpg",
         "caption": {
-          "vi": "",
-          "en": ""
+          "vi": "Đồng chí ủy viên Nguyễn Gia Phúc dâng hoa",
+          "en": "Comrade Nguyen Gia Phuc, a member of the committee, delivered a flower."
         },
         "alt": ""
       },
       {
         "src": "assets/images/activities/10/3.jpg",
         "caption": {
-          "vi": "",
-          "en": ""
+          "vi": "Sinh viên Việt Nam tại Delhi tưởng niệm Bác",
+          "en": "Vietnamese students in Delhi commemorate President Ho Chi Minh."
         },
         "alt": ""
       },
       {
         "src": "assets/images/activities/10/4.jpg",
         "caption": {
-          "vi": "",
-          "en": ""
+          "vi": "Sinh viên Việt Nam tại Delhi chụp hình lưu niệm",
+          "en": "Vietnamese students in Delhi pose for a commemorative photo."
+        },
+        "alt": ""
+      },
+      {
+        "src": "assets/images/activities/10/5.jpg",
+        "caption": {
+          "vi": "Sinh viên Việt Nam tại Delhi chụp hình lưu niệm",
+          "en": "Vietnamese students in Delhi pose for a commemorative photo."
         },
         "alt": ""
       }
@@ -521,7 +529,7 @@
       "vi": "HỘI SINH VIÊN VIỆT NAM TẠI ẤN ĐỘ THAM DỰ HỘI NGHỊ BRICS CCI",
       "en": "VIETNAMESE STUDENTS’ ASSOCIATION IN INDIA PARTICIPATES IN BRICS CCI CONFERENCE"
     },
-    "date": "2026-08-20",
+    "date": "2026-09-03",
     "location": "Delhi",
     "category": "external",
     "cover": "assets/images/activities/11/1.jpg",
@@ -545,16 +553,104 @@
       {
         "src": "assets/images/activities/11/3.jpg",
         "caption": {
-          "vi": "",
-          "en": ""
+          "vi": "Phó Hiệu trưởng GS. Sachin Chaturvedi",
+          "en": "Vice principal Prof. Sachin Chaturvedi"
         },
         "alt": ""
       },
       {
         "src": "assets/images/activities/11/4.jpg",
         "caption": {
-          "vi": "",
-          "en": ""
+          "vi": "Đại sứ Việt Nam tại Ấn Độ Trinh Minh Mạnh đã gửi thông điệp chúc mừng",
+          "en": "H.E Embassador of Vietnam in India Trinh Minh Manh delivery a speech"
+        },
+        "alt": ""
+      },
+      {
+        "src": "assets/images/activities/11/5.jpg",
+        "caption": {
+          "vi": "Hội sinh viên Việt Nam ở Nalanda",
+          "en": "Vietnamese Student Union in Nalanda"
+        },
+        "alt": ""
+      },
+      {
+        "src": "assets/images/activities/11/6.jpg",
+        "caption": {
+          "vi": "Hội sinh viên Việt Nam ở Nalanda",
+          "en": "Vietnamese Student Union in Nalanda"
+        },
+        "alt": ""
+      },
+      {
+        "src": "assets/images/activities/11/7.jpg",
+        "caption": {
+          "vi": "Hội sinh viên Việt Nam ở Nalanda",
+          "en": "Vietnamese Student Union in Nalanda"
+        },
+        "alt": ""
+      },
+      {
+        "src": "assets/images/activities/11/8.jpg",
+        "caption": {
+          "vi": "Hội sinh viên Việt Nam ở Nalanda",
+          "en": "Vietnamese Student Union in Nalanda"
+        },
+        "alt": ""
+      },
+      {
+        "src": "assets/images/activities/11/9.jpg",
+        "caption": {
+          "vi": "Hội sinh viên Việt Nam ở Nalanda",
+          "en": "Vietnamese Student Union in Nalanda"
+        },
+        "alt": ""
+      },
+      {
+        "src": "assets/images/activities/11/10.jpg",
+        "caption": {
+          "vi": "Sinh viên Việt Nam cùng sinh viên Ấn Độ",
+          "en": "Vietnamese students with Indian students"
+        },
+        "alt": ""
+      },
+      {
+        "src": "assets/images/activities/11/11.jpg",
+        "caption": {
+          "vi": "Sinh viên Việt Nam cùng sinh viên Ấn Độ",
+          "en": "Vietnamese students with Indian students"
+        },
+        "alt": ""
+      },
+      {
+        "src": "assets/images/activities/11/12.jpg",
+        "caption": {
+          "vi": "Sinh viên Việt Nam cùng sinh viên Ấn Độ",
+          "en": "Vietnamese students with Indian students"
+        },
+        "alt": ""
+      },
+      {
+        "src": "assets/images/activities/11/13.jpg",
+        "caption": {
+          "vi": "Sinh viên Việt Nam cùng sinh viên Ấn Độ",
+          "en": "Vietnamese students with Indian students"
+        },
+        "alt": ""
+      },
+      {
+        "src": "assets/images/activities/11/14.jpg",
+        "caption": {
+          "vi": "Sinh viên Việt Nam cùng sinh viên Ấn Độ",
+          "en": "Vietnamese students with Indian students"
+        },
+        "alt": ""
+      },
+      {
+        "src": "assets/images/activities/11/15.jpg",
+        "caption": {
+          "vi": "Sinh viên Việt Nam cùng sinh viên Ấn Độ",
+          "en": "Vietnamese students with Indian students"
         },
         "alt": ""
       }
@@ -567,7 +663,7 @@
       "vi": "HỘI SINH VIÊN VIỆT NAM TẠI ẤN ĐỘ THAM DỰ HỘI NGHỊ BRICS CCI",
       "en": "VIETNAMESE STUDENTS’ ASSOCIATION IN INDIA PARTICIPATES IN BRICS CCI CONFERENCE"
     },
-    "date": "2026-08-20",
+    "date": "2026-09-04",
     "location": "Delhi",
     "category": "external",
     "cover": "assets/images/activities/12/1.jpg",
@@ -575,16 +671,16 @@
       {
         "src": "assets/images/activities/12/1.jpg",
         "caption": {
-          "vi": "",
-          "en": ""
+          "vi": "Trái bóng của Hội sinh viên Việt Nam tại Ấn Độ",
+          "en": "VSAI's ball"
         },
         "alt": ""
       },
       {
         "src": "assets/images/activities/12/2.jpg",
         "caption": {
-          "vi": "",
-          "en": ""
+          "vi": "Đội bóng sinh viên Việt Nam",
+          "en": "Vietnamese student football team"
         },
         "alt": ""
       },
@@ -603,6 +699,78 @@
           "en": ""
         },
         "alt": ""
+      },
+      {
+        "src": "assets/images/activities/12/5.jpg",
+        "caption": {
+          "vi": "",
+          "en": ""
+        },
+        "alt": ""
+      },
+      {
+        "src": "assets/images/activities/12/6.jpg",
+        "caption": {
+          "vi": "",
+          "en": ""
+        },
+        "alt": ""
+      },
+      {
+        "src": "assets/images/activities/12/7.jpg",
+        "caption": {
+          "vi": "",
+          "en": ""
+        },
+        "alt": ""
+      },
+      {
+        "src": "assets/images/activities/12/8.jpg",
+        "caption": {
+          "vi": "",
+          "en": ""
+        },
+        "alt": ""
+      },
+      {
+        "src": "assets/images/activities/12/9.jpg",
+        "caption": {
+          "vi": "",
+          "en": ""
+        },
+        "alt": ""
+      },
+      {
+        "src": "assets/images/activities/12/10.jpg",
+        "caption": {
+          "vi": "",
+          "en": ""
+        },
+        "alt": ""
+      },
+      {
+        "src": "assets/images/activities/12/11.jpg",
+        "caption": {
+          "vi": "",
+          "en": ""
+        },
+        "alt": ""
+      },
+      {
+        "src": "assets/images/activities/12/12.jpg",
+        "caption": {
+          "vi": "",
+          "en": ""
+        },
+        "alt": ""
+      },
+      {
+        "src": "assets/images/activities/12/13.jpg",
+        "caption": {
+          "vi": "",
+          "en": ""
+        },
+        "alt": ""
       }
     ]
   },
@@ -610,10 +778,10 @@
     "id": 13,
     "activityId": 13,
     "title": {
-      "vi": "HỘI SINH VIÊN VIỆT NAM TẠI ẤN ĐỘ THAM DỰ HỘI NGHỊ BRICS CCI",
-      "en": "VIETNAMESE STUDENTS’ ASSOCIATION IN INDIA PARTICIPATES IN BRICS CCI CONFERENCE"
+      "vi": "🩵 HỘI NGHỊ SƠ KẾT GIỮA NHIỆM KỲ THỰC HIỆN NGHỊ QUYẾT ĐẠI HỘI XI HỘI SINH VIÊN VIỆT NAM ",
+      "en": "🩵 MID-TERM REVIEW CONFERENCE ON IMPLEMENTING THE RESOLUTION OF THE 11TH CONGRESS OF THE VIETNAMESE STUDENT ASSOCIATION"
     },
-    "date": "2026-08-20",
+    "date": "2026-09-04",
     "location": "Delhi",
     "category": "external",
     "cover": "assets/images/activities/13/1.jpg",
@@ -621,32 +789,64 @@
       {
         "src": "assets/images/activities/13/1.jpg",
         "caption": {
-          "vi": "",
-          "en": ""
+          "vi": "Hội sinh viên Việt Nam ở nước ngoài",
+          "en": "Vietnamese Student Association Abroad"
         },
         "alt": ""
       },
       {
         "src": "assets/images/activities/13/2.jpg",
         "caption": {
-          "vi": "",
-          "en": ""
+          "vi": "Các thành viên ban chấp hành ở các Hội sinh viên Việt Nam ngoài nước",
+          "en": "Executive committee members of Vietnamese student associations abroad."
         },
         "alt": ""
       },
       {
         "src": "assets/images/activities/13/3.jpg",
         "caption": {
-          "vi": "",
-          "en": ""
+          "vi": "Đồng chí Nguyễn Minh Triết phát biểu",
+          "en": "Comrade Nguyen Minh Triet delivered a speech."
         },
         "alt": ""
       },
       {
         "src": "assets/images/activities/13/4.jpg",
         "caption": {
-          "vi": "",
-          "en": ""
+          "vi": "Sân khấu Hội nghị sơ kết giữa nhiệm kỳ",
+          "en": "Stage for the Mid-Term Review Conference"
+        },
+        "alt": ""
+      },
+      {
+        "src": "assets/images/activities/13/5.jpg",
+        "caption": {
+          "vi": "Đồng chí Nguyễn Minh Triết, Ủy viên dự khuyết Ban Chấp hành Trung ương Đảng, Bí thư Thường trực Ban Chấp hành Trung ương Đoàn, Chủ tịch Trung ương Hội Sinh viên Việt Nam",
+          "en": "Comrade Nguyen Minh Triet, Alternate Member of the Central Committee of the Communist Party of Vietnam, Permanent Secretary of the Central Committee of the Youth Union, and President of the Central Committee of the Vietnam Student Association."
+        },
+        "alt": ""
+      },
+      {
+        "src": "assets/images/activities/13/6.jpg",
+        "caption": {
+          "vi": "Hội trường ở resort 5 sao Diamond Bay, Khánh Hòa",
+          "en": "The ballroom at the 5-star Diamond Bay resort, Khanh Hoa."
+        },
+        "alt": ""
+      },
+      {
+        "src": "assets/images/activities/13/7.jpg",
+        "caption": {
+          "vi": "Các đồng chí đại biểu, khách mời",
+          "en": "Distinguished delegates and guests"
+        },
+        "alt": ""
+      },
+      {
+        "src": "assets/images/activities/13/8.jpg",
+        "caption": {
+          "vi": "Hội sinh viên Việt Nam ngoài nước chụp hình lưu niệm cùng Trung Ương Hội sinh viên Việt Nam",
+          "en": "The Overseas Vietnamese Student Association took a commemorative photo with the Central Committee of the Vietnamese Student Association."
         },
         "alt": ""
       }
@@ -656,10 +856,10 @@
     "id": 14,
     "activityId": 14,
     "title": {
-      "vi": "HỘI SINH VIÊN VIỆT NAM TẠI ẤN ĐỘ THAM DỰ HỘI NGHỊ BRICS CCI",
-      "en": "VIETNAMESE STUDENTS’ ASSOCIATION IN INDIA PARTICIPATES IN BRICS CCI CONFERENCE"
+      "vi": "💙🇻🇳 ĐÊM GALA ĐÁNG NHỚ 🇻🇳💙",
+      "en": "💙🇻🇳 A MEMORABLE GALA NIGHT 🇻🇳💙"
     },
-    "date": "2026-08-20",
+    "date": "2026-09-05",
     "location": "Delhi",
     "category": "external",
     "cover": "assets/images/activities/14/1.jpg",
@@ -667,32 +867,128 @@
       {
         "src": "assets/images/activities/14/1.jpg",
         "caption": {
-          "vi": "",
-          "en": ""
+          "vi": "Tiết mục của đoàn Đà Nẵng",
+          "en": "Performance by the Da Nang delegation"
         },
         "alt": ""
       },
       {
         "src": "assets/images/activities/14/2.jpg",
         "caption": {
-          "vi": "",
-          "en": ""
+          "vi": "Sinh nhật của các hội viên sinh tháng 7, 8",
+          "en": "Members' birthdays in July, August"
         },
         "alt": ""
       },
       {
         "src": "assets/images/activities/14/3.jpg",
         "caption": {
-          "vi": "",
-          "en": ""
+          "vi": "Các Sếp",
+          "en": "Boss"
         },
         "alt": ""
       },
       {
         "src": "assets/images/activities/14/4.jpg",
         "caption": {
-          "vi": "",
-          "en": ""
+          "vi": "Tiết mục của đoàn Hà Nội",
+          "en": "Performance by the Ha Noi delegration"
+        },
+        "alt": ""
+      },
+      {
+        "src": "assets/images/activities/14/5.jpg",
+        "caption": {
+          "vi": "Tiết mục của đoàn Hà Nội",
+          "en": "Performance by the Ha Noi delegration"
+        },
+        "alt": ""
+      },
+      {
+        "src": "assets/images/activities/14/6.jpg",
+        "caption": {
+          "vi": "Tiết mục của đoàn Hà Nội",
+          "en": "Performance by the Ha Noi delegration"
+        },
+        "alt": ""
+      },
+      {
+        "src": "assets/images/activities/14/7.jpg",
+        "caption": {
+          "vi": "Tiết mục của đoàn Tp. Hồ Chí Minh",
+          "en": "Performance by the Ho Chi Minh city delegation"
+        },
+        "alt": ""
+      },
+      {
+        "src": "assets/images/activities/14/8.jpg",
+        "caption": {
+          "vi": "Tiết mục của đoàn Tp. Hồ Chí Minh",
+          "en": "Performance by the Ho Chi Minh city delegation"
+        },
+        "alt": ""
+      },
+      {
+        "src": "assets/images/activities/14/9.jpg",
+        "caption": {
+          "vi": "Tiết mục của đoàn Tp. Hồ Chí Minh",
+          "en": "Performance by the Ho Chi Minh city delegation"
+        },
+        "alt": ""
+      },
+      {
+        "src": "assets/images/activities/14/10.jpg",
+        "caption": {
+          "vi": "Tiết mục của đoàn Tp. Hồ Chí Minh",
+          "en": "Performance by the Ho Chi Minh city delegation"
+        },
+        "alt": ""
+      },
+      {
+        "src": "assets/images/activities/14/11.jpg",
+        "caption": {
+          "vi": "Tiết mục của đoàn Khánh Hòa",
+          "en": "Performance by the Da Nang delegation"
+        },
+        "alt": ""
+      },
+      {
+        "src": "assets/images/activities/14/12.jpg",
+        "caption": {
+          "vi": "Tiết mục của đoàn Đà Nẵng",
+          "en": "Performance by the Da Nang delegation"
+        },
+        "alt": ""
+      },
+      {
+        "src": "assets/images/activities/14/13.jpg",
+        "caption": {
+          "vi": "Các đoàn giao lưu với nhau",
+          "en": "The delegations interacted with each other."
+        },
+        "alt": ""
+      },
+      {
+        "src": "assets/images/activities/14/14.jpg",
+        "caption": {
+          "vi": "Bàn Hội sinh viên ngoài nước",
+          "en": "Table for Oversea Students"
+        },
+        "alt": ""
+      },
+      {
+        "src": "assets/images/activities/14/15.jpg",
+        "caption": {
+          "vi": "Các Sếp nhậu",
+          "en": "Drinking bosses"
+        },
+        "alt": ""
+      },
+      {
+        "src": "assets/images/activities/14/16.jpg",
+        "caption": {
+          "vi": "Tiết mục của đoàn Tp. Hồ Chí Minh",
+          "en": "Performance by the Ho Chi Minh city delegation"
         },
         "alt": ""
       }
@@ -702,10 +998,10 @@
     "id": 15,
     "activityId": 15,
     "title": {
-      "vi": "HỘI SINH VIÊN VIỆT NAM TẠI ẤN ĐỘ THAM DỰ HỘI NGHỊ BRICS CCI",
-      "en": "VIETNAMESE STUDENTS’ ASSOCIATION IN INDIA PARTICIPATES IN BRICS CCI CONFERENCE"
+      "vi": "",
+      "en": ""
     },
-    "date": "2026-08-20",
+    "date": "2026-0-0",
     "location": "Delhi",
     "category": "external",
     "cover": "assets/images/activities/15/1.jpg",
