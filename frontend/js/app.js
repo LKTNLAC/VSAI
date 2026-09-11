@@ -108,20 +108,20 @@ const EMBEDDED_DATA = {
         page_title: "Giới thiệu về Hội Sinh viên Việt Nam tại Ấn Độ",
         timeline_title: "Lịch sử hình thành và phát triển",
         description: {
-            vi: "Hội Sinh viên Việt Nam tại Ấn Độ (VSA India) được thành lập vào năm 2020, là tổ chức đại diện cho cộng đồng sinh viên Việt Nam đang học tập và sinh sống tại Ấn Độ. VSA India hoạt động với mục đích kết nối, hỗ trợ và tạo cơ hội cho sinh viên Việt Nam phát triển trong học tập, văn hóa và cộng đồng. Chúng tôi hoạt động trên tinh thần tự nguyện, phi lợi nhuận và vì lợi ích chung của cộng đồng. Với sự phát triển không ngừng, VSA India hiện có mặt tại nhiều thành phố lớn trên khắp Ấn Độ như Delhi, Mumbai, Pune, Bangalore, Hyderabad, Chennai, Kolkata và nhiều địa phương khác.",
-            en: "The Vietnamese Students' Association in India (VSA India) was established in 2020 as the representative organization for the Vietnamese student community studying and living in India. VSA India operates with the purpose of connecting, supporting and creating opportunities for Vietnamese students to develop in academics, culture and community. We operate on a voluntary, non-profit basis for the common benefit of the community. With continuous development, VSA India is currently present in many major cities across India such as Delhi, Mumbai, Pune, Bangalore, Hyderabad, Chennai, Kolkata and many other localities."
+            vi: "Hội Sinh viên Việt Nam tại Ấn Độ (VSA India) được thành lập vào năm 2025, là tổ chức đại diện cho cộng đồng sinh viên Việt Nam đang học tập và sinh sống tại Ấn Độ. VSA India hoạt động với mục đích kết nối, hỗ trợ và tạo cơ hội cho sinh viên Việt Nam phát triển trong học tập, văn hóa và cộng đồng. Chúng tôi hoạt động trên tinh thần tự nguyện, phi lợi nhuận và vì lợi ích chung của cộng đồng. Với sự phát triển không ngừng, VSA India hiện có mặt tại nhiều thành phố lớn trên khắp Ấn Độ như Delhi, Mumbai, Pune, Bangalore, Hyderabad, Chennai, Kolkata và nhiều địa phương khác.",
+            en: "The Vietnamese Students' Association in India (VSA India) was established in 2025 as the representative organization for the Vietnamese student community studying and living in India. VSA India operates with the purpose of connecting, supporting and creating opportunities for Vietnamese students to develop in academics, culture and community. We operate on a voluntary, non-profit basis for the common benefit of the community. With continuous development, VSA India is currently present in many major cities across India such as Delhi, Mumbai, Pune, Bangalore, Hyderabad, Chennai, Kolkata and many other localities."
         },
         history: {
-            vi: "VSA India bắt đầu từ một nhóm nhỏ sinh viên Việt Nam tại Delhi vào năm 2020. Sau 5 năm phát triển, chúng tôi đã trở thành một tổ chức có mặt tại nhiều thành phố trên khắp Ấn Độ, với hàng trăm thành viên tham gia.",
-            en: "VSA India started from a small group of Vietnamese students in Delhi in 2020. After 5 years of development, we have become an organization present in many cities across India with hundreds of participating members."
+            vi: "VSA India bắt đầu từ một nhóm nhỏ sinh viên Việt Nam tại Delhi vào năm 2025. Sau 1 năm phát triển, chúng tôi đã trở thành một tổ chức có mặt tại nhiều thành phố trên khắp Ấn Độ, với hàng trăm thành viên tham gia.",
+            en: "VSA India started from a small group of Vietnamese students in Delhi in 2025. After 1 years of development, we have become an organization present in many cities across India with hundreds of participating members."
         },
         timeline: [
-            { year: "2020", vi: "Thành lập VSA India tại Delhi", en: "VSA India founded in Delhi" },
-            { year: "2021", vi: "Tổ chức Tết Nguyên Đán đầu tiên tại Ấn Độ", en: "First Lunar New Year celebration in India" },
-            { year: "2022", vi: "Mở rộng mạng lưới đến 5 thành phố", en: "Expanded network to 5 cities" },
-            { year: "2023", vi: "Ra mắt chương trình Mentorship dành cho tân sinh viên", en: "Launched Mentorship program for new students" },
-            { year: "2024", vi: "Kỷ niệm 5 năm thành lập và ra mắt website chính thức", en: "5th Anniversary and official website launch" },
-            { year: "2025", vi: "Mở rộng hợp tác với các tổ chức sinh viên quốc tế", en: "Expanded cooperation with international student organizations" }
+            { year: "2025", vi: "Thành lập VSA India tại Delhi", en: "VSA India founded in Delhi" },
+            { year: "2026", vi: "Tổ chức Tết Nguyên Đán đầu tiên tại Ấn Độ", en: "First Lunar New Year celebration in India" },
+            { year: "2027", vi: "Triển khai website", en: "Launched website" },
+            { year: "2028", vi: "Mở rộng mạng lưới đến 5 thành phố", en: "Open network to 5 cities" },
+            { year: "2029", vi: "Kỷ niệm 5 năm thành lập và ra mắt website chính thức", en: "5th Anniversary and official website launch" },
+            { year: "2030", vi: "Mở rộng hợp tác với các tổ chức sinh viên quốc tế", en: "Expanded cooperation with international student organizations" }
         ]
     },
     contact: {
