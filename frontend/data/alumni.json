@@ -78,5 +78,45 @@
       "en": "President of VSA India for the 2022-2023 term."
     },
     "term": "2022-2023"
+  },
+  {
+    "id": 5,
+    "name": "Phạm Thị W",
+    "position": "vice_president",
+    "image": "assets/images/alumni/4.jpg",
+    "city": "Mumbai",
+    "birthday": "0-0-200",
+    "major": "",
+    "university": "University",
+    "hometown": "Việt Nam",
+    "quote": {
+      "vi": ".",
+      "en": "."
+    },
+    "bio": {
+      "vi": "Chủ tịch VSA India nhiệm kỳ 2022-2023.",
+      "en": "President of VSA India for the 2022-2023 term."
+    },
+    "term": "2022-2023"
+  },
+  {
+    "id": 6,
+    "name": "Phạm Thị W",
+    "position": "vice_president",
+    "image": "assets/images/alumni/4.jpg",
+    "city": "Mumbai",
+    "birthday": "0-0-200",
+    "major": "",
+    "university": "University",
+    "hometown": "Việt Nam",
+    "quote": {
+      "vi": ".",
+      "en": "."
+    },
+    "bio": {
+      "vi": "Chủ tịch VSA India nhiệm kỳ 2022-2023.",
+      "en": "President of VSA India for the 2022-2023 term."
+    },
+    "term": "2022-2023"
   }
 ]

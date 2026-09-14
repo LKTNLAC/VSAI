@@ -255,33 +255,59 @@
             </div>
         </section>
 
-        <!-- MEMBERS -->
+        <!-- =================================================== -->
+        <!-- EXECUTIVE COMMITTEE – BAN CHẤP HÀNH (TRANG CHÍNH) -->
+        <!-- =================================================== -->
         <section id="members" class="page-section" role="region" aria-label="Ban Chấp hành">
             <div class="container">
                 <div class="members-page">
-                    <!-- Danh sách thành viên (hiển thị mặc định) -->
-                    <div id="members-list-view">
-                        <h1 data-i18n="headings.members">Ban Chấp hành</h1>
-                        <p class="members-subtitle" data-i18n="members.subtitle">Những người đại diện cho cộng đồng sinh viên Việt Nam tại Ấn Độ</p>
-                        
-                        <!-- Tabs -->
-                        <div class="members-tabs">
-                            <button class="members-tab active" data-tab="current" data-i18n="members.tab.current">Ban Chấp hành hiện tại</button>
-                            <button class="members-tab" data-tab="alumni" data-i18n="members.tab.alumni">Cựu thành viên</button>
-                        </div>
-                        
-                        <div id="members-container" class="members-grid">
-                            <!-- JS sẽ render -->
-                        </div>
-                    </div>
+                    <h1 data-i18n="headings.members">Ban Chấp hành</h1>
+                    <p class="members-subtitle" data-i18n="members.subtitle">Cơ cấu tổ chức và thông tin về Ban Chấp hành VSA India</p>
                     
-                    <!-- Chi tiết thành viên (ẩn mặc định) -->
-                    <div id="member-detail-view" style="display: none;">
-                        <a href="#members" class="back-link" id="member-back-link">← Quay lại danh sách</a>
-                        <div id="member-detail-container">
-                            <!-- JS sẽ render -->
-                        </div>
+                    <!-- Organization Chart -->
+                    <div id="org-chart-container" class="org-chart"></div>
+                    
+                    <!-- Quick Links -->
+                    <div class="members-quick-links">
+                        <a href="#member-list" class="member-link-card">
+                            <div class="member-link-icon">👥</div>
+                            <h3 data-i18n="members.link.current">Thành viên hiện tại</h3>
+                            <p data-i18n="members.link.currentDesc">Danh sách Ban Chấp hành đương nhiệm</p>
+                        </a>
+                        <a href="#alumni" class="member-link-card">
+                            <div class="member-link-icon">🎓</div>
+                            <h3 data-i18n="members.link.alumni">Cựu thành viên</h3>
+                            <p data-i18n="members.link.alumniDesc">Các thế hệ lãnh đạo trước đây</p>
+                        </a>
                     </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- =================================================== -->
+        <!-- MEMBER LIST – THÀNH VIÊN HIỆN TẠI                  -->
+        <!-- =================================================== -->
+        <section id="member-list" class="page-section" role="region" aria-label="Thành viên hiện tại">
+            <div class="container">
+                <div class="members-page">
+                    <h1 data-i18n="headings.memberList">Thành viên hiện tại</h1>
+                    <p class="members-subtitle" data-i18n="members.currentSubtitle">Ban Chấp hành nhiệm kỳ hiện tại</p>
+                    
+                    <div id="member-list-container" class="members-grid"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- =================================================== -->
+        <!-- ALUMNI – CỰU THÀNH VIÊN                            -->
+        <!-- =================================================== -->
+        <section id="alumni" class="page-section" role="region" aria-label="Cựu thành viên">
+            <div class="container">
+                <div class="members-page">
+                    <h1 data-i18n="headings.alumni">Cựu thành viên</h1>
+                    <p class="members-subtitle" data-i18n="members.alumniSubtitle">Các thế hệ Ban Chấp hành qua các nhiệm kỳ</p>
+                    
+                    <div id="alumni-container"></div>
                 </div>
             </div>
         </section>
