@@ -714,5 +714,64 @@
       ]
     },
     "organizerId": 14
+  },
+  {
+    "id": 15,
+    "title": {
+      "vi": "CỘNG ĐỒNG NGƯỜI VIỆT VÀ DU HỌC SINH VIỆT NAM TẠI ẤN ĐỘ CHÀO ĐÓN THỦ TƯỚNG LÊ MINH HƯNG VÀ ĐOÀN ĐẠI BIỂU CẤP CAO VIỆT NAM TỚI THAM DỰ HỘI NGHỊ THƯỢNG ĐỈNH BRICS LẦN THỨ 18",
+      "en": "THE VIETNAMESE COMMUNITY AND VIETNAMESE STUDENTS IN INDIA WELCOME PRIME MINISTER LE MINH HUNG AND THE HIGH-LEVEL VIETNAMESE DELEGATION TO THE 18TH BRICS SUMMIT."
+    },
+    "date": "2026-09-13",
+    "location": "Delhi",
+    "category": "external",
+    "thumbnail": "assets/images/activities/15/1.jpg",
+    "image": "assets/images/activities/15/1.jpg",
+    "gallery": [
+      "assets/images/activities/15/8.jpg",
+      "assets/images/activities/15/3.jpg",
+      "assets/images/activities/15/4.jpg",
+      "assets/images/activities/15/5.jpg",
+      "assets/images/activities/15/6.jpg",
+      "assets/images/activities/15/7.jpg",
+      "assets/images/activities/15/2.jpg",
+      "assets/images/activities/15/9.jpg",
+      "assets/images/activities/15/10.jpg"
+    ],
+    "summary": {
+      "vi": "🌏 Ngày 12/9/2026, Thủ tướng Lê Minh Hưng cùng Đoàn đại biểu cấp cao...",
+      "en": "🌏 On September 12, 2026, Prime Minister Le Minh Hung and the high-level Vietnamese..."
+    },
+    "featured": false,
+    "content": {
+      "vi": [
+        { "type": "image", "src": "assets/images/activities/15/1.jpg", "alt": "", "caption": "Thủ tướng Lê Minh Hưng đến thăm công viên G20" },
+        { "type": "text", "value": "🌏 Ngày 12/9/2026, Thủ tướng Lê Minh Hưng cùng Đoàn đại biểu cấp cao Việt Nam đã tới thủ đô New Delhi, Ấn Độ để tham dự Hội nghị Thượng đỉnh BRICS lần thứ 18 và tiến hành các hoạt động làm việc song phương trong khuôn khổ chuyến công tác ngày 12-13/9." },
+        { "type": "image", "src": "assets/images/activities/15/2.jpg", "alt": "", "caption": "Sinh viên Việt Nam tại Delhi chào đón ngài Thủ tướng" },
+        { "type": "text", "value": "🇻🇳 Trong khuôn khổ chuyến công tác, Thủ tướng cùng Đoàn đại biểu đã dâng hoa, dâng hương tại Tượng Chủ tịch Hồ Chí Minh trong Công viên G20, thể hiện lòng thành kính và tri ân đối với vị lãnh tụ kính yêu của dân tộc." },
+        { "type": "image", "src": "assets/images/activities/15/3.jpg", "alt": "", "caption": "Sinh viên xếp cờ thành hình ngôi sao" },
+        { "type": "text", "value": "❤️ Trong không khí trang trọng và xúc động, cộng đồng người Việt và du học sinh Việt Nam tại Ấn Độ nồng nhiệt chào đón Thủ tướng Lê Minh Hưng cùng Đoàn đại biểu cấp cao Việt Nam, thể hiện tình cảm sâu sắc, niềm tự hào dân tộc và tấm lòng luôn hướng về Tổ quốc của cộng đồng người Việt Nam đang sinh sống, học tập và làm việc tại Ấn Độ." },
+        { "type": "image", "src": "assets/images/activities/15/4.jpg", "alt": "", "caption": "Thủ tướng Lê Minh Hưng bắt tay với đồng chí ủy viên Hội sinh viên Việt Nam tại Ấn Độ Phạm Anh Tú" },
+        { "type": "text", "value": "✨ Sự kiện còn là dịp để mỗi sinh viên, thanh niên Việt Nam đang học tập và sinh sống tại đây cùng hướng về quê hương, đồng thời tự hào chứng kiến những bước phát triển mới trong quan hệ Việt Nam - Ấn Độ và sự tham gia ngày càng chủ động của Việt Nam vào các cơ chế hợp tác quốc tế." },
+        { "type": "image", "src": "assets/images/activities/15/5.jpg", "alt": "", "caption": "Thủ tướng Lê Minh Hưng bắt tay với sinh viên Việt Nam tại Ấn Độ" },
+        { "type": "text", "value": "🌱 Mang trong mình tinh thần của thế hệ trẻ trong thời đại hội nhập, mỗi sinh viên Việt Nam tại Ấn Độ sẽ tiếp tục nỗ lực học tập, nghiên cứu, kết nối và đóng góp, trở thành những cầu nối hữu nghị giữa hai đất nước, góp phần vun đắp quan hệ Việt Nam - Ấn Độ ngày càng phát triển tốt đẹp." },
+        { "type": "image", "src": "assets/images/activities/15/9.jpg", "alt": "", "caption": "Sinh viên Việt Nam tại Ấn Độ chào mừng Thủ tướng đến thăm" },
+        { "type": "text", "value": "📷: Tiến Lượng" }
+      ],
+      "en": [
+        { "type": "image", "src": "assets/images/activities/15/1.jpg", "alt": "", "caption": "Prime Minister Le Minh Hung visits G20 Park." },
+        { "type": "text", "value": "🌏 On September 12, 2026, Prime Minister Le Minh Hung and the high-level Vietnamese delegation arrived in New Delhi, India, to attend the 18th BRICS Summit and conduct bilateral working activities as part of their visit on September 12-13." },
+        { "type": "image", "src": "assets/images/activities/15/2.jpg", "alt": "", "caption": "Vietnamese students in Delhi welcome the Prime Minister." },
+        { "type": "text", "value": "🇻🇳 During the working visit, the Prime Minister and the delegation laid flowers and offered incense at the statue of President Ho Chi Minh in G20 Park, expressing their respect and gratitude to the beloved leader of the nation." },
+        { "type": "image", "src": "assets/images/activities/15/3.jpg", "alt": "", "caption": "Students arranged the flags into the shape of a star." },
+        { "type": "text", "value": "❤️ In a solemn and emotional atmosphere, the Vietnamese community and Vietnamese students in India warmly welcomed Prime Minister Le Minh Hung and the high-level Vietnamese delegation, expressing their deep affection, national pride, and unwavering devotion to their homeland." },
+        { "type": "image", "src": "assets/images/activities/15/4.jpg", "alt": "", "caption": "Prime Minister Le Minh Hung shakes hands with Comrade Pham Anh Tu, a member of the Vietnamese Student Association in India." },
+        { "type": "text", "value": "✨ The event also provides an opportunity for every Vietnamese student and young person studying and living here to reflect on their homeland, while proudly witnessing new developments in Vietnam-India relations and Vietnam's increasingly proactive participation in international cooperation mechanisms." },
+        { "type": "image", "src": "assets/images/activities/15/5.jpg", "alt": "", "caption": "Prime Minister Le Minh Hung shakes hands with Vietnamese students in India." },
+        { "type": "text", "value": "🌱 Embodying the spirit of the younger generation in the era of globalization, each Vietnamese student in India will continue to strive in their studies, research, networking, and contributions, becoming bridges of friendship between the two countries, contributing to the further development of the Vietnam-India relationship." },
+        { "type": "image", "src": "assets/images/activities/15/9.jpg", "alt": "", "caption": "Vietnamese students in India welcome the Prime Minister on his visit." },
+        { "type": "text", "value": "📷: Tiến Lượng" }
+      ]
+    },
+    "organizerId": 15
   }
 ]
