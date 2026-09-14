@@ -1,1 +1,2 @@
+cd /var/www/vsaindia
 sudo git pull origin main && sudo systemctl restart nginx && cd backend && npm install && pm2 restart vsaindia-backend

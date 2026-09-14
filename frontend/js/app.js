@@ -184,8 +184,24 @@ async function loadData() {
 
 const TRANSLATIONS = {
     vi: {
-        nav: { home: 'Trang chủ', about: 'Về Hội', members: 'Ban Chấp hành', activities: 'Hoạt động', news: 'Tin tức', blog: 'Blog', guide: 'Cẩm nang', map: 'Bản đồ', gallery: 'Thư viện', forum: 'Forum', contact: 'Liên hệ' },
-        headings: { home: 'VSA India', about: 'Về Hội Sinh viên Việt Nam tại Ấn Độ', members: 'Ban Chấp hành', activities: 'Hoạt động', news: 'Tin tức', blog: 'Blog', guide: 'Cẩm nang', map: 'Bản đồ cộng đồng', gallery: 'Thư viện ảnh', forum: 'Diễn đàn', contact: 'Liên hệ' },
+        nav: { 
+            home: 'Trang chủ', 
+            about: 'Về Hội', 
+            members: 'Ban Chấp hành',
+            memberList: 'Thành viên',
+            alumni: 'Cựu thành viên', 
+            activities: 'Hoạt động', 
+            news: 'Tin tức', 
+            blog: 'Blog', 
+            guide: 'Cẩm nang', 
+            map: 'Bản đồ', 
+            gallery: 'Thư viện', 
+            forum: 'Forum', 
+            contact: 'Liên hệ',
+            newsActivities: 'Tin tức & Hoạt động',
+            blogGuide: 'Blog & Cẩm nang'
+        },
+        headings: { home: 'VSA India', about: 'Về Hội Sinh viên Việt Nam tại Ấn Độ', members: 'Ban Chấp hành', memberList: 'Thành viên hiện tại', alumni: 'Cựu thành viên', activities: 'Hoạt động', news: 'Tin tức', blog: 'Blog', guide: 'Cẩm nang', map: 'Bản đồ cộng đồng', gallery: 'Thư viện ảnh', forum: 'Diễn đàn', contact: 'Liên hệ' },
         footer: { brand: 'VSA India', description: 'Hội Sinh viên Việt Nam tại Ấn Độ', rights: '2026 VSA India. All rights reserved.' },
         ui: { placeholder: 'Nội dung đang được cập nhật...', forumNote: 'Diễn đàn đang trong giai đoạn phát triển.', mapNote: 'Bản đồ sẽ hiển thị tại đây.', loading: 'Đang tải...', notFound: 'Không tìm thấy nội dung.', noResults: 'Không tìm thấy kết quả phù hợp.' },
         category: { all: 'Tất cả', event: 'Sự kiện', academic: 'Học thuật', culture: 'Văn hóa', sports: 'Thể thao', community: 'Cộng đồng', external: 'Đối ngoại', announcement: 'Thông báo', general: 'Chung', study: 'Học tập', life: 'Cuộc sống', travel: 'Du lịch', food: 'Ẩm thực', experience: 'Trải nghiệm', visa: 'Visa', residence: 'Chỗ ở', university: 'Trường học', banking: 'Ngân hàng', sim: 'SIM & Internet', transport: 'Di chuyển', healthcare: 'Y tế', shopping: 'Mua sắm', safety: 'An toàn', emergency: 'Khẩn cấp' },
@@ -209,8 +225,15 @@ const TRANSLATIONS = {
         gallery: { title: 'Thư viện ảnh', viewAll: 'Xem tất cả →', page: { subtitle: 'Những khoảnh khắc đáng nhớ của VSA India' } },
         cta: { title: 'Bạn đang học tập tại Ấn Độ?', text: 'Kết nối cùng cộng đồng sinh viên Việt Nam tại Ấn Độ.', cta: 'Tham gia ngay' },
         members: {
-            subtitle: 'Những người đại diện cho cộng đồng sinh viên Việt Nam tại Ấn Độ',
-            bioLabel: 'Giới thiệu',
+            subtitle: 'Cơ cấu tổ chức và thông tin về Ban Chấp hành VSA India',
+            currentSubtitle: 'Ban Chấp hành nhiệm kỳ hiện tại',
+            alumniSubtitle: 'Các thế hệ Ban Chấp hành qua các nhiệm kỳ',
+            link: {
+                current: 'Thành viên hiện tại',
+                currentDesc: 'Danh sách Ban Chấp hành đương nhiệm',
+                alumni: 'Cựu thành viên',
+                alumniDesc: 'Các thế hệ lãnh đạo trước đây'
+            },
             tab: {
                 current: 'Ban Chấp hành hiện tại',
                 alumni: 'Cựu thành viên'
@@ -237,8 +260,24 @@ const TRANSLATIONS = {
         }
     },
     en: {
-        nav: { home: 'Home', about: 'About', members: 'Executive Committee', activities: 'Activities', news: 'News', blog: 'Blog', guide: 'Guide', map: 'Map', gallery: 'Gallery', forum: 'Forum', contact: 'Contact' },
-        headings: { home: 'VSA India', about: 'About VSA India', members: 'Executive Committee', activities: 'Activities', news: 'News', blog: 'Blog', guide: 'Guide', map: 'Community Map', gallery: 'Gallery', forum: 'Forum', contact: 'Contact' },
+        nav: { 
+            home: 'Home', 
+            about: 'About', 
+            members: 'Executive Committee',
+            memberList: 'Members',
+            alumni: 'Alumni',
+            activities: 'Activities', 
+            news: 'News', 
+            blog: 'Blog', 
+            guide: 'Guide', 
+            map: 'Map', 
+            gallery: 'Gallery', 
+            forum: 'Forum', 
+            contact: 'Contact',
+            newsActivities: 'News & Activities',
+            blogGuide: 'Blog & Guide'
+        },
+        headings: { home: 'VSA India', about: 'About VSA India', members: 'Executive Committee', memberList: 'Current Members', alumni: 'Alumni Members', activities: 'Activities', news: 'News', blog: 'Blog', guide: 'Guide', map: 'Community Map', gallery: 'Gallery', forum: 'Forum', contact: 'Contact' },
         footer: { brand: 'VSA India', description: 'Vietnamese Students\' Association in India', rights: '2026 VSA India. All rights reserved.' },
         ui: { placeholder: 'Content is being updated...', forumNote: 'Forum is under development.', mapNote: 'Map will be displayed here.', loading: 'Loading...', notFound: 'Content not found.', noResults: 'No matching results found.' },
         category: { all: 'All', event: 'Event', academic: 'Academic', culture: 'Culture', sports: 'Sports', community: 'Community', external: 'External', announcement: 'Announcement', general: 'General', study: 'Study', life: 'Life', travel: 'Travel', food: 'Food', experience: 'Experience', visa: 'Visa', residence: 'Residence', university: 'University', banking: 'Banking', sim: 'SIM & Internet', transport: 'Transport', healthcare: 'Healthcare', shopping: 'Shopping', safety: 'Safety', emergency: 'Emergency', culture: 'Culture' },
@@ -256,8 +295,15 @@ const TRANSLATIONS = {
         gallery: { title: 'Gallery', viewAll: 'View All →', page: { subtitle: 'Memorable moments of VSA India' } },
         cta: { title: 'Are you studying in India?', text: 'Connect with the Vietnamese student community in India.', cta: 'Join Now' },
         members: {
-            subtitle: 'Representatives of the Vietnamese student community in India',
-            bioLabel: 'Biography',
+            subtitle: 'Organization structure and information about VSA India Executive Committee',
+            currentSubtitle: 'Current term Executive Committee',
+            alumniSubtitle: 'Executive Committee generations across terms',
+            link: {
+                current: 'Current Members',
+                currentDesc: 'Current Executive Committee list',
+                alumni: 'Alumni Members',
+                alumniDesc: 'Previous leadership generations'
+            },
             tab: {
                 current: 'Current Executive Committee',
                 alumni: 'Alumni Members'
@@ -350,6 +396,8 @@ function getContainer(section) {
         home: 'home-container',
         about: 'about-container',
         members: 'members-container',
+        'member-list': 'member-list-container',
+        alumni: 'alumni-container',
         activities: 'activities-container',
         news: 'news-container',
         blog: 'blog-container',
@@ -382,9 +430,15 @@ function navigateTo(hash) {
 function renderRoute() {
     const route = getRouteFromHash();
     const section = route.section;
-    const validSections = ['home', 'about', 'members', 'activities', 'news', 'blog', 'guide', 'map', 'gallery', 'forum', 'contact'];
+    const validSections = [
+        'home', 'about', 
+        'members', 'member-list', 'alumni',
+        'activities', 'news', 'blog', 'guide', 
+        'map', 'gallery', 'forum', 'contact'
+    ];
 
     if (!validSections.includes(section)) {
+        console.warn('[VSA] ⚠️ Invalid section:', section, '→ redirect to home');
         window.location.hash = 'home';
         return;
     }
@@ -409,6 +463,9 @@ function renderRoute() {
         });
 
         updateUILanguage();
+    } else {
+        console.warn('[VSA] ⚠️ Section element not found:', section);
+        window.location.hash = 'home';
     }
 }
 
@@ -423,11 +480,31 @@ function renderNavigation() {
     const items = [
         { id: 'home', label: t('nav.home') },
         { id: 'about', label: t('nav.about') },
-        { id: 'members', label: t('nav.members') },
-        { id: 'activities', label: t('nav.activities') },
-        { id: 'news', label: t('nav.news') },
-        { id: 'blog', label: t('nav.blog') },
-        { id: 'guide', label: t('nav.guide') },
+        { 
+            id: 'members', 
+            label: t('nav.members'),
+            dropdown: [
+                { id: 'members', label: t('nav.members') },
+                { id: 'member-list', label: t('nav.memberList') },
+                { id: 'alumni', label: t('nav.alumni') }
+            ]
+        },
+        { 
+            id: 'news-activities', 
+            label: t('nav.newsActivities'),
+            dropdown: [
+                { id: 'news', label: t('nav.news') },
+                { id: 'activities', label: t('nav.activities') }
+            ]
+        },
+        { 
+            id: 'blog-guide', 
+            label: t('nav.blogGuide'),
+            dropdown: [
+                { id: 'blog', label: t('nav.blog') },
+                { id: 'guide', label: t('nav.guide') }
+            ]
+        },
         { id: 'map', label: t('nav.map') },
         { id: 'gallery', label: t('nav.gallery') },
         { id: 'forum', label: t('nav.forum') },
@@ -437,18 +514,92 @@ function renderNavigation() {
     navList.replaceChildren();
     items.forEach(item => {
         const li = document.createElement('li');
-        const a = document.createElement('a');
-        a.href = `#${item.id}`;
-        a.setAttribute('data-nav', item.id);
-        a.textContent = item.label;
-        if (state.currentRoute === item.id) a.classList.add('active');
-        a.addEventListener('click', (e) => {
-            e.preventDefault();
-            navigateTo(`#${item.id}`);
-            closeMobileMenu();
-        });
-        li.appendChild(a);
+        
+        if (item.dropdown) {
+            // ===== MENU CÓ DROPDOWN =====
+            li.className = 'has-dropdown';
+            
+            const a = document.createElement('a');
+            a.href = '#';
+            a.setAttribute('data-nav', item.id);
+            a.textContent = item.label;
+            
+            // Đánh dấu active nếu đang ở trang con
+            const isChildActive = item.dropdown.some(sub => state.currentRoute === sub.id);
+            if (isChildActive) a.classList.add('active');
+            
+            // Toggle dropdown khi click (cả desktop và mobile)
+            a.addEventListener('click', (e) => {
+                e.preventDefault();
+                e.stopPropagation();
+                
+                // Đóng tất cả dropdown khác
+                document.querySelectorAll('.nav-list li.has-dropdown').forEach(otherLi => {
+                    if (otherLi !== li) {
+                        otherLi.classList.remove('open');
+                    }
+                });
+                
+                // Toggle dropdown hiện tại
+                li.classList.toggle('open');
+            });
+            
+            li.appendChild(a);
+            
+            // Dropdown menu
+            const dropdown = document.createElement('ul');
+            dropdown.className = 'dropdown-menu';
+            
+            item.dropdown.forEach(subItem => {
+                const subLi = document.createElement('li');
+                const subA = document.createElement('a');
+                subA.href = `#${subItem.id}`;
+                subA.setAttribute('data-nav', subItem.id);
+                subA.textContent = subItem.label;
+                
+                if (state.currentRoute === subItem.id) {
+                    subA.classList.add('active');
+                }
+                
+                subA.addEventListener('click', (e) => {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    navigateTo(`#${subItem.id}`);
+                    closeMobileMenu();
+                });
+                
+                subLi.appendChild(subA);
+                dropdown.appendChild(subLi);
+            });
+            
+            li.appendChild(dropdown);
+        } else {
+            // ===== MENU THƯỜNG =====
+            const a = document.createElement('a');
+            a.href = `#${item.id}`;
+            a.setAttribute('data-nav', item.id);
+            a.textContent = item.label;
+            if (state.currentRoute === item.id) a.classList.add('active');
+            
+            a.addEventListener('click', (e) => {
+                e.preventDefault();
+                navigateTo(`#${item.id}`);
+                closeMobileMenu();
+            });
+            
+            li.appendChild(a);
+        }
+        
         navList.appendChild(li);
+    });
+    
+    // Đóng dropdown khi click ra ngoài
+    document.addEventListener('click', (e) => {
+        if (!e.target.closest('.has-dropdown')) {
+            document.querySelectorAll('.nav-list li.has-dropdown').forEach(li => {
+                li.classList.remove('open');
+            });
+        }
     });
 }
 
@@ -507,8 +658,13 @@ function updateUILanguage() {
             renderAbout();
             break;
         case 'members':
-            hideMemberDetail();
-            renderMembers(document.getElementById('members-container'));
+            renderOrgChart(document.getElementById('org-chart-container'));
+            break;
+        case 'member-list':
+            renderMembers(document.getElementById('member-list-container'));
+            break;
+        case 'alumni':
+            renderAlumni(document.getElementById('alumni-container'));
             break;
         case 'activities':
             renderActivities(document.getElementById('activities-container'));
@@ -582,6 +738,11 @@ function closeMobileMenu() {
         toggle.setAttribute('aria-expanded', 'false');
     }
     if (nav) nav.classList.remove('open');
+    
+    // Đóng tất cả dropdown
+    document.querySelectorAll('.nav-list li.has-dropdown').forEach(li => {
+        li.classList.remove('open');
+    });
 }
 
 // =====================================================
@@ -1380,7 +1541,7 @@ function renderTimeline(container) {
 }
 
 // =====================================================
-// 11. MEMBERS – CÓ TAB
+// 11. MEMBERS – THÀNH VIÊN HIỆN TẠI
 // =====================================================
 
 let membersTab = 'current';
@@ -1388,101 +1549,153 @@ let membersTab = 'current';
 function renderMembers(container) {
     if (!container) return;
     
-    let data = [];
-    if (membersTab === 'current') {
-        data = state.data.members;
-    } else {
-        data = state.data.alumni;
-    }
+    const data = state.data.members;
     
     if (!data || data.length === 0) {
         renderPlaceholder(container, 'ui.placeholder');
         return;
     }
     
-    const positionOrder = { president: 0, vice_president: 1, secretary: 2, treasurer: 3, commissioner: 4, member: 4, advisor: 5 };
-    const sorted = [...data].sort((a, b) => (positionOrder[a.position] ?? 99) - (positionOrder[b.position] ?? 99));
+    const positionOrder = { 
+        president: 0, 
+        vice_president: 1, 
+        secretary: 2, 
+        treasurer: 3, 
+        commissioner: 4, 
+        member: 4, 
+        advisor: 5 
+    };
+    
+    const sorted = [...data].sort((a, b) => 
+        (positionOrder[a.position] ?? 99) - (positionOrder[b.position] ?? 99)
+    );
+    
     const fragment = document.createDocumentFragment();
     
     sorted.forEach(member => {
-        const card = document.createElement('div');
-        card.className = 'member-card';
-        card.style.cursor = 'pointer';
-        card.dataset.memberId = member.id;
-        card.dataset.memberType = membersTab;
-        
-        // Image
-        const imgContainer = document.createElement('div');
-        imgContainer.className = 'member-image';
-        const img = document.createElement('img');
-        img.src = member.image || 'assets/images/members/placeholder.webp';
-        img.alt = member.name;
-        img.loading = 'lazy';
-        img.onerror = function() {
-            this.style.display = 'none';
-            this.parentElement.textContent = '👤';
-            this.parentElement.style.cssText = 'display:flex;align-items:center;justify-content:center;font-size:3rem;background:var(--color-surface-alt);border-radius:var(--radius-md);aspect-ratio:1/1;';
-        };
-        imgContainer.appendChild(img);
-        card.appendChild(imgContainer);
-        
-        // Name
-        const name = document.createElement('h3');
-        name.textContent = member.name;
-        card.appendChild(name);
-        
-        // Position
-        const pos = document.createElement('p');
-        pos.className = 'member-position';
-        pos.textContent = translateEnum('position', member.position);
-        card.appendChild(pos);
-        
-        // City
-        if (member.city) {
-            const city = document.createElement('p');
-            city.className = 'member-city text-sm';
-            city.textContent = member.city;
-            card.appendChild(city);
-        }
-        
-        // Term (for alumni)
-        if (membersTab === 'alumni' && member.term) {
-            const term = document.createElement('p');
-            term.className = 'member-term text-xs';
-            term.textContent = `${t('members.term')}: ${member.term}`;
-            card.appendChild(term);
-        }
-        
-        // Bio
-        if (member.bio && (member.bio.vi || member.bio.en)) {
-            const bio = document.createElement('p');
-            bio.className = 'member-bio text-sm text-muted';
-            bio.textContent = (member.bio[state.currentLang] || member.bio.vi || '').substring(0, 120) + '...';
-            card.appendChild(bio);
-        }
-        
-        // Click event
-        card.addEventListener('click', () => {
-            openMemberModal(member, membersTab);
-        });
-        
+        const card = createMemberCard(member, 'current');
         fragment.appendChild(card);
     });
     
     container.replaceChildren(fragment);
 }
 
-function initMembersTabs() {
-    const tabs = document.querySelectorAll('.members-tab');
-    tabs.forEach(tab => {
-        tab.addEventListener('click', () => {
-            tabs.forEach(t => t.classList.remove('active'));
-            tab.classList.add('active');
-            membersTab = tab.dataset.tab;
-            const container = document.getElementById('members-container');
-            if (container) renderMembers(container);
+
+// =====================================================
+// 11a. ORGANIZATION CHART – SƠ ĐỒ TỔ CHỨC
+// =====================================================
+
+function renderOrgChart(container) {
+    if (!container) return;
+    
+    const members = state.data.members || [];
+    const lang = state.currentLang;
+    
+    // Lọc theo chức vụ
+    const president = members.filter(m => m.position === 'president');
+    const vicePresidents = members.filter(m => m.position === 'vice_president');
+    const secretaries = members.filter(m => m.position === 'secretary' || m.position === 'treasurer');
+    const commissioners = members.filter(m => m.position === 'commissioner' || m.position === 'member');
+    
+    const fragment = document.createDocumentFragment();
+    
+    // Tạo sơ đồ tổ chức dạng cây
+    const chart = document.createElement('div');
+    chart.className = 'org-chart-tree';
+    
+    // Cấp 1: Chủ tịch
+    if (president.length > 0) {
+        const level1 = document.createElement('div');
+        level1.className = 'org-level org-level-1';
+        
+        president.forEach(member => {
+            const node = createOrgNode(member, 'president');
+            level1.appendChild(node);
         });
+        
+        chart.appendChild(level1);
+    }
+    
+    // Cấp 2: Phó Chủ tịch
+    if (vicePresidents.length > 0) {
+        const level2 = document.createElement('div');
+        level2.className = 'org-level org-level-2';
+        
+        vicePresidents.forEach(member => {
+            const node = createOrgNode(member, 'vice_president');
+            level2.appendChild(node);
+        });
+        
+        chart.appendChild(level2);
+    }
+    
+    // Cấp 3: Thư ký / Thủ quỹ
+    if (secretaries.length > 0) {
+        const level3 = document.createElement('div');
+        level3.className = 'org-level org-level-3';
+        
+        secretaries.forEach(member => {
+            const node = createOrgNode(member, 'secretary');
+            level3.appendChild(node);
+        });
+        
+        chart.appendChild(level3);
+    }
+    
+    // Cấp 4: Ủy viên
+    if (commissioners.length > 0) {
+        const level4 = document.createElement('div');
+        level4.className = 'org-level org-level-4';
+        
+        commissioners.forEach(member => {
+            const node = createOrgNode(member, 'commissioner');
+            level4.appendChild(node);
+        });
+        
+        chart.appendChild(level4);
+    }
+    
+    fragment.appendChild(chart);
+    container.replaceChildren(fragment);
+}
+
+function createOrgNode(member, type) {
+    const node = document.createElement('div');
+    node.className = `org-node org-node-${type}`;
+    node.style.cursor = 'pointer';
+    
+    // Ảnh
+    const img = document.createElement('img');
+    img.src = member.image || 'assets/images/members/placeholder.webp';
+    img.alt = member.name;
+    img.className = 'org-node-img';
+    img.onerror = function() {
+        this.style.display = 'none';
+        const fallback = document.createElement('div');
+        fallback.className = 'org-node-img-fallback';
+        fallback.textContent = '👤';
+        this.parentElement.insertBefore(fallback, this);
+    };
+    node.appendChild(img);
+    
+    // Tên
+    const name = document.createElement('div');
+    name.className = 'org-node-name';
+    name.textContent = member.name;
+    node.appendChild(name);
+    
+    // Chức vụ
+    const pos = document.createElement('div');
+    pos.className = 'org-node-position';
+    pos.textContent = translateEnum('position', member.position);
+    node.appendChild(pos);
+    
+    // Click → mở modal
+    node.addEventListener('click', () => {
+        openMemberModal(member, 'current');
     });
+    
+    return node;
 }
 // =====================================================
 // 11a. MEMBER DETAIL MODAL
@@ -1770,6 +1983,239 @@ function hideMemberDetail() {
         listView.style.display = 'block';
         detailView.style.display = 'none';
     }
+}
+
+// =====================================================
+// 11b. ALUMNI – CỰU THÀNH VIÊN (REDESIGNED)
+// =====================================================
+
+function renderAlumni(container) {
+    if (!container) return;
+    
+    const data = state.data.alumni;
+    
+    if (!data || data.length === 0) {
+        renderPlaceholder(container, 'ui.placeholder');
+        return;
+    }
+    
+    const lang = state.currentLang;
+    
+    // Sắp xếp theo chức vụ
+    const positionOrder = { 
+        president: 0, 
+        vice_president: 1, 
+        secretary: 2, 
+        treasurer: 3, 
+        commissioner: 4, 
+        member: 4, 
+        advisor: 5 
+    };
+    
+    // Nhóm theo nhiệm kỳ
+    const groupedByTerm = {};
+    data.forEach(member => {
+        const term = member.term || 'Khác';
+        if (!groupedByTerm[term]) {
+            groupedByTerm[term] = [];
+        }
+        groupedByTerm[term].push(member);
+    });
+    
+    // Sắp xếp nhiệm kỳ mới nhất trước (2024-2025 → 2023-2024 → ...)
+    const sortedTerms = Object.keys(groupedByTerm).sort((a, b) => {
+        return b.localeCompare(a);
+    });
+    
+    const fragment = document.createDocumentFragment();
+    
+    // Timeline container
+    const timeline = document.createElement('div');
+    timeline.className = 'alumni-timeline';
+    
+    sortedTerms.forEach((term, index) => {
+        const termSection = document.createElement('div');
+        termSection.className = 'alumni-term-section';
+        termSection.style.animationDelay = `${index * 0.1}s`;
+        
+        // Header nhiệm kỳ (dạng timeline)
+        const termHeader = document.createElement('div');
+        termHeader.className = 'alumni-term-header-new';
+        
+        // Điểm tròn timeline
+        const termDot = document.createElement('div');
+        termDot.className = 'alumni-term-dot';
+        if (index === 0) termDot.classList.add('current');
+        termHeader.appendChild(termDot);
+        
+        // Đường kẻ dọc
+        const termLine = document.createElement('div');
+        termLine.className = 'alumni-term-line';
+        termHeader.appendChild(termLine);
+        
+        // Nội dung header
+        const headerContent = document.createElement('div');
+        headerContent.className = 'alumni-term-content';
+        
+        const termTitle = document.createElement('h2');
+        termTitle.className = 'alumni-term-title';
+        termTitle.innerHTML = `<span class="term-label">${t('members.term')}</span> <span class="term-value">${term}</span>`;
+        headerContent.appendChild(termTitle);
+        
+        // Số lượng thành viên
+        const termCount = document.createElement('p');
+        termCount.className = 'alumni-term-count';
+        const count = groupedByTerm[term].length;
+        termCount.textContent = lang === 'vi' 
+            ? `${count} thành viên` 
+            : `${count} members`;
+        headerContent.appendChild(termCount);
+        
+        termHeader.appendChild(headerContent);
+        termSection.appendChild(termHeader);
+        
+        // Grid thành viên của nhiệm kỳ
+        const grid = document.createElement('div');
+        grid.className = 'alumni-members-grid';
+        
+        const sortedMembers = groupedByTerm[term].sort((a, b) => 
+            (positionOrder[a.position] ?? 99) - (positionOrder[b.position] ?? 99)
+        );
+        
+        sortedMembers.forEach(member => {
+            const card = createAlumniCard(member);
+            grid.appendChild(card);
+        });
+        
+        termSection.appendChild(grid);
+        timeline.appendChild(termSection);
+    });
+    
+    fragment.appendChild(timeline);
+    container.replaceChildren(fragment);
+}
+
+// =====================================================
+// 11c. TẠO ALUMNI CARD (DẠNG COMPACT)
+// =====================================================
+
+function createAlumniCard(member) {
+    const card = document.createElement('div');
+    card.className = 'alumni-card';
+    card.style.cursor = 'pointer';
+    
+    // Image
+    const imgContainer = document.createElement('div');
+    imgContainer.className = 'alumni-card-image';
+    const img = document.createElement('img');
+    img.src = member.image || 'assets/images/members/placeholder.webp';
+    img.alt = member.name;
+    img.loading = 'lazy';
+    img.onerror = function() {
+        this.style.display = 'none';
+        const fallback = document.createElement('span');
+        fallback.textContent = '👤';
+        this.parentElement.appendChild(fallback);
+    };
+    imgContainer.appendChild(img);
+    card.appendChild(imgContainer);
+    
+    // Info
+    const info = document.createElement('div');
+    info.className = 'alumni-card-info';
+    
+    const name = document.createElement('h3');
+    name.className = 'alumni-card-name';
+    name.textContent = member.name;
+    info.appendChild(name);
+    
+    const pos = document.createElement('p');
+    pos.className = 'alumni-card-position';
+    pos.textContent = translateEnum('position', member.position);
+    info.appendChild(pos);
+    
+    if (member.city) {
+        const city = document.createElement('p');
+        city.className = 'alumni-card-city';
+        city.textContent = `📍 ${member.city}`;
+        info.appendChild(city);
+    }
+    
+    card.appendChild(info);
+    
+    // Click → modal
+    card.addEventListener('click', () => {
+        openMemberModal(member, 'alumni');
+    });
+    
+    return card;
+}
+
+// =====================================================
+// 11c. HELPER – TẠO MEMBER CARD
+// =====================================================
+
+function createMemberCard(member, type) {
+    const card = document.createElement('div');
+    card.className = 'member-card';
+    card.style.cursor = 'pointer';
+    
+    // Image
+    const imgContainer = document.createElement('div');
+    imgContainer.className = 'member-image';
+    const img = document.createElement('img');
+    img.src = member.image || 'assets/images/members/placeholder.webp';
+    img.alt = member.name;
+    img.loading = 'lazy';
+    img.onerror = function() {
+        this.style.display = 'none';
+        this.parentElement.textContent = '👤';
+        this.parentElement.style.cssText = 'display:flex;align-items:center;justify-content:center;font-size:3rem;background:var(--color-surface-alt);border-radius:var(--radius-md);aspect-ratio:1/1;';
+    };
+    imgContainer.appendChild(img);
+    card.appendChild(imgContainer);
+    
+    // Name
+    const name = document.createElement('h3');
+    name.textContent = member.name;
+    card.appendChild(name);
+    
+    // Position
+    const pos = document.createElement('p');
+    pos.className = 'member-position';
+    pos.textContent = translateEnum('position', member.position);
+    card.appendChild(pos);
+    
+    // City
+    if (member.city) {
+        const city = document.createElement('p');
+        city.className = 'member-city text-sm';
+        city.textContent = member.city;
+        card.appendChild(city);
+    }
+    
+    // Term (for alumni)
+    if (type === 'alumni' && member.term) {
+        const term = document.createElement('p');
+        term.className = 'member-term text-xs';
+        term.textContent = `${t('members.term')}: ${member.term}`;
+        card.appendChild(term);
+    }
+    
+    // Bio
+    if (member.bio && (member.bio.vi || member.bio.en)) {
+        const bio = document.createElement('p');
+        bio.className = 'member-bio text-sm text-muted';
+        bio.textContent = (member.bio[state.currentLang] || member.bio.vi || '').substring(0, 120) + '...';
+        card.appendChild(bio);
+    }
+    
+    // Click → modal
+    card.addEventListener('click', () => {
+        openMemberModal(member, type);
+    });
+    
+    return card;
 }
 
 // =====================================================
@@ -3248,22 +3694,24 @@ function renderSection(section) {
     
     switch (section) {
         case 'home':
-            // Chỉ gọi initHeroSlider nếu chưa có
-            if (!sliderInterval) {
-                initHeroSlider();
-            }
+            renderHome(container);
             break;
         case 'about':
-            // GỌI renderAbout() THAY VÌ renderAbout(container)
             renderAbout();
             break;
         case 'members':
-            hideMemberDetail(); 
-            renderMembers(container);
-            initMembersTabs();
+            // Trang chính Ban Chấp hành
+            renderOrgChart(document.getElementById('org-chart-container'));
             break;
-        case 'activities': 
-            // Reset page khi filter thay đổi
+        case 'member-list':
+            // Trang thành viên hiện tại
+            renderMembers(container);
+            break;
+        case 'alumni':
+            // Trang cựu thành viên
+            renderAlumni(container);
+            break;
+        case 'activities':
             if (activitiesFilter !== 'all' && state.pagination.activities.page !== 1) {
                 state.pagination.activities.page = 1;
             }
@@ -3271,7 +3719,6 @@ function renderSection(section) {
             initActivitiesFilter();
             break;
         case 'news':
-            // Reset page khi filter thay đổi
             if (newsFilter !== 'all' && state.pagination.news.page !== 1) {
                 state.pagination.news.page = 1;
             }
@@ -3280,7 +3727,6 @@ function renderSection(section) {
             initNewsFilter();
             break;
         case 'blog':
-            // Reset page khi filter thay đổi
             if (blogFilter !== 'all' && state.pagination.blog.page !== 1) {
                 state.pagination.blog.page = 1;
             }
@@ -3288,7 +3734,6 @@ function renderSection(section) {
             initBlogFilter();
             break;
         case 'guide':
-            // Reset page khi filter thay đổi
             if (guideFilter !== 'all' && state.pagination.guide.page !== 1) {
                 state.pagination.guide.page = 1;
             }
@@ -3301,9 +3746,14 @@ function renderSection(section) {
         case 'gallery':
             renderGallery(container);
             break;
-        case 'forum': renderForum(container); break;
-        case 'contact': renderContact(container); break;
-        default: renderPlaceholder(container, 'ui.placeholder');
+        case 'forum':
+            renderForum(container);
+            break;
+        case 'contact':
+            renderContact(container);
+            break;
+        default:
+            renderPlaceholder(container, 'ui.placeholder');
     }
 }
 
@@ -3710,7 +4160,12 @@ const originalRenderRoute = renderRoute;
 renderRoute = function() {
     const route = getRouteFromHash();
     const section = route.section;
-    const validSections = ['home', 'about', 'members', 'activities', 'news', 'blog', 'guide', 'map', 'gallery', 'forum', 'contact'];
+    const validSections = [
+        'home', 'about', 
+        'members', 'member-list', 'alumni',
+        'activities', 'news', 'blog', 'guide', 
+        'map', 'gallery', 'forum', 'contact'
+    ];
     
     if (!validSections.includes(section)) {
         window.location.hash = 'home';
