@@ -490,6 +490,7 @@ function updateUILanguage() {
 
     switch (state.currentRoute) {
         case 'home':
+            // Chỉ render các phần preview, KHÔNG gọi lại slider
             renderHomeActivities(document.getElementById('home-activities-container'));
             renderHomeNews(document.getElementById('home-news-container'));
             renderHomeBlog(document.getElementById('home-blog-container'));
@@ -904,10 +905,15 @@ function renderHomeGallery(container) {
 // =====================================================
 
 function renderHome(container) {
-    // Khởi tạo Hero Slider
-    initHeroSlider();
+    console.log('[VSA] 🏠 renderHome() called');
     
-    // Các phần preview trên trang chủ
+    // Chỉ khởi tạo slider nếu chưa có
+    const sliderContainer = document.getElementById('slider-container');
+    if (sliderContainer && sliderContainer.children.length === 0) {
+        initHeroSlider();
+    }
+    
+    // Các phần preview
     renderHomeActivities(document.getElementById('home-activities-container'));
     renderHomeNews(document.getElementById('home-news-container'));
     renderHomeBlog(document.getElementById('home-blog-container'));
@@ -1035,9 +1041,13 @@ function renderHomeMap() {
         console.log(`[VSA] ✅ Added ${markerData.length} home markers`);
 
         setTimeout(() => {
-            if (homeMapInstance) {
-                homeMapInstance.invalidateSize();
-                console.log('[VSA] ✅ Home map resized');
+            try {
+                if (mapInstance && mapInstance._container) {
+                    mapInstance.invalidateSize();
+                    console.log('[VSA] ✅ Full map resized');
+                }
+            } catch (err) {
+                console.warn('[VSA] ⚠️ Map resize error (bỏ qua):', err.message);
             }
         }, 300);
 
@@ -2513,9 +2523,13 @@ function initFullMap() {
         }
 
         setTimeout(() => {
-            if (mapInstance) {
-                mapInstance.invalidateSize();
-                console.log('[VSA] ✅ Full map resized');
+            try {
+                if (mapInstance && mapInstance._container) {
+                    mapInstance.invalidateSize();
+                    console.log('[VSA] ✅ Full map resized');
+                }
+            } catch (err) {
+                console.warn('[VSA] ⚠️ Map resize error (bỏ qua):', err.message);
             }
         }, 300);
 
@@ -3233,8 +3247,11 @@ function renderSection(section) {
     if (!container) return;
     
     switch (section) {
-        case 'home': 
-            renderHome(container);
+        case 'home':
+            // Chỉ gọi initHeroSlider nếu chưa có
+            if (!sliderInterval) {
+                initHeroSlider();
+            }
             break;
         case 'about':
             // GỌI renderAbout() THAY VÌ renderAbout(container)
@@ -3373,48 +3390,46 @@ let currentSlide = 0;
 let sliderData = [];
 
 function initHeroSlider() {
-    // Lấy dữ liệu từ activities
+    console.log('[VSA] 🎬 initHeroSlider() called');
+    
+    // Clear interval cũ nếu có
+    if (sliderInterval) {
+        clearInterval(sliderInterval);
+        sliderInterval = null;
+    }
+    
+    currentSlide = 0;
+    
+    // Lấy dữ liệu
     const activities = state.data.activities;
     if (!activities || activities.length === 0) {
-        // Fallback: nếu không có hoạt động, dùng ảnh mặc định
-        sliderData = [
-            { 
-                src: 'assets/images/hero/hero-01.webp', 
-                alt: 'VSA India', 
-                title: 'VSA India',
-                id: null,
-                link: '#activities'
-            }
-        ];
+        sliderData = [{ 
+            src: 'assets/images/hero/hero-01.webp', 
+            alt: 'VSA India', 
+            title: 'VSA India',
+            id: null,
+            link: '#activities'
+        }];
     } else {
-        // Sắp xếp theo thời gian (mới nhất → cũ nhất)
-        const sorted = [...activities].sort((a, b) => {
-            return new Date(b.date) - new Date(a.date);
-        });
+        const sorted = [...activities].sort((a, b) => new Date(b.date) - new Date(a.date));
+        const withImages = sorted.filter(a => a.image);
+        const sourceList = withImages.length > 0 ? withImages : sorted;
         
-        // Lấy ảnh từ mỗi hoạt động (ưu tiên image, fallback thumbnail)
-        sliderData = sorted.map(activity => {
-            // Lấy ảnh từ activity
-            let imgSrc = activity.image || activity.thumbnail || null;
-            
-            // Nếu không có ảnh, dùng ảnh mặc định
-            if (!imgSrc) {
-                imgSrc = 'assets/images/hero/hero-placeholder.webp';
-            }
-            
-            return {
-                src: imgSrc,
-                alt: activity.title[state.currentLang] || activity.title.vi || 'VSA India',
-                title: activity.title[state.currentLang] || activity.title.vi || 'Hoạt động VSA India',
-                id: activity.id,
-                link: `#activities/${activity.id}`
-            };
-        });
+        sliderData = sourceList.map(activity => ({
+            src: activity.image || activity.thumbnail || 'assets/images/hero/hero-placeholder.webp',
+            alt: activity.title[state.currentLang] || activity.title.vi || 'VSA India',
+            title: activity.title[state.currentLang] || activity.title.vi || 'Hoạt động VSA India',
+            id: activity.id,
+            link: `#activities/${activity.id}`
+        }));
     }
 
     renderSlider();
-    startSlider();
     initSliderControls();
+    
+    // Start interval
+    sliderInterval = setInterval(nextSlide, 5000);
+    console.log('[VSA] ▶️ Slider started (id:', sliderInterval, ')');
 }
 
 function renderSlider() {
@@ -3516,14 +3531,19 @@ function prevSlide() {
 }
 
 function startSlider() {
-    if (sliderInterval) clearInterval(sliderInterval);
+    // Luôn clear interval cũ trước
+    stopSlider();
+    
+    // Tạo interval mới
     sliderInterval = setInterval(nextSlide, 5000);
+    console.log('[VSA] ▶️ Slider started');
 }
 
 function stopSlider() {
     if (sliderInterval) {
         clearInterval(sliderInterval);
         sliderInterval = null;
+        console.log('[VSA] ⏸️ Slider stopped');
     }
 }
 
@@ -3532,32 +3552,72 @@ function initSliderControls() {
     const nextBtn = document.getElementById('slider-next');
     const slider = document.getElementById('hero-slider');
 
-    if (prevBtn) {
+    // Chỉ gắn event 1 lần duy nhất
+    if (prevBtn && !prevBtn.dataset.bound) {
+        prevBtn.dataset.bound = 'true';
+        
         prevBtn.addEventListener('click', (e) => {
             e.stopPropagation();
-            stopSlider();
+            e.preventDefault();
+            
+            // Dừng interval hiện tại
+            if (sliderInterval) {
+                clearInterval(sliderInterval);
+                sliderInterval = null;
+            }
+            
+            // Chuyển slide
             prevSlide();
-            setTimeout(startSlider, 5000);
+            
+            // Restart interval
+            sliderInterval = setInterval(nextSlide, 5000);
         });
     }
 
-    if (nextBtn) {
+    if (nextBtn && !nextBtn.dataset.bound) {
+        nextBtn.dataset.bound = 'true';
+        
         nextBtn.addEventListener('click', (e) => {
             e.stopPropagation();
-            stopSlider();
+            e.preventDefault();
+            
+            // Dừng interval hiện tại
+            if (sliderInterval) {
+                clearInterval(sliderInterval);
+                sliderInterval = null;
+            }
+            
+            // Chuyển slide
             nextSlide();
-            setTimeout(startSlider, 5000);
+            
+            // Restart interval
+            sliderInterval = setInterval(nextSlide, 5000);
         });
     }
 
-    if (slider) {
-        slider.addEventListener('mouseenter', stopSlider);
-        slider.addEventListener('mouseleave', startSlider);
+    if (slider && !slider.dataset.bound) {
+        slider.dataset.bound = 'true';
+        
+        slider.addEventListener('mouseenter', () => {
+            if (sliderInterval) {
+                clearInterval(sliderInterval);
+                sliderInterval = null;
+            }
+        });
+        
+        slider.addEventListener('mouseleave', () => {
+            if (!sliderInterval) {
+                sliderInterval = setInterval(nextSlide, 5000);
+            }
+        });
         
         let touchStartX = 0;
         slider.addEventListener('touchstart', (e) => {
             touchStartX = e.touches[0].clientX;
-            stopSlider();
+            if (sliderInterval) {
+                clearInterval(sliderInterval);
+                sliderInterval = null;
+            }
         }, { passive: true });
         
         slider.addEventListener('touchend', (e) => {
@@ -3567,7 +3627,9 @@ function initSliderControls() {
             } else if (touchEndX - touchStartX > 50) {
                 prevSlide();
             }
-            setTimeout(startSlider, 5000);
+            if (!sliderInterval) {
+                sliderInterval = setInterval(nextSlide, 5000);
+            }
         }, { passive: true });
     }
 }
