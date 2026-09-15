@@ -7,6 +7,8 @@ const cors = require('cors');
 const dotenv = require('dotenv');
 const rateLimit = require('express-rate-limit');
 const nodemailer = require('nodemailer');
+const axios = require('axios');
+const crypto = require('crypto');
 
 // Load environment variables
 dotenv.config();
@@ -59,6 +61,143 @@ const transporter = nodemailer.createTransport({
         user: process.env.EMAIL_USER,  // vsaiishere@gmail.com
         pass: process.env.EMAIL_PASS   // App Password (không dùng mật khẩu thường)
     }
+});
+
+// ====================================================
+// OAUTH PROXY – Cho Decap CMS đăng nhập GitHub
+// ====================================================
+
+// Bước 1: Redirect user sang GitHub
+app.get('/oauth', (req, res) => {
+    const state = crypto.randomBytes(16).toString('hex');
+    
+    const params = new URLSearchParams({
+        client_id: process.env.OAUTH_GITHUB_CLIENT_ID,
+        redirect_uri: 'https://svvntaiando.io.vn/oauth/callback',
+        scope: 'repo,user',
+        state: state
+    });
+    
+    console.log('[VSA OAuth] Redirecting to GitHub, state:', state);
+    res.redirect(`https://github.com/login/oauth/authorize?${params.toString()}`);
+});
+
+// Bước 2: Nhận callback từ GitHub
+app.get('/oauth/callback', async (req, res) => {
+    const { code } = req.query;
+    
+    if (!code) {
+        console.error('[VSA OAuth] No code received from GitHub');
+        return res.status(400).send('Missing code from GitHub');
+    }
+    
+    try {
+        const tokenResponse = await axios.post(
+            'https://github.com/login/oauth/access_token',
+            {
+                client_id: process.env.OAUTH_GITHUB_CLIENT_ID,
+                client_secret: process.env.OAUTH_GITHUB_CLIENT_SECRET,
+                code: code
+            },
+            {
+                headers: {
+                    'Accept': 'application/json',
+                    'Content-Type': 'application/json'
+                }
+            }
+        );
+        
+        const { access_token, error, error_description } = tokenResponse.data;
+        
+        if (error || !access_token) {
+            console.error('[VSA OAuth] Token exchange failed:', error, error_description);
+            return res.status(400).send(`OAuth error: ${error_description || error}`);
+        }
+        
+        console.log('[VSA OAuth] ✅ Token exchange successful');
+        
+        // ⚠️ QUAN TRỌNG: Decap CMS nhận token qua postMessage
+        // Trả về HTML với script postMessage cho opener window
+        const tokenPayload = JSON.stringify({
+            token: access_token,
+            provider: 'github'
+        });
+        
+        res.send(`<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Đang đăng nhập...</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            margin: 0;
+            background: #f9f6f0;
+            color: #2c2c2c;
+        }
+        .box { text-align: center; }
+        .spinner {
+            width: 40px; height: 40px;
+            border: 3px solid #e5ddd2;
+            border-top-color: #8B1A1A;
+            border-radius: 50%;
+            animation: spin 0.8s linear infinite;
+            margin: 0 auto 16px;
+        }
+        @keyframes spin { to { transform: rotate(360deg); } }
+        h1 { font-size: 18px; font-weight: 600; margin: 0 0 8px; }
+        p { font-size: 14px; color: #6b6b6b; margin: 0; }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="spinner"></div>
+        <h1>Đang hoàn tất đăng nhập...</h1>
+        <p>Cửa sổ này sẽ tự đóng sau giây lát.</p>
+    </div>
+    <script>
+        (function() {
+            var payload = ${tokenPayload};
+            var message = 'authorization:github:success:' + JSON.stringify(payload);
+            
+            // Gửi token về cửa sổ cha (Decap CMS)
+            function sendToken() {
+                if (window.opener) {
+                    window.opener.postMessage(message, '*');
+                    console.log('[OAuth Callback] Token sent to opener');
+                    setTimeout(function() { window.close(); }, 500);
+                } else {
+                    // Fallback: nếu không có opener, chuyển về /admin
+                    console.warn('[OAuth Callback] No opener, redirecting...');
+                    window.location.href = '/admin/';
+                }
+            }
+            
+            // Đợi 1 chút để chắc chắn opener đã ready
+            setTimeout(sendToken, 300);
+        })();
+    </script>
+</body>
+</html>`);
+        
+    } catch (err) {
+        console.error('[VSA OAuth] ❌ Error:', err.message);
+        res.status(500).send(`OAuth server error: ${err.message}`);
+    }
+});
+
+// Health check cho OAuth (debug)
+app.get('/oauth/health', (req, res) => {
+    res.json({
+        ok: true,
+        client_id_configured: !!process.env.OAUTH_GITHUB_CLIENT_ID,
+        client_secret_configured: !!process.env.OAUTH_GITHUB_CLIENT_SECRET,
+        timestamp: new Date().toISOString()
+    });
 });
 
 // ====================================================
