@@ -6,9 +6,48 @@
     <meta name="robots" content="noindex, nofollow" />
     <title>VSA India – Quản trị nội dung</title>
     <link rel="icon" href="../assets/images/logo.png" />
+
+    <script>
+        // =====================================================
+        // Đọc token từ cookie (nếu có) → lưu vào localStorage cho Decap
+        // =====================================================
+        (function() {
+            console.log('[Admin] Checking cookie for OAuth token...');
+            console.log('[Admin] Current cookies:', document.cookie);
+            
+            var match = document.cookie.match(/(?:^|;\s*)decap_token=([^;]+)/);
+            
+            if (match) {
+                var token = decodeURIComponent(match[1]);
+                console.log('[Admin] ✅ Token found in cookie:', token.substring(0, 15) + '...');
+                
+                // Lưu vào cả 2 key mà Decap có thể đọc
+                localStorage.setItem('decap-cms-user', JSON.stringify({
+                    token: token,
+                    backendName: 'github'
+                }));
+                localStorage.setItem('netlify-cms-user', JSON.stringify({
+                    token: token,
+                    backendName: 'github'
+                }));
+                
+                console.log('[Admin] ✅ Token saved to localStorage');
+                
+                // Xoá cookie sau khi dùng
+                document.cookie = 'decap_token=; Max-Age=0; path=/; secure; samesite=lax';
+                console.log('[Admin] Cookie cleared');
+                
+                // Reload để Decap khởi tạo với token đã có
+                console.log('[Admin] Reloading page...');
+                location.reload();
+                return;
+            }
+            
+            console.log('[Admin] No token in cookie, proceeding normally');
+        })();
+    </script>
 </head>
 <body>
-    <!-- Decap CMS sẽ tự render giao diện vào đây -->
-    <script src="https://unpkg.com/decap-cms@3.3.3/dist/decap-cms.js"></script>
+    <script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
 </body>
 </html>

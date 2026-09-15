@@ -30,138 +30,140 @@ collections:
       - name: "news_list"
         label: "Danh sách tin tức"
         file: "frontend/data/news.json"
+        widget: "list"
+        allow_add: true
+        collapsed: true
+        summary: "{{fields.title.vi}} ({{fields.date}})"
         fields:
-          - name: "items"
-            label: "Tin tức"
-            label_singular: "Tin"
-            widget: "list"
-            allow_add: true
-            collapsed: true
-            summary: "{{fields.title.vi}} ({{fields.date}})"
+          - { name: "id", label: "ID (số duy nhất)", widget: "number", value_type: "int", min: 1 }
+          - name: "title"
+            label: "Tiêu đề"
+            widget: "object"
             fields:
-              - { name: "id", label: "ID (số duy nhất)", widget: "number", value_type: "int", min: 1 }
-              - name: "title"
-                label: "Tiêu đề"
-                widget: "object"
+              - { name: "vi", label: "🇻🇳 Tiếng Việt", widget: "string" }
+              - { name: "en", label: "🇬🇧 English", widget: "string" }
+          - { name: "date", label: "Ngày diễn ra", widget: "datetime", date_format: "YYYY-MM-DD", time_format: false, format: "YYYY-MM-DD" }
+          - { name: "location", label: "Địa điểm", widget: "string" }
+          - name: "category"
+            label: "Danh mục"
+            widget: "select"
+            options:
+              - { label: "Sự kiện", value: "event" }
+              - { label: "Học thuật", value: "academic" }
+              - { label: "Văn hóa", value: "culture" }
+              - { label: "Thể thao", value: "sports" }
+              - { label: "Cộng đồng", value: "community" }
+              - { label: "Đối ngoại", value: "external" }
+          - { name: "image", label: "Ảnh chính", widget: "image", required: false }
+          - { name: "thumbnail", label: "Ảnh thumbnail (hover)", widget: "image", required: false }
+          - name: "gallery"
+            label: "Gallery ảnh phụ"
+            widget: "list"
+            required: false
+            field: { name: "image", label: "Ảnh", widget: "image" }
+          - name: "summary"
+            label: "Tóm tắt"
+            widget: "object"
+            fields:
+              - { name: "vi", label: "🇻🇳 Tiếng Việt", widget: "text" }
+              - { name: "en", label: "🇬🇧 English", widget: "text" }
+          - { name: "featured", label: "Nổi bật", widget: "boolean", default: false, required: false }
+          - name: "content"
+            label: "Nội dung chi tiết"
+            widget: "object"
+            fields:
+              - name: "vi"
+                label: "🇻🇳 Tiếng Việt"
+                widget: "list"
+                summary: "{{fields.type}}"
                 fields:
-                  - { name: "vi", label: "🇻🇳 Tiếng Việt", widget: "string" }
-                  - { name: "en", label: "🇬🇧 English", widget: "string" }
-              - { name: "date", label: "Ngày đăng", widget: "datetime", date_format: "YYYY-MM-DD", time_format: false, format: "YYYY-MM-DD" }
-              - name: "category"
-                label: "Danh mục"
-                widget: "select"
-                options:
-                  - { label: "Thông báo", value: "announcement" }
-                  - { label: "Sự kiện", value: "event" }
-                  - { label: "Chung", value: "general" }
-                  - { label: "Văn hóa", value: "culture" }
-              - { name: "thumbnail", label: "Ảnh đại diện", widget: "image", required: false }
-              - name: "summary"
-                label: "Tóm tắt"
-                widget: "object"
+                  - { name: "type", label: "Loại", widget: "select", options: ["text", "image"] }
+                  - { name: "value", label: "Nội dung text", widget: "text", required: false }
+                  - { name: "src", label: "Đường dẫn ảnh", widget: "image", required: false }
+                  - { name: "alt", label: "Mô tả ảnh (alt)", widget: "string", required: false }
+                  - { name: "caption", label: "Chú thích ảnh", widget: "string", required: false }
+              - name: "en"
+                label: "🇬🇧 English"
+                widget: "list"
+                summary: "{{fields.type}}"
                 fields:
-                  - { name: "vi", label: "🇻🇳 Tiếng Việt", widget: "text" }
-                  - { name: "en", label: "🇬🇧 English", widget: "text" }
-              - { name: "featured", label: "Tin nổi bật (hiện to ở đầu trang)", widget: "boolean", default: false, required: false }
-              - name: "content"
-                label: "Nội dung chi tiết"
-                widget: "object"
-                fields:
-                  - name: "vi"
-                    label: "🇻🇳 Tiếng Việt"
-                    widget: "list"
-                    summary: "{{fields.type}}"
-                    fields:
-                      - { name: "type", label: "Loại", widget: "select", options: ["text", "image"] }
-                      - { name: "value", label: "Nội dung text", widget: "text", required: false }
-                      - { name: "src", label: "Đường dẫn ảnh", widget: "image", required: false }
-                      - { name: "alt", label: "Mô tả ảnh (alt)", widget: "string", required: false }
-                      - { name: "caption", label: "Chú thích ảnh", widget: "string", required: false }
-                  - name: "en"
-                    label: "🇬🇧 English"
-                    widget: "list"
-                    summary: "{{fields.type}}"
-                    fields:
-                      - { name: "type", label: "Type", widget: "select", options: ["text", "image"] }
-                      - { name: "value", label: "Text content", widget: "text", required: false }
-                      - { name: "src", label: "Image path", widget: "image", required: false }
-                      - { name: "alt", label: "Alt text", widget: "string", required: false }
-                      - { name: "caption", label: "Caption", widget: "string", required: false }
+                  - { name: "type", label: "Type", widget: "select", options: ["text", "image"] }
+                  - { name: "value", label: "Text content", widget: "text", required: false }
+                  - { name: "src", label: "Image path", widget: "image", required: false }
+                  - { name: "alt", label: "Alt text", widget: "string", required: false }
+                  - { name: "caption", label: "Caption", widget: "string", required: false }
+          - { name: "organizerId", label: "ID người tổ chức", widget: "number", value_type: "int", required: false }
 
   # ==========================================
   # HOẠT ĐỘNG
   # ==========================================
-  - name: "activities"
+    - name: "activities"
     label: "🎯 Hoạt động"
     label_singular: "Hoạt động"
     files:
       - name: "activities_list"
         label: "Danh sách hoạt động"
         file: "frontend/data/activities.json"
+        widget: "list"
+        allow_add: true
+        collapsed: true
+        summary: "{{fields.title.vi}} ({{fields.date}})"
         fields:
-          - name: "items"
-            label: "Hoạt động"
-            label_singular: "Hoạt động"
-            widget: "list"
-            allow_add: true
-            collapsed: true
-            summary: "{{fields.title.vi}} ({{fields.date}})"
+          - { name: "id", label: "ID (số duy nhất)", widget: "number", value_type: "int", min: 1 }
+          - name: "title"
+            label: "Tiêu đề"
+            widget: "object"
             fields:
-              - { name: "id", label: "ID (số duy nhất)", widget: "number", value_type: "int", min: 1 }
-              - name: "title"
-                label: "Tiêu đề"
-                widget: "object"
-                fields:
-                  - { name: "vi", label: "🇻🇳 Tiếng Việt", widget: "string" }
-                  - { name: "en", label: "🇬🇧 English", widget: "string" }
-              - { name: "date", label: "Ngày diễn ra", widget: "datetime", date_format: "YYYY-MM-DD", time_format: false, format: "YYYY-MM-DD" }
-              - { name: "location", label: "Địa điểm", widget: "string" }
-              - name: "category"
-                label: "Danh mục"
-                widget: "select"
-                options:
-                  - { label: "Sự kiện", value: "event" }
-                  - { label: "Học thuật", value: "academic" }
-                  - { label: "Văn hóa", value: "culture" }
-                  - { label: "Thể thao", value: "sports" }
-                  - { label: "Cộng đồng", value: "community" }
-                  - { label: "Đối ngoại", value: "external" }
-              - { name: "image", label: "Ảnh chính", widget: "image", required: false }
-              - { name: "thumbnail", label: "Ảnh thumbnail (hover)", widget: "image", required: false }
-              - name: "gallery"
-                label: "Gallery ảnh phụ"
+              - { name: "vi", label: "🇻🇳 Tiếng Việt", widget: "string" }
+              - { name: "en", label: "🇬🇧 English", widget: "string" }
+          - { name: "date", label: "Ngày diễn ra", widget: "datetime", date_format: "YYYY-MM-DD", time_format: false, format: "YYYY-MM-DD" }
+          - { name: "location", label: "Địa điểm", widget: "string" }
+          - name: "category"
+            label: "Danh mục"
+            widget: "select"
+            options:
+              - { label: "Sự kiện", value: "event" }
+              - { label: "Học thuật", value: "academic" }
+              - { label: "Văn hóa", value: "culture" }
+              - { label: "Thể thao", value: "sports" }
+              - { label: "Cộng đồng", value: "community" }
+              - { label: "Đối ngoại", value: "external" }
+          - { name: "image", label: "Ảnh chính", widget: "image", required: false }
+          - { name: "thumbnail", label: "Ảnh thumbnail (hover)", widget: "image", required: false }
+          - name: "gallery"
+            label: "Gallery ảnh phụ"
+            widget: "list"
+            required: false
+            field: { name: "image", label: "Ảnh", widget: "image" }
+          - name: "summary"
+            label: "Tóm tắt"
+            widget: "object"
+            fields:
+              - { name: "vi", label: "🇻🇳 Tiếng Việt", widget: "text" }
+              - { name: "en", label: "🇬🇧 English", widget: "text" }
+          - { name: "featured", label: "Nổi bật", widget: "boolean", default: false, required: false }
+          - name: "content"
+            label: "Nội dung chi tiết"
+            widget: "object"
+            fields:
+              - name: "vi"
+                label: "🇻🇳 Tiếng Việt"
                 widget: "list"
-                required: false
-                field: { name: "image", label: "Ảnh", widget: "image" }
-              - name: "summary"
-                label: "Tóm tắt"
-                widget: "object"
+                summary: "{{fields.type}}"
                 fields:
-                  - { name: "vi", label: "🇻🇳 Tiếng Việt", widget: "text" }
-                  - { name: "en", label: "🇬🇧 English", widget: "text" }
-              - { name: "featured", label: "Nổi bật", widget: "boolean", default: false, required: false }
-              - name: "content"
-                label: "Nội dung chi tiết"
-                widget: "object"
+                  - { name: "type", label: "Loại", widget: "select", options: ["text", "image"] }
+                  - { name: "value", label: "Nội dung text", widget: "text", required: false }
+                  - { name: "src", label: "Đường dẫn ảnh", widget: "image", required: false }
+                  - { name: "alt", label: "Mô tả ảnh (alt)", widget: "string", required: false }
+                  - { name: "caption", label: "Chú thích ảnh", widget: "string", required: false }
+              - name: "en"
+                label: "🇬🇧 English"
+                widget: "list"
+                summary: "{{fields.type}}"
                 fields:
-                  - name: "vi"
-                    label: "🇻🇳 Tiếng Việt"
-                    widget: "list"
-                    summary: "{{fields.type}}"
-                    fields:
-                      - { name: "type", label: "Loại", widget: "select", options: ["text", "image"] }
-                      - { name: "value", label: "Nội dung text", widget: "text", required: false }
-                      - { name: "src", label: "Đường dẫn ảnh", widget: "image", required: false }
-                      - { name: "alt", label: "Mô tả ảnh (alt)", widget: "string", required: false }
-                      - { name: "caption", label: "Chú thích ảnh", widget: "string", required: false }
-                  - name: "en"
-                    label: "🇬🇧 English"
-                    widget: "list"
-                    summary: "{{fields.type}}"
-                    fields:
-                      - { name: "type", label: "Type", widget: "select", options: ["text", "image"] }
-                      - { name: "value", label: "Text content", widget: "text", required: false }
-                      - { name: "src", label: "Image path", widget: "image", required: false }
-                      - { name: "alt", label: "Alt text", widget: "string", required: false }
-                      - { name: "caption", label: "Caption", widget: "string", required: false }
-              - { name: "organizerId", label: "ID người tổ chức", widget: "number", value_type: "int", required: false }
+                  - { name: "type", label: "Type", widget: "select", options: ["text", "image"] }
+                  - { name: "value", label: "Text content", widget: "text", required: false }
+                  - { name: "src", label: "Image path", widget: "image", required: false }
+                  - { name: "alt", label: "Alt text", widget: "string", required: false }
+                  - { name: "caption", label: "Caption", widget: "string", required: false }
+          - { name: "organizerId", label: "ID người tổ chức", widget: "number", value_type: "int", required: false }
