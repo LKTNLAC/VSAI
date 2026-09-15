@@ -9,7 +9,8 @@
 
 const CONFIG = {
     defaultLang: 'vi',
-    storageKey: 'vsa-lang'
+    storageKey: 'vsa-lang',
+    themeKey: 'vsa-theme'
 };
 
 // =====================================================
@@ -18,6 +19,7 @@ const CONFIG = {
 
 let state = {
     currentLang: localStorage.getItem(CONFIG.storageKey) || CONFIG.defaultLang,
+    currentTheme: localStorage.getItem(CONFIG.themeKey) || 'light', 
     currentRoute: 'home',
     currentDetailId: null,
     pagination: {
@@ -699,6 +701,7 @@ function updateUILanguage() {
     if (state.currentDetailId) {
         renderSectionDetail(state.currentRoute, state.currentDetailId);
     }
+    applyTheme(state.currentTheme);
 }
 
 function initNavigation() {
@@ -3683,6 +3686,51 @@ function setLanguage(lang) {
     localStorage.setItem(CONFIG.storageKey, lang);
     updateUILanguage();
 }
+// =====================================================
+// 21b. THEME TOGGLE
+// =====================================================
+
+function initThemeToggle() {
+    const btn = document.getElementById('theme-toggle');
+    if (!btn) return;
+    
+    // Apply theme hiện tại khi load
+    applyTheme(state.currentTheme);
+    
+    btn.addEventListener('click', () => {
+        const newTheme = state.currentTheme === 'dark' ? 'light' : 'dark';
+        setTheme(newTheme);
+    });
+}
+
+function applyTheme(theme) {
+    document.documentElement.setAttribute('data-theme', theme);
+    
+    // Đổi icon
+    const icon = document.getElementById('theme-icon');
+    if (icon) {
+        icon.className = theme === 'dark' ? 'fas fa-sun' : 'fas fa-moon';
+    }
+    
+    // Đổi aria-label
+    const btn = document.getElementById('theme-toggle');
+    if (btn) {
+        const label = theme === 'dark' 
+            ? (state.currentLang === 'vi' ? 'Chuyển giao diện sáng' : 'Switch to light mode')
+            : (state.currentLang === 'vi' ? 'Chuyển giao diện tối' : 'Switch to dark mode');
+        btn.setAttribute('aria-label', label);
+        btn.setAttribute('title', label);
+    }
+}
+
+function setTheme(theme) {
+    state.currentTheme = theme;
+    localStorage.setItem(CONFIG.themeKey, theme);
+    applyTheme(theme);
+    
+    // Cập nhật lại aria-label khi đổi ngôn ngữ
+    // (applyTheme đã handle)
+}
 
 // =====================================================
 // 22. SECTION RENDERER
@@ -3782,6 +3830,7 @@ async function init() {
     
     initNavigation();
     initLanguageSwitch();
+    initThemeToggle(); 
     initEventListeners();
     initLightbox();
     initMemberModal();
