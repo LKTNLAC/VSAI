@@ -4,6 +4,8 @@ backend:
   branch: main
   base_url: https://svvntaiando.io.vn
   auth_endpoint: oauth
+  use_graphql: false
+  api_root: https://api.github.com
 
 # Cấu hình upload ảnh
 media_folder: "frontend/assets/images/uploads"
