@@ -4,24 +4,19 @@ backend:
   branch: main
   base_url: https://svvntaiando.io.vn
   auth_endpoint: oauth
-  use_graphql: false
-  api_root: https://api.github.com
 
-# Cấu hình upload ảnh
 media_folder: "frontend/assets/images/uploads"
 public_folder: "/assets/images/uploads"
 
-# Ngôn ngữ hiển thị
 locale: vi
 
-# Cấu hình site
 site_url: https://svvntaiando.io.vn
 display_url: https://svvntaiando.io.vn
 logo_url: https://svvntaiando.io.vn/assets/images/logo.png
 
 collections:
   # ==========================================
-  # TIN TỨC
+  # TIN TỨC (mảng trực tiếp, không bọc items)
   # ==========================================
   - name: "news"
     label: "📰 Tin tức"
@@ -42,32 +37,23 @@ collections:
             fields:
               - { name: "vi", label: "🇻🇳 Tiếng Việt", widget: "string" }
               - { name: "en", label: "🇬🇧 English", widget: "string" }
-          - { name: "date", label: "Ngày diễn ra", widget: "datetime", date_format: "YYYY-MM-DD", time_format: false, format: "YYYY-MM-DD" }
-          - { name: "location", label: "Địa điểm", widget: "string" }
+          - { name: "date", label: "Ngày đăng", widget: "datetime", date_format: "YYYY-MM-DD", time_format: false, format: "YYYY-MM-DD" }
           - name: "category"
             label: "Danh mục"
             widget: "select"
             options:
+              - { label: "Thông báo", value: "announcement" }
               - { label: "Sự kiện", value: "event" }
-              - { label: "Học thuật", value: "academic" }
+              - { label: "Chung", value: "general" }
               - { label: "Văn hóa", value: "culture" }
-              - { label: "Thể thao", value: "sports" }
-              - { label: "Cộng đồng", value: "community" }
-              - { label: "Đối ngoại", value: "external" }
-          - { name: "image", label: "Ảnh chính", widget: "image", required: false }
-          - { name: "thumbnail", label: "Ảnh thumbnail (hover)", widget: "image", required: false }
-          - name: "gallery"
-            label: "Gallery ảnh phụ"
-            widget: "list"
-            required: false
-            field: { name: "image", label: "Ảnh", widget: "image" }
+          - { name: "thumbnail", label: "Ảnh đại diện", widget: "image", required: false }
           - name: "summary"
             label: "Tóm tắt"
             widget: "object"
             fields:
               - { name: "vi", label: "🇻🇳 Tiếng Việt", widget: "text" }
               - { name: "en", label: "🇬🇧 English", widget: "text" }
-          - { name: "featured", label: "Nổi bật", widget: "boolean", default: false, required: false }
+          - { name: "featured", label: "Tin nổi bật", widget: "boolean", default: false, required: false }
           - name: "content"
             label: "Nội dung chi tiết"
             widget: "object"
@@ -92,12 +78,11 @@ collections:
                   - { name: "src", label: "Image path", widget: "image", required: false }
                   - { name: "alt", label: "Alt text", widget: "string", required: false }
                   - { name: "caption", label: "Caption", widget: "string", required: false }
-          - { name: "organizerId", label: "ID người tổ chức", widget: "number", value_type: "int", required: false }
 
   # ==========================================
-  # HOẠT ĐỘNG
+  # HOẠT ĐỘNG (mảng trực tiếp)
   # ==========================================
-    - name: "activities"
+  - name: "activities"
     label: "🎯 Hoạt động"
     label_singular: "Hoạt động"
     files:
