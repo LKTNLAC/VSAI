@@ -116,6 +116,16 @@ app.get('/oauth/callback', async (req, res) => {
         
         console.log('[VSA OAuth] ✅ Token exchange successful');
         
+        // Set cookie để tab chính đọc token
+        res.cookie('decap_token', access_token, {
+            httpOnly: false,
+            secure: true,
+            sameSite: 'lax',
+            maxAge: 120000,
+            path: '/'
+        });
+        console.log('[VSA OAuth] ✅ Cookie set, length:', access_token.length);
+        
         // ⚠️ QUAN TRỌNG: Decap CMS nhận token qua postMessage
         // Trả về HTML với script postMessage cho opener window
         const tokenPayload = JSON.stringify({

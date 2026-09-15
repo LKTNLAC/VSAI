@@ -15,9 +15,6 @@ display_url: https://svvntaiando.io.vn
 logo_url: https://svvntaiando.io.vn/assets/images/logo.png
 
 collections:
-  # ==========================================
-  # TIN TỨC (mảng trực tiếp, không bọc items)
-  # ==========================================
   - name: "news"
     label: "📰 Tin tức"
     label_singular: "Tin tức"
@@ -79,9 +76,6 @@ collections:
                   - { name: "alt", label: "Alt text", widget: "string", required: false }
                   - { name: "caption", label: "Caption", widget: "string", required: false }
 
-  # ==========================================
-  # HOẠT ĐỘNG (mảng trực tiếp)
-  # ==========================================
   - name: "activities"
     label: "🎯 Hoạt động"
     label_singular: "Hoạt động"
