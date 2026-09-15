@@ -26,8 +26,8 @@ app.use(cors({
         'http://localhost:5500',      // Live Server
         'http://localhost:3000',      // Local frontend
         'http://127.0.0.1:5500',
-        'https://vsaindia.org',       // Domain thật
-        'https://www.vsaindia.org'
+        'https://svvntaiando.io.vn',       // Domain thật
+        'https://www.svvntaiando.io.vn'
     ],
     methods: ['GET', 'POST'],
     allowedHeaders: ['Content-Type']
