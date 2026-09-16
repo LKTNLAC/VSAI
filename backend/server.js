@@ -14,6 +14,7 @@ const crypto = require('crypto');
 dotenv.config();
 
 const app = express();
+app.set('trust proxy', 1);
 const PORT = process.env.PORT || 5000;
 
 // ====================================================
@@ -318,6 +319,170 @@ app.post('/api/contact', async (req, res) => {
             message: 'Có lỗi xảy ra. Vui lòng thử lại sau.'
         });
     }
+});
+
+// ====================================================
+// WEBHOOK AUTO-DEPLOY – Nhận từ GitHub khi có commit mới
+// ====================================================
+
+const { exec } = require('child_process');
+const https = require('https');
+
+// Verify chữ ký HMAC của GitHub
+function verifyGitHubSignature(req, secret) {
+    const signature = req.headers['x-hub-signature-256'];
+    if (!signature) return false;
+    
+    const body = req.rawBody || JSON.stringify(req.body);
+    const hmac = crypto.createHmac('sha256', secret);
+    const digest = 'sha256=' + hmac.update(body).digest('hex');
+    
+    try {
+        return crypto.timingSafeEqual(Buffer.from(signature), Buffer.from(digest));
+    } catch (err) {
+        return false;
+    }
+}
+
+// Purge Cloudflare cache
+function purgeCloudflareCache() {
+    return new Promise((resolve, reject) => {
+        const token = process.env.CF_API_TOKEN;
+        const zoneId = process.env.CF_ZONE_ID;
+        
+        if (!token || !zoneId) {
+            reject(new Error('CF_API_TOKEN or CF_ZONE_ID not configured'));
+            return;
+        }
+        
+        const data = JSON.stringify({ purge_everything: true });
+        
+        const options = {
+            hostname: 'api.cloudflare.com',
+            port: 443,
+            path: `/client/v4/zones/${zoneId}/purge_cache`,
+            method: 'POST',
+            headers: {
+                'Authorization': `Bearer ${token}`,
+                'Content-Type': 'application/json',
+                'Content-Length': data.length
+            }
+        };
+        
+        const req = https.request(options, (res) => {
+            let body = '';
+            res.on('data', chunk => body += chunk);
+            res.on('end', () => {
+                try {
+                    const parsed = JSON.parse(body);
+                    if (parsed.success) {
+                        console.log('[Webhook] ✅ Cloudflare cache purged');
+                        resolve(parsed);
+                    } else {
+                        reject(new Error('Cloudflare error: ' + JSON.stringify(parsed.errors)));
+                    }
+                } catch (err) {
+                    reject(err);
+                }
+            });
+        });
+        
+        req.on('error', reject);
+        req.write(data);
+        req.end();
+    });
+}
+
+// Endpoint nhận webhook
+app.post('/webhook/deploy',
+    express.json({
+        verify: (req, res, buf) => {
+            req.rawBody = buf.toString();
+        }
+    }),
+    async (req, res) => {
+        const event = req.headers['x-github-event'];
+        const signature = req.headers['x-hub-signature-256'];
+        
+        console.log(`[Webhook] Received: event=${event}, sig=${signature ? 'yes' : 'no'}`);
+        
+        // Verify signature
+        const secret = process.env.WEBHOOK_SECRET;
+        if (secret && !verifyGitHubSignature(req, secret)) {
+            console.error('[Webhook] ❌ Invalid signature');
+            return res.status(401).json({ error: 'Invalid signature' });
+        }
+        
+        // Chỉ xử lý push event
+        if (event !== 'push') {
+            console.log(`[Webhook] Ignored event: ${event}`);
+            return res.json({ status: 'ignored', event });
+        }
+        
+        // Chỉ xử lý push lên branch main
+        const branch = req.body.ref;
+        if (branch !== 'refs/heads/main') {
+            console.log(`[Webhook] Ignored branch: ${branch}`);
+            return res.json({ status: 'ignored', branch });
+        }
+        
+        const commits = req.body.commits || [];
+        console.log(`[Webhook] ✅ Push to main with ${commits.length} commits`);
+        
+        // Trả response ngay để GitHub không timeout
+        res.json({ 
+            status: 'deploying', 
+            commits: commits.length,
+            timestamp: new Date().toISOString()
+        });
+        
+        // Chạy deploy sau khi response (async)
+        setTimeout(async () => {
+            console.log('[Webhook] 🚀 Starting deployment...');
+            
+            const repoDir = '/var/www/vsaindia';
+            
+            exec(`cd ${repoDir} && git pull origin main 2>&1`, async (err, stdout, stderr) => {
+                if (err) {
+                    console.error('[Webhook] ❌ Git pull failed:', err.message);
+                    console.error('[Webhook] stderr:', stderr);
+                    return;
+                }
+                
+                console.log('[Webhook] ✅ Git pull success:');
+                console.log(stdout);
+                
+                // Reload Nginx
+                exec('sudo systemctl reload nginx 2>&1', (nginxErr, nginxOut) => {
+                    if (nginxErr) {
+                        console.error('[Webhook] ⚠️ Nginx reload failed:', nginxErr.message);
+                    } else {
+                        console.log('[Webhook] ✅ Nginx reloaded');
+                    }
+                    
+                    // Purge Cloudflare
+                    purgeCloudflareCache()
+                        .then(() => {
+                            console.log('[Webhook] 🎉 Deployment complete!');
+                        })
+                        .catch(cfErr => {
+                            console.error('[Webhook] ⚠️ Cloudflare purge failed:', cfErr.message);
+                        });
+                });
+            });
+        }, 100);
+    }
+);
+
+// Health check cho webhook
+app.get('/webhook/health', (req, res) => {
+    res.json({
+        ok: true,
+        cf_token_configured: !!process.env.CF_API_TOKEN,
+        cf_zone_configured: !!process.env.CF_ZONE_ID,
+        webhook_secret_configured: !!process.env.WEBHOOK_SECRET,
+        timestamp: new Date().toISOString()
+    });
 });
 
 // ====================================================
