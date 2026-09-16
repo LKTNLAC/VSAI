@@ -27,3 +27,4 @@ Website được deploy trên GitHub Pages.
 ## Tác giả
 
 Bùi Hoàng Long = Chủ tịch Hội Sinh viên Việt Nam tại Ấn Độ
+# Test auto-deploy Wed Sep 16 06:37:31 UTC 2026
