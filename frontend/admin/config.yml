@@ -18,6 +18,8 @@ collections:
   - name: "news"
     label: "📰 Tin tức"
     label_singular: "Tin tức"
+    editor:
+        preview: false
     files:
       - name: "news_list"
         label: "Danh sách tin tức"
