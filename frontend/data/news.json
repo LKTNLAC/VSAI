@@ -635,7 +635,7 @@
       "en": "🇮🇳KRISHNA JANMASHTAMI 2026 – FESTIVAL CELEBRATING THE BIRTH OF KRISHNA"
     },
     "date": "2026-09-04",
-    "category": "culture",
+    "category": "event",
     "thumbnail": "assets/images/news/18/1.jpg",
     "summary": {
       "vi": "Trong đời sống văn hóa và tinh thần của Ấn Độ, Krishna Janmashtami là một...",
@@ -778,62 +778,60 @@
   {
     "id": 21,
     "title": {
-      "vi": "",
-      "en": ""
+      "vi": "THỦ TƯỚNG CHÍNH PHỦ LÊ MINH HƯNG KẾT THÚC CHUYẾN THAM DỰ HỘI NGHỊ THƯỢNG ĐỈNH BRICS 18 VÀ LÀM VIỆC TẠI ẤN ĐỘ",
+      "en": "PRIME MINISTER LÊ MINH HƯNG CONCLUDES HIS VISIT TO THE 18TH BRICS SUMMIT AND BILATERAL MEETINGS IN INDIA"
     },
-    "date": "2026-0-0",
-    "category": "",
+    "date": "2026-09-13",
+    "category": "event",
     "thumbnail": "assets/images/news/21/1.jpg",
     "summary": {
-      "vi": "...",
-      "en": "..."
+      "vi": "Chiều ngày 13/9/2026, Thủ tướng Chính phủ Lê Minh Hưng...",
+      "en": "In the afternoon of September 13, 2026, Prime Minister Lê Minh Hưng..."
     },
     "featured": false,
     "content": {
       "vi": [
-        { "type": "text", "value": "" },
+        { "type": "text", "value": "🏛️ Chiều ngày 13/9/2026, Thủ tướng Chính phủ Lê Minh Hưng cùng Đoàn đại biểu cấp cao Việt Nam rời New Delhi, kết thúc chuyến tham dự Hội nghị Thượng đỉnh BRICS lần thứ 18 và các hoạt động làm việc song phương tại Ấn Độ." },
         { "type": "image", "src": "assets/images/news/21/1.jpg", "alt": "", "caption": "" },
-        { "type": "text", "value": "" },
-        { "type": "text", "value": "" },
-        { "type": "text", "value": "" }
+        { "type": "text", "value": "🌏 Chuyến công tác diễn ra trong không khí hữu nghị, tin cậy và hợp tác, góp phần thúc đẩy sự tham gia, đóng góp của Việt Nam tại các cơ chế đa phương, đồng thời tiếp tục củng cố và làm sâu sắc hơn quan hệ Đối tác Chiến lược Toàn diện Tăng cường Việt Nam - Ấn Độ." },
+        { "type": "image", "src": "assets/images/news/21/2.jpg", "alt": "", "caption": "" },
+        { "type": "text", "value": "🇻🇳Cộng đồng du học sinh Việt Nam tại Ấn Độ trân trọng chúc mừng Thủ tướng Chính phủ Lê Minh Hưng và Đoàn đại biểu cấp cao Việt Nam đã có chuyến công tác thành công tốt đẹp, góp phần lan tỏa hình ảnh Việt Nam chủ động, tích cực và trách nhiệm trong hợp tác quốc tế." }
       ],
       "en": [
-        { "type": "text", "value": "" },
+        { "type": "text", "value": "In the afternoon of September 13, 2026, Prime Minister Lê Minh Hưng and the high-level delegation of Vietnam departed New Delhi, concluding their visit to the 18th BRICS Summit and bilateral meetings in India." },
         { "type": "image", "src": "assets/images/news/21/1.jpg", "alt": "", "caption": "" },
-        { "type": "text", "value": "" },
-        { "type": "text", "value": "" },
-        { "type": "text", "value": "" }
+        { "type": "text", "value": "The trip took place in a friendly, trusting and cooperative atmosphere, contributing to promoting Vietnam's participation and contribution at multilateral mechanisms, while continuing to consolidate and deepen the Strategic Partnership for Comprehensive Cooperation between Vietnam and India." },
+        { "type": "image", "src": "assets/images/news/21/2.jpg", "alt": "", "caption": "" },
+        { "type": "text", "value": "The Vietnamese student community in India sincerely congratulated Prime Minister Lê Minh Hưng and the high-level delegation of Vietnam for their successful trip, contributing to spreading the image of Vietnam as proactive, positive and responsible in international cooperation." }
       ]
     }
   },
   {
     "id": 22,
     "title": {
-      "vi": "",
-      "en": ""
+      "vi": "🌕🏮 TRUNG THU - TẾT ĐOÀN VIÊN 🏮🌕",
+      "en": "🌕🏮 Mid-Autumn Festival - Youth Festival 🏮🌕"
     },
-    "date": "2026-0-0",
+    "date": "2026-09-25",
     "category": "",
     "thumbnail": "assets/images/news/22/1.jpg",
     "summary": {
-      "vi": "...",
-      "en": "..."
+      "vi": "Trung thu là Tết của đoàn viên, là dịp...",
+      "en": "Mid-Autumn Festival is the festival of the youth, a time for us..."
     },
     "featured": false,
     "content": {
       "vi": [
-        { "type": "text", "value": "" },
+        { "type": "text", "value": "🌙 Trung thu là Tết của đoàn viên, là dịp để mỗi chúng ta cùng hướng về gia đình, quê hương và những người thân yêu. Dẫu đang học tập, làm việc và sinh sống xa nhà, những giá trị thân thương của Tết Trung thu vẫn luôn hiện diện trong mỗi người con Việt Nam." },
         { "type": "image", "src": "assets/images/news/22/1.jpg", "alt": "", "caption": "" },
-        { "type": "text", "value": "" },
-        { "type": "text", "value": "" },
-        { "type": "text", "value": "" }
+        { "type": "text", "value": "💌 Nhân dịp Tết Trung thu năm 2026, Hội Sinh viên Việt Nam tại Ấn Độ xin gửi lời chúc thân thương nhất tới toàn thể các bạn du học sinh, sinh viên và cộng đồng người Việt Nam đang sinh sống, học tập và làm việc tại Ấn Độ." },
+        { "type": "text", "value": "🥮 Chúc mọi người một mùa Trung thu thật nhiều niềm vui, bình an và những điều tốt đẹp. Mong rằng đêm trăng Rằm sẽ mang đến thật nhiều tiếng cười, những cuộc gặp gỡ ý nghĩa và những kỷ niệm đáng nhớ trong hành trình học tập, sinh sống và làm việc tại Ấn Độ." }
       ],
       "en": [
-        { "type": "text", "value": "" },
+        { "type": "text", "value": "🌙 Mid-Autumn Festival is the festival of the youth, a time for us to turn our hearts towards our families, homeland, and loved ones. Although we are studying, working, and living away from home, the warm values of the Mid-Autumn Festival always remain in every Vietnamese child." },
         { "type": "image", "src": "assets/images/news/22/1.jpg", "alt": "", "caption": "" },
-        { "type": "text", "value": "" },
-        { "type": "text", "value": "" },
-        { "type": "text", "value": "" }
+        { "type": "text", "value": "💌 On the occasion of the Mid-Autumn Festival 2026, the Vietnamese Student Association in India would like to send our warmest wishes to all international students, university students, and the Vietnamese community living, studying, and working in India." },
+        { "type": "text", "value": "🥮 Wishing everyone a joyful Mid-Autumn Festival filled with happiness, peace, and wonderful things. May the full moon of the 15th bring lots of laughter, meaningful meetings, and unforgettable memories during your journey of studying, living, and working in India." }
       ]
     }
   },
