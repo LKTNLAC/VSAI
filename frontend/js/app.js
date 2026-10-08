@@ -19,7 +19,7 @@ const CONFIG = {
 
 let state = {
     currentLang: localStorage.getItem(CONFIG.storageKey) || CONFIG.defaultLang,
-    currentTheme: localStorage.getItem(CONFIG.themeKey) || 'light', 
+    currentTheme: 'light', 
     currentRoute: 'home',
     currentDetailId: null,
     pagination: {
@@ -3685,49 +3685,7 @@ function setLanguage(lang) {
     localStorage.setItem(CONFIG.storageKey, lang);
     updateUILanguage();
 }
-// =====================================================
-// 21b. THEME TOGGLE
-// =====================================================
 
-// =====================================================
-// THEME TOGGLE
-// =====================================================
-
-function initThemeToggle() {
-    const checkbox = document.getElementById('theme-switch');
-    if (!checkbox) {
-        console.warn('[Theme] Switch #theme-switch not found');
-        return;
-    }
-    
-    // Đọc theme đã lưu
-    const savedTheme = localStorage.getItem('vsa-theme') || 'light';
-    document.documentElement.setAttribute('data-theme', savedTheme);
-    checkbox.checked = (savedTheme === 'dark');
-    console.log('[Theme] Init:', savedTheme);
-    
-    // Lắng nghe thay đổi checkbox
-    checkbox.addEventListener('change', () => {
-        const next = checkbox.checked ? 'dark' : 'light';
-        document.documentElement.setAttribute('data-theme', next);
-        localStorage.setItem('vsa-theme', next);
-        console.log('[Theme] Changed to:', next);
-    });
-}
-
-// Gọi khi DOM ready
-if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', initThemeToggle);
-} else {
-    initThemeToggle();
-}
-
-// Gọi khi DOM ready
-if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', initThemeToggle);
-} else {
-    initThemeToggle();
-}
 
 // =====================================================
 // 22. SECTION RENDERER
@@ -4299,6 +4257,53 @@ init = async function() {
         hideLoader();
     }, 500);
 };
+
+// =====================================================
+// THEME TOGGLE – FINAL
+// =====================================================
+
+function initThemeToggle() {
+    const checkbox = document.getElementById('theme-switch');
+    if (!checkbox) {
+        console.warn('[Theme] Switch #theme-switch not found');
+        return;
+    }
+    
+    // Đọc theme từ localStorage
+    let savedTheme = 'light';
+    try {
+        savedTheme = localStorage.getItem('vsa-theme') || 'light';
+    } catch(e) {}
+    
+    if (savedTheme !== 'dark' && savedTheme !== 'light') {
+        savedTheme = 'light';
+    }
+    
+    // Apply theme
+    document.documentElement.setAttribute('data-theme', savedTheme);
+    checkbox.checked = (savedTheme === 'dark');
+    
+    console.log('[Theme] Init:', savedTheme, '| checkbox.checked:', checkbox.checked);
+    
+    // Lắng nghe toggle
+    checkbox.addEventListener('change', function() {
+        const next = this.checked ? 'dark' : 'light';
+        document.documentElement.setAttribute('data-theme', next);
+        try {
+            localStorage.setItem('vsa-theme', next);
+        } catch(e) {}
+        console.log('[Theme] Changed to:', next);
+    });
+    
+    console.log('[Theme] Listener attached');
+}
+
+// Init khi DOM ready
+if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initThemeToggle);
+} else {
+    initThemeToggle();
+}
 
 // =====================================================
 // START
