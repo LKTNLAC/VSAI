@@ -1,0 +1,22 @@
+# Secrets
+.env
+backend/.env
+*.env
+!*.env.example
+lệnh tắt update máy chủ.txt
+
+# Node
+node_modules/
+backend/node_modules/
+package-lock.json
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
