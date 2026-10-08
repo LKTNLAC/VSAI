@@ -3287,7 +3287,7 @@ html, body, .site-header, .dropdown-menu, .member-modal-content,
 }
 
 /* ====================================================
-   NEUMORPHIC THEME TOGGLE SWITCH
+   DAY/NIGHT THEME TOGGLE SWITCH
    ==================================================== */
 
 .theme-toggle {
@@ -3306,86 +3306,274 @@ html, body, .site-header, .dropdown-menu, .member-modal-content,
 }
 
 .theme-toggle:active {
-    transform: scale(0.95);
+    transform: scale(0.97);
 }
 
 .theme-toggle-track {
-    display: flex;
-    align-items: center;
-    width: 60px;
-    height: 30px;
-    padding: 3px;
-    background: var(--neu-bg);
+    display: block;
+    width: 80px;
+    height: 40px;
     border-radius: 999px;
-    box-shadow: 
-        inset 2px 2px 5px var(--neu-shadow-dark),
-        inset -2px -2px 5px var(--neu-shadow-light);
     position: relative;
-    transition: background 0.4s ease, box-shadow 0.4s ease;
+    overflow: hidden;
+    box-shadow:
+        0 4px 12px rgba(0, 0, 0, 0.15),
+        inset 0 1px 2px rgba(255, 255, 255, 0.3);
+    transition: box-shadow 0.4s ease;
+    cursor: pointer;
 }
 
-.theme-toggle-thumb {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+/* Background: chuyển từ ngày (sáng) → đêm (tối) */
+.theme-toggle-track::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+        135deg,
+        #87CEEB 0%,
+        #FFD89B 50%,
+        #FFA07A 100%
+    );
+    transition: background 0.6s ease;
+    z-index: 0;
+}
+
+[data-theme="dark"] .theme-toggle-track::before {
+    background: linear-gradient(
+        135deg,
+        #0F2027 0%,
+        #203A43 50%,
+        #2C5364 100%
+    );
+}
+
+/* === SCENE container === */
+.scene {
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+    pointer-events: none;
+}
+
+/* === MẶT TRỜI (ngày) === */
+.sun {
+    position: absolute;
     width: 24px;
     height: 24px;
     border-radius: 50%;
-    background: linear-gradient(135deg, #FFFFFF 0%, #F0F0F0 100%);
-    box-shadow: 
-        2px 2px 5px rgba(0, 0, 0, 0.15),
-        -1px -1px 3px rgba(255, 255, 255, 0.9);
-    transform: translateX(0);
-    transition: transform 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55),
-                background 0.4s ease,
-                box-shadow 0.4s ease;
-    position: relative;
-    overflow: hidden;
-    z-index: 1;
+    background: radial-gradient(circle at 35% 35%, #FFF9C4 0%, #FFD54F 50%, #FFB300 100%);
+    top: 8px;
+    left: 8px;
+    box-shadow:
+        0 0 12px rgba(255, 213, 79, 0.8),
+        0 0 24px rgba(255, 179, 0, 0.4);
+    transition: opacity 0.5s ease, transform 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+[data-theme="dark"] .sun {
+    opacity: 0;
+    transform: scale(0.3);
+}
+
+/* === MÂY (ngày) === */
+.cloud {
+    position: absolute;
+    background: #fff;
+    border-radius: 999px;
+    transition: opacity 0.5s ease, transform 0.8s ease;
+    box-shadow: 0 2px 4px rgba(255, 255, 255, 0.5);
+}
+
+.cloud::before,
+.cloud::after {
+    content: '';
+    position: absolute;
+    background: #fff;
+    border-radius: 50%;
+}
+
+.cloud-1 {
+    width: 20px;
+    height: 7px;
+    top: 12px;
+    left: 38px;
+}
+.cloud-1::before { width: 10px; height: 10px; top: -5px; left: 3px; }
+.cloud-1::after  { width: 8px;  height: 8px;  top: -4px; left: 11px; }
+
+.cloud-2 {
+    width: 16px;
+    height: 6px;
+    top: 22px;
+    left: 50px;
+    opacity: 0.85;
+}
+.cloud-2::before { width: 8px; height: 8px; top: -4px; left: 3px; }
+.cloud-2::after  { width: 7px; height: 7px; top: -3px; left: 9px; }
+
+.cloud-3 {
+    width: 12px;
+    height: 5px;
+    top: 6px;
+    left: 55px;
+    opacity: 0.7;
+}
+.cloud-3::before { width: 6px; height: 6px; top: -3px; left: 2px; }
+.cloud-3::after  { width: 5px; height: 5px; top: -2px; left: 7px; }
+
+[data-theme="dark"] .cloud {
+    opacity: 0;
+    transform: translateX(-10px);
+}
+
+/* === MẶT TRĂNG (đêm) === */
+.moon {
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background: radial-gradient(circle at 35% 35%, #FFFEF2 0%, #F5F5DC 60%, #E8E8D0 100%);
+    top: 9px;
+    right: 8px;
+    opacity: 0;
+    transform: scale(0.3) translateX(20px);
+    box-shadow:
+        0 0 12px rgba(255, 254, 242, 0.9),
+        0 0 24px rgba(255, 254, 242, 0.5),
+        0 0 36px rgba(255, 254, 242, 0.3);
+    transition: opacity 0.5s ease, transform 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+/* Crater trên mặt trăng */
+.moon::before,
+.moon::after {
+    content: '';
+    position: absolute;
+    border-radius: 50%;
+    background: rgba(200, 200, 180, 0.35);
+}
+.moon::before { width: 4px; height: 4px; top: 6px; left: 6px; }
+.moon::after  { width: 3px; height: 3px; top: 13px; left: 12px; }
+
+[data-theme="dark"] .moon {
+    opacity: 1;
+    transform: scale(1) translateX(0);
+}
+
+/* === SAO (đêm) === */
+.star {
+    position: absolute;
+    width: 2px;
+    height: 2px;
+    background: #fff;
+    border-radius: 50%;
+    opacity: 0;
+    box-shadow: 0 0 4px #fff;
+    transition: opacity 0.8s ease;
+}
+
+.star-1 { top: 8px;  left: 20px; }
+.star-2 { top: 15px; left: 30px; animation: twinkle 2s ease-in-out infinite; }
+.star-3 { top: 25px; left: 22px; animation: twinkle 2.5s ease-in-out infinite 0.5s; }
+
+@keyframes twinkle {
+    0%, 100% { opacity: 0.4; transform: scale(1); }
+    50% { opacity: 1; transform: scale(1.5); }
+}
+
+[data-theme="dark"] .star {
+    opacity: 0.8;
+}
+
+/* === HILLS (núi/thành phố) === */
+.hills {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 14px;
+    z-index: 2;
+    background: linear-gradient(
+        to top,
+        #4A7C59 0%,
+        #4A7C59 60%,
+        transparent 100%
+    );
+    border-radius: 50% 50% 0 0 / 100% 100% 0 0;
+    transition: background 0.6s ease;
+}
+
+[data-theme="dark"] .hills {
+    background: linear-gradient(
+        to top,
+        #1a1f2e 0%,
+        #1a1f2e 60%,
+        transparent 100%
+    );
+}
+
+/* === THUMB (nút trượt) === */
+.theme-toggle-thumb {
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #FFF 0%, #F0F0F0 100%);
+    box-shadow:
+        0 2px 6px rgba(0, 0, 0, 0.25),
+        inset 0 1px 2px rgba(255, 255, 255, 0.9);
+    transition:
+        transform 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55),
+        background 0.4s ease,
+        box-shadow 0.4s ease;
+    z-index: 3;
+    pointer-events: none;
 }
 
 [data-theme="dark"] .theme-toggle-thumb {
-    transform: translateX(30px);
-    background: linear-gradient(135deg, #3A3A3A 0%, #2A2A2A 100%);
-    box-shadow: 
-        2px 2px 5px rgba(0, 0, 0, 0.5),
-        -1px -1px 3px rgba(255, 255, 255, 0.05);
-}
-
-.theme-icon {
-    position: absolute;
-    transition: transform 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55),
-                opacity 0.3s ease;
-    color: #F39C12;
-}
-
-.theme-icon-sun {
-    opacity: 1;
-    transform: rotate(0deg) scale(1);
-}
-
-.theme-icon-moon {
-    opacity: 0;
-    transform: rotate(180deg) scale(0.5);
-    color: #C49B5E;
-}
-
-[data-theme="dark"] .theme-icon-sun {
-    opacity: 0;
-    transform: rotate(-180deg) scale(0.5);
-}
-
-[data-theme="dark"] .theme-icon-moon {
-    opacity: 1;
-    transform: rotate(0deg) scale(1);
+    transform: translateX(40px);
+    background: linear-gradient(135deg, #F5F5DC 0%, #E8E8D0 100%);
+    box-shadow:
+        0 2px 8px rgba(255, 254, 242, 0.4),
+        0 0 16px rgba(255, 254, 242, 0.3),
+        inset 0 1px 2px rgba(255, 255, 255, 0.9);
 }
 
 /* Hover glow */
 .theme-toggle:hover .theme-toggle-thumb {
-    box-shadow: 
-        2px 2px 8px rgba(139, 26, 26, 0.2),
-        -1px -1px 4px rgba(255, 255, 255, 0.9),
-        0 0 12px rgba(196, 155, 94, 0.3);
+    box-shadow:
+        0 4px 12px rgba(0, 0, 0, 0.3),
+        0 0 20px rgba(255, 213, 79, 0.4);
+}
+
+[data-theme="dark"]:hover .theme-toggle-thumb {
+    box-shadow:
+        0 4px 12px rgba(0, 0, 0, 0.5),
+        0 0 24px rgba(255, 254, 242, 0.5);
+}
+
+/* === RESPONSIVE === */
+@media (max-width: 767px) {
+    .theme-toggle {
+        margin: var(--space-sm) auto 0;
+        align-self: center;
+    }
+}
+
+@media (max-width: 399px) {
+    .theme-toggle-track {
+        width: 70px;
+        height: 35px;
+    }
+    .theme-toggle-thumb {
+        width: 27px;
+        height: 27px;
+    }
+    [data-theme="dark"] .theme-toggle-thumb {
+        transform: translateX(35px);
+    }
 }
 
 /* ====================================================
