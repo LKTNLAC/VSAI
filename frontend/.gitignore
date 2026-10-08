@@ -1,15 +1,5 @@
-# OS files
-.DS_Store
-Thumbs.db
 
-# Editor files
-.vscode/
-.idea/
-*.sublime-*
-
-# Logs
-*.log
-
-# Temp files
-*.tmp
-*.temp
+*.txt
+.env
+backend/.env
+!README.txt
