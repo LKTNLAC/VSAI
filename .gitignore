@@ -1,5 +1,0 @@
-
-*.txt
-.env
-backend/.env
-!README.txt
