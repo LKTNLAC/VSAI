@@ -3694,19 +3694,31 @@ function setLanguage(lang) {
 // THEME TOGGLE
 // =====================================================
 
+function applyTheme(theme) {
+    if (theme !== 'light' && theme !== 'dark') {
+        theme = 'light';
+    }
+    document.documentElement.setAttribute('data-theme', theme);
+    localStorage.setItem('vsa-theme', theme);
+    
+    // Update nút toggle nếu có
+    const btn = document.getElementById('theme-toggle');
+    if (btn) {
+        btn.setAttribute('aria-checked', theme === 'dark' ? 'true' : 'false');
+    }
+}
+
 function initThemeToggle() {
     const btn = document.getElementById('theme-toggle');
     if (!btn) return;
     
-    // Đọc theme đã lưu
     const savedTheme = localStorage.getItem('vsa-theme') || 'light';
-    document.documentElement.setAttribute('data-theme', savedTheme);
+    applyTheme(savedTheme);
     
     btn.addEventListener('click', () => {
         const current = document.documentElement.getAttribute('data-theme') || 'light';
         const next = current === 'light' ? 'dark' : 'light';
-        document.documentElement.setAttribute('data-theme', next);
-        localStorage.setItem('vsa-theme', next);
+        applyTheme(next);
     });
 }
 
