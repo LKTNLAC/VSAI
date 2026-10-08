@@ -3690,46 +3690,31 @@ function setLanguage(lang) {
 // 21b. THEME TOGGLE
 // =====================================================
 
+// =====================================================
+// THEME TOGGLE
+// =====================================================
+
 function initThemeToggle() {
     const btn = document.getElementById('theme-toggle');
     if (!btn) return;
     
-    // Apply theme hiện tại khi load
-    applyTheme(state.currentTheme);
+    // Đọc theme đã lưu
+    const savedTheme = localStorage.getItem('vsa-theme') || 'light';
+    document.documentElement.setAttribute('data-theme', savedTheme);
     
     btn.addEventListener('click', () => {
-        const newTheme = state.currentTheme === 'dark' ? 'light' : 'dark';
-        setTheme(newTheme);
+        const current = document.documentElement.getAttribute('data-theme') || 'light';
+        const next = current === 'light' ? 'dark' : 'light';
+        document.documentElement.setAttribute('data-theme', next);
+        localStorage.setItem('vsa-theme', next);
     });
 }
 
-function applyTheme(theme) {
-    document.documentElement.setAttribute('data-theme', theme);
-    
-    // Đổi icon
-    const icon = document.getElementById('theme-icon');
-    if (icon) {
-        icon.className = theme === 'dark' ? 'fas fa-sun' : 'fas fa-moon';
-    }
-    
-    // Đổi aria-label
-    const btn = document.getElementById('theme-toggle');
-    if (btn) {
-        const label = theme === 'dark' 
-            ? (state.currentLang === 'vi' ? 'Chuyển giao diện sáng' : 'Switch to light mode')
-            : (state.currentLang === 'vi' ? 'Chuyển giao diện tối' : 'Switch to dark mode');
-        btn.setAttribute('aria-label', label);
-        btn.setAttribute('title', label);
-    }
-}
-
-function setTheme(theme) {
-    state.currentTheme = theme;
-    localStorage.setItem(CONFIG.themeKey, theme);
-    applyTheme(theme);
-    
-    // Cập nhật lại aria-label khi đổi ngôn ngữ
-    // (applyTheme đã handle)
+// Gọi sau khi DOM ready
+if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initThemeToggle);
+} else {
+    initThemeToggle();
 }
 
 // =====================================================
