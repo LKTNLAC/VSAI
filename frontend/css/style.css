@@ -4290,3 +4290,144 @@ button:focus-visible {
 .mission-card:hover {
     will-change: transform, box-shadow;
 }
+
+/* ====================================================
+   THEME TOGGLE SWITCH – CSS-Only Animated
+   Tham khảo: daveyhert.hashnode.dev
+   ==================================================== */
+
+.switch-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0.25rem;
+    flex-shrink: 0;
+}
+
+/* Ẩn checkbox gốc */
+.switch-container input[type="checkbox"] {
+    display: none;
+}
+
+/* Label = track của switch */
+.switch-container label {
+    display: flex;
+    width: 75px;
+    height: 35px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 8px;
+    background: #222;
+    border-radius: 50px;
+    cursor: pointer;
+    position: relative;
+    transition: background 0.3s ease;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    box-shadow:
+        0 2px 8px rgba(0, 0, 0, 0.2),
+        inset 0 1px 2px rgba(255, 255, 255, 0.05);
+}
+
+.switch-container label:hover {
+    box-shadow:
+        0 4px 12px rgba(0, 0, 0, 0.25),
+        inset 0 1px 2px rgba(255, 255, 255, 0.08);
+}
+
+/* Khi theme dark → label đổi màu sáng */
+[data-theme="dark"] .switch-container label {
+    background: #c0c0c0;
+}
+
+/* Icons */
+.switch-container label i {
+    font-size: 16px;
+    transition: 0.3s ease;
+    z-index: 2;
+    position: relative;
+}
+
+/* Mặt trời */
+.switch-container label .fa-sun {
+    color: gold;
+    opacity: 1;
+    transform: translateX(0) rotate(0);
+}
+
+/* Mặt trăng */
+.switch-container label .fa-moon {
+    color: #fff;
+    opacity: 0;
+    transform: translateX(43px) rotate(250deg);
+}
+
+/* Ball trượt */
+.switch-container label .ball {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    width: 25px;
+    height: 25px;
+    background: #fff;
+    border-radius: 50%;
+    transition: 0.3s ease;
+    z-index: 1;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* === KHI CHECKED (dark mode) === */
+
+/* Sun bay ra trái + xoay */
+.switch-container input:checked + label .fa-sun {
+    opacity: 0;
+    transform: translateX(-43px) rotate(160deg);
+}
+
+/* Moon bay vào giữa + opacity 1 */
+.switch-container input:checked + label .fa-moon {
+    opacity: 1;
+    transform: translateX(0) rotate(0);
+    color: #222;
+}
+
+/* Ball trượt sang phải */
+.switch-container input:checked + label .ball {
+    transform: translateX(40px);
+    background: #222;
+}
+
+/* === RESPONSIVE === */
+
+@media (max-width: 1023px) {
+    .switch-container label {
+        width: 65px;
+        height: 32px;
+        padding: 0 6px;
+    }
+    
+    .switch-container label i {
+        font-size: 14px;
+    }
+    
+    .switch-container label .ball {
+        width: 22px;
+        height: 22px;
+        top: 5px;
+        left: 5px;
+    }
+    
+    .switch-container input:checked + label .ball {
+        transform: translateX(33px);
+    }
+    
+    .switch-container input:checked + label .fa-sun {
+        transform: translateX(-37px) rotate(160deg);
+    }
+}
+
+@media (max-width: 767px) {
+    .switch-container {
+        margin: var(--space-sm) auto 0;
+    }
+}

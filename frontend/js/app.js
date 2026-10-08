@@ -3693,35 +3693,29 @@ function setLanguage(lang) {
 // THEME TOGGLE
 // =====================================================
 
-function applyTheme(theme) {
-    if (theme !== 'light' && theme !== 'dark') {
-        theme = 'light';
-    }
-    document.documentElement.setAttribute('data-theme', theme);
-    localStorage.setItem('vsa-theme', theme);
-    
-    // Update nút toggle nếu có
-    const btn = document.getElementById('theme-toggle');
-    if (btn) {
-        btn.setAttribute('aria-checked', theme === 'dark' ? 'true' : 'false');
-    }
-}
-
 function initThemeToggle() {
-    const btn = document.getElementById('theme-toggle');
-    if (!btn) return;
+    const checkbox = document.getElementById('theme-switch');
+    if (!checkbox) {
+        console.warn('[Theme] Switch #theme-switch not found');
+        return;
+    }
     
+    // Đọc theme đã lưu
     const savedTheme = localStorage.getItem('vsa-theme') || 'light';
-    applyTheme(savedTheme);
+    document.documentElement.setAttribute('data-theme', savedTheme);
+    checkbox.checked = (savedTheme === 'dark');
+    console.log('[Theme] Init:', savedTheme);
     
-    btn.addEventListener('click', () => {
-        const current = document.documentElement.getAttribute('data-theme') || 'light';
-        const next = current === 'light' ? 'dark' : 'light';
-        applyTheme(next);
+    // Lắng nghe sự kiện thay đổi checkbox
+    checkbox.addEventListener('change', () => {
+        const next = checkbox.checked ? 'dark' : 'light';
+        document.documentElement.setAttribute('data-theme', next);
+        localStorage.setItem('vsa-theme', next);
+        console.log('[Theme] Changed to:', next);
     });
 }
 
-// Gọi sau khi DOM ready
+// Gọi khi DOM ready
 if (document.readyState === 'loading') {
     document.addEventListener('DOMContentLoaded', initThemeToggle);
 } else {
