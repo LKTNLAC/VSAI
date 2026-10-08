@@ -3706,13 +3706,20 @@ function initThemeToggle() {
     checkbox.checked = (savedTheme === 'dark');
     console.log('[Theme] Init:', savedTheme);
     
-    // Lắng nghe sự kiện thay đổi checkbox
+    // Lắng nghe thay đổi checkbox
     checkbox.addEventListener('change', () => {
         const next = checkbox.checked ? 'dark' : 'light';
         document.documentElement.setAttribute('data-theme', next);
         localStorage.setItem('vsa-theme', next);
         console.log('[Theme] Changed to:', next);
     });
+}
+
+// Gọi khi DOM ready
+if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initThemeToggle);
+} else {
+    initThemeToggle();
 }
 
 // Gọi khi DOM ready
