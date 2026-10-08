@@ -701,7 +701,6 @@ function updateUILanguage() {
     if (state.currentDetailId) {
         renderSectionDetail(state.currentRoute, state.currentDetailId);
     }
-    applyTheme(state.currentTheme);
 }
 
 function initNavigation() {
