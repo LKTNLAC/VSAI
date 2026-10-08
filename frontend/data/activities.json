@@ -773,5 +773,63 @@
       ]
     },
     "organizerId": 15
+  },
+  {
+    "id": 16,
+    "title": {
+      "vi": "SÁNG KIẾN XANH BÊN BỜ YAMUNA: KHI THANH NIÊN VIỆT - ẤN CÙNG CHUNG TAY HÀNH ĐỘNG",
+      "en": "GREEN INITIATIVE BY THE YAMUNA RIVER: WHEN VIETNAMESE YOUTH AND INDIA COME TOGETHER TO TAKE ACTION"
+    },
+    "date": "2026-09-28",
+    "location": "Delhi",
+    "category": "external",
+    "thumbnail": "assets/images/activities/16/1.jpg",
+    "image": "assets/images/activities/16/1.jpg",
+    "gallery": [
+      "assets/images/activities/16/2.jpg",
+      "assets/images/activities/16/3.jpg",
+      "assets/images/activities/16/4.jpg",
+      "assets/images/activities/16/5.jpg",
+      "assets/images/activities/16/6.jpg",
+      "assets/images/activities/16/7.jpg",
+      "assets/images/activities/16/8.jpg",
+      "assets/images/activities/16/9.jpg"
+    ],
+    "summary": {
+      "vi": "Sáng Chủ nhật (27/09/2026) vừa qua, Hội Sinh viên Việt Nam...",
+      "en": "On the morning of Sunday (September 27, 2026), the Vietnamese Student Association..."
+    },
+    "featured": false,
+    "content": {
+      "vi": [
+        { "type": "image", "src": "assets/images/activities/16/1.jpg", "alt": "", "caption": "" },
+        { "type": "text", "value": "Sáng Chủ nhật (27/09/2026) vừa qua, Hội Sinh viên Việt Nam tại Ấn Độ đã có một buổi sáng cuối tuần rực rỡ và đầy ý nghĩa khi cùng nhau khoác lên màu áo xanh tình nguyện tại khu vực bờ sông Yamuna, đoạn gần Majnu-ka-Tilla.  " },
+        { "type": "image", "src": "assets/images/activities/16/2.jpg", "alt": "", "caption": "" },
+        { "type": "text", "value": "Phối hợp cùng những người bạn tuyệt vời từ tổ chức Team River Cleanup, tình nguyện viên nhiệt huyết của hai nước đã chung tay dọn dẹp, thu gom rác thải để trả lại cảnh quan sạch đẹp cho khu vực trên bờ sông.  " },
+        { "type": "image", "src": "assets/images/activities/16/3.jpg", "alt": "", "caption": "" },
+        { "type": "text", "value": "Không chỉ là những giờ phút lao động hăng say, 'Ngày hội thanh niên Việt – Ấn vì môi trường' (Indo-Vietnam Youth Clean-Up Drive) còn là một không gian giao lưu tuyệt vời. Hội đã lồng ghép một góc nhỏ giới thiệu văn hóa và thông điệp bảo vệ môi trường của Việt Nam, qua đó kéo gần hơn khoảng cách giữa những người trẻ.  " },
+        { "type": "image", "src": "assets/images/activities/16/4.jpg", "alt": "", "caption": "" },
+        { "type": "text", "value": "Chúng mình luôn tin rằng: Dù ở quê hương hay đất nước sở tại, trách nhiệm bảo vệ môi trường trước hết thuộc về thế hệ trẻ. Sự kiện lần này không chỉ thể hiện tinh thần chủ động của du học sinh Việt Nam trước các vấn đề toàn cầu, mà còn là một hoạt động cộng đồng thiết thực góp phần củng cố quan hệ hữu nghị truyền thống tốt đẹp giữa Việt Nam và Ấn Độ.  " },
+        { "type": "image", "src": "assets/images/activities/16/5.jpg", "alt": "", "caption": "" },
+        { "type": "text", "value": "Xin gửi lời cảm ơn chân thành đến Đại sứ quán Việt Nam tại Ấn Độ đã quan tâm, hỗ trợ. Cảm ơn anh Abhishek K. Patel cùng Team River Cleanup đã đồng hành, chuẩn bị chu đáo dụng cụ vệ sinh cho cả hai đoàn. Và đặc biệt, cảm ơn các 'chiến binh xanh' của Hội Sinh viên dưới sự dẫn dắt của trưởng đoàn Nguyễn Gia Phúc đã làm nên thành công của chương trình!" },
+        { "type": "image", "src": "assets/images/activities/16/6.jpg", "alt": "", "caption": "" },
+        { "type": "text", "value": "📷: Tiến Lượng" }
+      ],
+      "en": [
+        { "type": "image", "src": "assets/images/activities/16/1.jpg", "alt": "", "caption": "" },
+        { "type": "text", "value": "On the morning of Sunday (September 27, 2026), the Vietnamese Student Association in India had a vibrant and meaningful weekend morning as they donned their volunteer green shirts along the Yamuna River, near Majnu-ka-Tilla." },
+        { "type": "image", "src": "assets/images/activities/16/2.jpg", "alt": "", "caption": "" },
+        { "type": "text", "value": "In collaboration with wonderful friends from Team River Cleanup, enthusiastic volunteers from both countries joined hands to clean up and collect waste, restoring the beauty of the riverside area." },
+        { "type": "image", "src": "assets/images/activities/16/3.jpg", "alt": "", "caption": "" },
+        { "type": "text", "value": "'Indo-Vietnam Youth Clean-Up Drive' was not only a time of diligent labor but also a fantastic space for interaction. The Association incorporated a small corner to introduce Vietnamese culture and environmental protection messages, bringing young people closer together." },
+        { "type": "image", "src": "assets/images/activities/16/4.jpg", "alt": "", "caption": "" },
+        { "type": "text", "value": "We firmly believe that whether at home or abroad, the responsibility of protecting the environment primarily lies with the younger generation. This event not only demonstrates the proactive spirit of Vietnamese students regarding global issues but also serves as a practical community activity that strengthens the traditional friendship between Vietnam and India." },
+        { "type": "image", "src": "assets/images/activities/16/5.jpg", "alt": "", "caption": "" },
+        { "type": "text", "value": "We sincerely thank the Embassy of Vietnam in India for their attention and support. Thanks to Mr. Abhishek K. Patel and Team River Cleanup for accompanying us and preparing cleaning tools for both groups. And especially, thanks to the 'green warriors' of the Association under the leadership of team leader Nguyen Gia Phuc for making this program a success!" },
+        { "type": "image", "src": "assets/images/activities/16/6.jpg", "alt": "", "caption": "" },
+        { "type": "text", "value": "📷: Tiến Lượng" }
+      ]
+    },
+    "organizerId": 16
   }
 ]
