@@ -204,7 +204,13 @@ const TRANSLATIONS = {
             blogGuide: 'Blog & Cẩm nang'
         },
         headings: { home: 'VSA India', about: 'Về Hội Sinh viên Việt Nam tại Ấn Độ', members: 'Ban Chấp hành', memberList: 'Thành viên hiện tại', alumni: 'Cựu thành viên', activities: 'Hoạt động', news: 'Tin tức', blog: 'Blog', guide: 'Cẩm nang', map: 'Bản đồ cộng đồng', gallery: 'Thư viện ảnh', forum: 'Diễn đàn', contact: 'Liên hệ' },
-        footer: { brand: 'VSA India', description: 'Hội Sinh viên Việt Nam tại Ấn Độ', rights: '2026 VSA India. All rights reserved.' },
+        footer: { 
+            brand: 'VSA India', 
+            description: 'Hội Sinh viên Việt Nam tại Ấn Độ', 
+            rights: '2026 VSA India. All rights reserved.',
+            builtBy: 'Được xây dựng và phát triển bởi',
+            teamName: 'Beyond The Realm (Vượt Ngoài Giới Hạn)'
+        },
         ui: { placeholder: 'Nội dung đang được cập nhật...', forumNote: 'Diễn đàn đang trong giai đoạn phát triển.', mapNote: 'Bản đồ sẽ hiển thị tại đây.', loading: 'Đang tải...', notFound: 'Không tìm thấy nội dung.', noResults: 'Không tìm thấy kết quả phù hợp.' },
         category: { all: 'Tất cả', event: 'Sự kiện', academic: 'Học thuật', culture: 'Văn hóa', sports: 'Thể thao', community: 'Cộng đồng', external: 'Đối ngoại', announcement: 'Thông báo', general: 'Chung', study: 'Học tập', life: 'Cuộc sống', travel: 'Du lịch', food: 'Ẩm thực', experience: 'Trải nghiệm', visa: 'Visa', residence: 'Chỗ ở', university: 'Trường học', banking: 'Ngân hàng', sim: 'SIM & Internet', transport: 'Di chuyển', healthcare: 'Y tế', shopping: 'Mua sắm', safety: 'An toàn', emergency: 'Khẩn cấp' },
         newsCategory: { announcement: 'Thông báo', event: 'Sự kiện', general: 'Chung' },
@@ -280,7 +286,13 @@ const TRANSLATIONS = {
             blogGuide: 'Blog & Guide'
         },
         headings: { home: 'VSA India', about: 'About VSA India', members: 'Executive Committee', memberList: 'Current Members', alumni: 'Alumni Members', activities: 'Activities', news: 'News', blog: 'Blog', guide: 'Guide', map: 'Community Map', gallery: 'Gallery', forum: 'Forum', contact: 'Contact' },
-        footer: { brand: 'VSA India', description: 'Vietnamese Students\' Association in India', rights: '2026 VSA India. All rights reserved.' },
+        footer: { 
+            brand: 'VSA India', 
+            description: 'Vietnamese Students\' Association in India', 
+            rights: '2026 VSA India. All rights reserved.',
+            builtBy: 'Built and developed by',
+            teamName: 'Beyond The Realm'
+        },
         ui: { placeholder: 'Content is being updated...', forumNote: 'Forum is under development.', mapNote: 'Map will be displayed here.', loading: 'Loading...', notFound: 'Content not found.', noResults: 'No matching results found.' },
         category: { all: 'All', event: 'Event', academic: 'Academic', culture: 'Culture', sports: 'Sports', community: 'Community', external: 'External', announcement: 'Announcement', general: 'General', study: 'Study', life: 'Life', travel: 'Travel', food: 'Food', experience: 'Experience', visa: 'Visa', residence: 'Residence', university: 'University', banking: 'Banking', sim: 'SIM & Internet', transport: 'Transport', healthcare: 'Healthcare', shopping: 'Shopping', safety: 'Safety', emergency: 'Emergency', culture: 'Culture' },
         newsCategory: { announcement: 'Announcement', event: 'Event', general: 'General' },
@@ -714,6 +726,7 @@ function initNavigation() {
             const isOpen = toggle.classList.toggle('open');
             nav.classList.toggle('open');
             toggle.setAttribute('aria-expanded', isOpen);
+            document.body.classList.toggle('menu-open', isOpen);
         });
     }
 

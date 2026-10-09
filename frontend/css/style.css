@@ -451,7 +451,7 @@ p {
     justify-content: space-between;
     align-items: center;
     padding: 0 8px;
-    background: #222;
+    background: #edec7e;
     border-radius: 50px;
     cursor: pointer;
     position: relative;
@@ -466,7 +466,7 @@ p {
 }
 
 [data-theme="dark"] .switch-container label {
-    background: #c0c0c0;
+    background: #272354;
 }
 
 .switch-container label i {
@@ -517,7 +517,7 @@ p {
 
 .switch-container input:checked + label .ball {
     transform: translateX(40px);
-    background: #222;
+    background: #f6f4f4;
 }
 
 /* ====================================================
@@ -3287,4 +3287,272 @@ html {
 .dropdown-menu li a {
     cursor: pointer !important;
     pointer-events: auto !important;
+}
+/* ====================================================
+   THEME TOGGLE SWITCH – FINAL
+   Light: sun hiện bên phải | Dark: moon hiện bên trái
+   ==================================================== */
+
+.switch-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0.5rem;
+    flex-shrink: 0;
+}
+
+.switch-container input[type="checkbox"] {
+    position: absolute;
+    opacity: 0;
+    pointer-events: none;
+    width: 0;
+    height: 0;
+}
+
+.switch-container label {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 75px;
+    height: 35px;
+    padding: 0 8px;
+    background: #2ba4e6;
+    border-radius: 50px;
+    cursor: pointer;
+    position: relative;
+    transition: background 0.4s ease;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2), inset 0 1px 2px rgba(255, 255, 255, 0.05);
+}
+
+.switch-container label:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3), inset 0 1px 2px rgba(255, 255, 255, 0.1);
+}
+
+[data-theme="dark"] .switch-container label {
+    background: #2a2497;
+}
+
+/* Icon chung */
+.switch-container label > i {
+    font-size: 16px;
+    line-height: 1;
+    z-index: 1;
+    position: relative;
+    pointer-events: none;
+    transition: opacity 0.4s ease, transform 0.4s ease;
+}
+
+/* === LIGHT MODE (mặc định, chưa checked) === */
+/* Moon bên trái — ẨN */
+.switch-container label > .fa-moon {
+    color: #fff;
+    opacity: 0;
+    transform: rotate(-180deg) scale(0.5);
+}
+
+/* Sun bên phải — HIỆN */
+.switch-container label > .fa-sun {
+    color: gold;
+    opacity: 1;
+    transform: rotate(0deg) scale(1);
+}
+
+/* Ball — bên trái */
+.switch-container label .ball {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    width: 25px;
+    height: 25px;
+    background: #fff;
+    border-radius: 50%;
+    transition: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    z-index: 2;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* === DARK MODE (checked) === */
+/* Ball trượt sang phải */
+.switch-container input:checked + label .ball {
+    transform: translateX(40px);
+    background: #ede8e8;
+}
+
+/* Moon — HIỆN */
+.switch-container input:checked + label > .fa-moon {
+    opacity: 1;
+    transform: rotate(0deg) scale(1);
+    color: #fff;
+    filter: drop-shadow(0 0 2px rgba(255, 255, 255, 0.6));
+}
+
+/* Sun — ẨN */
+.switch-container input:checked + label > .fa-sun {
+    opacity: 0;
+    transform: rotate(180deg) scale(0.5);
+}
+
+/* === RESPONSIVE === */
+@media (max-width: 1023px) {
+    .switch-container label {
+        width: 65px;
+        height: 32px;
+        padding: 0 6px;
+    }
+    
+    .switch-container label > i {
+        font-size: 14px;
+    }
+    
+    .switch-container label .ball {
+        width: 22px;
+        height: 22px;
+        top: 5px;
+        left: 5px;
+    }
+    
+    .switch-container input:checked + label .ball {
+        transform: translateX(33px);
+    }
+}
+
+@media (max-width: 767px) {
+    .switch-container {
+        margin: var(--space-sm) auto 0;
+        align-self: center;
+    }
+}
+
+@media (max-width: 399px) {
+    .switch-container label {
+        width: 56px;
+        height: 28px;
+        padding: 0 5px;
+    }
+    
+    .switch-container label > i {
+        font-size: 12px;
+    }
+    
+    .switch-container label .ball {
+        width: 20px;
+        height: 20px;
+        top: 4px;
+        left: 4px;
+    }
+    
+    .switch-container input:checked + label .ball {
+        transform: translateX(28px);
+    }
+}
+
+
+/* ====================================================
+   FOOTER CREDIT – NGƯỜI XÂY DỰNG WEBSITE
+   ==================================================== */
+
+.footer-credit {
+    font-size: var(--font-size-sm);
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 0.5rem;
+    margin-bottom: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 0.375rem;
+    max-width: 100%;
+    text-align: center;
+}
+
+.footer-credit-link {
+    color: var(--color-secondary);
+    font-weight: 600;
+    position: relative;
+    padding: 0 0.25rem;
+    transition: color 0.3s ease;
+    text-decoration: none;
+}
+
+.footer-credit-link::after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 0;
+    height: 1px;
+    background: var(--color-secondary);
+    transition: width 0.3s ease;
+}
+
+.footer-credit-link:hover {
+    color: var(--color-secondary-light);
+}
+
+.footer-credit-link:hover::after {
+    width: 100%;
+}
+
+/* Responsive */
+@media (max-width: 767px) {
+    .footer-credit {
+        font-size: 0.75rem;
+        line-height: 1.6;
+        padding: 0 0.5rem;
+    }
+}
+
+@media (max-width: 399px) {
+    .footer-credit {
+        font-size: 0.7rem;
+        gap: 0.25rem;
+    }
+}
+
+
+/* ====================================================
+   FOOTER CREDIT – BAN CÔNG NGHỆ LINK
+   ==================================================== */
+
+.footer-credit-team {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.375rem;
+    color: var(--color-secondary);
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.footer-credit-team i {
+    font-size: 0.875rem;
+    color: #1877F2;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.footer-credit-team:hover {
+    color: var(--color-secondary-light);
+}
+
+.footer-credit-team:hover i {
+    color: #4293F5;
+    transform: scale(1.15);
+}
+
+/* Responsive */
+@media (max-width: 767px) {
+    .footer-credit-team {
+        font-size: 0.75rem;
+    }
+    
+    .footer-credit-team i {
+        font-size: 0.75rem;
+    }
+}
+
+@media (max-width: 399px) {
+    .footer-credit-team {
+        font-size: 0.7rem;
+    }
 }
