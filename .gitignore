@@ -19,4 +19,4 @@ Thumbs.db
 
 # IDE
 .vscode/
-.idea/
+.idea/backend/.env

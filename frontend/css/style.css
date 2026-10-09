@@ -3796,9 +3796,10 @@ button:focus-visible {
 }
 
 .switch-container label .fa-moon {
-    color: #fff;
+    color: #ffffff;
     opacity: 0;
     transform: translateX(43px) rotate(250deg);
+    filter: drop-shadow(0 0 2px rgba(255, 255, 255, 0.8));
 }
 
 .switch-container label .ball {
@@ -3908,11 +3909,8 @@ button:focus-visible {
 [data-theme="dark"] .site-footer {
     background: #0A0A0A;
 }
-
-
 /* ====================================================
    DARK THEME – CSS VARIABLES (CRITICAL FIX)
-   Block này đổi toàn bộ CSS variables khi dark mode
    ==================================================== */
 
 [data-theme="dark"] {
@@ -3937,14 +3935,12 @@ button:focus-visible {
     --neu-shadow-dark: rgba(0, 0, 0, 0.5);
 }
 
-/* Body + html background khi dark */
 [data-theme="dark"] html,
 [data-theme="dark"] body {
     background-color: #121212 !important;
     color: #E8E8E8 !important;
 }
 
-/* Đảm bảo mọi element dùng var đều update */
 [data-theme="dark"] .page-section {
     background-color: #121212;
 }
@@ -4018,4 +4014,15 @@ button:focus-visible {
 [data-theme="dark"] h5,
 [data-theme="dark"] h6 {
     color: #E8E8E8;
+}
+
+/* Fix: Menu mobile z-index */
+@media (max-width: 767px) {
+    .main-nav {
+        z-index: 1001 !important;
+    }
+    
+    .main-nav.open {
+        z-index: 1001 !important;
+    }
 }
