@@ -3796,9 +3796,10 @@ button:focus-visible {
 }
 
 .switch-container label .fa-moon {
-    color: #fff;
+    color: #ffffff;
     opacity: 0;
     transform: translateX(43px) rotate(250deg);
+    filter: drop-shadow(0 0 2px rgba(255, 255, 255, 0.8));
 }
 
 .switch-container label .ball {
@@ -3907,4 +3908,121 @@ button:focus-visible {
 
 [data-theme="dark"] .site-footer {
     background: #0A0A0A;
+}
+/* ====================================================
+   DARK THEME – CSS VARIABLES (CRITICAL FIX)
+   ==================================================== */
+
+[data-theme="dark"] {
+    --color-primary: #C94A4A;
+    --color-primary-dark: #A83838;
+    --color-primary-light: #E05E5E;
+    --color-secondary: #D4B07A;
+    --color-secondary-light: #E5C89A;
+    --color-background: #121212;
+    --color-surface: #1E1E1E;
+    --color-surface-alt: #2A2A2A;
+    --color-text: #E8E8E8;
+    --color-text-muted: #A0A0A0;
+    --color-text-light: #707070;
+    --color-border: #3A3A3A;
+    --color-cta: #C94A4A;
+    --glass-bg: rgba(30, 30, 30, 0.7);
+    --glass-border: rgba(255, 255, 255, 0.08);
+    --glass-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+    --neu-bg: #1E1E1E;
+    --neu-shadow-light: rgba(255, 255, 255, 0.05);
+    --neu-shadow-dark: rgba(0, 0, 0, 0.5);
+}
+
+[data-theme="dark"] html,
+[data-theme="dark"] body {
+    background-color: #121212 !important;
+    color: #E8E8E8 !important;
+}
+
+[data-theme="dark"] .page-section {
+    background-color: #121212;
+}
+
+[data-theme="dark"] .section-about,
+[data-theme="dark"] .section-news,
+[data-theme="dark"] .section-gallery {
+    background: #1E1E1E;
+}
+
+[data-theme="dark"] .section-activities,
+[data-theme="dark"] .section-blog,
+[data-theme="dark"] .section-map-preview {
+    background: #121212;
+}
+
+[data-theme="dark"] .about-page,
+[data-theme="dark"] .members-page,
+[data-theme="dark"] .activities-page,
+[data-theme="dark"] .news-page,
+[data-theme="dark"] .blog-page,
+[data-theme="dark"] .guide-page,
+[data-theme="dark"] .map-page,
+[data-theme="dark"] .gallery-page {
+    background: #1E1E1E;
+    color: #E8E8E8;
+}
+
+[data-theme="dark"] .news-card,
+[data-theme="dark"] .blog-card,
+[data-theme="dark"] .activity-card,
+[data-theme="dark"] .activity-item,
+[data-theme="dark"] .news-item,
+[data-theme="dark"] .blog-item,
+[data-theme="dark"] .member-card,
+[data-theme="dark"] .alumni-card,
+[data-theme="dark"] .guide-item,
+[data-theme="dark"] .gallery-album,
+[data-theme="dark"] .mission-card,
+[data-theme="dark"] .org-node,
+[data-theme="dark"] .member-link-card {
+    background: #1E1E1E !important;
+    color: #E8E8E8 !important;
+    border-color: #3A3A3A !important;
+}
+
+[data-theme="dark"] .contact-form-wrapper {
+    background: #1E1E1E;
+}
+
+[data-theme="dark"] .contact-form input,
+[data-theme="dark"] .contact-form textarea {
+    background: #2A2A2A;
+    color: #E8E8E8;
+    border-color: #3A3A3A;
+}
+
+[data-theme="dark"] .dropdown-menu {
+    background: #1E1E1E;
+    border-color: #3A3A3A;
+}
+
+[data-theme="dark"] .dropdown-menu li a {
+    color: #E8E8E8;
+}
+
+[data-theme="dark"] h1,
+[data-theme="dark"] h2,
+[data-theme="dark"] h3,
+[data-theme="dark"] h4,
+[data-theme="dark"] h5,
+[data-theme="dark"] h6 {
+    color: #E8E8E8;
+}
+
+/* Fix: Menu mobile z-index */
+@media (max-width: 767px) {
+    .main-nav {
+        z-index: 1001 !important;
+    }
+    
+    .main-nav.open {
+        z-index: 1001 !important;
+    }
 }
