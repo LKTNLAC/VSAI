@@ -1,26 +1,26 @@
 [
   {
     "id": 1,
-    "name": "Bùi Hoàng Long",
+    "name": "Nguyễn Gia Phúc",
     "position": "president",
     "image": "assets/images/members/1.jpg",
     "city": "Delhi",
-    "birthday": "2004-02-02",
+    "birthday": "2005-03-26",
     "major": "Computer Science",
     "university": "Delhi University",
-    "hometown": "Lê Chân, Hải Phòng, Việt Nam",
+    "hometown": "Thái Nguyên (Bắc Kạn cũ), Việt Nam",
     "quote": {
       "vi": "Kết nối để cùng phát triển.",
       "en": "Connect to grow together."
     },
     "bio": {
-      "vi": "Chủ tịch Hội Sinh viên Việt Nam tại Ấn Độ nhiệm kỳ 2025-2027. Sinh viên năm cuối tại Delhi University.",
-      "en": "President of VSA India for the 2025-2027 term. Final year student at Delhi University."
+      "vi": "Chủ tịch Hội Sinh viên Việt Nam tại Ấn Độ nhiệm kỳ 2025-2027. Sinh viên năm 3 tại Delhi University.",
+      "en": "President of VSA India for the 2025-2027 term. Third-year student at Delhi University."
     },
-    "email": "nhulac2004@gmail.com",
-    "facebook": "https://www.facebook.com/bui.hoang.long.lac.33/",
-    "instagram": "https://www.instagram.com/____nlac____/",
-    "linkedin": "https://www.linkedin.com/in/long-ho%C3%A0ng-b%C3%B9i-432516260/"
+    "departments": ["Ban Thư Ký","Ban Đối Ngoại","Ban Tài Chính"], 
+    "role_in_department": ["Chủ tịch Hội", "Trưởng ban Đối Ngoại", "Trưởng ban Tài Chính"],
+    "email": "@gmail.com",
+    "facebook": "https://www.facebook.com/phong.xi.756"
   },
   {
     "id": 2,
@@ -40,6 +40,8 @@
       "vi": "Phó Chủ tịch Hội Sinh viên Việt Nam tại Ấn Độ. Sinh viên năm 3 tại Đại học Delhi.",
       "en": "Vice President of VSA India. Student at Delhi University."
     },
+    "departments": ["Ban Thư Ký","Ban Kiểm Tra"],
+    "role_in_department": ["Phó Chủ tịch Thường trực","Trưởng ban Kiểm Tra"],
     "email": "minhlahieune@gmail.com",
     "facebook": "https://www.facebook.com/trunghieu.user",
     "instagram": "https://www.instagram.com/_.noxus?fbclid=IwY2xjawURFDFwZG9mBWV4dG4DYWVtAjEwAGJyaWQRMWd4VzQ3eWliOUJPTktIT3ZzcnRjBmFwcF9pZBAyMjIwMzkxNzg4MjAwODkyAAEeFrL1Yaqzxv-Uljw4PppBrHETM2iZ4g27L2BmcxxlT0-KzjcynwQ_Nlr4ALE_aem_GkrrO3QjD5iR5HrHzSVgQg"
@@ -62,6 +64,8 @@
       "vi": "Phó Chủ tịch Hội Sinh viên Việt Nam tại Ấn Độ. Thạc sĩ tại Đại học Pune.",
       "en": "Vice President of VSA India. Master at Pune University."
     },
+    "departments": ["Ban Thư Ký"],
+    "role_in_department": "Phó Chủ tịch",
     "email": "@gmail.com"
   },
   {
@@ -82,6 +86,8 @@
       "vi": "Phó Chủ tịch Hội Sinh viên Việt Nam tại Ấn Độ. Tiến sĩ tại Đại học Gujarat.",
       "en": "Vice President of VSA India. Researcher at Gujarat University."
     },
+    "departments": ["Ban Thư Ký"],
+    "role_in_department": "Phó Chủ tịch",
     "email": "@gmail.com"
   },
   {
@@ -102,6 +108,8 @@
       "vi": "Ủy viên Hội Sinh viên Việt Nam tại Ấn Độ. Thạc sĩ tại Đại học Nalanda.",
       "en": "Commissioner of VSA India. Master at Nalanda University."
     },
+    "departments": ["", ""],
+    "role_in_department": "",
     "email": "@gmail.com",
     "facebook":"https://www.facebook.com/truongphan090399"
   },
@@ -123,20 +131,22 @@
       "vi": "Ủy viên Hội Sinh viên Việt Nam tại Ấn Độ. Sinh viên năm 4 tại Indraprastha Institute of Information Technology Delhi.",
       "en": "Commissioner of VSA India. Student at Indraprastha Institute of Information Technology Delhi."
     },
+    "departments": ["Ban Học Tập", "Ban Truyền Thông"],
+    "role_in_department": ["Trưởng ban Học Tập", "Thành viên Ban Truyền Thông"],
     "email": "@gmail.com",
     "facebook": "https://www.facebook.com/tungvu.2825",
     "linkedin": "https://www.linkedin.com/in/tung-duc-vu-63a693318/"
   },
   {
     "id": 7,
-    "name": "Nguyễn Gia Phúc",
+    "name": "Nguyễn Văn Hoàng",
     "position": "commissioner",
     "image": "assets/images/members/7.jpg",
     "city": "Delhi",
-    "birthday": "2005-03-26",
+    "birthday": "2006-0-",
     "major": "Computer Science",
     "university": "Delhi University",
-    "hometown": "Thái Nguyên (Bắc Kạn cũ), Việt Nam",
+    "hometown": "Đà Nẵng, Việt Nam",
     "quote": {
       "vi": ".",
       "en": "."
@@ -145,8 +155,10 @@
       "vi": "Ủy viên Hội Sinh viên Việt Nam tại Ấn Độ. Sinh viên năm 3 tại Đại học Delhi.",
       "en": "Commissioner of VSA India. Student at Delhi University."
     },
+    "departments": ["Ban Truyền Thông", ""],
+    "role_in_department": "Trưởng ban Truyền Thông",
     "email": "@gmail.com",
-    "facebook": "https://www.facebook.com/phong.xi.756"
+    "facebook": ""
   },
   {
     "id": 8,
@@ -166,6 +178,8 @@
       "vi": "Ủy viên Hội Sinh viên Việt Nam tại Ấn Độ. Sinh viên năm 3 tại Đại học Delhi.",
       "en": "Commissioner of VSA India. Student at Delhi University."
     },
+    "departments": ["Ban Thư Ký","Ban Nhân Sự"],
+    "role_in_department": ["Thành viên","Trưởng ban Nhân Sự"],
     "email": "nguyenthanhtrannhut@gmail.com",
     "facebook": "https://www.facebook.com/nguyen.tran.nhat.thanh.191051"
   },
@@ -187,6 +201,8 @@
       "vi": "Ủy viên Hội Sinh viên Việt Nam tại Ấn Độ. Sinh viên năm 3 tại Đại học Delhi.",
       "en": "Commissioner of VSA India. Student at Delhi University."
     },
+    "departments": ["Ban Học Tập", ""],
+    "role_in_department": "Phó ban Học Tập",
     "email": "hoangcaoson120805@gmail.com",
     "facebook": "https://www.facebook.com/adudu123s"
   },
@@ -208,6 +224,8 @@
       "vi": "Ủy viên Hội Sinh viên Việt Nam tại Ấn Độ. Sinh viên năm 3 tại Đại học Delhi.",
       "en": "Commissioner of VSA India. Student at Delhi University."
     },
+    "departments": ["Ban Văn Nghệ", "Ban Truyền Thông"],
+    "role_in_department": ["Trưởng ban Văn Nghệ","Phó ban Truyền Thông"],
     "email": "anhbienkhung@gmail.com",
     "facebook": "https://www.facebook.com/han.tuyetle.5"
   },
@@ -229,6 +247,8 @@
       "vi": "Ủy viên Hội Sinh viên Việt Nam tại Ấn Độ. Sinh viên năm 2 tại Đại học Mumbai.",
       "en": "Commissioner of VSA India. Student at Mumbai University."
     },
+    "departments": ["Ban Học Tập", ""],
+    "role_in_department": "Thành viên Ban Học Tập",
     "email": "@gmail.com",
     "facebook": "https://www.facebook.com/truong.at.900531"
   },
@@ -250,7 +270,101 @@
       "vi": "Ủy viên Hội Sinh viên Việt Nam tại Ấn Độ. Sinh viên năm 2 tại Đại học Kerela.",
       "en": "Commissioner of VSA India. Student at Kerela University."
     },
+    "departments": ["Ban Học Tập", ""],
+    "role_in_department": "Thành viên Ban Học Tập",
     "email": "nguyencaokhanhlinh2403@gmail.com",
     "facebook": "https://www.facebook.com/khanhlinh.nguyencao.121#"
+  },
+  {
+    "id": 13,
+    "name": "Lê Trung Đức",
+    "position": "commissioner",
+    "image": "assets/images/members/13.jpg",
+    "city": "Ahmedabad",
+    "birthday": "200--",
+    "major": "Computer Science",
+    "university": "Gujarat University",
+    "hometown": "Hưng Yên (Thái Bình cũ), Việt Nam",
+    "quote": {
+      "vi": ".",
+      "en": "."
+    },
+    "bio": {
+      "vi": "Ủy viên Hội Sinh viên Việt Nam tại Ấn Độ. Sinh viên năm  tại Đại học .",
+      "en": "Commissioner of VSA India. Student at  University."
+    },
+    "departments": ["", ""],
+    "role_in_department": "",
+    "email": "@gmail.com",
+    "facebook": ""
+  },
+  {
+    "id": 14,
+    "name": "Nguyễn Quang Sáng",
+    "position": "commissioner",
+    "image": "assets/images/members/14.jpg",
+    "city": "Rajgir",
+    "birthday": "2003-10-22",
+    "major": "",
+    "university": "",
+    "hometown": "Hải Hậu, Ninh Bình (Nam Định cũ), Việt Nam",
+    "quote": {
+      "vi": ".",
+      "en": "."
+    },
+    "bio": {
+      "vi": "Ủy viên Hội Sinh viên Việt Nam tại Ấn Độ. Sinh viên năm  tại Đại học .",
+      "en": "Commissioner of VSA India. Student at  University."
+    },
+    "departments": ["", ""],
+    "role_in_department": "",
+    "email": "@gmail.com",
+    "facebook": ""
+  },
+  {
+    "id": 15,
+    "name": "Phạm Cao Quỳnh Chi",
+    "position": "commissioner",
+    "image": "assets/images/members/15.jpg",
+    "city": "Trivandrum",
+    "birthday": "2003-03-12",
+    "major": "",
+    "university": "Kerela University",
+    "hometown": "Hà Nội, Việt Nam",
+    "quote": {
+      "vi": ".",
+      "en": "."
+    },
+    "bio": {
+      "vi": "Ủy viên Hội Sinh viên Việt Nam tại Ấn Độ. Sinh viên năm  tại Đại học .",
+      "en": "Commissioner of VSA India. Student at  University."
+    },
+    "departments": ["", ""],
+    "role_in_department": "",
+    "email": "@gmail.com",
+    "facebook": ""
+  },
+  {
+    "id": 16,
+    "name": "Phan Thúy Thanh",
+    "position": "commissioner",
+    "image": "assets/images/members/16.jpg",
+    "city": "Delhi",
+    "birthday": "2003-05-05",
+    "major": "Political Science",
+    "university": "Delhi University",
+    "hometown": "Phi Liệt, Hải Phòng, Việt Nam",
+    "quote": {
+      "vi": ".",
+      "en": "."
+    },
+    "bio": {
+      "vi": "Ủy viên Hội Sinh viên Việt Nam tại Ấn Độ. Sinh viên năm  tại Đại học .",
+      "en": "Commissioner of VSA India. Student at  University."
+    },
+    "departments": ["", ""],
+    "role_in_department": "",
+    "email": "@gmail.com",
+    "facebook": ""
   }
 ]

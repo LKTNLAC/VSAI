@@ -253,20 +253,20 @@
             <div class="container">
                 <div class="members-page">
                     <h1 data-i18n="headings.members">Ban Chấp hành</h1>
-                    <p class="members-subtitle" data-i18n="members.subtitle">Cơ cấu tổ chức và thông tin về Ban Chấp hành VSA India</p>
-                    <div id="org-chart-container" class="org-chart"></div>
-                    <div class="members-quick-links">
-                        <a href="#member-list" class="member-link-card">
-                            <div class="member-link-icon">👥</div>
-                            <h3 data-i18n="members.link.current">Thành viên hiện tại</h3>
-                            <p data-i18n="members.link.currentDesc">Danh sách Ban Chấp hành đương nhiệm</p>
-                        </a>
-                        <a href="#alumni" class="member-link-card">
-                            <div class="member-link-icon">🎓</div>
-                            <h3 data-i18n="members.link.alumni">Cựu thành viên</h3>
-                            <p data-i18n="members.link.alumniDesc">Các thế hệ lãnh đạo trước đây</p>
-                        </a>
+                    <p class="members-subtitle" data-i18n="members.subtitle">Cơ cấu tổ chức Hội Sinh viên Việt Nam tại Ấn Độ</p>
+                    
+                    <!-- PHẦN 1: BAN THƯ KÝ -->
+                    <div class="section-title-wrapper">
+                        <h2 class="section-title">Ban Thư Ký</h2>
+                        <p class="section-desc">Cơ quan thường trực, điều hành chung</p>
                     </div>
+                    <div id="secretariat-container" class="members-grid" style="margin-bottom: 50px;"></div>
+
+                    <!-- PHẦN 2: CÁC ỦY VIÊN BCH -->
+                    <div class="section-title-wrapper">
+                        <h2 class="section-title">Các Ủy viên Ban Chấp Hành</h2>
+                    </div>
+                    <div id="commissioners-container" class="members-grid"></div>
                 </div>
             </div>
         </section>
@@ -275,9 +275,14 @@
         <section id="member-list" class="page-section" role="region" aria-label="Thành viên hiện tại">
             <div class="container">
                 <div class="members-page">
-                    <h1 data-i18n="headings.memberList">Thành viên hiện tại</h1>
-                    <p class="members-subtitle" data-i18n="members.currentSubtitle">Ban Chấp hành nhiệm kỳ hiện tại</p>
-                    <div id="member-list-container" class="members-grid"></div>
+                    <h1 data-i18n="headings.memberList">Thành viên</h1>
+                    <p class="members-subtitle" data-i18n="members.currentSubtitle">Thành viên các Ban Chuyên môn</p>
+                    
+                    <!-- THANH TABS CHỌN BAN -->
+                    <div class="members-tabs" id="department-tabs"></div>
+
+                    <!-- DANH SÁCH THÀNH VIÊN THEO BAN -->
+                    <div id="department-members-container" class="members-grid"></div>
                 </div>
             </div>
         </section>

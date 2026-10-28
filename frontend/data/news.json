@@ -838,62 +838,73 @@
   {
     "id": 23,
     "title": {
-      "vi": "",
-      "en": ""
+      "vi": "MAHATMA GANDHI JAYANTI 2026 - KỶ NIỆM NGÀY SINH MAHATMA GANDHI",
+      "en": "MAHATMA GANDHI JAYANTI 2026 - CELEBRATING MAHATMA GANDHI'S BIRTHDAY"
     },
-    "date": "2026-0-0",
-    "category": "",
+    "date": "2026-10-02",
+    "category": "Events",
     "thumbnail": "assets/images/news/23/1.jpg",
     "summary": {
-      "vi": "...",
-      "en": "..."
+      "vi": "Ngày 02/10 hằng năm, Ấn Độ trang trọng kỷ niệm Mahatma Gandhi Jayanti - ngày sinh của...",
+      "en": "Every year on October 2, India solemnly commemorates Mahatma Gandhi Jayanti, marking the birth anniversary..."
     },
     "featured": false,
     "content": {
       "vi": [
-        { "type": "text", "value": "" },
+        { "type": "text", "value": "📅 Ngày 02/10 hằng năm, Ấn Độ trang trọng kỷ niệm Mahatma Gandhi Jayanti - ngày sinh của Mahatma Gandhi (1869 - 1948), một trong những nhân vật có ảnh hưởng sâu sắc trong lịch sử hiện đại Ấn Độ và phong trào đấu tranh giành độc lập." },
         { "type": "image", "src": "assets/images/news/23/1.jpg", "alt": "", "caption": "" },
-        { "type": "text", "value": "" },
-        { "type": "text", "value": "" },
-        { "type": "text", "value": "" }
+        { "type": "text", "value": "📍 Sinh ngày 02/10/1869 tại Porbandar, Gujarat, Gandhi được biết đến với tư tưởng bất bạo động (Ahimsa) và Satyagraha - phương thức đấu tranh dựa trên chân lý và sự phản kháng bất bạo động. Những tư tưởng này gắn liền với phong trào đấu tranh giành độc lập của Ấn Độ và trở thành một phần quan trọng trong di sản chính trị - xã hội của đất nước." },
+        { "type": "text", "value": "🕊️ Gandhi đặc biệt nhấn mạnh vai trò của hòa bình, sự thật, bất bạo động và trách nhiệm đối với cộng đồng. Di sản tư tưởng của ông không chỉ được ghi nhớ tại Ấn Độ mà còn được nghiên cứu và thảo luận rộng rãi trong nhiều lĩnh vực như chính trị, xã hội và quan hệ quốc tế." },
+        { "type": "text", "value": "🌿 Gandhi Jayanti là dịp để cùng nhìn lại cuộc đời, tư tưởng và những giá trị mà Mahatma Gandhi để lại trong lịch sử Ấn Độ và thế giới." }
       ],
       "en": [
-        { "type": "text", "value": "" },
+        { "type": "text", "value": "📅 Every year on October 2, India solemnly commemorates Mahatma Gandhi Jayanti, marking the birth anniversary of Mahatma Gandhi (1869 - 1948), one of the most influential figures in modern Indian history and the Indian independence movement." },
         { "type": "image", "src": "assets/images/news/23/1.jpg", "alt": "", "caption": "" },
-        { "type": "text", "value": "" },
-        { "type": "text", "value": "" },
-        { "type": "text", "value": "" }
+        { "type": "text", "value": "📍 Born on October 2, 1869, in Porbandar, Gujarat, Gandhi is widely known for his principles of nonviolence (Ahimsa) and Satyagraha, a method of resistance based on truth and nonviolent action. These principles became closely associated with India's struggle for independence and remain an important part of the country's political and social legacy." },
+        { "type": "text", "value": "🕊️ Gandhi placed particular emphasis on peace, truth, nonviolence, and responsibility toward the community. His ideas and legacy continue to be remembered in India and are widely studied and discussed across various fields, including politics, society, and international relations." },
+        { "type": "text", "value": "🌿 Gandhi Jayanti is an occasion to reflect on the life, ideas, and values that Mahatma Gandhi left behind as part of the history of India and the world." }
       ]
     }
   },
   {
     "id": 24,
     "title": {
-      "vi": "",
-      "en": ""
+      "vi": "📢 THÔNG BÁO KHẨN: ĐIỀU CHỈNH HOẠT ĐỘNG METRO TẠI NEW DELHI NGÀY 09–10/10/2026",
+      "en": "🚨 URGENT NOTICE: Metro Service Adjustments in New Delhi on October 9–10, 2026"
     },
-    "date": "2026-0-0",
+    "date": "2026-10-09",
     "category": "",
     "thumbnail": "assets/images/news/24/1.jpg",
     "summary": {
-      "vi": "...",
-      "en": "..."
+      "vi": "Kính gửi các bạn sinh viên Việt Nam đang sinh sống, học tập và làm việc tại Ấn Độ...",
+      "en": "Dear Vietnamese students living, studying, and working in India..."
     },
     "featured": false,
     "content": {
       "vi": [
-        { "type": "text", "value": "" },
+        { "type": "text", "value": "Kính gửi các bạn sinh viên Việt Nam đang sinh sống, học tập và làm việc tại Ấn Độ," },
+        { "type": "text", "value": "Theo thông báo của Văn phòng Ủy viên Cảnh sát phụ trách Giao thông Delhi, nhằm bảo đảm an ninh trật tự trước các cuộc biểu tình dự kiến diễn ra tại khu vực Jantar Mantar và một số địa điểm khác ở New Delhi, hoạt động tàu điện ngầm (Delhi Metro) có thể bị ảnh hưởng." },
         { "type": "image", "src": "assets/images/news/24/1.jpg", "alt": "", "caption": "" },
-        { "type": "text", "value": "" },
-        { "type": "text", "value": "" },
-        { "type": "text", "value": "" }
+        { "type": "text", "value": "🗓️ Thời gian áp dụng: Từ 21:00 ngày 09/10/2026, tiếp tục trong ngày 10/10/2026." },
+        { "type": "text", "value": "🚇 Các ga metro được thông báo có khả năng điều chỉnh hoạt động đóng/mở lối vào, lối ra bao gồm:" },
+        { "type": "text", "value": "Janpath; Patel Chowk; Central Secretariat; Lok Kalyan Marg; Rajiv Chowk; New Delhi; Seva Tirth (Udyog Bhawan); Mandi House; Bara Khamba Road; ITO; Delhi Gate; Khan Market; R.K. Ashram Marg; Jhandewalan; Supreme Court; Indraprastha; Shivaji Stadium; INA (cả ga metro và ga tàu điện); Hauz Khas; Jor Bagh; Arjan Garh; Sarai Kale Khan–Nizamuddin; Lajpat Nagar; Jungpura; Ashram; Kailash Colony; Jasola; Jamia Millia Islamia; Okhla Vihar; Chawri Bazar; Jama Masjid; Karol Bagh; Rajendra Place; Vishwavidyalaya; Vidhan Sabha; Civil Lines; Kashmere Gate; Inderlok; G.T.B. Nagar; Kanhaiya Nagar; Netaji Subhash Palace; Azadpur; Adarsh Nagar; Jahangirpuri; Haiderpur Badli Mor; Majlis Park; Shalimar Bagh; Seelampur; Maujpur; Jafrabad; Welcome; Yamuna Vihar; Khajuri Khas; Shahdara; Rithala; Rohini East; Rohini West." },
+        { "type": "text", "value": "⚠️ Hội Sinh viên Việt Nam tại Ấn Độ khuyến cáo:" },
+        { "type": "text", "value": "Các bạn chủ động kiểm tra thông tin cập nhật từ Delhi Metro trước khi di chuyển. Sắp xếp lịch trình phù hợp, dự trù thêm thời gian và cân nhắc sử dụng phương tiện thay thế nếu cần thiết. Hạn chế đến gần các khu vực tập trung đông người hoặc địa điểm diễn ra biểu tình; tuân thủ hướng dẫn của lực lượng chức năng. Luôn giữ liên lạc với bạn bè, người thân và cập nhật tình hình để bảo đảm an toàn." },
+        { "type": "text", "value": "📌 Lưu ý: Danh sách trên được trích từ thông báo của cơ quan chức năng Delhi. Việc điều chỉnh cụ thể tại từng ga có thể thay đổi theo tình hình thực tế. Các bạn vui lòng theo dõi thông báo chính thức của Delhi Metro để có thông tin mới nhất." },
+        { "type": "text", "value": "Chúc các bạn luôn an toàn và có lịch trình di chuyển thuận lợi!" },
+        { "type": "text", "value": "HỘI SINH VIÊN VIỆT NAM TẠI ẤN ĐỘ🇻🇳🇮🇳" }
       ],
       "en": [
-        { "type": "text", "value": "" },
+        { "type": "text", "value": "Dear Vietnamese students living, studying, and working in India," },
         { "type": "image", "src": "assets/images/news/24/1.jpg", "alt": "", "caption": "" },
-        { "type": "text", "value": "" },
-        { "type": "text", "value": "" },
-        { "type": "text", "value": "" }
+        { "type": "text", "value": "🗓️ Implementation Time: From 21:00 on 09/10/2026, continuing on 10/10/2026." },
+        { "type": "text", "value": "🚇 Metro stations that may adjust operations include:" },
+        { "type": "text", "value": "Janpath; Patel Chowk; Central Secretariat; Lok Kalyan Marg; Rajiv Chowk; New Delhi; Seva Tirth (Udyog Bhawan); Mandi House; Bara Khamba Road; ITO; Delhi Gate; Khan Market; R.K. Ashram Marg; Jhandewalan; Supreme Court; Indraprastha; Shivaji Stadium; INA (both metro station and train station); Hauz Khas; Jor Bagh; Arjan Garh; Sarai Kale Khan–Nizamuddin; Lajpat Nagar; Jungpura; Ashram; Kailash Colony; Jasola; Jamia Millia Islamia; Okhla Vihar; Chawri Bazar; Jama Masjid; Karol Bagh; Rajendra Place; Vishwavidyalaya; Vidhan Sabha; Civil Lines; Kashmere Gate; Inderlok; G.T.B. Nagar; Kanhaiya Nagar; Netaji Subhash Palace; Azadpur; Adarsh Nagar; Jahangirpuri; Haiderpur Badli Mor; Majlis Park; Shalimar Bagh; Seelampur; Maujpur; Jafrabad; Welcome; Yamuna Vihar; Khajuri Khas; Shahdara; Rithala; Rohini East; Rohini West." },
+        { "type": "text", "value": "⚠️ Vietnamese Student Association in India advises:" },
+        { "type": "text", "value": "Proactively check for updates from Delhi Metro before traveling. Arrange your schedule accordingly, allow extra time, and consider alternative transportation if necessary. Avoid areas with large gatherings or protest locations; follow the guidance of authorities. Stay in touch with friends and family and keep updated on the situation to ensure safety." },
+        { "type": "text", "value": "📌 Note: The above list is extracted from the official announcement by Delhi authorities. Specific adjustments at each station may change based on actual conditions. Please follow official announcements from Delhi Metro for the latest information." },
+        { "type": "text", "value": "Wishing you safety and smooth travel plans!" },
+        { "type": "text", "value": "VIETNAMESE STUDENT ASSOCIATION IN INDIA 🇻🇳🇮🇳" }
       ]
     }
   },

@@ -3556,3 +3556,61 @@ html {
         font-size: 0.7rem;
     }
 }
+/* Style cho tiêu đề phân khu */
+.section-title-wrapper {
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+.section-title {
+    font-size: 24px;
+    color: var(--color-primary);
+    margin-bottom: 8px;
+    position: relative;
+    display: inline-block;
+}
+
+.section-title::after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50px;
+    height: 3px;
+    background: var(--color-secondary);
+    border-radius: 2px;
+}
+
+.section-desc {
+    font-size: 14px;
+    color: var(--color-text-muted);
+    font-style: italic;
+}
+
+/* Thanh Tabs (giữ nguyên như cũ) */
+.members-tabs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 30px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid var(--color-border);
+}
+
+.members-tab {
+    padding: 8px 16px;
+    background: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-sm);
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--color-text-muted);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.members-tab:hover { background: var(--color-surface-alt); color: var(--color-text); }
+.members-tab.active { background: var(--color-primary); border-color: var(--color-primary); color: #fff; }

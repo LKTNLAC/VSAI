@@ -5,7 +5,7 @@
     "position": "president",
     "image": "assets/images/alumni/1.jpg",
     "city": "Delhi",
-    "birthday": "02-02-2004",
+    "birthday": "2004-02-02",
     "major": "Computer Science",
     "university": "Delhi University",
     "hometown": "Lê Chân, Hải Phòng, Việt Nam",
@@ -17,7 +17,11 @@
       "vi": "Chủ tịch VSA India nhiệm kỳ 2025-2026. Hiện đang là nghiên cứu sinh tại Đại học Delhi.",
       "en": "President of VSA India for the 2023-2024 term. Currently a research scholar at Delhi University."
     },
-    "term": "2025-2026"
+    "term": "2025-2026",
+    "email": "nhulac2004@gmail.com",
+    "facebook": "https://www.facebook.com/bui.hoang.long.lac.33/",
+    "instagram": "https://www.instagram.com/____nlac____/",
+    "linkedin": "https://www.linkedin.com/in/long-ho%C3%A0ng-b%C3%B9i-432516260/"
   },
   {
     "id": 2,

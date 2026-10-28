@@ -672,10 +672,10 @@ function updateUILanguage() {
             renderAbout();
             break;
         case 'members':
-            renderOrgChart(document.getElementById('org-chart-container'));
+            renderExecutiveCommittee(); // Gọi hàm mới cho trang Ban Chấp Hành
             break;
         case 'member-list':
-            renderMembers(document.getElementById('member-list-container'));
+            renderDepartmentMembers(); // Gọi hàm mới cho trang Thành viên
             break;
         case 'alumni':
             renderAlumni(document.getElementById('alumni-container'));
@@ -1559,42 +1559,377 @@ function renderTimeline(container) {
 // 11. MEMBERS – THÀNH VIÊN HIỆN TẠI
 // =====================================================
 
-let membersTab = 'current';
+let activeDepartment = 'all';
 
-function renderMembers(container) {
-    if (!container) return;
-    
+function renderMembers() {
     const data = state.data.members;
+    const secContainer = document.getElementById('secretariat-container');
+    const deptContainer = document.getElementById('member-list-container');
     
     if (!data || data.length === 0) {
-        renderPlaceholder(container, 'ui.placeholder');
+        if(secContainer) renderPlaceholder(secContainer, 'ui.placeholder');
         return;
     }
-    
-    const positionOrder = { 
-        president: 0, 
-        vice_president: 1, 
-        secretary: 2, 
-        treasurer: 3, 
-        commissioner: 4, 
-        member: 4, 
-        advisor: 5 
-    };
-    
-    const sorted = [...data].sort((a, b) => 
-        (positionOrder[a.position] ?? 99) - (positionOrder[b.position] ?? 99)
-    );
-    
-    const fragment = document.createDocumentFragment();
-    
-    sorted.forEach(member => {
-        const card = createMemberCard(member, 'current');
-        fragment.appendChild(card);
+
+    // ==========================================
+    // HÀM PHỤ: LẤY CHỨC VỤ TRONG BAN TƯƠNG ỨNG
+    // ==========================================
+    function getRoleInDept(member, deptName) {
+        if (!member.departments || !member.role_in_department) return "";
+        
+        // Nếu role_in_department không phải mảng (dữ liệu cũ), trả về luôn
+        if (!Array.isArray(member.role_in_department)) return member.role_in_department;
+
+        // Nếu là mảng, tìm vị trí (index) của ban trong mảng departments
+        const deptIndex = member.departments.indexOf(deptName);
+        
+        // Nếu tìm thấy, trả về chức vụ ở cùng vị trí đó trong mảng role_in_department
+        if (deptIndex !== -1 && member.role_in_department[deptIndex]) {
+            return member.role_in_department[deptIndex];
+        }
+        
+        // Nếu có ban nhưng không có chức vụ cụ thể (rỗng), trả về "Thành viên"
+        return "Thành viên";
+    }
+
+    // ==========================================
+    // PHẦN 1: RENDER BAN THƯ KÝ (Luôn hiển thị trên cùng)
+    // ==========================================
+    if (secContainer) {
+        const secretariatMembers = data.filter(m => 
+            Array.isArray(m.departments) && m.departments.includes('Ban Thư Ký')
+        );
+
+        const positionOrder = { president: 0, vice_president: 1, secretary: 2, commissioner: 3 };
+        secretariatMembers.sort((a, b) => (positionOrder[a.position] ?? 99) - (positionOrder[b.position] ?? 99));
+
+        const secFragment = document.createDocumentFragment();
+        secretariatMembers.forEach(member => {
+            const card = createMemberCard(member, 'current');
+            
+            // Lấy chức vụ chính xác trong Ban Thư Ký
+            const role = getRoleInDept(member, 'Ban Thư Ký');
+            if (role) {
+                const roleLabel = document.createElement('p');
+                roleLabel.className = 'text-sm text-primary'; // Đổi màu để nổi bật
+                roleLabel.style.marginTop = '4px';
+                roleLabel.style.fontWeight = '600';
+                roleLabel.textContent = role;
+                card.appendChild(roleLabel);
+            }
+            secFragment.appendChild(card);
+        });
+        secContainer.replaceChildren(secFragment);
+    }
+
+    // ==========================================
+    // PHẦN 2: RENDER CÁC BAN CHUYÊN MÔN (Có Tabs)
+    // ==========================================
+    if (!deptContainer) return;
+
+    // Lấy danh sách tên các ban (trừ Ban Thư Ký)
+    let allDepartments = new Set();
+    data.forEach(m => {
+        if (Array.isArray(m.departments)) {
+            m.departments.forEach(d => {
+                if (d && d !== 'Không' && d !== 'Ban Thư Ký') allDepartments.add(d);
+            });
+        }
     });
     
-    container.replaceChildren(fragment);
+    let departments = Array.from(allDepartments).sort();
+
+    // Render thanh Tabs
+    const tabsContainer = document.getElementById('department-tabs');
+    if (tabsContainer) {
+        const fragment = document.createDocumentFragment();
+        
+        const allBtn = document.createElement('button');
+        allBtn.className = `members-tab ${activeDepartment === 'all' ? 'active' : ''}`;
+        allBtn.textContent = 'Tất cả các ban';
+        allBtn.onclick = () => { activeDepartment = 'all'; renderMembers(); };
+        fragment.appendChild(allBtn);
+
+        departments.forEach(dept => {
+            const btn = document.createElement('button');
+            btn.className = `members-tab ${activeDepartment === dept ? 'active' : ''}`;
+            btn.textContent = dept;
+            btn.onclick = () => { activeDepartment = dept; renderMembers(); };
+            fragment.appendChild(btn);
+        });
+        tabsContainer.replaceChildren(fragment);
+    }
+
+    // Lọc dữ liệu
+    let filteredData = data.filter(m => {
+        if (!Array.isArray(m.departments) || m.departments.length === 0) return false; 
+        return m.departments.some(d => d !== 'Ban Thư Ký' && d !== 'Không' && d !== "");
+    });
+
+    if (activeDepartment !== 'all') {
+        filteredData = filteredData.filter(m => 
+            Array.isArray(m.departments) && m.departments.includes(activeDepartment)
+        );
+    }
+
+    const deptFragment = document.createDocumentFragment();
+    filteredData.forEach(member => {
+        const card = createMemberCard(member, 'current');
+        
+        const badgesContainer = document.createElement('div');
+        badgesContainer.style.display = 'flex';
+        badgesContainer.style.flexWrap = 'wrap';
+        badgesContainer.style.gap = '8px'; // Tăng khoảng cách giữa các badge
+        badgesContainer.style.justifyContent = 'center';
+        badgesContainer.style.marginTop = '10px';
+
+        if (activeDepartment === 'all') {
+            // Nếu xem TẤT CẢ: Duyệt qua từng ban của người đó để hiện Badge + Chức vụ đi kèm
+            member.departments.forEach((dept, index) => {
+                if (dept && dept !== 'Ban Thư Ký' && dept !== 'Không') {
+                    const badgeWrapper = document.createElement('div');
+                    badgeWrapper.style.display = 'flex';
+                    badgeWrapper.style.flexDirection = 'column';
+                    badgeWrapper.style.alignItems = 'center';
+                    badgeWrapper.style.background = 'var(--color-surface-alt)';
+                    badgeWrapper.style.padding = '4px 8px';
+                    badgeWrapper.style.borderRadius = '6px';
+
+                    // Tên Ban
+                    const deptLabel = document.createElement('span');
+                    deptLabel.style.fontSize = '12px';
+                    deptLabel.style.fontWeight = 'bold';
+                    deptLabel.style.color = 'var(--color-primary)';
+                    deptLabel.textContent = dept;
+                    badgeWrapper.appendChild(deptLabel);
+
+                    // Chức vụ trong ban đó
+                    const roleLabel = document.createElement('span');
+                    roleLabel.style.fontSize = '11px';
+                    roleLabel.style.color = 'var(--color-text-muted)';
+                    
+                    // Lấy chức vụ theo đúng vị trí index
+                    let role = "Thành viên";
+                    if (Array.isArray(member.role_in_department) && member.role_in_department[index]) {
+                        role = member.role_in_department[index];
+                    } else if (typeof member.role_in_department === 'string' && member.role_in_department) {
+                        role = member.role_in_department;
+                    }
+                    roleLabel.textContent = role;
+                    badgeWrapper.appendChild(roleLabel);
+
+                    badgesContainer.appendChild(badgeWrapper);
+                }
+            });
+        } else {
+            // Nếu đang xem 1 BAN CỤ THỂ: Chỉ hiện chức vụ của ban đó
+            const role = getRoleInDept(member, activeDepartment);
+            if (role) {
+                const roleLabel = document.createElement('p');
+                roleLabel.className = 'text-sm text-primary';
+                roleLabel.style.marginTop = '4px';
+                roleLabel.style.fontWeight = '600';
+                roleLabel.textContent = role;
+                card.appendChild(roleLabel);
+            }
+        }
+        
+        if (badgesContainer.children.length > 0) {
+            card.appendChild(badgesContainer);
+        }
+        
+        deptFragment.appendChild(card);
+    });
+    
+    deptContainer.replaceChildren(deptFragment);
 }
 
+
+function renderExecutiveCommittee() {
+    const data = state.data.members;
+    const secContainer = document.getElementById('secretariat-container');
+    const commContainer = document.getElementById('commissioners-container');
+    
+    if (!data || data.length === 0) return;
+
+    // Hàm phụ lấy chức vụ
+    function getRoleInDept(member, deptName) {
+        if (!member.departments || !member.role_in_department) return "";
+        if (!Array.isArray(member.role_in_department)) return member.role_in_department;
+        const deptIndex = member.departments.indexOf(deptName);
+        if (deptIndex !== -1 && member.role_in_department[deptIndex]) return member.role_in_department[deptIndex];
+        return "Thành viên";
+    }
+
+    // --- 1. RENDER BAN THƯ KÝ ---
+    if (secContainer) {
+        const secretariatMembers = data.filter(m => 
+            Array.isArray(m.departments) && m.departments.includes('Ban Thư Ký')
+        );
+        const positionOrder = { president: 0, vice_president: 1, secretary: 2, commissioner: 3 };
+        secretariatMembers.sort((a, b) => (positionOrder[a.position] ?? 99) - (positionOrder[b.position] ?? 99));
+
+        const secFragment = document.createDocumentFragment();
+        secretariatMembers.forEach(member => {
+            const card = createMemberCard(member, 'current');
+            const role = getRoleInDept(member, 'Ban Thư Ký');
+            if (role) {
+                const roleLabel = document.createElement('p');
+                roleLabel.className = 'text-sm text-primary';
+                roleLabel.style.marginTop = '4px';
+                roleLabel.style.fontWeight = '600';
+                roleLabel.textContent = role;
+                card.appendChild(roleLabel);
+            }
+            secFragment.appendChild(card);
+        });
+        secContainer.replaceChildren(secFragment);
+    }
+
+    // --- 2. RENDER TẤT CẢ ỦY VIÊN BCH (Trừ Ban Thư Ký) ---
+    if (commContainer) {
+        const commissioners = data.filter(m => 
+            m.position === 'commissioner' && 
+            (!m.departments || !m.departments.includes('Ban Thư Ký'))
+        );
+
+        const commFragment = document.createDocumentFragment();
+        commissioners.forEach(member => {
+            const card = createMemberCard(member, 'current');
+            // Vì đây là danh sách BCH nên chỉ hiện chức danh "Ủy viên" chung
+            const roleLabel = document.createElement('p');
+            roleLabel.className = 'text-sm text-muted';
+            roleLabel.style.marginTop = '4px';
+            roleLabel.textContent = translateEnum('position', 'commissioner');
+            card.appendChild(roleLabel);
+            
+            commFragment.appendChild(card);
+        });
+        commContainer.replaceChildren(commFragment);
+    }
+}
+
+
+
+function renderDepartmentMembers() {
+    const data = state.data.members;
+    const deptContainer = document.getElementById('department-members-container');
+    if (!deptContainer || !data) return;
+
+    // Lấy danh sách các ban (loại trừ Ban Thư Ký)
+    let allDepartments = new Set();
+    data.forEach(m => {
+        if (Array.isArray(m.departments)) {
+            m.departments.forEach(d => {
+                if (d && d !== 'Không' && d !== 'Ban Thư Ký') allDepartments.add(d);
+            });
+        }
+    });
+    let departments = Array.from(allDepartments).sort();
+
+    // Render thanh Tabs
+    const tabsContainer = document.getElementById('department-tabs');
+    if (tabsContainer) {
+        const fragment = document.createDocumentFragment();
+        const allBtn = document.createElement('button');
+        allBtn.className = `members-tab ${activeDepartment === 'all' ? 'active' : ''}`;
+        allBtn.textContent = 'Tất cả các ban';
+        allBtn.onclick = () => { activeDepartment = 'all'; renderDepartmentMembers(); };
+        fragment.appendChild(allBtn);
+
+        departments.forEach(dept => {
+            const btn = document.createElement('button');
+            btn.className = `members-tab ${activeDepartment === dept ? 'active' : ''}`;
+            btn.textContent = dept;
+            btn.onclick = () => { activeDepartment = dept; renderDepartmentMembers(); };
+            fragment.appendChild(btn);
+        });
+        tabsContainer.replaceChildren(fragment);
+    }
+
+    // Lọc thành viên
+    let filteredData = data.filter(m => {
+        if (!Array.isArray(m.departments) || m.departments.length === 0) return false; 
+        return m.departments.some(d => d !== 'Ban Thư Ký' && d !== 'Không' && d !== "");
+    });
+
+    if (activeDepartment !== 'all') {
+        filteredData = filteredData.filter(m => 
+            Array.isArray(m.departments) && m.departments.includes(activeDepartment)
+        );
+    }
+
+    // Render thẻ
+    const deptFragment = document.createDocumentFragment();
+    filteredData.forEach(member => {
+        const card = createMemberCard(member, 'current');
+        
+        const badgesContainer = document.createElement('div');
+        badgesContainer.style.display = 'flex';
+        badgesContainer.style.flexWrap = 'wrap';
+        badgesContainer.style.gap = '8px';
+        badgesContainer.style.justifyContent = 'center';
+        badgesContainer.style.marginTop = '10px';
+
+        if (activeDepartment === 'all') {
+            member.departments.forEach((dept, index) => {
+                if (dept && dept !== 'Ban Thư Ký' && dept !== 'Không') {
+                    const badgeWrapper = document.createElement('div');
+                    badgeWrapper.style.display = 'flex';
+                    badgeWrapper.style.flexDirection = 'column';
+                    badgeWrapper.style.alignItems = 'center';
+                    badgeWrapper.style.background = 'var(--color-surface-alt)';
+                    badgeWrapper.style.padding = '4px 8px';
+                    badgeWrapper.style.borderRadius = '6px';
+
+                    const deptLabel = document.createElement('span');
+                    deptLabel.style.fontSize = '12px';
+                    deptLabel.style.fontWeight = 'bold';
+                    deptLabel.style.color = 'var(--color-primary)';
+                    deptLabel.textContent = dept;
+                    badgeWrapper.appendChild(deptLabel);
+
+                    const roleLabel = document.createElement('span');
+                    roleLabel.style.fontSize = '11px';
+                    roleLabel.style.color = 'var(--color-text-muted)';
+                    
+                    let role = "Thành viên";
+                    if (Array.isArray(member.role_in_department) && member.role_in_department[index]) {
+                        role = member.role_in_department[index];
+                    } else if (typeof member.role_in_department === 'string' && member.role_in_department) {
+                        role = member.role_in_department;
+                    }
+                    roleLabel.textContent = role;
+                    badgeWrapper.appendChild(roleLabel);
+
+                    badgesContainer.appendChild(badgeWrapper);
+                }
+            });
+        } else {
+            // Nếu đang xem 1 ban cụ thể
+            let role = "Thành viên";
+            const deptIndex = member.departments.indexOf(activeDepartment);
+            if (deptIndex !== -1 && Array.isArray(member.role_in_department) && member.role_in_department[deptIndex]) {
+                role = member.role_in_department[deptIndex];
+            }
+            
+            const roleLabel = document.createElement('p');
+            roleLabel.className = 'text-sm text-primary';
+            roleLabel.style.marginTop = '4px';
+            roleLabel.style.fontWeight = '600';
+            roleLabel.textContent = role;
+            card.appendChild(roleLabel);
+        }
+        
+        if (badgesContainer.children.length > 0) {
+            card.appendChild(badgesContainer);
+        }
+        
+        deptFragment.appendChild(card);
+    });
+    
+    deptContainer.replaceChildren(deptFragment);
+}
 
 // =====================================================
 // 11a. ORGANIZATION CHART – SƠ ĐỒ TỔ CHỨC
@@ -3717,11 +4052,11 @@ function renderSection(section) {
             break;
         case 'members':
             // Trang chính Ban Chấp hành
-            renderOrgChart(document.getElementById('org-chart-container'));
+            renderExecutiveCommittee();
             break;
         case 'member-list':
             // Trang thành viên hiện tại
-            renderMembers(container);
+            renderDepartmentMembers();
             break;
         case 'alumni':
             // Trang cựu thành viên
